@@ -3,7 +3,7 @@ layout: archives
 icon: fas fa-archive
 order: 4
 ---
-> 
+
 ## Overall Timeline
 Project Pre-formulation
 Project Formulation

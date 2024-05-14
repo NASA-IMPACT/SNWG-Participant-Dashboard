@@ -3,6 +3,7 @@ layout: categories
 icon: fas fa-stream
 order: 2
 ---
+
 > NASA leads a tri-agency assessment (with USGS and NOAA) of federal agency needs submitted through the SNWG survey. The assessment is carried out by more than 100 scientists with expertise on the geophysical observables requested by the agencies. The SNWG Management Office coordinates the assessment process, develops tools used by the assessment participants, schedules and supports follow-up discussions with each participating agency, performs statistical analysis of the survey responses, coordinates the evaluation of solutions proposed to meet agency needs, and drafts NASA’s presentation of selected solutions to the Executive Branch. After each assessment cycle, the SNWG Management Office conducts an extensive lessons learned retrospective, collecting feedback from participants that is used to inform tool refinement and process updates that streamline and support the next assessment cycle.
 
 Oversee the Implementation and Operations of SNWG Solutions
