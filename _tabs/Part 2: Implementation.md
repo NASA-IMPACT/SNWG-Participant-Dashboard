@@ -1,9 +1,8 @@
 ---
-layout: archives
+layout: page
 icon: fas fa-archive
 order: 4
 ---
-
 ## Overall Timeline
 Project Pre-formulation
 Project Formulation
