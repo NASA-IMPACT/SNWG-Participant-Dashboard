@@ -1,6 +1,6 @@
 ---
 layout: page
-icon: fas fa-magnifying-glass
+icon: fas fa-wand-magic-sparkles
 order: 4
 ---
 ## Overall Timeline
@@ -25,14 +25,14 @@ Parts we fill out
 What are they and why do we have them?
 
 Authority to Proceed
-What you need to do before
-What you need to do during
-What you need to do after
+- What you need to do before
+- What you need to do during
+- What you need to do after
 Formulation to Implementation
-What you need to do before
-What you need to do during
-What you need to do after
+- What you need to do before
+- What you need to do during
+- What you need to do after
 Implementation to Operations 
-What you need to do before
-What you need to do during
-What you need to do after
+- What you need to do before
+- What you need to do during
+- What you need to do after
