@@ -16,7 +16,7 @@ timezone:
 
 title: The SNWG MO Sherpa # the main title
 
-tagline: A guide site to assist Project teams through the SNWG lifecycle  # it will display as the sub-title
+tagline: A site to assist Project teams through the SNWG lifecycle  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive website explaining the base need-to-know information for project selected and funded by the Satellite Needs Working Group.
@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your github username
+  username: CherrelleTucker # change to your github username
 
 twitter:
   username: twitter_username # change to your twitter username
@@ -175,7 +175,7 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: true # Enable comments in posts.
+      comments: # Enable comments in posts.
       toc: true # Display TOC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
