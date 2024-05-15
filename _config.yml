@@ -29,7 +29,7 @@ github:
   username: CherrelleTucker # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: SNWG on EarthData|IMPACT # change to your twitter username
 
 social:
   # Change to your full name.
@@ -38,10 +38,10 @@ social:
   email: cherrelle.j.tucker@nasa.gov # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    - https://impact.earthdata.nasa.gov/project/snwg.html#:~:text=NASA%20has%20established%20an%20SNWG,NASA%20to%20meet%20those%20needs. # change to your twitter homepage
     - https://github.com/username # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://www.earthdata.nasa.gov/esds/impact/snwg/sep#:~:text=NASA%27s%20SNWG%20SEP%20efforts%20include,products%20for%20stakeholder%20decision%2Dmaking
     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
