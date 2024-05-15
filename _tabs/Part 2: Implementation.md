@@ -1,6 +1,6 @@
 ---
 layout: page
-icon: fas fa-archive
+icon: fas fa-magnifying-glass
 order: 4
 ---
 ## Overall Timeline
