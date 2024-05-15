@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 icon: fas fa-dumpster-fire
 order: 2
 ---

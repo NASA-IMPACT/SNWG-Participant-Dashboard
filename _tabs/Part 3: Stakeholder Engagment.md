@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 icon: fas fa-comments
 order: 5
 ---
