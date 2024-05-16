@@ -15,15 +15,17 @@ Who is a stakeholder for the product produced by the SNWG project?
 
 
 ## Assessment phase
-### <br> Who we talk to
-### <br> What we want to know
+### Who we talk to
+### What we want to know
+<br>
 
 ## Implementation phase
-### <br> Who we talk to
-### <br> What we want to know
-### <br> How we engage 
+### Who we talk to
+### What we want to know
+### How we engage 
+<br>
 
 ## Operations phase
-### <br> Who we talk to
-### <br> What we want to know
-### <br> How we engage 
+### Who we talk to
+### What we want to know
+### How we engage 
