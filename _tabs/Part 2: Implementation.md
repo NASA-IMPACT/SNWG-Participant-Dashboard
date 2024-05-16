@@ -1,4 +1,5 @@
 ---
+title: 'Part 2: Implementation'
 layout: post
 icon: fas fa-wand-magic-sparkles
 order: 4
@@ -25,17 +26,17 @@ Parts we fill out <br>
 ## Decision Gates
 What are they and why do we have them?
 
-Authority to Proceed
+### Authority to Proceed
 - What you need to do before
 - What you need to do during
 - What you need to do after
-<br>
-Formulation to Implementation
+
+### Formulation to Implementation
 - What you need to do before
 - What you need to do during
 - What you need to do after
-<br>
-Implementation to Operations 
+
+### Implementation to Operations 
 - What you need to do before
 - What you need to do during
 - What you need to do after
