@@ -4,13 +4,13 @@ layout: page
 toc: true
 ---
 
-### Site Audience
+## Site Audience
 Solution Project Teams as they progress through the SNWG project lifecycle.
 
-### Site Purpose
+## Site Purpose
 The focus is on providing information to assist the Implementation team in completing their expected actions, without overburdening with in-depth knowledge that may not be necessary to completing tasks.
 
-### SNWG MO Contacts
+## SNWG MO Contacts
 
 | Role                               | Name             |
 | :--------------------------------- | :--------------- |
@@ -22,7 +22,7 @@ The focus is on providing information to assist the Implementation team in compl
 | SNWG MO Systems Engineer           | Jenny Wood       |
 | SNWG MO Project Coordinator        | Cherrelle Tucker |
 
-### SNWG Assessment Contacts
+## SNWG Assessment Contacts
 
 | Role                               | Name             |
 | :--------------------------------- | :--------------- |
@@ -32,7 +32,7 @@ The focus is on providing information to assist the Implementation team in compl
 | Position 4                         | Name 4           |
 | Position 5                         | Name 5           |
 
-### SNWG Stakeholder Engagement Contacts
+## SNWG Stakeholder Engagement Contacts
 
 | Role                               | Name             |
 | :--------------------------------- | :--------------- |
@@ -41,10 +41,3 @@ The focus is on providing information to assist the Implementation team in compl
 | Position 3                         | Name 3           |
 | Position 4                         | Name 4           |
 | Project Coordinator                | Cherrelle Tucker |
-
-
-| Company                      | Contact          | Country |
-| :--------------------------- | :--------------- | ------: |
-| Alfreds Futterkiste          | Maria Anders     | Germany |
-| Island Trading               | Helen Bennett    |      UK |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli |   Italy |
