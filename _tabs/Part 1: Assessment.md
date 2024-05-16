@@ -6,7 +6,7 @@ order: 3
 ---
 If you have been pointed to this website, you have most likely been chosen to proceed to the Pre-Formulation process. Here is a BRIEF OVERVIEW of the process you just went through
 
-![](assets/assessment_timeline_arrow.png)
+![](https://github.com/CherrelleTucker/CherrelleTucker.github.io/blob/aab3ea3f9398e6e0cc45e64c7969187789df288e/assets/assessment_timeline_arrow.png)
 _You are here in the SNWG Project lifecycle_
 
 Process: 
