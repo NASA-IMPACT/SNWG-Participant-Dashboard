@@ -13,16 +13,16 @@ _The initial SNWG Project Assessment lifecycle._
 ****This section needs careful review. What information can be public?****
 
 ### Need Identification
-Surveys are sent out the agencies to identify their satellite needs
+SNWG sends out a survey to U.S. federal agencies to identify their Earth observation needs.
 
 ### Need Evaluation
-Surveys are reviewed and interviews held with the submitting agencies to clarify what's in their survey response (drill down to what they specifically need)
+Once received, each submitted survey is assessed by a team of experts from NASA, NOAA, and USGS to determine the scope of the agency’s need. This evaluation process includes an interview with the submitting agency to follow-up on details about their need provided in the survey response.
 
 ### Solution Identification
-Based on all of the needs that were submitted, potential solutions that would meet multiple of these needs are identified
+Based on the needs submitted by the agencies, solutions are identified that would help meet those needs. An emphasis is placed on solutions that would help satisfy multiple agency needs.
 
 ### Solution Development
-For the solutions identified, a rough outline of the product/activity is developed
+Assessment personnel prioritize the solutions, determine a subset of solutions that will be proposed for funding and estimate the costs associated with each of these solutions.
 
 ### Solution Selection
 The proposed solutions are presented to US Office of Management and Budget (OMB) to be selected for funding. OMB selects the Solutions to fund, then appoints the Implementation teams to form the Project that will develop the Product that will provide the Solution to fulfill the Need. 
