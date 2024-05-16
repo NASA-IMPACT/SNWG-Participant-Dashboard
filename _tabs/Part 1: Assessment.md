@@ -13,19 +13,19 @@ _The initial SNWG Project Assessment lifecycle._
 ****This section needs careful review. What information can be public?****
 
 ### Need Identification
-We send out a survey to figure out what ya'll think you need
+Surveys are sent out the agencies to identify their satellite needs
 
 ### Need Evaluation
-We read all those surveys and have interviews with everybody to drill down to what you actually need.
+Surveys are reviewed and interviews held with the submitting agencies to clarify what's in their survey response (drill down to what they specifically need)
 
 ### Solution Identification
-We pick the needs that appear to have the most commonality and general societal benefit.
+Based on all of the needs that were submitted, potential solutions that would meet multiple of these needs are identified
 
 ### Solution Development
-We develop a rough idea of the Product that can be created to provide a Solution to a Need. 
+For the solutions identified, a rough outline of the product/activity is developed
 
 ### Solution Selection
-We present those Solutions to the US Office of Management and Budget (OMB). OMB chooses the Solutions to fund and appoints the Implementation teams to form the Project that will develop the Product that will provide the Solution to fulfill the Need. 
+The proposed solutions are presented to US Office of Management and Budget (OMB) to be selected for funding. OMB selects the Solutions to fund, then appoints the Implementation teams to form the Project that will develop the Product that will provide the Solution to fulfill the Need. 
 
 ## Co-design/Co-production in the Assessment Phase
 Ya'll need to be talking to us or don't complain when the Product doesn't do what you want. 
