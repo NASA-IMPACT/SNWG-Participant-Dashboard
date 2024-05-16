@@ -2,7 +2,7 @@
 layout: post
 icon: fas fa-wand-magic-sparkles
 order: 4
-table of contents: true
+toc: true
 ---
 # Overall Timeline
 - Project Pre-formulation

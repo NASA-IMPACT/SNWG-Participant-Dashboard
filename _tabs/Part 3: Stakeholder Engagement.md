@@ -2,6 +2,7 @@
 layout: post
 icon: fas fa-comments
 order: 5
+toc: true
 ---
 
 What is a stakeholder for an SNWG project?

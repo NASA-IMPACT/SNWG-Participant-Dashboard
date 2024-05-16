@@ -16,7 +16,7 @@ timezone:
 
 title: The SNWG MO Sherpa # the main title
 
-tagline: A site to assist Project teams through the SNWG lifecycle  # it will display as the sub-title
+tagline: A minimal site to assist Project teams through the SNWG lifecycle  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive website explaining the base need-to-know information for project selected and funded by the Satellite Needs Working Group.
