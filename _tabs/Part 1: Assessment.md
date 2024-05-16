@@ -21,11 +21,11 @@ Once received, each submitted survey is assessed by a team of experts from NASA,
 ### Solution Identification
 Based on the needs submitted by the agencies, solutions are identified that would help meet those needs. An emphasis is placed on solutions that would help satisfy multiple agency needs.
 
-### Solution Development
-Assessment personnel prioritize the solutions, determine a subset of solutions that will be proposed for funding and estimate the costs associated with each of these solutions.
-
 ### Solution Selection
 The proposed solutions are presented to US Office of Management and Budget (OMB) to be selected for funding. OMB selects the Solutions to fund, then appoints the Implementation teams to form the Project that will develop the Product that will provide the Solution to fulfill the Need. 
+
+### Solution Development
+Assessment personnel prioritize the solutions, determine a subset of solutions that will be proposed for funding and estimate the costs associated with each of these solutions.
 
 ## Co-design/Co-production in the Assessment Phase
 Ya'll need to be talking to us or don't complain when the Product doesn't do what you want. 
