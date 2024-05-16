@@ -12,7 +12,7 @@ The focus is on providing information to assist the Implementation team in compl
 
 ### SNWG MO Contacts
 | Role                               | Name             |
-| :--------------------------------- |:---------------- |
+| :--------------------------------- | ---------------: |
 | SNWG Program Manager               | Natasha Sadoff   |
 | SNWG MO Project Manager            | Sean Gregory     |
 | SNWG MO Project Scientist          | Pontus Olofsson  |
@@ -23,7 +23,7 @@ The focus is on providing information to assist the Implementation team in compl
 
 ### SNWG Assessment Contacts
 | Role                               | Name             |
-| :--------------------------------- | :--------------- |
+| :--------------------------------- | ---------------: |
 | Assessment Lead                    | Katrina Virts    |
 | Position 2                         | Name 2           |
 | Position 3                         | Name 3           |
@@ -32,7 +32,7 @@ The focus is on providing information to assist the Implementation team in compl
 
 ### SNWG Stakeholder Engagement Contacts
 | Role                               | Name             |
-| :--------------------------------- | :--------------- |
+| :--------------------------------- | ---------------: |
 | SEP lead                           | Pontus Olofsson  |
 | SEP deputy                         | Katrina Virts    |
 | Position 3                         | Name 3           |
@@ -40,3 +40,8 @@ The focus is on providing information to assist the Implementation team in compl
 | Project Coordinator                | Cherrelle Tucker |
 
 
+| Company                      | Contact          | Country |
+| :--------------------------- | :--------------- | ------: |
+| Alfreds Futterkiste          | Maria Anders     | Germany |
+| Island Trading               | Helen Bennett    |      UK |
+| Magazzini Alimentari Riuniti | Giovanni Rovelli |   Italy |
