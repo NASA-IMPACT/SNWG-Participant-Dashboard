@@ -1,6 +1,6 @@
 ---
 layout: post
-icon: fas fa-book-bookmark
+icon: fas fa-hand-spock
 order: 7
 toc: true
 ---

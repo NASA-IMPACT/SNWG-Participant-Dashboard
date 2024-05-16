@@ -5,6 +5,8 @@ icon: fas fa-wand-magic-sparkles
 order: 4
 toc: true
 ---
+![](assets/Implementation-Process.png)
+_The Implementation Project Lifecycle_
 #### Overall Timeline
 - Project Pre-formulation
 - Project Formulation
@@ -53,5 +55,3 @@ What are they and why do we have them?
 {: .prompt-tip }
 
 <!-- markdownlint-restore -->
-
-### Resources
