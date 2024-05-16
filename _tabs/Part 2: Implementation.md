@@ -44,3 +44,12 @@ What are they and why do we have them?
 ## Co-design/Co-production in the Implementation Phase
 - what is expected of the Project team
 - what is expected of the Stakeholders
+
+## Open Source Science (OSS)in the Implementation Phase
+
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
+> We strongly encourage all SNWG Implementation team members to take the time to enroll in and complete [NASA's Transform to Open Science (TOPS) OSS 101 course](https://nasa.github.io/Transform-to-Open-Science/).
+
+<!-- markdownlint-restore -->
+- Resources

@@ -8,7 +8,7 @@ toc: true
 Solution Project Teams as they progress through the SNWG project lifecycle.
 
 ## Site Purpose
-The focus is on providing information to assist the Implementation team in completing their expected actions, without overburdening with in-depth knowledge that may not be necessary to completing tasks.
+The focus is on providing information to assist the Implementation team in completing their expected actions, without overburdening with in-depth knowledge that may not be necessary to complete tasks.
 
 ## SNWG MO Contacts
 | Role                               | Name             |
