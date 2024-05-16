@@ -4,7 +4,7 @@ icon: fas fa-wand-magic-sparkles
 order: 4
 toc: true
 ---
-# Overall Timeline
+#### Overall Timeline
 - Project Pre-formulation
 - Project Formulation
 - Project Implementation
@@ -13,16 +13,16 @@ toc: true
 - Solution Operations Handoff or Defunding (MO action)
 - Solution Closeout (MO action)
 
-# The SNWG MO Program Plan
+## The SNWG MO Program Plan
 Why you care <br>
 What parts matter to you? 
 
-# Your Solution Project Plan
+## Your Solution Project Plan
 Template <br>
 Parts you fill out <br>
 Parts we fill out <br>
 
-# Decision Gates
+## Decision Gates
 What are they and why do we have them?
 
 Authority to Proceed

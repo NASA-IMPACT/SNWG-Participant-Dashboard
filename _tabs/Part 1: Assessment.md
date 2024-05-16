@@ -11,8 +11,8 @@ If you have been pointed to this website, you have most likely been chosen to pr
 _You are here in the SNWG Project lifecycle_
 
 Process: 
-# Need Identification
-# Need Evaluation
-# Solution Identification
-# Solution Development
-# Solution Selection
+## Need Identification
+## Need Evaluation
+## Solution Identification
+## Solution Development
+## Solution Selection
