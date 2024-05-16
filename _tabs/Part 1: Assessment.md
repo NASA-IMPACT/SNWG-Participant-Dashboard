@@ -16,3 +16,5 @@ _You are here in the SNWG Project lifecycle. Example image only. To be replaced 
 ### Solution Identification
 ### Solution Development
 ### Solution Selection
+
+## Co-design/Co-production in the Assessment Phase

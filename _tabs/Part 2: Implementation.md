@@ -40,3 +40,7 @@ What are they and why do we have them?
 - What you need to do before
 - What you need to do during
 - What you need to do after
+
+## Co-design/Co-production in the Implementation Phase
+- what is expected of the Project team
+- what is expected of the Stakeholders
