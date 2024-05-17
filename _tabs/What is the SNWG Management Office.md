@@ -1,6 +1,6 @@
 ---
 layout: post
-icon: fas fa-dumpster-fire
+icon: fas fa-handshake
 title: What is the SNWG Management Office
 order: 2
 toc: true
@@ -19,4 +19,4 @@ toc: true
 _The three core components of the SNWG MO._
 
 
-[^1]:["The SNWG MO on EarthData (ESDS|IMPACT)"](https://www.earthdata.nasa.gov/esds/impact/snwg)
+[^1]:[The SNWG MO on EarthData (ESDS-IMPACT)](https://www.earthdata.nasa.gov/esds/impact/snwg)
