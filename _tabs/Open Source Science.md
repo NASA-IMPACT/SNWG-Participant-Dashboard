@@ -1,6 +1,6 @@
 ---
 layout: post
-icon: fas fa-hand-spock
+icon: fas fa-atom
 title: Open Source Science
 order: 7
 toc: true
