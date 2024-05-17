@@ -7,6 +7,7 @@ toc: true
 ---
 ![](assets/Implementation-Process.png)
 _The Implementation Project Lifecycle_
+
 #### Overall Timeline
 - Project Pre-formulation
 - Project Formulation
@@ -51,7 +52,7 @@ What are they and why do we have them?
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> We strongly encourage all SNWG Implementation team members to take the time to enroll in and complete [NASA's Transform to Open Science (TOPS) OSS 101 course](https://nasa.github.io/Transform-to-Open-Science/).
+> The Satellite Needs Working Group Management Office strongly encourages all SNWG Implementation team members take the time to enroll in and complete [NASA's Transform to Open Science (TOPS) OSS 101 course](https://nasa.github.io/Transform-to-Open-Science/).
 {: .prompt-tip }
 
 <!-- markdownlint-restore -->

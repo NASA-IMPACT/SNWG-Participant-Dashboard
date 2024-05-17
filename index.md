@@ -3,14 +3,15 @@ title: Home
 layout: page
 toc: true
 ---
+## Site Purpose
+The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
 
 ## Site Audience
-Solution Project Teams as they progress through the SNWG project lifecycle.
+The intended audience for this site is the Solution Project Team as they progress through the various document developments, decision gates, and reporting requirements of the SNWG project lifecycle.
 
-## Site Purpose
-The focus is on providing information to assist the Implementation team in completing their expected actions, without overburdening with in-depth knowledge that may not be necessary to complete tasks.
 
-## SNWG MO Contacts
+
+## SNWG Implementation Contacts
 
 | Role                               | Name             |
 | :--------------------------------- | :--------------- |
