@@ -3,6 +3,13 @@ title: Home
 layout: page
 toc: true
 ---
+## INTERNAL NOTSE TO BE REMOVED BEFORE FINAL DEPLOYMENT
+- Graphics should be **simple**, max of 3 colors. Easily digestible in a short glance 
+- Text: Use H2 for ToC generation on all major parts. 
+-- Do not attempt to explain any concepts in depth. THe goal is to develop a LIGHTWEIGHT website for teams to refer to with the minimum amount of information needed to complete forms/tasks. If they want to know more, they can reach out to the SNWG MO team for further context/direction. 
+
+--------------------------------
+
 ## Site Purpose
 The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
 

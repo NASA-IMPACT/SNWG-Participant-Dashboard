@@ -1,7 +1,7 @@
 ---
 title: 'Part 2: Implementation'
 layout: post
-icon: fas fa-wand-magic-sparkles
+icon: fas fa-users-gear
 order: 4
 toc: true
 ---
@@ -31,7 +31,11 @@ What are they and why do we have them?
 
 ### Authority to Proceed
 - What you need to do before
+    - [ ] Step 1
+    - [ ] Step 2
 - What you need to do during
+    - [ ] The Project Implementation Team presents the goals and status of their project  ~15 - 20 mintues
+    
 - What you need to do after
 
 ### Formulation to Implementation
