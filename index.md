@@ -3,10 +3,19 @@ title: Home
 layout: page
 toc: true
 ---
-## INTERNAL NOTSE TO BE REMOVED BEFORE FINAL DEPLOYMENT
-- Graphics should be **simple**, max of 3 colors. Easily digestible in a short glance 
-- Text: Use H2 for ToC generation on all major parts. 
--- Do not attempt to explain any concepts in depth. THe goal is to develop a LIGHTWEIGHT website for teams to refer to with the minimum amount of information needed to complete forms/tasks. If they want to know more, they can reach out to the SNWG MO team for further context/direction. 
+
+## INTERNAL NOTE TO BE REMOVED BEFORE FINAL DEPLOYMENT
+- GOAL
+    - single location to provide relevant, brief information that answers FAQ that new implementation teams have had. 
+- Graphics:
+    - **simple**, max of 3 colors. 
+    - Easily digestible in a short glance. 
+    - use only what is needed to provide context or improve site readability. 
+- Text: 
+    - Use H2 for ToC generation on all major parts. 
+    - Do not attempt to explain any concepts in depth. The goal is to develop a LIGHTWEIGHT website for teams to refer to with the minimum amount of information needed to complete forms/tasks. If they want to know more, they can reach out to the SNWG MO team for further context/direction. 
+    - Footnotes to links to further reading can be created[^footnote] [^fn-nth-2]
+    - do not embed slidedecks. Extract relevant information and HIGH POINTS to this site.
 
 --------------------------------
 
@@ -49,3 +58,11 @@ The intended audience for this site is the Solution Project Team as they progres
 | Position 3                         | Name 3           |
 | Position 4                         | Name 4           |
 | Project Coordinator                | Cherrelle Tucker |
+
+
+
+
+
+<br>
+[^footnote]: The footnote source
+[^fn-nth-2]: 2nd footnote
