@@ -17,9 +17,11 @@ _The Implementation Project Lifecycle_
 - Solution Operations Handoff or Defunding (MO action)
 - Solution Closeout (MO action)
 
-## The SNWG MO Program Plan
+## The SNWG MO Program Plan[]
+The SNWG MO Program Plan should have been shared with you as a part of your "Welcome to the SNWG" package. The purpose of this document is to provide a framework and governance and framework to the operations of the Management Office throughout the Program and Project lifecycles. You may also click here for a [direct link to the SNWG MO Program Plan pdf]{https://drive.google.com/file/d/1xe-rrKjwZZ7p0w39umL7nPdjCXmWwkUW/view?usp=sharing}
+
 ### Why you care <br>
-The SNWG MO Program Plan governs the process and actions of the SNWG MO as a whole, with many portions flowing down to directly influence the Projects that the MO oversees. While the entire document does not need to be read to understand the Office and the process, there are several key parts that directly influence the funding and ultimate success of your project. 
+While the SNWG MO Program Plan governs the process and actions of the SNWG MO as a whole, several portions flow down to directly influence the Projects that the MO oversees. The entire document may not need to be read to understand the Office and the process. However, there are several key parts that directly influence the funding and ultimate success of your project. 
 
 ### What parts matter to you? 
 Key parts of the SNWG MO Program Plan for the purposes of the Project Implementation Teams are:
