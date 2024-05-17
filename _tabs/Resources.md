@@ -14,7 +14,7 @@ toc: true
 - Open Source Science
 
 ## Document Links
-- [SNWG MO Program Plan pdf]{https://drive.google.com/file/d/1xe-rrKjwZZ7p0w39umL7nPdjCXmWwkUW/view?usp=sharing}
+- [SNWG MO Program Plan pdf](https://drive.google.com/file/d/1xe-rrKjwZZ7p0w39umL7nPdjCXmWwkUW/view?usp=sharing)
 
 ## Presentation Links
 
