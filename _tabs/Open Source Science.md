@@ -1,6 +1,7 @@
 ---
 layout: post
 icon: fas fa-hand-spock
+title: Open Source Science
 order: 7
 toc: true
 ---

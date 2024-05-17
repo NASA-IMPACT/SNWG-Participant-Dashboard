@@ -19,7 +19,15 @@ _The Implementation Project Lifecycle_
 
 ## The SNWG MO Program Plan
 Why you care <br>
+The SNWG MO Program Plan governs the process and actions of the SNWG MO as a whole, with many portions flowing down to directly influence the Projects that the MO oversees. While the entire document does not need to be read to understand the Office and the process, there are several key parts that directly influence the funding and ultimate success of your project. 
+
 What parts matter to you? 
+Key parts of the SNWG MO Program Plan for the purposes of the Project Implementation Teams are:
+- 5.1.2 Requirements on the SNWG Solution Projects
+- 6.2 Solution Project Implementation Collaborations
+- 6.3 SNWG MO SEP Collaborations
+- 12.2 Solution Project Lifecycle
+
 
 ## Your Solution Project Plan
 Template <br>
@@ -35,7 +43,7 @@ What are they and why do we have them?
     - [ ] Step 2
 - What you need to do during
     - [ ] The Project Implementation Team presents the goals and status of their project  ~15 - 20 mintues
-    
+
 - What you need to do after
 
 ### Formulation to Implementation

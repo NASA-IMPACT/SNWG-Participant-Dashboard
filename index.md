@@ -64,5 +64,5 @@ The intended audience for this site is the Solution Project Team as they progres
 
 
 
-[^1]: The footnote source <br>
+[^1]: The footnote source
 [^2]: 2nd footnote
