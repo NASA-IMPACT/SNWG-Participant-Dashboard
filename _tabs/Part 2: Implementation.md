@@ -45,19 +45,14 @@ The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inita
 
 - What you need to do before
     - Complete your preliminary Project Plan, which includes:
-        - Notional OSS Objectives 
-            - How will your project adhere to Open Source Science principles during Solution Product development and operation? 
-        - Notional SEP Plan 
-            - How will your project promote stakeholder engagemenet throughout the Solution Product development and operation?
-        - Outline your management approach 
-            - Team structure, partnerships, acquisition strategy, Milestone reviews (Tip: Refer to team members by their ROLE thoughout the plan. Define the names associated with the role in a chart in supporting sections.)
-        - Notional schedule 
-            - Tip: Use ranges and relative times, not exact dates i.e. "2 months after project signing" "2 years after project Implementation start" Do keep in mind the limitations of final funding dates.
+        - Notional OSS Objectives (How will your project adhere to Open Source Science principles during Solution Product development and operation?)
+        - Notional SEP Plan (How will your project promote stakeholder engagemenet throughout the Solution Product development and operation?)
+        - Outline your management approach (Team structure, partnerships, acquisition strategy, Milestone reviews Tip: Refer to team members by their ROLE thoughout the plan. Define the names associated with the role in a chart in supporting sections.)
+        - Notional schedule (Tip: Use ranges and relative times, not exact dates i.e. "2 months after project signing" "2 years after project Implementation start" Do keep in mind the limitations of final funding dates.)
         - Resource requirements
             - Project L1 
             - PLR Compliance matrix
-        - Solution Product Transition or Dissemination approach
-            - Firm handoff plans are not required. Do include preliminary suppositions and potential handoff agencies or partners to be investigated throughout the Project lifecycle and borne to fruition by Project Closeout.
+        - Solution Product Transition or Dissemination approach (Firm handoff plans are not required. Do include preliminary suppositions and potential handoff agencies or partners to be investigated throughout the Project lifecycle and borne to fruition by Project Closeout.)
         - Risk Management Strategy
         - Applicable Control Plans
             - Required: 
