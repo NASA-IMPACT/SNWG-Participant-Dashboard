@@ -19,4 +19,4 @@ toc: true
 _The three core components of the SNWG MO._
 
 
-[^1]: [The SNWG MO on EarthData ESDS|IMPACT](https://www.earthdata.nasa.gov/esds/impact/snwg)
+[^1]:["The SNWG MO on EarthData (ESDS|IMPACT)"](https://www.earthdata.nasa.gov/esds/impact/snwg)
