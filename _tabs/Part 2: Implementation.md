@@ -18,10 +18,10 @@ _The Implementation Project Lifecycle_
 - Solution Closeout (MO action)
 
 ## The SNWG MO Program Plan
-Why you care <br>
+### Why you care <br>
 The SNWG MO Program Plan governs the process and actions of the SNWG MO as a whole, with many portions flowing down to directly influence the Projects that the MO oversees. While the entire document does not need to be read to understand the Office and the process, there are several key parts that directly influence the funding and ultimate success of your project. 
 
-What parts matter to you? 
+### What parts matter to you? 
 Key parts of the SNWG MO Program Plan for the purposes of the Project Implementation Teams are:
 - 5.1.2 Requirements on the SNWG Solution Projects
 - 6.2 Solution Project Implementation Collaborations
