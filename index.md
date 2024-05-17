@@ -14,8 +14,8 @@ toc: true
 - Text: 
     - Use H2 for ToC generation on all major parts. 
     - Do not attempt to explain any concepts in depth. The goal is to develop a LIGHTWEIGHT website for teams to refer to with the minimum amount of information needed to complete forms/tasks. If they want to know more, they can reach out to the SNWG MO team for further context/direction. 
-    - Footnotes to links to further reading can be created[^footnote] [^fn-nth-2]
-    - do not embed slidedecks. Extract relevant information and HIGH POINTS to this site.
+    - Footnotes to links to further reading can be created[^footnote] 
+    - do not embed slidedecks. Extract relevant information and HIGH POINTS to this site[^fn-nth-2].
 
 --------------------------------
 
