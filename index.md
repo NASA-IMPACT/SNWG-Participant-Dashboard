@@ -19,8 +19,8 @@ toc: true
 
 --------------------------------
 
-![dark mode only](assets/darkModeMissionsToCommunity.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
-![light mode only](assets/missionsToCommunity.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+![dark mode only](assets/darkModeMissionsGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+![light mode only](assets/lightModeMissionsGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
 
 ## Site Purpose
 The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
