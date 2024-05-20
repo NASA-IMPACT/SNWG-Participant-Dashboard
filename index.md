@@ -15,12 +15,12 @@ toc: true
     - Use H2 for ToC generation on all major parts. 
     - Do not attempt to explain any concepts in depth. The goal is to develop a LIGHTWEIGHT website for teams to refer to with the minimum amount of information needed to complete forms/tasks. If they want to know more, they can reach out to the SNWG MO team for further context/direction. 
     - Footnotes to links to further reading can be created[^10] 
-    - do not embed slidedecks. Extract relevant information and HIGH POINTS to this site and utilize footnotes.[^1]
+    - do not embed slidedecks. Extract relevant information and HIGH POINTS to this site and utilize footnotes.[^11]
 
 --------------------------------
 
-![dark mode only](assets/darkModeMissionsToCommunity.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
-![light mode only](assets/missionsToCommunity.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+![dark mode only](assets/darkModeMissionsToCommunity.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+![light mode only](assets/missionsToCommunity.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
 
 ## Site Purpose
 The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
@@ -76,7 +76,7 @@ _Standard_ products are validated, QA and fully documented.
 
 
 
-[^1]: [ ](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
+[^1]: [https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
 [^2]: 2nd footnote
 
 [^10]
