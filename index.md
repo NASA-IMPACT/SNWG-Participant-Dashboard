@@ -36,6 +36,7 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 ## Who are we?
 
 ### SNWG Implementation Contacts 
+
 | Role                             | Name                                                              |
 | :------------------------------- | :---------------------------------------------------------------- |
 | SNWG Program Manager             | [Natasha Sadoff](mailto:natasha.sadoff@nasa.gov)                  |
@@ -47,6 +48,7 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 | SNWG MO Project Coordinator      | [Cherrelle Tucker](mailto:cherrelle.j.tucker@nasa.gov)            |
 
 ### SNWG Assessment Contacts
+
 | Role                               | Name             |
 | :--------------------------------- | :--------------- |
 | Assessment Lead                    | Katrina Virts    |
