@@ -46,18 +46,7 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 | SNWG MO Systems Engineer         | Jenny Wood                                                        |
 | SNWG MO Project Coordinator      | [Cherrelle Tucker](mailto:cherrelle.j.tucker@nasa.gov)            |
 
-
-
-| Role                               | Name             |
-| :--------------------------------- | :--------------- |
-| Assessment Lead                    | Natasha Sadoff   |
-| Position 2                         | Sean Gregory     |
-| Position 3                         | Pontus Olofsson  |
-| Position 4                         | eric Taylor      |
-| Position 5                         | Cherrelle Tucker |
-
 ### SNWG Assessment Contacts
-
 | Role                               | Name             |
 | :--------------------------------- | :--------------- |
 | Assessment Lead                    | Katrina Virts    |
