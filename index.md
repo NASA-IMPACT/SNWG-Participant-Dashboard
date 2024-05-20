@@ -19,16 +19,10 @@ toc: true
 
 --------------------------------
 
-![dark mode only](assets/DarkModeMissionsGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
-![light mode only](assets/LightModeMissionsGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+![dark mode only](assets/DarkModeMissionsGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1275' h='668' }
+![light mode only](assets/LightModeMissionsGraphic.png){: .light .w-75 .shadow .rounded-10 w='1275' h='668' }
 
-## Site Purpose
-The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
-
-## Site Audience
-The intended audience for this site is the Solution Project Team as they progress through the various document developments, decision gates, and reporting requirements of the SNWG project lifecycle.
-
-#Welcome to the SNWG MO!
+# Welcome to the Satellite Needs Working Group Management Office!
 
 ## What do we Produce?
 
@@ -36,10 +30,8 @@ The SNWG MO helps various agencies produce **EOSDIS Standard Products**[^1]
 
 EOS Standard Products are internally consistent, well-calibrated records of observations of the Earth's geophysical properties. They are identified and defined by EOS investigators who have been selected through a competitive peer review process to develop algorithms and software for generating products from EOS observations.
 - _Products_ contain geophysical parameters and can be used for science research and application.
+- _Standard_ products are validated, QA and fully documented.
 - A _standard product file_ may require companion/support files to make data usable or to satisfy policy requirements. Examples include geolocation data files, browse image data, calibration and validation, higher-resolution data undergoing validation, and data quality metrics.
-_Standard_ products are validated, QA and fully documented.
-
-
 
 ## SNWG Implementation Contacts
 
@@ -74,9 +66,11 @@ _Standard_ products are validated, QA and fully documented.
 | Project Coordinator                | Cherrelle Tucker |
 
 
+## Site Purpose
+The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
 
-
-
+## Site Audience
+The intended audience for this site is the Solution Project Team as they progress through the various document developments, decision gates, and reporting requirements of the SNWG project lifecycle.
 
 [^1]: [https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
 [^2]: 2nd footnote
