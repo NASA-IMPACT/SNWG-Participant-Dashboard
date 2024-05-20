@@ -5,7 +5,8 @@ icon: fas fa-users-gear
 order: 4
 toc: true
 ---
-![](assets/Implementation-Process.png)
+![dark mode only](assets/DarkModeImplementationGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+![light mode only](assets/LightModeImplementationGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
 _The Implementation Project Lifecycle_
 
 #### Overall Timeline
