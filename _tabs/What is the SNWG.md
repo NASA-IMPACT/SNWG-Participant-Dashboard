@@ -5,7 +5,9 @@ title: What is the SNWG
 order: 1
 ---
 
-![](assets/DarkModeSNWGCycleGraphic.png)
+![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+![light mode only](assets/LightModeSNWGCycleGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+_The initial SNWG Project Assessment lifecycle._
 
 _The SNWG Project lifecycle._
 
