@@ -7,8 +7,8 @@ toc: true
 ---
 If you have been pointed to this website, you have most likely been chosen to proceed to the Pre-Formulation process. Here is a BRIEF OVERVIEW of the process you just went through.
 
-![dark mode only](assets/darkModeAssesmentGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
-![light mode only](assets/lightModeAssesmentGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+![dark mode only](assets/darkModeAssessmentGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+![light mode only](assets/lightModeAssessmentGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
 _The initial SNWG Project Assessment lifecycle._
 
 ****This section needs careful review. What information can be public?****
