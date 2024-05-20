@@ -76,7 +76,7 @@ _Standard_ products are validated, QA and fully documented.
 
 
 
-[^1]: https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products
+[^1]: [ ](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
 [^2]: 2nd footnote
 
 [^10]
