@@ -38,13 +38,22 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 ### SNWG Implementation Contacts 
 | Role                               | Name             |
 | :--------------------------------- | :--------------- |
-| SNWG Program Manager               | [Natasha Sadoff](mailto:natasha.sadoff@nasa.gov)  |
-| SNWG MO Project Manager            | [Sean Gregory](mailto:sean.p.gregory@nasa.gov)   |
-| SNWG MO Project Scientist          | [Pontus Olofsson](mailto:pontus.p.olofsson@nasa.gov) |
-| SNWG MO Deputy Project Manager     | [Eric Taylor](mailto:eric.s.taylor@nasa.gov)     |
+| SNWG Program Manager               | [Natasha Sadoff](mailto:natasha.sadoff@nasa.gov)   |
+| SNWG MO Project Manager            | [Sean Gregory](mailto:sean.p.gregory@nasa.gov)     |
+| SNWG MO Project Scientist          | [Pontus Olofsson](mailto:pontus.p.olofsson@nasa.gov)  |
+| SNWG MO Deputy Project Manager     | [Eric Taylor](mailto:eric.s.taylor@nasa.gov)      |
 | SNWG MO Deputy Project Scientist   | Katrina Virts    |
 | SNWG MO Systems Engineer           | Jenny Wood       |
 | SNWG MO Project Coordinator        | [Cherrelle Tucker](mailto:cherrelle.j.tucker@nasa.gov) |
+
+
+| Role                               | Name             |
+| :--------------------------------- | :--------------- |
+| Assessment Lead                    | Natasha Sadoff   |
+| Position 2                         | Sean Gregory     |
+| Position 3                         | Pontus Olofsson  |
+| Position 4                         | eric Taylor      |
+| Position 5                         | Cherrelle Tucker |
 
 ### SNWG Assessment Contacts
 
