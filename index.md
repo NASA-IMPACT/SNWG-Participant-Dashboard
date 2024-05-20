@@ -22,7 +22,7 @@ toc: true
 ![dark mode only](assets/DarkModeMissionsGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1275' h='668' }
 ![light mode only](assets/LightModeMissionsGraphic.png){: .light .w-75 .shadow .rounded-10 w='1275' h='668' }
 
-# Welcome to the Satellite Needs Working Group Management Office!
+# <center>Welcome to the Satellite Needs Working Group Management Office!</center>
 
 ## What do we Produce?
 
