@@ -19,7 +19,8 @@ toc: true
 
 --------------------------------
 
-![](assets/missionsToCommunity.png)
+![dark mode only](assets/darkModeMissionsToCommunity.png)
+![light mode only](assets/missionsToCommunity.png)
 
 ## Site Purpose
 The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
