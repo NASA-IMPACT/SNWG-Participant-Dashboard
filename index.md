@@ -27,23 +27,24 @@ toc: true
 ## What do we Produce?
 
 The SNWG MO helps various agencies produce **EOSDIS Standard Products**[^1]
-
++
 EOS Standard Products are internally consistent, well-calibrated records of observations of the Earth's geophysical properties. They are identified and defined by EOS investigators who have been selected through a competitive peer review process to develop algorithms and software for generating products from EOS observations.
 - _Products_ contain geophysical parameters and can be used for science research and application.
 - _Standard_ products are validated, QA and fully documented.
 - A _standard product file_ may require companion/support files to make data usable or to satisfy policy requirements. Examples include geolocation data files, browse image data, calibration and validation, higher-resolution data undergoing validation, and data quality metrics.
 
-## SNWG Implementation Contacts
+## Who are we?
 
+### SNWG Implementation Contacts 
 | Role                               | Name             |
 | :--------------------------------- | :--------------- |
-| SNWG Program Manager               | Natasha Sadoff   |
-| SNWG MO Project Manager            | Sean Gregory     |
-| SNWG MO Project Scientist          | Pontus Olofsson  |
-| SNWG MO Deputy Project Manager     | Eric Taylor      |
+| SNWG Program Manager               | [Natasha Sadoff](mailto:natasha.sadoff@nasa.gov)       |
+| SNWG MO Project Manager            | [Sean Gregory](sean.p.gregory@nasa.gov)                |
+| SNWG MO Project Scientist          | [Pontus Olofsson](pontus.p.olofsson@nasa.gov)          |
+| SNWG MO Deputy Project Manager     | [Eric Taylor](eric.s.taylor@nasa.gov)                  |
 | SNWG MO Deputy Project Scientist   | Katrina Virts    |
 | SNWG MO Systems Engineer           | Jenny Wood       |
-| SNWG MO Project Coordinator        | Cherrelle Tucker |
+| SNWG MO Project Coordinator        | [Cherrelle Tucker](mailto:cherrelle.j.tucker@nasa.gov) |
 
 ### SNWG Assessment Contacts
 
