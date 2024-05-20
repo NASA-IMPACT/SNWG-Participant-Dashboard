@@ -32,13 +32,22 @@ Key parts of the SNWG MO Program Plan for the purposes of the Project Implementa
 
 
 ## Your Solution Project Plan
-Template <br>
-Parts you fill out <br>
-Parts we fill out <br>
+[Link to Template](https://docs.google.com/document/d/1hfbKXOta7htTs1RDtvpAXxBwu6QxuqnndGXOMkyM-UQ/edit)
+
+| You fill out                                        | We fill out                             |
+| :-------------------------------------------------- | :-------------------------------------- |
+| 2.3 Project Schedule/ Key Project Level Milestones  | 2.5 Budget and Acquisition Approach     |
+| 2.4 Project Resources and Annual Cost Estimate      | 3.2.1 PLR Compliance Matrix             |
+| 3.2 Project Requirements                            | 3.3 Strategy for Technology Transition  |
+| 4.1 Risk Management Strategy                        | 3.4 Project Reviews                     |
+| 4.2.1 Open Science Data Management Plan             | 4.3 Tailoring Approach                  |
+| SNWG MO Systems Engineer                            |                                         |
+| SNWG MO Project Coordinator                         |                                         |
+
 
 ## Decision Gates
 ### What are they and why do we have them?
-Each decision gate 
+Each decision gate ensures that the project has properly investigated and developed the development, budgeting, and documentation appraoch required to move to the next phase in the project lifecycel for maximum return of value to both the funding sources of the project and the end user of Solution Product. 
 
 ### Authority to Proceed
 The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inital project documentation to determine the solution project’s readiness to proceed to Formulation and document the decision. (SNWG MO Program Plan 12.2.1.6)
