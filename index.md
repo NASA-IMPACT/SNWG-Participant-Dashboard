@@ -39,6 +39,8 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 - A _standard product file_ may require companion/support files to make data usable or to satisfy policy requirements. Examples include geolocation data files, browse image data, calibration and validation, higher-resolution data undergoing validation, and data quality metrics.
 _Standard_ products are validated, QA and fully documented.
 
+
+
 ## SNWG Implementation Contacts
 
 | Role                               | Name             |
