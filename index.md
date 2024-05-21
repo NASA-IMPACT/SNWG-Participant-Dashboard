@@ -18,6 +18,17 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 - _Standard_ products are validated, QA and fully documented.
 - A _standard product file_ may require companion/support files to make data usable or to satisfy policy requirements. Examples include geolocation data files, browse image data, calibration and validation, higher-resolution data undergoing validation, and data quality metrics.
 
+## What are our previous products?
+
+| Cycle 1 (2016)                           | Cycle 2 (2018)                                                          | Cycle 3 (2020)           |
+| :--------------------------------------- | :---------------------------------------------------------------------- | :----------------------- | 
+| ADMG - _CASEI_[^2]                       | Low Latency Freeboard & Ice Thickness Products over the Great Lakes[^3] | Air Quality Products     | 
+| Data Curation for Discovery              | Internet of Animals                                                     | Planetary Boundary Layer |
+| Harmonized Landsat-Sentinel-2[^4]        | Global Surface Water Extent (DSWx)                                      | HLS-Vegetation Indices   |
+| Commercial Smallsat Data Acquisition[^5] | Global Land Surface Disturbance and Change Detection (DIST)             | TEMPO NRT                |
+|                                          | Land Surface Deformation for North America and U.S. Territories (DISP)  |                          |
+|                                          | Water Quality Products                                                  |                          |
+
 ## Who are we?
 
 ### SNWG Implementation 
@@ -52,17 +63,6 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 | Position 4                         | Name 4           |
 | Project Coordinator                | Cherrelle Tucker |
 
-
-## What are our previous products?
-
-| Cycle 1 (2016)                           | Cycle 2 (2018)                                                          | Cycle 3 (2020)           |
-| :--------------------------------------- | :---------------------------------------------------------------------- | :----------------------- | 
-| ADMG - _CASEI_[^2]                       | Low Latency Freeboard & Ice Thickness Products over the Great Lakes[^3] | Air Quality Products     | 
-| Data Curation for Discovery              | Internet of Animals                                                     | Planetary Boundary Layer |
-| Harmonized Landsat-Sentinel-2[^4]        | Global Surface Water Extent (DSWx)                                      | HLS-Vegetation Indices   |
-| Commercial Smallsat Data Acquisition[^5] | Global Land Surface Disturbance and Change Detection (DIST)             | TEMPO NRT                |
-|                                          | Land Surface Deformation for North America and U.S. Territories (DISP)  |                          |
-|                                          | Water Quality Products                                                  |                          |
 
 
 [^1]: [https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
