@@ -30,6 +30,7 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 |                                          | Water Quality Products                                                  |                          |
 
 ## Previous products TAble 2
+
 | Cycle 1 (2016)                      | Cycle 2 (2018)                         | Cycle 3 (2020)           |
 | :---------------------------------- | :------------------------------------- | :----------------------- | 
 | ADMG - _CASEI_[^2]                  | Low Latency Freeboard &                | Air Quality Products     |
