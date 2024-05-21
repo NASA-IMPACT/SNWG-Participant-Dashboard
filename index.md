@@ -20,31 +20,6 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 
 ## What are our previous products?
 
-| Cycle 1 (2016)                           | Cycle 2 (2018)                                                          | Cycle 3 (2020)           |
-| :--------------------------------------- | :---------------------------------------------------------------------- | :----------------------- | 
-| ADMG - _CASEI_[^2]                       | Low Latency Freeboard & Ice Thickness Products over the Great Lakes[^3] | Air Quality Products     | 
-| Data Curation for Discovery              | Internet of Animals                                                     | Planetary Boundary Layer |
-| Harmonized Landsat-Sentinel-2[^4]        | Global Surface Water Extent (DSWx)                                      | HLS-Vegetation Indices   |
-| Commercial Smallsat Data Acquisition[^5] | Global Land Surface Disturbance and Change Detection (DIST)             | TEMPO NRT                |
-|                                          | Land Surface Deformation for North America and U.S. Territories (DISP)  |                          |
-|                                          | Water Quality Products                                                  |                          |
-
-## Previous products TAble 2
-
-| Cycle 1 (2016)                           | Cycle 2 (2018)                         | Cycle 3 (2020)           |
-| :------------------------------------ | :------------------------------------- | :----------------------- | 
-| ADMG - _CASEI_[^2]                    | Low Latency Freeboard & Ice Thickness  | Air Quality Products     |
-|                                       |   Products over the Great Lakes[^3]    |                          |
-| Data Curation for Discovery           | Internet of Animals                    | Planetary Boundary Layer |
-| Harmonized Landsat-Sentinel-2[^4]     | Global Surface Water Extent (DSWx)     | HLS-Vegetation Indices   |
-| Commercial Smallsat                   | Global Land Surface  Disturbance       | TEMPO NRT                |
-|     Data Acquisition[^5]              |      and Change Detection (DIST)       |                          |
-|                                       | Land Surface Deformation for           |                          |
-|                                       |   N. America & U.S. Territories (DISP) |                          |
-|                                       | Water Quality Products                 |                          |
-
-# Previous Products Table 3 with indents
-
 | Cycle 1 (2016)                      | Cycle 2 (2018)                         | Cycle 3 (2020)           |
 | :---------------------------------- | :------------------------------------- | :----------------------- | 
 | ADMG - _CASEI_[^2]                  | &nbsp;&nbsp;Low Latency Freeboard &<br>&nbsp;&nbsp;Ice Thickness Products<br>&nbsp;&nbsp;over the Great Lakes[^3] | Air Quality Products     | 
