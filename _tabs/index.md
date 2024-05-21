@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: post
+order: 1
 toc: true
 ---
 
@@ -32,7 +33,7 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 
 ## Who are we?
 
-### SNWG Implementation 
+### Management Office/Implementation 
 
 | Role                             | Name                                                              |
 | :------------------------------- | :---------------------------------------------------------------- |
@@ -44,7 +45,7 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 | SNWG MO Systems Engineer         | [Jenny Wood](mailto:jenny.m.wood@nasa.gov)                        |
 | SNWG MO Project Coordinator      | [Cherrelle Tucker](mailto:cherrelle.j.tucker@nasa.gov)            |
 
-### SNWG Assessment
+### Assessment
 
 | Role                               | Name                                             |
 | :--------------------------------- | :----------------------------------------------- |
@@ -54,7 +55,7 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 | Position 4                         | Name 4                                           |
 | Position 5                         | Name 5                                           |
 
-### SNWG Stakeholder Engagement
+### Stakeholder Engagement
 
 | Role                               | Name             |
 | :--------------------------------- | :--------------- |

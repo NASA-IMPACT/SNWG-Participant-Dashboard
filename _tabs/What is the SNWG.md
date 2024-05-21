@@ -3,7 +3,7 @@
 layout: post
 icon: fas fa-users
 title: What is the SNWG
-order: 1
+order: 2
 ---
 
 ![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }

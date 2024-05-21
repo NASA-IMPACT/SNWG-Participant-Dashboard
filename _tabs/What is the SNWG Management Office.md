@@ -2,7 +2,7 @@
 layout: post
 icon: fas fa-handshake
 title: What is the SNWG Management Office
-order: 2
+order: 3
 toc: true
 ---
 ## Facilitate the **Assessment** of SNWG Agency Needs
