@@ -44,7 +44,7 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 | SNWG MO Project Scientist        | [Pontus Olofsson](mailto:pontus.olofsson@nasa.gov)                |
 | SNWG MO Deputy Project Manager   | [Eric Taylor](mailto:eric.s.taylor@nasa.gov)                      |
 | SNWG MO Deputy Project Scientist | [Katrina Virts](mailto:katrina.s.virts@nasa.gov)                  |
-| SNWG MO Systems Engineer         | [Jenny Wood](jenny.m.wood@nasa.gov)                               |
+| SNWG MO Systems Engineer         | [Jenny Wood](mailto:jenny.m.wood@nasa.gov)                        |
 | SNWG MO Project Coordinator      | [Cherrelle Tucker](mailto:cherrelle.j.tucker@nasa.gov)            |
 
 ### SNWG Assessment
