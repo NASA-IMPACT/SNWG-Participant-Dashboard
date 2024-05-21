@@ -2,6 +2,7 @@
 
 ## title: Home
 layout: page
+# Index page
 toc: true
 
 ![dark mode only](assets/DarkModeMissionsGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1275' h='668' }
