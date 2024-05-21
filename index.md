@@ -21,12 +21,12 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 
 ## What are our previous products?
 
-| Cycle 1 (2016) | Cycle 2 (2018) | Cycle 3 (2020) |
-| :------------- | :------------- | :------------- |
-| ADMG - *CASEI*[^2] |   Low Latency Freeboard &<br>  Ice Thickness Products<br>  over the Great Lakes[^3] | Air Quality Products[^4] |
-| Data Curation for<br>Discovery[^5] |   Internet of Animals | Planetary Boundary Layer |
-| Harmonized<br>Landsat-Sentinel-2[^6] |   Global Surface Water<br>  Extent (DSWx) | HLS-Vegetation Indices |
-| Commercial Smallsat<br>Data Acquisition[^7] |   Global Land Surface<br>  Disturbance and Change<br>  Detection (DIST) | TEMPO NRT |
+| Cycle 1 (2016) | Cycle 2 (2018) | Cycle 3 (2020)   |
+| :------------- | :------------- | :--------------- |
+| ADMG - *CASEI*[^2] |   Low Latency Freeboard &<br>  Ice Thickness Products<br>  over the Great Lakes[^3] | Air Quality Products[^4] [^5] [^6] |
+| Data Curation for<br>Discovery[^7] |   Internet of Animals | Planetary Boundary Layer   |
+| Harmonized<br>Landsat-Sentinel-2[^8] |   Global Surface Water<br>  Extent (DSWx) | HLS-Vegetation Indices   |
+| Commercial Smallsat<br>Data Acquisition[^9] |   Global Land Surface<br>  Disturbance and Change<br>  Detection (DIST) | TEMPO NRT   |
 |  |   Land Surface Deformation<br>  for North America<br>  and U.S. Territories (DISP) |  |
 |  |   Water Quality Products |  |
 
@@ -98,7 +98,8 @@ The intended audience for this site is the Solution Project Team as they progres
 [^2]:[https://impact.earthdata.nasa.gov/casei/](https://impact.earthdata.nasa.gov/casei/)
 [^3]:[https://nsidc.org/data/atl10ql/versions/6](https://nsidc.org/data/atl10ql/versions/6)
 [^4]:[https://www.earthdata.nasa.gov/learn/find-data/near-real-time/hazards-and-disasters/air-quality](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/hazards-and-disasters/air-quality)
-        [https://airquality.gsfc.nasa.gov/forecast(https://airquality.gsfc.nasa.gov/forecast](https://airquality.gsfc.nasa.gov/forecast)
-[^5]:[https://www.earthdata.nasa.gov/esds/impact/dcd](https://www.earthdata.nasa.gov/esds/impact/dcd)
-[^6]:[https://hls.gsfc.nasa.gov/](https://hls.gsfc.nasa.gov/)
-[^7]:[https://www.earthdata.nasa.gov/esds/csda](https://www.earthdata.nasa.gov/esds/csda)
+[^5]:[https://airquality.gsfc.nasa.gov/forecast](https://airquality.gsfc.nasa.gov/forecast)
+[^6]:[https://appliedsciences.nasa.gov/get-involved/training/english/arset-introduction-and-access-global-air-quality-forecasting-data-and](https://appliedsciences.nasa.gov/get-involved/training/english/arset-introduction-and-access-global-air-quality-forecasting-data-and)
+[^7]:[https://www.earthdata.nasa.gov/esds/impact/dcd](https://www.earthdata.nasa.gov/esds/impact/dcd)
+[^8]:[https://hls.gsfc.nasa.gov/](https://hls.gsfc.nasa.gov/)
+[^9]:[https://www.earthdata.nasa.gov/esds/csda](https://www.earthdata.nasa.gov/esds/csda)
