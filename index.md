@@ -12,7 +12,6 @@ toc: true
 ## What do we produce?
 
 The SNWG MO helps various agencies produce **EOSDIS Standard Products**[^1]
-+
 EOS Standard Products are internally consistent, well-calibrated records of observations of the Earth's geophysical properties. They are identified and defined by EOS investigators who have been selected through a competitive peer review process to develop algorithms and software for generating products from EOS observations.
 - _Products_ contain geophysical parameters and can be used for science research and application.
 - _Standard_ products are validated, QA and fully documented.
@@ -22,10 +21,10 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 
 | Cycle 1 (2016)                      | Cycle 2 (2018)                         | Cycle 3 (2020)           |
 | :---------------------------------- | :------------------------------------- | :----------------------- | 
-| ADMG - _CASEI_[^2]                  | &nbsp;&nbsp;Low Latency Freeboard &<br>&nbsp;&nbsp;Ice Thickness Products<br>&nbsp;&nbsp;over the Great Lakes[^3] | Air Quality Products     | 
-| Data Curation for<br>Discovery      | &nbsp;&nbsp;Internet of Animals        | Planetary Boundary Layer |
-| Harmonized<br>Landsat-Sentinel-2[^4]| &nbsp;&nbsp;Global Surface Water<br>&nbsp;&nbsp;Extent (DSWx)  | HLS-Vegetation Indices   |
-| Commercial Smallsat<br>Data Acquisition[^5]| &nbsp;&nbsp;Global Land Surface<br>&nbsp;&nbsp;Disturbance and Change<br>&nbsp;&nbsp;Detection (DIST) | TEMPO NRT                |
+| ADMG - _CASEI_[^2]                  | &nbsp;&nbsp;Low Latency Freeboard &<br>&nbsp;&nbsp;Ice Thickness Products<br>&nbsp;&nbsp;over the Great Lakes[^3] | Air Quality Products[^4]     | 
+| Data Curation for<br>Discovery[^5]      | &nbsp;&nbsp;Internet of Animals        | Planetary Boundary Layer |
+| Harmonized<br>Landsat-Sentinel-2[^6]| &nbsp;&nbsp;Global Surface Water<br>&nbsp;&nbsp;Extent (DSWx)  | HLS-Vegetation Indices   |
+| Commercial Smallsat<br>Data Acquisition[^7]| &nbsp;&nbsp;Global Land Surface<br>&nbsp;&nbsp;Disturbance and Change<br>&nbsp;&nbsp;Detection (DIST) | TEMPO NRT                |
 |                                     | &nbsp;&nbsp;Land Surface Deformation<br>&nbsp;&nbsp;for North America<br>&nbsp;&nbsp;and U.S. Territories (DISP) |                          |
 |                                     | &nbsp;&nbsp;Water Quality Products     |                          |
 
@@ -69,11 +68,13 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 [^1]: [https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
 [^2]: [https://impact.earthdata.nasa.gov/casei/](https://impact.earthdata.nasa.gov/casei/)
 [^3]: [https://nsidc.org/data/atl10ql/versions/6](https://nsidc.org/data/atl10ql/versions/6)
-[^4]: HLS link
-[^5]: [https://www.earthdata.nasa.gov/esds/csda](https://www.earthdata.nasa.gov/esds/csda)
+[^4]: [https://www.earthdata.nasa.gov/learn/find-data/near-real-time/hazards-and-disasters/air-quality](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/hazards-and-disasters/air-quality) <br>
+[https://airquality.gsfc.nasa.gov/forecast(https://airquality.gsfc.nasa.gov/forecast](https://airquality.gsfc.nasa.gov/forecast) <br>
+[Air Quality Forecasting TRAINING ARSET - Introduction and Access to Global Air Quality Forecasting Data and Tools (3 parts)](https://appliedsciences.nasa.gov/get-involved/training/english/arset-introduction-and-access-global-air-quality-forecasting-data-and)
+[^5]: [https://www.earthdata.nasa.gov/esds/impact/dcd](https://www.earthdata.nasa.gov/esds/impact/dcd)
+[^6]: [https://hls.gsfc.nasa.gov/](https://hls.gsfc.nasa.gov/)
+[^7]:[https://www.earthdata.nasa.gov/esds/csda](https://www.earthdata.nasa.gov/esds/csda)
 
-[^10]
-[^11]
 
 
 ---------------------------------------------
