@@ -1,7 +1,5 @@
 ---
 title: Home
-layout: post
-order: 1
 toc: true
 ---
 
