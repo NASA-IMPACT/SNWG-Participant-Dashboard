@@ -43,6 +43,17 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 |                                       |   N. America & U.S. Territories (DISP) |                          |
 |                                       | Water Quality Products                 |                          |
 
+# Previous Products Table 3 with indents
+
+| Cycle 1 (2016)                      | Cycle 2 (2018)                         | Cycle 3 (2020)           |
+| :---------------------------------- | :------------------------------------- | :----------------------- | 
+| ADMG - _CASEI_[^2]                  | &nbsp;&nbsp;Low Latency Freeboard &<br>&nbsp;&nbsp;Ice Thickness Products<br>&nbsp;&nbsp;over the Great Lakes[^3] | Air Quality Products     | 
+| Data Curation for<br>Discovery      | &nbsp;&nbsp;Internet of Animals        | Planetary Boundary Layer |
+| Harmonized<br>Landsat-Sentinel-2[^4]| &nbsp;&nbsp;Global Surface Water<br>&nbsp;&nbsp;Extent (DSWx)  | HLS-Vegetation Indices   |
+| Commercial Smallsat<br>Data Acquisition[^5]| &nbsp;&nbsp;Global Land Surface<br>&nbsp;&nbsp;Disturbance and Change<br>&nbsp;&nbsp;Detection (DIST) | TEMPO NRT                |
+|                                     | &nbsp;&nbsp;Land Surface Deformation<br>&nbsp;&nbsp;for North America<br>&nbsp;&nbsp;and U.S. Territories (DISP) |                          |
+|                                     | &nbsp;&nbsp;Water Quality Products     |                          |
+
 
 ## Who are we?
 
