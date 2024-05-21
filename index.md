@@ -78,7 +78,7 @@ Linked Table
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
 
-> Ready to get started? [Page 1: What is the SNWG?](/_tabs/What%20is%20the%20SNWG.md)
+> Ready to get started? [Page 1: What is the SNWG?](_tabs/What is the SNWG.md)
 {: .prompt-info }
 
 <!-- markdownlint-restore -->
