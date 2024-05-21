@@ -49,13 +49,13 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 
 ### SNWG Assessment
 
-| Role                               | Name                                            |
-| :--------------------------------- | :---------------------------------------------- |
-| Assessment Lead                    | Katrina Virts](mailto:katrina.s.virts@nasa.gov) |
-| Position 2                         | Name 2                                          |
-| Position 3                         | Name 3                                          |
-| Position 4                         | Name 4                                          |
-| Position 5                         | Name 5                                          |
+| Role                               | Name                                             |
+| :--------------------------------- | :----------------------------------------------- |
+| Assessment Lead                    | [Katrina Virts](mailto:katrina.s.virts@nasa.gov) |
+| Position 2                         | Name 2                                           |
+| Position 3                         | Name 3                                           |
+| Position 4                         | Name 4                                           |
+| Position 5                         | Name 5                                           |
 
 ### SNWG Stakeholder Engagement
 
@@ -68,7 +68,8 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 | Project Coordinator                | Cherrelle Tucker |
 
 
-What are our previous products?
+## What are our previous products?
+
 | Cycle 1 (2016)                           | Cycle 2 (2018)                                                          | Cycle 3 (2020)           |
 | :--------------------------------------- | :---------------------------------------------------------------------- | :----------------------- | 
 | ADMG - _CASEI_[^2]                       | Low Latency Freeboard & Ice Thickness Products over the Great Lakes[^3] | Air Quality Products     | 
