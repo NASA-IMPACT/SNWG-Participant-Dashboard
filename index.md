@@ -75,17 +75,6 @@ Linked Table
 | Position 4 | Name 4 |
 | Project Coordinator | Cherrelle Tucker |
 
-[^1]:[https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
-[^2]:[https://impact.earthdata.nasa.gov/casei/](https://impact.earthdata.nasa.gov/casei/)
-[^3]:[https://nsidc.org/data/atl10ql/versions/6](https://nsidc.org/data/atl10ql/versions/6)
-[^4]:[https://www.earthdata.nasa.gov/learn/find-data/near-real-time/hazards-and-disasters/air-quality](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/hazards-and-disasters/air-quality)
-        [https://airquality.gsfc.nasa.gov/forecast(https://airquality.gsfc.nasa.gov/forecast](https://airquality.gsfc.nasa.gov/forecast)
-[^5]:[https://www.earthdata.nasa.gov/esds/impact/dcd](https://www.earthdata.nasa.gov/esds/impact/dcd)
-[^6]:[https://hls.gsfc.nasa.gov/](https://hls.gsfc.nasa.gov/)
-[^7]:[https://www.earthdata.nasa.gov/esds/csda](https://www.earthdata.nasa.gov/esds/csda)
-
-- - -
-
 ## INTERNAL NOTE TO BE REMOVED BEFORE FINAL DEPLOYMENT
 
 * GOAL
@@ -103,3 +92,13 @@ Linked Table
 The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
 * Site Audience
 The intended audience for this site is the Solution Project Team as they progress through the various document developments, decision gates, and reporting requirements of the SNWG project lifecycle.
+
+--------------------------------------------------
+[^1]:[https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
+[^2]:[https://impact.earthdata.nasa.gov/casei/](https://impact.earthdata.nasa.gov/casei/)
+[^3]:[https://nsidc.org/data/atl10ql/versions/6](https://nsidc.org/data/atl10ql/versions/6)
+[^4]:[https://www.earthdata.nasa.gov/learn/find-data/near-real-time/hazards-and-disasters/air-quality](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/hazards-and-disasters/air-quality)
+        [https://airquality.gsfc.nasa.gov/forecast(https://airquality.gsfc.nasa.gov/forecast](https://airquality.gsfc.nasa.gov/forecast)
+[^5]:[https://www.earthdata.nasa.gov/esds/impact/dcd](https://www.earthdata.nasa.gov/esds/impact/dcd)
+[^6]:[https://hls.gsfc.nasa.gov/](https://hls.gsfc.nasa.gov/)
+[^7]:[https://www.earthdata.nasa.gov/esds/csda](https://www.earthdata.nasa.gov/esds/csda)
