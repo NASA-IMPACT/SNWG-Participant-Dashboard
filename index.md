@@ -1,9 +1,9 @@
-- - -
-
+---
 ## title: Home
 layout: page
 # Index page
 toc: true
+---
 
 ![dark mode only](assets/DarkModeMissionsGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1275' h='668' }
 ![light mode only](assets/LightModeMissionsGraphic.png){: .light .w-75 .shadow .rounded-10 w='1275' h='668' }
@@ -80,8 +80,8 @@ Linked Table
 [^3]:[https://nsidc.org/data/atl10ql/versions/6](https://nsidc.org/data/atl10ql/versions/6)
 [^4]:[https://www.earthdata.nasa.gov/learn/find-data/near-real-time/hazards-and-disasters/air-quality](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/hazards-and-disasters/air-quality)
         [https://airquality.gsfc.nasa.gov/forecast(https://airquality.gsfc.nasa.gov/forecast](https://airquality.gsfc.nasa.gov/forecast)
-[^5]: [https://www.earthdata.nasa.gov/esds/impact/dcd](https://www.earthdata.nasa.gov/esds/impact/dcd)
-[^6]: [https://hls.gsfc.nasa.gov/](https://hls.gsfc.nasa.gov/)
+[^5]:[https://www.earthdata.nasa.gov/esds/impact/dcd](https://www.earthdata.nasa.gov/esds/impact/dcd)
+[^6]:[https://hls.gsfc.nasa.gov/](https://hls.gsfc.nasa.gov/)
 [^7]:[https://www.earthdata.nasa.gov/esds/csda](https://www.earthdata.nasa.gov/esds/csda)
 
 - - -
