@@ -1,6 +1,6 @@
 ---
 title: Home
-type: page
+layout: page
 toc: true
 ---
 
