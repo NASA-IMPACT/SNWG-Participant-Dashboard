@@ -4,21 +4,6 @@ layout: page
 toc: true
 ---
 
-## INTERNAL NOTE TO BE REMOVED BEFORE FINAL DEPLOYMENT
-- GOAL
-    - single location to provide relevant, brief information that answers FAQ that new implementation teams have had. 
-- Graphics:
-    - **simple**, max of 3 colors. 
-    - Easily digestible in a short glance. 
-    - use only what is needed to provide context or improve site readability. 
-- Text: 
-    - Use H2 for ToC generation on all major parts. 
-    - Do not attempt to explain any concepts in depth. The goal is to develop a LIGHTWEIGHT website for teams to refer to with the minimum amount of information needed to complete forms/tasks. If they want to know more, they can reach out to the SNWG MO team for further context/direction. 
-    - Footnotes to links to further reading can be created[^10] 
-    - do not embed slidedecks. Extract relevant information and HIGH POINTS to this site and utilize footnotes.[^11]
-
---------------------------------
-
 ![dark mode only](assets/DarkModeMissionsGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1275' h='668' }
 ![light mode only](assets/LightModeMissionsGraphic.png){: .light .w-75 .shadow .rounded-10 w='1275' h='668' }
 
@@ -80,12 +65,6 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 |                                          | Water Quality Products                                                  |                          |
 
 
-## Site Purpose
-The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
-
-## Site Audience
-The intended audience for this site is the Solution Project Team as they progress through the various document developments, decision gates, and reporting requirements of the SNWG project lifecycle.
-
 [^1]: [https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
 [^2]: [https://impact.earthdata.nasa.gov/casei/](https://impact.earthdata.nasa.gov/casei/)
 [^3]: [https://nsidc.org/data/atl10ql/versions/6](https://nsidc.org/data/atl10ql/versions/6)
@@ -94,3 +73,25 @@ The intended audience for this site is the Solution Project Team as they progres
 
 [^10]
 [^11]
+
+
+---------------------------------------------
+
+## INTERNAL NOTE TO BE REMOVED BEFORE FINAL DEPLOYMENT
+- GOAL
+    - single location to provide relevant, brief information that answers FAQ that new implementation teams have had. 
+- Graphics:
+    - **simple**, max of 3 colors. 
+    - Easily digestible in a short glance. 
+    - use only what is needed to provide context or improve site readability. 
+- Text: 
+    - Use H2 for ToC generation on all major parts. 
+    - Do not attempt to explain any concepts in depth. The goal is to develop a LIGHTWEIGHT website for teams to refer to with the minimum amount of information needed to complete forms/tasks. If they want to know more, they can reach out to the SNWG MO team for further context/direction. 
+    - Footnotes to links to further reading can be created[^10] 
+    - do not embed slidedecks. Extract relevant information and HIGH POINTS to this site and utilize footnotes.[^11]
+
+- Site Purpose
+The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
+
+- Site Audience
+The intended audience for this site is the Solution Project Team as they progress through the various document developments, decision gates, and reporting requirements of the SNWG project lifecycle.
