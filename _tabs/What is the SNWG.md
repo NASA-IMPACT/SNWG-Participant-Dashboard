@@ -1,5 +1,6 @@
 ---
 # the default layout is 'page'
+layout: post
 icon: fas fa-users
 title: What is the SNWG
 order: 1
