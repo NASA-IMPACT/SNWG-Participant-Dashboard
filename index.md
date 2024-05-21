@@ -24,7 +24,7 @@ toc: true
 
 # <center>Welcome to the Satellite Needs Working Group Management Office!</center>
 
-## What do we Produce?
+## What do we produce?
 
 The SNWG MO helps various agencies produce **EOSDIS Standard Products**[^1]
 +
@@ -35,29 +35,29 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 
 ## Who are we?
 
-### SNWG Implementation Contacts 
+### SNWG Implementation 
 
 | Role                             | Name                                                              |
 | :------------------------------- | :---------------------------------------------------------------- |
 | SNWG Program Manager             | [Natasha Sadoff](mailto:natasha.sadoff@nasa.gov)                  |
 | SNWG MO Project Manager          | [Sean Gregory](mailto:sean.p.gregory@nasa.gov)                    |
-| SNWG MO Project Scientist        | [Pontus Olofsson](mailto:pontus.p.olofsson@nasa.gov)              |
+| SNWG MO Project Scientist        | [Pontus Olofsson](mailto:pontus.olofsson@nasa.gov)                |
 | SNWG MO Deputy Project Manager   | [Eric Taylor](mailto:eric.s.taylor@nasa.gov)                      |
-| SNWG MO Deputy Project Scientist | Katrina Virts                                                     |
-| SNWG MO Systems Engineer         | Jenny Wood                                                        |
+| SNWG MO Deputy Project Scientist | [Katrina Virts](mailto:katrina.s.virts@nasa.gov)                  |
+| SNWG MO Systems Engineer         | [Jenny Wood](jenny.m.wood@nasa.gov)                               |
 | SNWG MO Project Coordinator      | [Cherrelle Tucker](mailto:cherrelle.j.tucker@nasa.gov)            |
 
-### SNWG Assessment Contacts
+### SNWG Assessment
 
-| Role                               | Name             |
-| :--------------------------------- | :--------------- |
-| Assessment Lead                    | Katrina Virts    |
-| Position 2                         | Name 2           |
-| Position 3                         | Name 3           |
-| Position 4                         | Name 4           |
-| Position 5                         | Name 5           |
+| Role                               | Name                                            |
+| :--------------------------------- | :---------------------------------------------- |
+| Assessment Lead                    | Katrina Virts](mailto:katrina.s.virts@nasa.gov) |
+| Position 2                         | Name 2                                          |
+| Position 3                         | Name 3                                          |
+| Position 4                         | Name 4                                          |
+| Position 5                         | Name 5                                          |
 
-### SNWG Stakeholder Engagement Contacts
+### SNWG Stakeholder Engagement
 
 | Role                               | Name             |
 | :--------------------------------- | :--------------- |
@@ -68,6 +68,17 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 | Project Coordinator                | Cherrelle Tucker |
 
 
+What are our previous products?
+| Cycle 1 (2016)                           | Cycle 2 (2018)                                                          | Cycle 3 (2020)           |
+| :--------------------------------------- | :---------------------------------------------------------------------- | :----------------------- | 
+| ADMG - _CASEI_[^2]                       | Low Latency Freeboard & Ice Thickness Products over the Great Lakes[^3] | Air Quality Products     | 
+| Data Curation for Discovery              | Internet of Animals                                                     | Planetary Boundary Layer |
+| Harmonized Landsat-Sentinel-2[^4]        | Global Surface Water Extent (DSWx)                                      | HLS-Vegetation Indices   |
+| Commercial Smallsat Data Acquisition[^5] | Global Land Surface Disturbance and Change Detection (DIST)             | TEMPO NRT                |
+|                                          | Land Surface Deformation for North America and U.S. Territories (DISP)  |                          |
+|                                          | Water Quality Products                                                  |                          |
+
+
 ## Site Purpose
 The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
 
@@ -75,7 +86,10 @@ The focus of this site is on providing a simplified version of information to pr
 The intended audience for this site is the Solution Project Team as they progress through the various document developments, decision gates, and reporting requirements of the SNWG project lifecycle.
 
 [^1]: [https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
-[^2]: 2nd footnote
+[^2]: [https://impact.earthdata.nasa.gov/casei/](https://impact.earthdata.nasa.gov/casei/)
+[^3]: [https://nsidc.org/data/atl10ql/versions/6](https://nsidc.org/data/atl10ql/versions/6)
+[^4]: HLS link
+[^5]: [https://www.earthdata.nasa.gov/esds/csda](https://www.earthdata.nasa.gov/esds/csda)
 
 [^10]
 [^11]
