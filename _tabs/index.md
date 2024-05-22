@@ -1,6 +1,7 @@
 ---
 ## title: Home
 layout: page
+order: 1
 # Index page
 permalink: /
 toc: true
