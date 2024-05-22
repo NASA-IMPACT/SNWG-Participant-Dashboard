@@ -1,11 +1,11 @@
 ---
-
 ## title: 'Part 2: Implementation'
 
 layout: post
 icon: fas fa-users-gear
 order: 5
 toc: true
+---
 
 ![dark mode only](assets/DarkModeImplementationGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 ![light mode only](assets/LightModeImplementationGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
