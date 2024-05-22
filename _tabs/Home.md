@@ -1,5 +1,5 @@
 ---
-# index page
+
 title: Home
 layout: post
 order: 1
