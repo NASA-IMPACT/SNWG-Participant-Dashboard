@@ -1,5 +1,5 @@
 ---
-## title: Home
+title: Home
 layout: page
 order: 1
 permalink: /
@@ -18,9 +18,9 @@ panel_includes:
 The SNWG MO helps various agencies produce **EOSDIS Standard Products**[^1]
 EOS Standard Products are internally consistent, well-calibrated records of observations of the Earth's geophysical properties. They are identified and defined by EOS investigators who have been selected through a competitive peer review process to develop algorithms and software for generating products from EOS observations.
 
-* *Products* contain geophysical parameters and can be used for science research and application.
-* *Standard* products are validated, QA and fully documented.
-* A *standard product file* may require companion/support files to make data usable or to satisfy policy requirements. Examples include geolocation data files, browse image data, calibration and validation, higher-resolution data undergoing validation, and data quality metrics.
+- *Products* contain geophysical parameters and can be used for science research and application.
+- *Standard* products are validated, QA and fully documented.
+- A *standard product file* may require companion/support files to make data usable or to satisfy policy requirements. Examples include geolocation data files, browse image data, calibration and validation, higher-resolution data undergoing validation, and data quality metrics.
 
 ## What are our previous products?
 
