@@ -1,7 +1,7 @@
 ---
 layout: post
 icon: fas fa-book-bookmark
-order: 9
+order: 8
 toc: true
 ---
 ## Glossary 
