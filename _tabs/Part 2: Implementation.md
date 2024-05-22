@@ -48,8 +48,6 @@ Key parts of the SNWG MO Program Plan for the purposes of the Project Implementa
 | 3.2 Project Requirements | 3.3 Strategy for Technology Transition |
 | 4.1 Risk Management Strategy | 3.4 Project Reviews |
 | 4.2.1 Open Science Data Management Plan | 4.3 Tailoring Approach |
-| SNWG MO Systems Engineer |  |
-| SNWG MO Project Coordinator |  |
 
 ## Decision Gates
 
@@ -63,34 +61,34 @@ The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inita
 
 *The pre-formulation phase of a solution project starts after NASA learns about proposed SNWG activities in OMB’s funding request. Projects begin at this stage, but budget and scope adjustments can still be made until NASA receives and distributes funds (at the start of the fiscal year) and the project enters the formulation phase. Initiating solution projects at this stage allows pre-formulation activities to be carried out so that funds can be distributed to solution projects as soon as possible.*
 
-- What you need to do before the ATP DG:
-    - Complete your preliminary Project Plan, which includes:
-        - [x] Notional OSS Objectives (How will your project adhere to Open Source Science principles during Solution Product development and operation?)
-        - [x] Notional SEP Plan (How will your project promote stakeholder engagemenet throughout the Solution Product development and operation?)
-        - [x] Outline your management approach (Team structure, partnerships, acquisition strategy, Milestone reviews Tip: Refer to team members by their ROLE thoughout the plan. Define the names associated with the role in a chart in supporting sections.)
-        - [x] Notional schedule (Tip: Use ranges and relative times, not exact dates i.e. "2 months after project signing" "2 years after project Implementation start" Do keep in mind the limitations of final funding dates.)
-        - [x] Resource requirements
-            - Project L1
-            - PLR Compliance matrix
-        - [x] Solution Product Transition or Dissemination approach (Firm handoff plans are not required. Do include preliminary suppositions and potential handoff agencies or partners to be investigated throughout the Project lifecycle and borne to fruition by Project Closeout.)
-        - [x] Risk Management Strategy
-        - [x] Applicable Control Plans
-            - Required:
-                - Notional Open Source Data Management Plan (OSDMP)
-            - As needed and customized for the scope of the Project:
-                - CM Plan (internal note: what is CM?)
-                - System Security Plan
-                - Risk Development Plan
-        - [x] Notice to the SNWG MO of any external funding sources necessary for project success
+- What you need to do before the ATP DG: Complete your preliminary Project Plan. This includes:
+    - [x] Notional OSS Objectives (How will your project adhere to Open Source Science principles during Solution Product development and operation?)
+    - [x] Notional SEP Plan (How will your project promote stakeholder engagemenet throughout the Solution Product development and operation?)
+    - [x] Outline your management approach (Team structure, partnerships, acquisition strategy, Milestone reviews Tip: Refer to team members by their ROLE thoughout the plan. Define the names associated with the role in a chart in supporting sections.)
+    - [x] Notional schedule (Tip: Use ranges and relative times, not exact dates i.e. "2 months after project signing" "2 years after project Implementation start" Do keep in mind the limitations of final funding dates.)
+    - [x] Resource requirements
+        - Project L1
+        - PLR Compliance matrix
+    - [x] Solution Product Transition or Dissemination approach (Firm handoff plans are not required. Do include preliminary suppositions and potential handoff agencies or partners to be investigated throughout the Project lifecycle and borne to fruition by Project Closeout.)
+    - [x] Risk Management Strategy
+    - [x] Applicable Control Plans
+        - Required:
+            - Notional Open Source Data Management Plan (OSDMP)
+        - As needed and customized for the scope of the Project:
+            - CM Plan (internal note: what is CM?)
+            - System Security Plan
+            - Risk Development Plan
+    - [x] Notice to the SNWG MO of any external funding sources necessary for project success
 <br>
 - What you need to do during
-    - [x] The Project Implementation Team presents the goals and status of their project \~15 - 20 mintues
-    - [x] The SNWG MO leads a walkthrough of the Implementation-prepared preliminary Project Plan. Your team will address any questions and make note of actions to be taken to address any concerns about the Project Plan.
+    - [x] The Project Implementation Team presents the goals and status of their project for about 15 - 20 mintues
+    - [x] The SNWG MO leads a walkthrough of the prepared Preliminary Project Plan. Your team will address any questions and make note of actions to be taken to address any concerns about the Project Plan.
 <br>
 - What you need to do after
     - [x] Complete any outstanding action identified as blockers to signing the ATP DG Memorandum.
 <br>
-- Ultimate result: The Solution Project is authorized to proceed to the Project Formulation stage where the finer details of developing the Solution Product will be documented, the contractual agreement between NASA and the contracting Project organization is foramlized.
+- **Ultimate result:** The Solution Project is authorized to proceed to the Project Formulation stage where the finer details of developing the Solution Product will be documented, the contractual agreement between NASA and the contracting Project organization is foramlized.
+<br>
 
 ### Formulation to Implementation
 
@@ -99,6 +97,8 @@ The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inita
 - What you need to do before
 - What you need to do during
 - What you need to do after
+- **Ultimate result:** The Solution Project is  authorized by a Formulation to Implementation DG Decision Memorandum to move into the Project Implementation Phase, signifying that all due planning, funding, and contractual portions of the Project are within accepted paremeters and do not demonstrate risk to the Solution Product development. 
+<br>
 
 ### Implementation to Operations
 
