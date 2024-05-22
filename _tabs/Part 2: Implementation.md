@@ -48,12 +48,14 @@ Key parts of the SNWG MO Program Plan for the purposes of the Project Implementa
 
 ## Decision Gates
 ### What are they and why do we have them?
-Each decision gate ensures that the project has properly investigated and developed the development, budgeting, and documentation appraoch required to move to the next phase in the project lifecycel for maximum return of value to both the funding sources of the project and the end user of Solution Product. 
+Each decision gate ensures that the project has properly investigated and developed the development, budgeting, and documentation appraoch required to move to the next phase in the project lifecycle for maximum return of value to both the funding sources of the project and the end user of Solution Product. 
 
 ### Authority to Proceed
-The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inital project documentation to determine the solution project’s readiness to proceed to Formulation and document the decision. (SNWG MO Program Plan 12.2.1.6)
+The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inital project documentation to determine the solution project’s readiness to proceed from Pre-Formulation to Formulation and document the decision. (SNWG MO Program Plan 12.2.1.6)
 
-- What you need to do before
+_The pre-formulation phase of a solution project starts after NASA learns about proposed SNWG activities in OMB’s funding request. Projects begin at this stage, but budget and scope adjustments can still be made until NASA receives and distributes funds (at the start of the fiscal year) and the project enters the formulation phase. Initiating solution projects at this stage allows pre-formulation activities to be carried out so that funds can be distributed to solution projects as soon as possible._
+
+- What you need to do before the ATP DG:
     - Complete your preliminary Project Plan, which includes:
         - [X] Notional OSS Objectives (How will your project adhere to Open Source Science principles during Solution Product development and operation?)
         - [X] Notional SEP Plan (How will your project promote stakeholder engagemenet throughout the Solution Product development and operation?)
@@ -80,14 +82,19 @@ The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inita
 - What you need to do after
     - Complete any outstanding action identified as blockers to signing the ATP DG Memorandum.
 
-- Ultimate result: The Solution Project is authorized to proceed to the Project Formulation stage where the finer details of developing the Solution Product will be documented, the contractual agreement between NASA and the contracting Project organization is foramlized, 
+- Ultimate result: The Solution Project is authorized to proceed to the Project Formulation stage where the finer details of developing the Solution Product will be documented, the contractual agreement between NASA and the contracting Project organization is foramlized.
 
 ### Formulation to Implementation
+
+_After a successful ATP DG review and the establishment of a contract between the SNWG MO and the solution project, the formulation phase begins. This phase involves detailed planning for the implementation phase, including developing project control plans, finalizing the Project Plan, and establishing necessary agreements. Note that sometimes the formulation phase is brief, lasting just long enough to prepare for the Formulation to Implementation Decision Gate (DG)._
+
 - What you need to do before
 - What you need to do during
 - What you need to do after
 
 ### Implementation to Operations 
+_After a successful Formulation to Implementation DG review, the project enters the implementation phase. Here, the planned activities are carried out as described in the Project Plan, following the scheduled costs and timelines. Periodic reviews and milestone assessments are conducted as outlined in the Project Plan. The implementation phase concludes either by moving into the operational phase or, for projects without an operational phase, by completing closeout activities like archiving data/information and undergoing a Project Closeout DG review._
+
 - What you need to do before
 - What you need to do during
 - What you need to do after
