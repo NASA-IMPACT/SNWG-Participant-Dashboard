@@ -6,30 +6,34 @@ order: 5
 toc: true
 ---
 
-Define Stakeholer:
+Define Stakeholder:
 
-Who is a stakeholder for an SNWG project?
+Who is a primary stakeholder for an SNWG Project?
+- Funding sources, OMB, government, DAAC
 
-Who is a stakeholder for the product produced by the SNWG project? 
+Who is a stakeholder for the Product produced by the SNWG project? 
+- data scientists, requesting agencies
 <br>
 
-
 ## Assessment phase
-- Who we talk to
-A bunch of agencies. They go to another school. You wouldn't know them
+- Who we talk to:
+A bunch of Federal agencies. They go to another school. You wouldn't know them.
 
-- What we want to know
-What's the satellite data you want but don't have
+- What we want to know:
+    - Modify: Is there satellite data that exists that _could_ work for you, but also could be better for you with some modifications?
+    - Enhance: Is there satellite data that exists but doesn't go far enough to actually be useful for you?
+    - Create: Is there satellite data that does not exists, but that you would like to see?
+    - Access: Is there satellite data that exists that you need help accessing?
 <br>
 
 ## Implementation phase
-- Who we talk to
-People who submitted surveys in the Assessment phase
+- Who we talk to:
+People who submitted surveys in the Assessment phase for the chosen Solution Products.
 
-- What we want to know
+- What we want to know:
 This product is getting made. What do you want most to see it do? 
 
-- How we engage 
+- How we engage: 
 SPoRT partnership, trainings, workshops
 
 **User Impact Stories during Implementation**
@@ -39,10 +43,12 @@ _Detail: how do we get impact stories when the Product isn't complete and in use
 
 ## Operations phase
 - Who we talk to
-End users in the federal agencies
+    - People who submitted surveys in the Assessment phase for the chosen Solution Products.
+    - Active users of the Operational Product. 
 
 - What we want to know
-Will you use our product? 
+    - Will you use our product? Please?  
+    - If you aren't using it, why not?
 
 - How we engage 
 Trainings, workshops, press releases
@@ -65,9 +71,4 @@ Keeping it real
 > For detailed info on Open Source Science, see [https://cherrelletucker.github.io/Open-Source-Science/](https://cherrelletucker.github.io/Open-Source-Science/).
 {: .prompt-info }
 
-> An example showing the `warning` type prompt.
-{: .prompt-warning }
-
-> An example showing the `danger` type prompt.
-{: .prompt-danger }
 <!-- markdownlint-restore -->
