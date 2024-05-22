@@ -112,9 +112,9 @@ _After a successful ATP DG review and the establishment of a contract between th
 
 - [X] Finalize the Solution Project Plan (or equivalent documentation)
 - [x] Demonstrated completion of contractual agreement with the SNWG MO
-- [x] Complete any other needed project agreements as applicable
-    - Inter-Agency Agreement (IAA)
-    - Interface Control Document(ICD) with DAAC (including finalized data Product name)
+- [x] Complete any other needed project agreements as applicable:
+    - - Inter-Agency Agreement (IAA)
+    - - Interface Control Document(ICD) with DAAC (including finalized data Product name)
 
 **What you need to do during**
 - [x] The Project Implementation Team presents the goals and status of their project for about 15 - 20 mintues
