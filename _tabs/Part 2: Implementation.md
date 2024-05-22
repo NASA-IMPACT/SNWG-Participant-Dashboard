@@ -2,7 +2,7 @@
 title: 'Part 2: Implementation'
 layout: post
 icon: fas fa-users-gear
-order: 5
+order: 4
 toc: true
 ---
 

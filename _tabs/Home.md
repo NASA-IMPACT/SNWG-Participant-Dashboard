@@ -1,8 +1,7 @@
 ---
-
 title: Home
 layout: post
-order: 1
+
 permalink: /
 toc: true
 ---
@@ -79,7 +78,7 @@ Linked Table
 | Position 4 | Name 4 |
 | Project Coordinator | [Cherrelle Tucker](mailto:cherrelle.j.tucker@nasa.gov) |
 
-###Let's Get Started!
+### Let's Get Started!
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->

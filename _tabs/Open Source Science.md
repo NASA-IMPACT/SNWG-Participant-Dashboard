@@ -2,7 +2,7 @@
 layout: post
 icon: fas fa-atom
 title: Open Source Science
-order: 7
+order: 6
 toc: true
 ---
 

@@ -2,7 +2,7 @@
 title: 'Part 3: Stakeholder Engagement'
 layout: post
 icon: fas fa-comments
-order: 6
+order: 5
 toc: true
 ---
 
