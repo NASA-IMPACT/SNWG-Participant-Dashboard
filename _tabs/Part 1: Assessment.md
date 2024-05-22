@@ -9,7 +9,7 @@ If you have been pointed to this website, you have most likely been chosen to pr
 
 ![dark mode only](assets/DarkModeAssessmentGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 ![light mode only](assets/LightModeAssessmentGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
-_The initial SNWG Project Assessment lifecycle._
+_The initial SNWG Project Assessment lifecycle. Dates are subject to change each cycle._
 
 ****This section needs careful review. What information can be public?****
 

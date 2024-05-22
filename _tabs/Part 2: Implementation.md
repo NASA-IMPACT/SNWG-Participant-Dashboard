@@ -139,8 +139,14 @@ Operational Readiness Review - _Do most projects have this?_
 
 ## Co-design/Co-production in the Implementation Phase
 
-- what is expected of the Project team
-- what is expected of the Stakeholders
+**What is expected of the Project team**
+<br>
+
+**What is expected of the Project Stakeholders**
+<br>
+
+**What is expected of the Product Stakeholders**
+<br>
 
 ## Open Source Science (OSS) in the Implementation Phase
 
