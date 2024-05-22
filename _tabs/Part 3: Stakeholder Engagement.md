@@ -44,5 +44,23 @@ Will you use our product?
 Trainings, workshops, press releases
 <br>
 
+## SNWG MO Collaboration with Short-term Prediction Research and Transition Center (SPoRT)
+- Who is SPoRT?
+- Why do we work with SPoRT?
+- What does SPoRT do for you? 
+
 ## Open Source Science in Stakeholder Engagement
 Keeping it real
+
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
+
+> For detailed info on Open Source Science, see [https://cherrelletucker.github.io/Open-Source-Science/](https://cherrelletucker.github.io/Open-Source-Science/).
+{: .prompt-info }
+
+> An example showing the `warning` type prompt.
+{: .prompt-warning }
+
+> An example showing the `danger` type prompt.
+{: .prompt-danger }
+<!-- markdownlint-restore -->

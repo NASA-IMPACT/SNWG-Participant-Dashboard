@@ -103,13 +103,13 @@ _How will your project promote stakeholder engagemenet throughout the Solution P
 
 _After a successful ATP DG review and the establishment of a contract between the SNWG MO and the solution project, the formulation phase begins. This phase involves detailed planning for the implementation phase, including developing project control plans, finalizing the Project Plan, and establishing necessary agreements. Note that sometimes the formulation phase is brief, lasting just long enough to prepare for the Formulation to Implementation Decision Gate (DG)._
 
-- **What you need to do before**
+**What you need to do before**
 <br>
 
-- **What you need to do during**
+**What you need to do during**
 <br>
 
-- **What you need to do after**
+**What you need to do after**
 <br>
 
 - **Ultimate result:** The Solution Project is  authorized by a Formulation to Implementation DG Decision Memorandum to move into the Project Implementation Phase, signifying that all due planning, funding, and contractual portions of the Project are within accepted paremeters and do not demonstrate risk to the Solution Product development. 
@@ -125,8 +125,17 @@ _After a successful ATP DG review and the establishment of a contract between th
 **What you need to do during**
 <br>
 
+Operational Readiness Review - _Do most projects have this?_ 
+
 **What you need to do after**
 <br>
+
+## Project Closeout Decision Gate
+
+**Project Handoff**
+<br>
+
+**Project Closeout and Defunding**
 
 ## Co-design/Co-production in the Implementation Phase
 
