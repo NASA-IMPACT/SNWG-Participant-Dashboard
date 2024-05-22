@@ -13,8 +13,21 @@ toc: true
 
 <!-- markdownlint-restore -->
 
+## What is Open Source Science?
+“Open Science is the principle and practice of making research products and processes available to all, while respecting diverse cultures, maintaining security and privacy, and fostering collaborations, reproducibility, and equity”.
+[The White House Office of Science and Technology Policy Memo, 2022 (adapted)](https://open.science.gov/)
+
+
 TOPS
 https://nasa.github.io/Transform-to-Open-Science/
+
+## Further Reading
+
+- [Memorandum Ensuring Free, Immediate, and Equitable Access to Federally Funded Research, 2022 Aug 25](https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-access-Memo.pdf)
+<br>
+
+- [Desirable Characteristics of Data Repositories for Federally Funded Research, 2022 May](https://repository.si.edu/bitstream/handle/10088/113528/Desirable%20Characteristics%20of%20Data%20Repositories.pdf)
+<br>
 
 [SNWG OSS Quick Win Strategy.pptx](https://docs.google.com/presentation/d/1Nk8whKqDxwkjko5W0T7l2Ed1kLpvuxQ-/edit?usp=sharing&ouid=106604293755679367477&rtpof=true&sd=true)
 

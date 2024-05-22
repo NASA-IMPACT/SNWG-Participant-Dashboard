@@ -57,7 +57,7 @@ _Detail: Getting user impact stories once Federal Agencies are using the Product
 
 <br>
 
-## SNWG MO Collaboration with Short-term Prediction Research and Transition Center (SPoRT)
+## SPoRT (Short-term Prediction Research and Transition Center) Collaboration
 - Who is SPoRT?
 - Why do we work with SPoRT?
 - What does SPoRT do for you? 
