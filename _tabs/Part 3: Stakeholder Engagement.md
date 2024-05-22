@@ -6,6 +6,8 @@ order: 5
 toc: true
 ---
 
+
+
 Define Stakeholder:
 
 Who is a primary stakeholder for an SNWG Project?
@@ -16,21 +18,21 @@ Who is a stakeholder for the Product produced by the SNWG project?
 <br>
 
 ## Assessment phase
-- Who we talk to:
+- **Who we talk to:**
 A bunch of Federal agencies. They go to another school. You wouldn't know them.
 
-- What we want to know:
+- **What we want to know:**
     - Modify or Enhance: Is there satellite data that already exists that does mostly work for you, but also could be better with some modifications or that exists but doesn't go far enough to actually be useful for you?
 
-    _Examples from previous cycles: HLS-VI_
+        _Example from previous cycles: HLS-VI_
 
     - Create: Is there satellite data that does not exist, but that you would like to see?
 
-    _Example from previous cycle: Planetary Boundary Layer_
+        _Example from previous cycle: Planetary Boundary Layer_
 
     - Access: Is there satellite data that exists that you need help accessing?
 
-    _Example from previous cycle: Commercial Satellite Data Acquisition_
+         _Example from previous cycle: Commercial Satellite Data Acquisition_
 <br>
 
 ## Implementation phase
