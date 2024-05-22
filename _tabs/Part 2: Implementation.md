@@ -1,4 +1,4 @@
-- - -
+---
 
 ## title: 'Part 2: Implementation'
 
