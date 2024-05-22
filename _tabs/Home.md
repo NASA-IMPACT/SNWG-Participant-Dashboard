@@ -87,7 +87,7 @@ Linked Table
 
 <!-- markdownlint-restore -->
 
-<!-- ## INTERNAL NOTE TO BE REMOVED BEFORE FINAL DEPLOYMENT
+<!-- ## INTERNAL NOTEs
 
 * GOAL
     * single location to provide relevant, brief information that answers FAQ that new implementation teams have had.
@@ -103,7 +103,8 @@ Linked Table
 * Site Purpose
 The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
 * Site Audience
-The intended audience for this site is the Solution Project Team as they progress through the various document developments, decision gates, and reporting requirements of the SNWG project lifecycle. -->
+The intended audience for this site is the Solution Project Team as they progress through the various document developments, decision gates, and reporting requirements of the SNWG project lifecycle.
+*Earth.gov info can go on this page or "Resources" -->
 
 --------------------------------------------------
 [^1]:[https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
