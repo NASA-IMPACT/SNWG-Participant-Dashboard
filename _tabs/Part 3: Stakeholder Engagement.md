@@ -6,7 +6,7 @@ order: 5
 toc: true
 ---
 
-![dark mode only](assets/DarkModeSEPGraphic){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+![dark mode only](assets/DarkModeSEPGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 ![light mode only](assets/LightModeSEPGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
 _Stakeholder Engagement throughout the cycles._
 
