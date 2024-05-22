@@ -11,11 +11,9 @@ _This graphic originated 2022ish and does need updating. Using for website draft
 
 <!-- markdownlint-disable-next-line -->
 <div align="center">
-
-    <!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable-next-line -->
 
 # Welcome to the Satellite Needs Working Group Management Office!
-
 </div>
 
 ## What do we produce?
