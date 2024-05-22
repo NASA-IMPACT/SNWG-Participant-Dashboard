@@ -113,10 +113,8 @@ _After a successful ATP DG review and the establishment of a contract between th
 - [X] Finalize the Solution Project Plan (or equivalent documentation)
 - [x] Demonstrated completion of contractual agreement with the SNWG MO
 - [x] Complete any other needed project agreements as applicable:
-<br>
-
-    - Inter-Agency Agreement (IAA)
-    - Interface Control Document(ICD) with DAAC (including finalized data Product name)
+- Inter-Agency Agreement (IAA)
+- Interface Control Document(ICD) with DAAC (including finalized data Product name)
 
 **What you need to do during:**
 <br>
@@ -126,8 +124,6 @@ _After a successful ATP DG review and the establishment of a contract between th
 <br>
 
 **What you need to do after:**
-<br>
-
 - [x] Complete any outstanding action identified as blockers to the signing of the F2I DG Memorandum.
 <br>
 
