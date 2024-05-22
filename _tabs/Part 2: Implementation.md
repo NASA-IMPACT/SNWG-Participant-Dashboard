@@ -127,7 +127,8 @@ _After a successful ATP DG review and the establishment of a contract between th
 - [x] Complete any outstanding action identified as blockers to the signing of the F2I DG Memorandum.
 <br>
 
-- **Ultimate result:** The Solution Project is  authorized by a Formulation to Implementation DG Decision Memorandum to move into the Project Implementation Phase, signifying that all due planning, funding, and contractual portions of the Project are within accepted paremeters and do not demonstrate risk to the Solution Product development. 
+**Ultimate result:** <br>
+The Solution Project is  authorized by a Formulation to Implementation DG Decision Memorandum to move into the Project Implementation Phase, signifying that all due planning, funding, and contractual portions of the Project are within accepted paremeters and do not demonstrate risk to the Solution Product development. 
 <br>
 
 ### Implementation to Operations Decision Gate (I2O DG)
