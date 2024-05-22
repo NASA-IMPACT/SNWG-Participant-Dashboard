@@ -19,10 +19,10 @@ _The Implementation Project Lifecycle_
 - Solution Closeout (MO action)
 
 ## The SNWG MO Program Plan
-The SNWG MO Program Plan should have been shared with you as a part of your "Welcome to the SNWG" package. The purpose of this document is to provide a framework and governance and framework to the operations of the Management Office throughout the Program and Project lifecycles. You may also click here for a [direct link to the SNWG MO Program Plan pdf](https://drive.google.com/file/d/1xe-rrKjwZZ7p0w39umL7nPdjCXmWwkUW/view?usp=sharing)
+The SNWG MO Program Plan should have been shared with you as a part of your "Welcome to the SNWG" package. The purpose of this document is to provide a framework and governance to the operations of the Management Office throughout the Program and Project lifecycles. You may also click here for a [direct link to the SNWG MO Program Plan pdf](https://drive.google.com/file/d/1xe-rrKjwZZ7p0w39umL7nPdjCXmWwkUW/view?usp=sharing)
 
 ### Why you care
-While the SNWG MO Program Plan governs the process and actions of the SNWG MO as a whole, several portions flow down to directly influence the Projects that the MO oversees. The entire document may not need to be read to understand the Office and the process. However, there are several key parts that directly influence the funding and ultimate success of your project. 
+While the SNWG MO Program Plan governs the overall process and actions of the SNWG MO, not all sections are relevant to our Projects. However, several key portions do directly impact the Projects overseen by the MO. It may not be necessary to read the entire document to understand the Office and its processes, but understanding these crucial parts is essential for the funding and ultimate success of your project.
 
 ### What parts matter to you? 
 Key parts of the SNWG MO Program Plan for the purposes of the Project Implementation Teams are:
@@ -55,23 +55,23 @@ The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inita
 
 - What you need to do before
     - Complete your preliminary Project Plan, which includes:
-        - Notional OSS Objectives (How will your project adhere to Open Source Science principles during Solution Product development and operation?)
-        - Notional SEP Plan (How will your project promote stakeholder engagemenet throughout the Solution Product development and operation?)
-        - Outline your management approach (Team structure, partnerships, acquisition strategy, Milestone reviews Tip: Refer to team members by their ROLE thoughout the plan. Define the names associated with the role in a chart in supporting sections.)
-        - Notional schedule (Tip: Use ranges and relative times, not exact dates i.e. "2 months after project signing" "2 years after project Implementation start" Do keep in mind the limitations of final funding dates.)
-        - Resource requirements
+        - [X] Notional OSS Objectives (How will your project adhere to Open Source Science principles during Solution Product development and operation?)
+        - [X] Notional SEP Plan (How will your project promote stakeholder engagemenet throughout the Solution Product development and operation?)
+        - [X] Outline your management approach (Team structure, partnerships, acquisition strategy, Milestone reviews Tip: Refer to team members by their ROLE thoughout the plan. Define the names associated with the role in a chart in supporting sections.)
+        - [X] Notional schedule (Tip: Use ranges and relative times, not exact dates i.e. "2 months after project signing" "2 years after project Implementation start" Do keep in mind the limitations of final funding dates.)
+        - [X] Resource requirements
             - Project L1 
             - PLR Compliance matrix
-        - Solution Product Transition or Dissemination approach (Firm handoff plans are not required. Do include preliminary suppositions and potential handoff agencies or partners to be investigated throughout the Project lifecycle and borne to fruition by Project Closeout.)
-        - Risk Management Strategy
-        - Applicable Control Plans
+        - [X] Solution Product Transition or Dissemination approach (Firm handoff plans are not required. Do include preliminary suppositions and potential handoff agencies or partners to be investigated throughout the Project lifecycle and borne to fruition by Project Closeout.)
+        - [X] Risk Management Strategy
+        - [X] Applicable Control Plans
             - Required: 
                 - Notional Open Source Data Management Plan (OSDMP)
             - As needed and customized for the scope of the Project: 
                 - CM Plan (internal note: what is CM?)
                 - System Security Plan
                 - Risk Development Plan
-        - Notice to the SNWG MO of any external funding sources necessary for project success
+        - [X] Notice to the SNWG MO of any external funding sources necessary for project success
 
 - What you need to do during
     - The Project Implementation Team presents the goals and status of their project  ~15 - 20 mintues

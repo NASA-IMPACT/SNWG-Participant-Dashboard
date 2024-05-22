@@ -4,6 +4,8 @@ layout: page
 # Index page
 permalink: /
 toc: true
+panel_includes:
+  - toc
 ---
 
 ![dark mode only](assets/DarkModeMissionsGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1275' h='668' }
