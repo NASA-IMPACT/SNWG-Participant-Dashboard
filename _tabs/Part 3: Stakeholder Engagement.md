@@ -31,6 +31,10 @@ This product is getting made. What do you want most to see it do?
 
 - How we engage 
 SPoRT partnership, trainings, workshops
+
+**User Impact Stories during Implementation**
+_Detail: how do we get impact stories when the Product isn't complete and in use by Federal agencies and private users_
+
 <br>
 
 ## Operations phase
@@ -42,6 +46,9 @@ Will you use our product?
 
 - How we engage 
 Trainings, workshops, press releases
+
+_Detail: Getting user impact stories once Federal Agencies are using the Product_
+
 <br>
 
 ## SNWG MO Collaboration with Short-term Prediction Research and Transition Center (SPoRT)
