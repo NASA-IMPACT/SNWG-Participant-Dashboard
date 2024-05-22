@@ -62,14 +62,16 @@ The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inita
 *The pre-formulation phase of a solution project starts after NASA learns about proposed SNWG activities in OMB’s funding request. Projects begin at this stage, but budget and scope adjustments can still be made until NASA receives and distributes funds (at the start of the fiscal year) and the project enters the formulation phase. Initiating solution projects at this stage allows pre-formulation activities to be carried out so that funds can be distributed to solution projects as soon as possible.*
 
 **What you need to do before the ATP DG:** Complete your preliminary Project Plan. This includes:
-- [x] Notional OSS Objectives (How will your project adhere to Open Source Science principles during Solution Product development and operation?)
-- [x] Notional SEP Plan (How will your project promote stakeholder engagemenet throughout the Solution Product development and operation?)
-- [x] Outline your management approach (Team structure, partnerships, acquisition strategy, Milestone reviews Tip: Refer to team members by their ROLE thoughout the plan. Define the names associated with the role in a chart in supporting sections.)
-- [x] Notional schedule (Tip: Use ranges and relative times, not exact dates i.e. "2 months after project signing" "2 years after project Implementation start" Do keep in mind the limitations of final funding dates.)
+- [x] Notional OSS Objectives 
+_How will your project adhere to Open Source Science principles during Solution Product development and operation?_
+- [x] Notional SEP Plan 
+_How will your project promote stakeholder engagemenet throughout the Solution Product development and operation?_
+- [x] Outline your management approach _Team structure, partnerships, acquisition strategy, Milestone reviews Tip: Refer to team members by their ROLE thoughout the plan. Define the names associated with the role in a chart in supporting sections._
+- [x] Notional schedule _Tip: Use ranges and relative times, not exact dates i.e. "2 months after project signing" "2 years after project Implementation start" Do keep in mind the limitations of final funding dates._
 - [x] Resource requirements
     - Project L1
     - PLR Compliance matrix
-- [x] Solution Product Transition or Dissemination approach (Firm handoff plans are not required. Do include preliminary suppositions and potential handoff agencies or partners to be investigated throughout the Project lifecycle and borne to fruition by Project Closeout.)
+- [x] Solution Product Transition or Dissemination approach _Firm handoff plans are not required. Do include preliminary suppositions and potential handoff agencies or partners to be investigated throughout the Project lifecycle and borne to fruition by Project Closeout._
 - [x] Risk Management Strategy
 - [x] Applicable Control Plans
     - Required:
