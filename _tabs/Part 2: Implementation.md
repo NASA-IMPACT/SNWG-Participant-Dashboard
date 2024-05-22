@@ -55,9 +55,9 @@ It is a frequent occurence that Implementation Teams have prioviously provided d
 
 ## Decision Gates
 
-**What are they and why do we have them?**
+What are they and why do we have them?
 
-_Each decision gate ensures that the project has properly investigated and developed the process, budgeting, and documentation approach required to move to the next phase in the project lifecycle for maximum return of value to both the funding sources of the project and the end user of Solution Product._
+Each Decision Gate ensures that the Project has properly investigated and developed the approach, budgeting, and documentation required to move to the next phase in the Project lifecycle for maximum return of value to both the funding sources of the Project and the end user of Solution Product.
 
 ### Authority to Proceed Decision Gate (ATP DG)
 
