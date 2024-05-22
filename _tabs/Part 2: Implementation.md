@@ -55,7 +55,7 @@ It is a frequent occurence that Implementation Teams have prioviously provided d
 
 ## Decision Gates
 
-What are they and why do we have them?
+**What are they and why do we have them?**
 
 Each Decision Gate ensures that the Project has properly investigated and developed the approach, budgeting, and documentation required to move to the next phase in the Project lifecycle for maximum return of value to both the funding sources of the Project and the end user of Solution Product.
 
@@ -103,6 +103,8 @@ _Firm handoff plans are not required. Do include preliminary suppositions and po
 **Ultimate result:** The Solution Project is authorized to proceed to the Project Formulation stage where the finer details of developing the Solution Product will be documented, the contractual agreement between NASA and the contracting Project organization is foramlized.
 <br>
 
+--------------------------------------------------------
+
 ### Formulation to Implementation Decision Gate (F2I DG)
 
 _After a successful ATP DG review and the establishment of a contract between the SNWG MO and the solution project, the Formulation phase begins. This phase involves detailed planning for the implementation phase, including developing project control plans, finalizing the Project Plan, and establishing necessary agreements. Note that sometimes the formulation phase is brief, lasting just long enough to prepare for the Formulation to Implementation Decision Gate (DG)._
@@ -130,6 +132,8 @@ _After a successful ATP DG review and the establishment of a contract between th
 **Ultimate result:** <br>
 The Solution Project is authorized by a Formulation to Implementation DG Decision Memorandum to move into the Project Implementation Phase, signifying that all due planning, funding, and contractual portions of the Project are within accepted paremeters and do not demonstrate risk to the Solution Product development. 
 <br>
+
+---------------------------------------------------
 
 ### Operational Readiness Review (ORR)
 
@@ -166,6 +170,8 @@ _After a successful Formulation to Implementation DG review, the project enters 
 **Ultimate result** <br>
 The Solution Project is authorized by an Operational Readiness Review Decision Memorandum to move into the Project Operations Phase, signifying that the Solution Project is ready to move into the Operations phase, that the Solution Product itself is Operational, and that a plan is in place to support the Solution Product through the remainder of its lifecycle.
 
+----------------------------------------------------------------
+
 ### Project Closeout Decision Gate
 
 _Upon a successful Operational Readiness Review, the project enters the Operations phase. During the operational phase, reviews called Continuation Assessments (CAs) may determine the next steps, like transferring operations, ending the project, or continuing as planned. When a project finishes its Operational phase or transfers its operations, a Project Closeout DG review is scheduled. The Project Closeout DG occurs when the solution project_ 
@@ -193,10 +199,7 @@ _Upon its completion, a Project is either **fully defunded** or **fully transiti
 
 - [x] report new technologies derived as part of the solution project to the appropriate Center Technology Transfer Office in a timely manner in accordance with [NPR 7500.2](https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7500_002A_&page_name=main) to be considered for intellectual property protection and transfer for secondary applications.
 
-**Project Handoff**
-<br>
-
-**Project Closeout and Defunding**
+----------------------------------------------------------------------------
 
 ## Co-design/Co-production in the Implementation Phase
 
