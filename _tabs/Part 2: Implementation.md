@@ -35,16 +35,19 @@ Key parts of the SNWG MO Program Plan for the purposes of the Project Implementa
 - 5.1.2 Requirements on the SNWG Solution Projects
 - 6.2 Solution Project Implementation Collaborations
 - 6.3 SNWG MO SEP Collaborations
-- 12.2 Solution Project Lifecycle
+- **12.2 Solution Project Lifecycle**
 
 ## Your Solution Project Plan
 
 [Link to Template](https://docs.google.com/document/d/1hfbKXOta7htTs1RDtvpAXxBwu6QxuqnndGXOMkyM-UQ/edit)
 
+It is a frequent occurence that Implementation Teams have prioviously provided documentation to the MO. In that case, we will often transfer that information to a Preliminary Project Plan for further completion and review by the Implementation Project Team. 
+
 | You fill out | We fill out |
 | :----------- | :---------- |
 | 2.3 Project Schedule/ Key Project Level Milestones | 2.5 Budget and Acquisition Approach |
 | 2.4 Project Resources and Annual Cost Estimate | 3.2.1 PLR Compliance Matrix |
+| 3.2.1 PLR Compliance Matrix | 3.2.1 PLR Compliance Matrix |
 | 3.2 Project Requirements | 3.3 Strategy for Technology Transition |
 | 4.1 Risk Management Strategy | 3.4 Project Reviews |
 | 4.2.1 Open Science Data Management Plan | 4.3 Tailoring Approach |
@@ -100,9 +103,15 @@ _How will your project promote stakeholder engagemenet throughout the Solution P
 
 _After a successful ATP DG review and the establishment of a contract between the SNWG MO and the solution project, the formulation phase begins. This phase involves detailed planning for the implementation phase, including developing project control plans, finalizing the Project Plan, and establishing necessary agreements. Note that sometimes the formulation phase is brief, lasting just long enough to prepare for the Formulation to Implementation Decision Gate (DG)._
 
-- What you need to do before
-- What you need to do during
-- What you need to do after
+- **What you need to do before**
+<br>
+
+- **What you need to do during**
+<br>
+
+- **What you need to do after**
+<br>
+
 - **Ultimate result:** The Solution Project is  authorized by a Formulation to Implementation DG Decision Memorandum to move into the Project Implementation Phase, signifying that all due planning, funding, and contractual portions of the Project are within accepted paremeters and do not demonstrate risk to the Solution Product development. 
 <br>
 
@@ -110,9 +119,14 @@ _After a successful ATP DG review and the establishment of a contract between th
 
 *After a successful Formulation to Implementation DG review, the project enters the implementation phase. Here, the planned activities are carried out as described in the Project Plan, following the scheduled costs and timelines. Periodic reviews and milestone assessments are conducted as outlined in the Project Plan. The implementation phase concludes either by moving into the operational phase or, for projects without an operational phase, by completing closeout activities like archiving data/information and undergoing a Project Closeout DG review.*
 
-- What you need to do before
-- What you need to do during
-- What you need to do after
+**What you need to do before**
+<br>
+
+**What you need to do during**
+<br>
+
+**What you need to do after**
+<br>
 
 ## Co-design/Co-production in the Implementation Phase
 
