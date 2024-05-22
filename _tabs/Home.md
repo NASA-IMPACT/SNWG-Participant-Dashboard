@@ -9,9 +9,13 @@ toc: true
 ![light mode only](assets/LightModeMissionsGraphic.png){: .light .w-75 .shadow .rounded-10 w='1275' h='668' }
 _This graphic originated 2022ish and does need updating. Using for website draft development purposes only_
 
+<!-- markdownlint-disable-next-line -->
 <div align="center">
 
-## Welcome to the Satellite Needs Working Group Management Office!
+  <!-- markdownlint-disable-next-line -->
+
+# Welcome to the Satellite Needs Working Group Management Office!
+
 </div>
 
 ## What do we produce?
