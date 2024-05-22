@@ -57,7 +57,7 @@ It is a frequent occurence that Implementation Teams have prioviously provided d
 
 ### What are they and why do we have them?
 
-Each decision gate ensures that the project has properly investigated and developed the development, budgeting, and documentation appraoch required to move to the next phase in the project lifecycle for maximum return of value to both the funding sources of the project and the end user of Solution Product.
+Each decision gate ensures that the project has properly investigated and developed the process, budgeting, and documentation approach required to move to the next phase in the project lifecycle for maximum return of value to both the funding sources of the project and the end user of Solution Product.
 
 ### Authority to Proceed Decision Gate (ATP DG)
 
@@ -113,15 +113,15 @@ _After a successful ATP DG review and the establishment of a contract between th
 - [X] Finalize the Solution Project Plan (or equivalent documentation)
 - [x] Demonstrated completion of contractual agreement with the SNWG MO
 - [x] Complete any other needed project agreements as applicable:
-    - - Inter-Agency Agreement (IAA)
-    - - Interface Control Document(ICD) with DAAC (including finalized data Product name)
+    * Inter-Agency Agreement (IAA)
+    * Interface Control Document(ICD) with DAAC (including finalized data Product name)
 
-**What you need to do during**
+**What you need to do during:**
 - [x] The Project Implementation Team presents the goals and status of their project for about 15 - 20 mintues
 - [x] The SNWG MO leads a walkthrough of the prepared Project Plan. Your team will address any questions and make note of actions to be taken to address any concerns about the Project Plan.
 <br>
 
-**What you need to do after**
+**What you need to do after:**
 - [x] Complete any outstanding action identified as blockers to the signing of the F2I DG Memorandum.
 <br>
 
@@ -132,15 +132,15 @@ _After a successful ATP DG review and the establishment of a contract between th
 
 *After a successful Formulation to Implementation DG review, the project enters the Implementation phase. Here, the planned activities are carried out as described in the Project Plan, following the scheduled costs and timelines. Periodic reviews and milestone assessments are conducted as outlined in the Project Plan. The Implementation phase concludes either by moving into the operational phase. For projects without an operational phase the Implementation phase is concluded by completing closeout activities like archiving data/information and undergoing a Project Closeout DG review.*
 
-**What you need to do before**
+**What you need to do before:**
 <br>
 
-**What you need to do during**
+**What you need to do during:**
 <br>
 
 Operational Readiness Review - _Do most projects have this?_ 
 
-**What you need to do after**
+**What you need to do after:**
 <br>
 
 ### Project Closeout Decision Gate
