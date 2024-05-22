@@ -61,7 +61,7 @@ The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inita
 
 *The pre-formulation phase of a solution project starts after NASA learns about proposed SNWG activities in OMB’s funding request. Projects begin at this stage, but budget and scope adjustments can still be made until NASA receives and distributes funds (at the start of the fiscal year) and the project enters the formulation phase. Initiating solution projects at this stage allows pre-formulation activities to be carried out so that funds can be distributed to solution projects as soon as possible.*
 
-- What you need to do before the ATP DG: Complete your preliminary Project Plan. This includes:
+- **What you need to do before the ATP DG:** Complete your preliminary Project Plan. This includes:
     - [x] Notional OSS Objectives (How will your project adhere to Open Source Science principles during Solution Product development and operation?)
     - [x] Notional SEP Plan (How will your project promote stakeholder engagemenet throughout the Solution Product development and operation?)
     - [x] Outline your management approach (Team structure, partnerships, acquisition strategy, Milestone reviews Tip: Refer to team members by their ROLE thoughout the plan. Define the names associated with the role in a chart in supporting sections.)
@@ -80,11 +80,11 @@ The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inita
             - Risk Development Plan
     - [x] Notice to the SNWG MO of any external funding sources necessary for project success
 <br>
-- What you need to do during
+- **What you need to do during:** 
     - [x] The Project Implementation Team presents the goals and status of their project for about 15 - 20 mintues
     - [x] The SNWG MO leads a walkthrough of the prepared Preliminary Project Plan. Your team will address any questions and make note of actions to be taken to address any concerns about the Project Plan.
 <br>
-- What you need to do after
+- **What you need to do after:**
     - [x] Complete any outstanding action identified as blockers to signing the ATP DG Memorandum.
 <br>
 - **Ultimate result:** The Solution Project is authorized to proceed to the Project Formulation stage where the finer details of developing the Solution Product will be documented, the contractual agreement between NASA and the contracting Project organization is foramlized.
@@ -92,7 +92,7 @@ The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inita
 
 ### Formulation to Implementation
 
-*After a successful ATP DG review and the establishment of a contract between the SNWG MO and the solution project, the formulation phase begins. This phase involves detailed planning for the implementation phase, including developing project control plans, finalizing the Project Plan, and establishing necessary agreements. Note that sometimes the formulation phase is brief, lasting just long enough to prepare for the Formulation to Implementation Decision Gate (DG).*
+_After a successful ATP DG review and the establishment of a contract between the SNWG MO and the solution project, the formulation phase begins. This phase involves detailed planning for the implementation phase, including developing project control plans, finalizing the Project Plan, and establishing necessary agreements. Note that sometimes the formulation phase is brief, lasting just long enough to prepare for the Formulation to Implementation Decision Gate (DG)._
 
 - What you need to do before
 - What you need to do during
