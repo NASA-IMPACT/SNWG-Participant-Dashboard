@@ -11,8 +11,7 @@ _This graphic originated 2022ish and does need updating. Using for website draft
 
 <div align="center">
 
-# Welcome to the Satellite Needs Working Group Management Office!
-
+## Welcome to the Satellite Needs Working Group Management Office!
 </div>
 
 ## What do we produce?
