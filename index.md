@@ -30,6 +30,7 @@ EOS Standard Products are internally consistent, well-calibrated records of obse
 |  |   Land Surface Deformation<br>  for North America<br>  and U.S. Territories (DISP) |  |
 |  |   Water Quality Products |  |
 
+<!-- Commented out to reduce clutter
 Linked Table
 
 | Cycle 1 (2016) | Cycle 2 (2018) | Cycle 3 (2020) |
@@ -40,6 +41,7 @@ Linked Table
 | [Commercial Smallsat<br>Data Acquisition](https://www.earthdata.nasa.gov/esds/csda) |   [Global Land Surface<br>  Disturbance and Change<br>  Detection (DIST)](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products) | [TEMPO NRT](https://tempo.si.edu/) |
 |  |   [Land Surface Deformation<br>  for North America<br>  and U.S. Territories (DISP)](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products) |  |
 |  |   [Water Quality Products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products) |  |
+-->
 
 ## Who are we?
 
@@ -69,11 +71,11 @@ Linked Table
 
 | Role | Name |
 | :--- | :--- |
-| SEP lead | Pontus Olofsson |
-| SEP deputy | Katrina Virts |
+| SEP lead | [Pontus Olofsson](mailto:pontus.olofsson@nasa.gov) |
+| SEP deputy | [Katrina Virts](mailto:katrina.s.virts@nasa.gov) |
 | Position 3 | Name 3 |
 | Position 4 | Name 4 |
-| Project Coordinator | Cherrelle Tucker |
+| Project Coordinator | [Cherrelle Tucker](mailto:cherrelle.j.tucker@nasa.gov) |
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
@@ -83,7 +85,7 @@ Linked Table
 
 <!-- markdownlint-restore -->
 
-## INTERNAL NOTE TO BE REMOVED BEFORE FINAL DEPLOYMENT
+<!-- ## INTERNAL NOTE TO BE REMOVED BEFORE FINAL DEPLOYMENT
 
 * GOAL
     * single location to provide relevant, brief information that answers FAQ that new implementation teams have had.
@@ -99,7 +101,7 @@ Linked Table
 * Site Purpose
 The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
 * Site Audience
-The intended audience for this site is the Solution Project Team as they progress through the various document developments, decision gates, and reporting requirements of the SNWG project lifecycle.
+The intended audience for this site is the Solution Project Team as they progress through the various document developments, decision gates, and reporting requirements of the SNWG project lifecycle. -->
 
 --------------------------------------------------
 [^1]:[https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
