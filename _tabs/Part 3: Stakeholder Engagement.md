@@ -8,7 +8,7 @@ toc: true
 
 ![dark mode only](assets/DarkModeSEPGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 ![light mode only](assets/LightModeSEPGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
-_Stakeholder Engagement throughout the cycles._
+_Stakeholder Engagement throughout the project lifecycle._
 
 Define Stakeholder:
 
