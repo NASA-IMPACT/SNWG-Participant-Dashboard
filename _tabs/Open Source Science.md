@@ -22,14 +22,19 @@ toc: true
 
   <!-- markdownlint-disable-next-line -->
 
-As open as **possible**,<br>
-as restricted as **necessary**,<br>
-and **always** secure.<br>
+As open as **possible** ,
+<br>
+
+as restricted as **necessary** ,
+<br>
+
+and **always** secure.
+<br>
+
 </div>
 
 
-TOPS
-https://nasa.github.io/Transform-to-Open-Science/
+
 
 ## Further Reading
 
@@ -38,6 +43,8 @@ https://nasa.github.io/Transform-to-Open-Science/
 
 - [Desirable Characteristics of Data Repositories for Federally Funded Research, 2022 May](https://repository.si.edu/bitstream/handle/10088/113528/Desirable%20Characteristics%20of%20Data%20Repositories.pdf)
 <br>
+
+- [TOPS](https://nasa.github.io/Transform-to-Open-Science/)
 
 [SNWG OSS Quick Win Strategy.pptx](https://docs.google.com/presentation/d/1Nk8whKqDxwkjko5W0T7l2Ed1kLpvuxQ-/edit?usp=sharing&ouid=106604293755679367477&rtpof=true&sd=true)
 
