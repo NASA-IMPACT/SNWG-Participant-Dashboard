@@ -47,7 +47,7 @@ It is a frequent occurence that Implementation Teams have prioviously provided d
 | :----------- | :---------- |
 | 2.3 Project Schedule/ Key Project Level Milestones | 2.5 Budget and Acquisition Approach |
 | 2.4 Project Resources and Annual Cost Estimate | 3.2.1 PLR Compliance Matrix |
-| 3.2.1 PLR Compliance Matrix | 3.2.1 PLR Compliance Matrix |
+| 3.2.1 PLR Compliance Matrix | 1.3.1 Stakeholder Engagement Program (SEP) |
 | 3.2 Project Requirements | 3.3 Strategy for Technology Transition |
 | 4.1 Risk Management Strategy | 3.4 Project Reviews |
 | 4.2.1 Open Science Data Management Plan | 4.3 Tailoring Approach |
