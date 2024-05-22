@@ -128,25 +128,70 @@ _After a successful ATP DG review and the establishment of a contract between th
 <br>
 
 **Ultimate result:** <br>
-The Solution Project is  authorized by a Formulation to Implementation DG Decision Memorandum to move into the Project Implementation Phase, signifying that all due planning, funding, and contractual portions of the Project are within accepted paremeters and do not demonstrate risk to the Solution Product development. 
+The Solution Project is authorized by a Formulation to Implementation DG Decision Memorandum to move into the Project Implementation Phase, signifying that all due planning, funding, and contractual portions of the Project are within accepted paremeters and do not demonstrate risk to the Solution Product development. 
 <br>
 
-### Implementation to Operations Decision Gate (I2O DG)
+### Operational Readiness Review (ORR)
 
-*After a successful Formulation to Implementation DG review, the project enters the Implementation phase. Here, the planned activities are carried out as described in the Project Plan, following the scheduled costs and timelines. Periodic reviews and milestone assessments are conducted as outlined in the Project Plan. The Implementation phase concludes either by moving into the operational phase. For projects without an operational phase the Implementation phase is concluded by completing closeout activities like archiving data/information and undergoing a Project Closeout DG review.*
+_After a successful Formulation to Implementation DG review, the project enters the Implementation phase. Here, the planned activities are carried out as described in the Project Plan, following the scheduled costs and timelines. Periodic reviews and milestone assessments are conducted as outlined in the Project Plan. The Implementation phase concludes by moving into the Operational phase upon successful completion of an Operational Readiness Review. Some Projects may not have an Operations phase and will progress directly to Closeout._
 
 **What you need to do before:**
 <br>
 
+- [x] Complete all planned data sytems testing
+- [x] Resolve all test failures and anomolies
+- [x] Test, deliver, and/or install all operational supporting and enabling products necessary to support operations
+- [x] Programmatic documents are ready for review
+    - Stakeholder Engagement Plan deliverables
+    - Open Source Science Plan deliverables
+- [x] Users/operators have been trained on the correct operation of the system
+- [x] Operational contingency planning has been completed
+- [x] Operations documentation has been written, verified, and reviewed
+- [x] For Products that are being handed off to another agency: Preliminary Transition Plan is complete
+- [x] For Products that are being defunded: Preliminary Closeout Plan is complete
+- [x] Other ORR technical products prepared as necessary
+    - Updated cost and schedule
+    - Risk assessment
+    - Updated  operations plans
+    - System security plan 
+
 **What you need to do during:**
 <br>
 
-Operational Readiness Review - _Do most projects have this?_ 
+- [x] _What do Project Teams do during an ORR?_
 
 **What you need to do after:**
 <br>
 
+**Ultimate result** <br>
+The Solution Project is authorized by an Operational Readiness Review Decision Memorandum to move into the Project Operations Phase, signifying that the Solution Project is ready to move into the Operations phase, that the Solution Product itself is Operational, and that a plan is in place to support the Solution Product through the remainder of its lifecycle.
+
 ### Project Closeout Decision Gate
+
+_Upon a successful Operational Readiness Review, the project enters the Operations phase. During the operational phase, reviews called Continuation Assessments (CAs) may determine the next steps, like transferring operations, ending the project, or continuing as planned. When a project finishes its Operational phase or transfers its operations, a Project Closeout DG review is scheduled. The Project Closeout DG occurs when the solution project_ 
+_1) achieves its goals and objectives,_ 
+_2) reaches the end of its operational phase,_ 
+_3) transfers ownership to another organization, or_ 
+_4) if the solution project is terminated early._
+
+_Upon its completion, a Project is either **fully defunded** or **fully transitioned** to a mainenance agency._
+
+**What you need to do before:**
+<br>
+
+- [x] Complete final Project Summary
+- [x] Complete final project Report
+- [X] Complete Project Transition or Infusion Plan describing Product handoff to the Product receiving agency
+
+**What you need to do during:**
+<br>
+
+- [x] _What do Project Teams do during an during the Project Closeout DG?_
+
+**What you need to do after:**
+<br>
+
+- [x] report new technologies derived as part of the solution project to the appropriate Center Technology Transfer Office in a timely manner in accordance with [NPR 7500.2](https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7500_002A_&page_name=main) to be considered for intellectual property protection and transfer for secondary applications.
 
 **Project Handoff**
 <br>
