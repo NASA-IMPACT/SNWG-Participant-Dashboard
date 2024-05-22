@@ -59,7 +59,7 @@ It is a frequent occurence that Implementation Teams have prioviously provided d
 
 Each decision gate ensures that the project has properly investigated and developed the development, budgeting, and documentation appraoch required to move to the next phase in the project lifecycle for maximum return of value to both the funding sources of the project and the end user of Solution Product.
 
-### Authority to Proceed
+### Authority to Proceed Decision Gate (ATP DG)
 
 The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inital project documentation to determine the solution project’s readiness to proceed from Pre-Formulation to Formulation and document the decision. (SNWG MO Program Plan 12.2.1.6)
 
@@ -103,9 +103,9 @@ _Firm handoff plans are not required. Do include preliminary suppositions and po
 **Ultimate result:** The Solution Project is authorized to proceed to the Project Formulation stage where the finer details of developing the Solution Product will be documented, the contractual agreement between NASA and the contracting Project organization is foramlized.
 <br>
 
-### Formulation to Implementation
+### Formulation to Implementation Decision Gate (F2I DG)
 
-_After a successful ATP DG review and the establishment of a contract between the SNWG MO and the solution project, the formulation phase begins. This phase involves detailed planning for the implementation phase, including developing project control plans, finalizing the Project Plan, and establishing necessary agreements. Note that sometimes the formulation phase is brief, lasting just long enough to prepare for the Formulation to Implementation Decision Gate (DG)._
+_After a successful ATP DG review and the establishment of a contract between the SNWG MO and the solution project, the Formulation phase begins. This phase involves detailed planning for the implementation phase, including developing project control plans, finalizing the Project Plan, and establishing necessary agreements. Note that sometimes the formulation phase is brief, lasting just long enough to prepare for the Formulation to Implementation Decision Gate (DG)._
 
 **What you need to do before:** 
 <br>
@@ -128,7 +128,7 @@ _After a successful ATP DG review and the establishment of a contract between th
 - **Ultimate result:** The Solution Project is  authorized by a Formulation to Implementation DG Decision Memorandum to move into the Project Implementation Phase, signifying that all due planning, funding, and contractual portions of the Project are within accepted paremeters and do not demonstrate risk to the Solution Product development. 
 <br>
 
-### Implementation to Operations
+### Implementation to Operations Decision Gate (I2O DG)
 
 *After a successful Formulation to Implementation DG review, the project enters the Implementation phase. Here, the planned activities are carried out as described in the Project Plan, following the scheduled costs and timelines. Periodic reviews and milestone assessments are conducted as outlined in the Project Plan. The Implementation phase concludes either by moving into the operational phase. For projects without an operational phase the Implementation phase is concluded by completing closeout activities like archiving data/information and undergoing a Project Closeout DG review.*
 
@@ -143,7 +143,7 @@ Operational Readiness Review - _Do most projects have this?_
 **What you need to do after**
 <br>
 
-## Project Closeout Decision Gate
+### Project Closeout Decision Gate
 
 **Project Handoff**
 <br>
