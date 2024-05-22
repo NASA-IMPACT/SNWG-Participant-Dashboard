@@ -7,6 +7,7 @@ toc: true
 
 ![dark mode only](assets/DarkModeMissionsGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1275' h='668' }
 ![light mode only](assets/LightModeMissionsGraphic.png){: .light .w-75 .shadow .rounded-10 w='1275' h='668' }
+_This graphic originated 2022ish and does need updating. Using for website draft development purposes only_
 
 # Welcome to the Satellite Needs Working Group Management Office!
 
