@@ -67,16 +67,19 @@ The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inita
 
 **What you need to do before the ATP DG:** Complete your preliminary Project Plan. <br>
 This includes:
-- [x] Notional OSS Objectives 
+- [x] Notional OSS Objectives <br>
 _How will your project adhere to Open Source Science principles during Solution Product development and operation?_
-- [x] Notional SEP Plan 
+- [x] Notional SEP Plan <br>
 _How will your project promote stakeholder engagemenet throughout the Solution Product development and operation?_
-- [x] Outline your management approach _Team structure, partnerships, acquisition strategy, Milestone reviews Tip: Refer to team members by their ROLE thoughout the plan. Define the names associated with the role in a chart in supporting sections._
-- [x] Notional schedule _Tip: Use ranges and relative times, not exact dates i.e. "2 months after project signing" "2 years after project Implementation start" Do keep in mind the limitations of final funding dates._
+- [x] Outline your management approach <br>
+_Team structure, partnerships, acquisition strategy, Milestone reviews Tip: Refer to team members by their ROLE thoughout the plan. Define the names associated with the role in a chart in supporting sections._
+- [x] Notional schedule <br>
+_Tip: Use ranges and relative times, not exact dates i.e. "2 months after project signing" "2 years after project Implementation start" Do keep in mind the limitations of final funding dates._
 - [x] Resource requirements
     - Project L1
     - PLR Compliance matrix
-- [x] Solution Product Transition or Dissemination approach _Firm handoff plans are not required. Do include preliminary suppositions and potential handoff agencies or partners to be investigated throughout the Project lifecycle and borne to fruition by Project Closeout._
+- [x] Solution Product Transition or Dissemination approach <br>
+_Firm handoff plans are not required. Do include preliminary suppositions and potential handoff agencies or partners to be investigated throughout the Project lifecycle and borne to fruition by Project Closeout._
 - [x] Risk Management Strategy
 - [x] Applicable Control Plans
     - Required:
