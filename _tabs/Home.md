@@ -1,5 +1,5 @@
 ---
-# index page
+
 layout: post
 permalink: /
 toc: true
