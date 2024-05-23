@@ -13,7 +13,7 @@ _This graphic originated 2022ish and does need updating. Using for website draft
 <div align="center">
 
    <!-- markdownlint-disable-next-line -->
-   # Welcome to the Satellite Needs Working Group Management Office!
+   <h1> Welcome to the Satellite Needs Working Group Management Office!</h1>
    
 </div>
 
