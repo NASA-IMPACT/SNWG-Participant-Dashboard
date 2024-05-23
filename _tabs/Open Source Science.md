@@ -147,7 +147,7 @@ _Research software includes various components like source code, algorithms, scr
 - [Desirable Characteristics of Data Repositories for Federally Funded Research, 2022 May](https://repository.si.edu/bitstream/handle/10088/113528/Desirable%20Characteristics%20of%20Data%20Repositories.pdf)
 <br>
 
-- [ROSES Open Science and Data Management Plan](ROSES Open Science and Data Management Plan)
+- [ROSES Open Science and Data Management Plan](https://science.nasa.gov/researchers/sara/faqs/osdmp/)
 
 - [TOPS](https://nasa.github.io/Transform-to-Open-Science/)
 
