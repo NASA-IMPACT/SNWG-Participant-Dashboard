@@ -96,7 +96,7 @@ The following are examples of data repositories that can be used to host open da
 - [4TU.Centre for Research Data](https://data.4tu.nl/): Data repository
 - GitHub
 - [Re3data](https://www.re3data.org/): Registry of Research Data Repositories 
-- [CoreTrustSeal](https://www.coretrustseal.org/): offers to any interested data repository a core level certification based on the Core Trustworthy Data Repositories Requirements.  This universal catalogue of requirements reflects the core characteristics of trustworthy data repositories.
+- [CoreTrustSeal](https://www.coretrustseal.org/): offers to any interested data repository a core level certification based on the Core Trustworthy Data Repositories Requirements.  This universal catalog of requirements reflects the core characteristics of trustworthy data repositories.
 
 ### Data Preservation
 
@@ -114,7 +114,7 @@ Tip: Data Management Costing Tool
 A group at the Delft University of Technology has developed a [costing tool that allows a rough estimation of FTE resources](https://forms.gle/8mUXX3TWTr85eyK47).
 
 
-## Open Sofware
+## Open Software
 
 _Research software includes various components like source code, algorithms, scripts, workflows, and executables created during or for research. It does not cover software like operating systems, libraries, dependencies, and packages that are used in research but weren't specifically developed for it. Research software should have persistent identifiers, be stored in repositories, be properly cited, and described with metadata. It is unique because it is executable, evolves with versioning, and depends on a specific development system._
 
@@ -142,12 +142,12 @@ _Research software includes various components like source code, algorithms, scr
 
 ### Paths to Publication
 
-**Golden Road:** journal publishes the article open access with immediate access to the publication and free for anyone to read. Author pays “Article Processing Charge” (APC) for publishing.<br>
+**Golden Road:** A journal publishes the article open access with immediate access to the publication and free for anyone to read. Author pays “Article Processing Charge” (APC) for publishing.<br>
     _Diamond/Platinum Access:_ journal publishes the article open access with immediate access to the publication and free for anyone to read. Free to author publication costs covered by research department that runs the journal.<br>
     _Hybrid:_ Subscription-based journals offering a paid open access publishing option 
 <br>
 
-**Green Road:** Publishing in a subscription based journal, then self-archiving your publication and give access to those without a subscription to the journal. 
+**Green Road:** Publishing in a subscription based journal, then self-archiving your publication and giving access to those without a subscription to the journal. 
 
 ### Contribution Licenses
 

@@ -43,7 +43,7 @@ Key parts of the SNWG MO Program Plan for the purposes of the Project Implementa
 
 [Link to Template](https://docs.google.com/document/d/1hfbKXOta7htTs1RDtvpAXxBwu6QxuqnndGXOMkyM-UQ/edit)
 
-It is a frequent occurence that Implementation Teams have prioviously provided documentation to the MO. In that case, we will often transfer that information to a Preliminary Project Plan for further completion and review by the Implementation Project Team. 
+It is a frequent occurrence that Implementation Teams have previously provided documentation to the MO. In that case, we will often transfer that information to a Preliminary Project Plan for further completion and review by the Implementation Project Team. 
 
 | You fill out | We fill out |
 | :----------- | :---------- |
@@ -63,7 +63,7 @@ Each Decision Gate ensures that the Project has properly investigated and develo
 
 ### Authority to Proceed Decision Gate (ATP DG)
 
-The Authority to Proceed Decision Gate (AtP DG) is a focused review of the inital project documentation to determine the solution project’s readiness to proceed from Pre-Formulation to Formulation and document the decision. (SNWG MO Program Plan 12.2.1.6)
+The Authority to Proceed Decision Gate (AtP DG) is a focused review of the initial project documentation to determine the solution project’s readiness to proceed from Pre-Formulation to Formulation and document the decision. (SNWG MO Program Plan 12.2.1.6)
 
 *The pre-formulation phase of a solution project starts after NASA learns about proposed SNWG activities in OMB’s funding request. Projects begin at this stage, but budget and scope adjustments can still be made until NASA receives and distributes funds (at the start of the fiscal year) and the project enters the formulation phase. Initiating solution projects at this stage allows pre-formulation activities to be carried out so that funds can be distributed to solution projects as soon as possible.*
 
@@ -72,9 +72,9 @@ This includes:
 - [x] Notional OSS Objectives <br>
 _How will your project adhere to Open Source Science principles during Solution Product development and operation?_
 - [x] Notional SEP Plan <br>
-_How will your project promote stakeholder engagemenet throughout the Solution Product development and operation?_
+_How will your project promote stakeholder engagement throughout the Solution Product development and operation?_
 - [x] Outline your management approach <br>
-_Team structure, partnerships, acquisition strategy, Milestone reviews Tip: Refer to team members by their ROLE thoughout the plan. Define the names associated with the role in a chart in supporting sections._
+_Team structure, partnerships, acquisition strategy, Milestone reviews Tip: Refer to team members by their ROLE throughout the plan. Define the names associated with the role in a chart in supporting sections._
 - [x] Notional schedule <br>
 _Tip: Use ranges and relative times, not exact dates i.e. "2 months after project signing" "2 years after project Implementation start" Do keep in mind the limitations of final funding dates._
 - [x] Resource requirements
@@ -94,7 +94,7 @@ _Firm handoff plans are not required. Do include preliminary suppositions and po
 <br>
 
 **What you need to do during:** 
-- [x] The Project Implementation Team presents the goals and status of their project for about 15 - 20 mintues
+- [x] The Project Implementation Team presents the goals and status of their project for about 15 - 20 minutes
 - [x] The SNWG MO leads a walkthrough of the prepared Preliminary Project Plan. Your team will address any questions and make note of actions to be taken to address any concerns about the Project Plan.
 <br>
 
@@ -102,7 +102,7 @@ _Firm handoff plans are not required. Do include preliminary suppositions and po
 - [x] Complete any outstanding action identified as blockers to the signing of the ATP DG Memorandum.
 <br>
 
-**Ultimate result:** The Solution Project is authorized to proceed to the Project Formulation stage where the finer details of developing the Solution Product will be documented, the contractual agreement between NASA and the contracting Project organization is foramlized.
+**Ultimate result:** The Solution Project is authorized to proceed to the Project Formulation stage where the finer details of developing the Solution Product will be documented, the contractual agreement between NASA and the contracting Project organization is formalized.
 <br>
 
 --------------------------------------------------------
@@ -123,7 +123,7 @@ _After a successful ATP DG review and the establishment of a contract between th
 **What you need to do during:**
 <br>
 
-- [x] The Project Implementation Team presents the goals and status of their project for about 15 - 20 mintues
+- [x] The Project Implementation Team presents the goals and status of their project for about 15 - 20 minutes
 - [x] The SNWG MO leads a walkthrough of the prepared Project Plan. Your team will address any questions and make note of actions to be taken to address any concerns about the Project Plan.
 
 
@@ -132,7 +132,7 @@ _After a successful ATP DG review and the establishment of a contract between th
 <br>
 
 **Ultimate result:** <br>
-The Solution Project is authorized by a Formulation to Implementation DG Decision Memorandum to move into the Project Implementation Phase, signifying that all due planning, funding, and contractual portions of the Project are within accepted paremeters and do not demonstrate risk to the Solution Product development. 
+The Solution Project is authorized by a Formulation to Implementation DG Decision Memorandum to move into the Project Implementation Phase, signifying that all due planning, funding, and contractual portions of the Project are within accepted parameters and do not demonstrate risk to the Solution Product development. 
 <br>
 
 ---------------------------------------------------
@@ -144,8 +144,8 @@ _After a successful Formulation to Implementation DG review, the project enters 
 **What you need to do before:**
 <br>
 
-- [x] Complete all planned data sytems testing
-- [x] Resolve all test failures and anomolies
+- [x] Complete all planned data systems testing
+- [x] Resolve all test failures and anomalies
 - [x] Test, deliver, and/or install all operational supporting and enabling products necessary to support operations
 - [x] Programmatic documents are ready for review
     - Stakeholder Engagement Plan deliverables
@@ -182,7 +182,7 @@ _2) reaches the end of its operational phase,_
 _3) transfers ownership to another organization, or_ 
 _4) if the solution project is terminated early._
 
-_Upon its completion, a Project is either **fully defunded** or **fully transitioned** to a mainenance agency._
+_Upon its completion, a Project is either **fully defunded** or **fully transitioned** to a maintenance agency._
 
 **What you need to do before:**
 <br>

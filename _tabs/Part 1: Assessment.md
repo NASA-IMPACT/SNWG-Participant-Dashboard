@@ -11,7 +11,7 @@ If you have been pointed to this website, you have most likely been chosen to pr
 ![light mode only](assets/LightModeAssessmentGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
 _The initial SNWG Project Assessment lifecycle. Dates are subject to change each cycle._
 
-****This section needs careful review. What information can be public? This is a good place to integrate the document refered to in SEP meetings that broadly explains the OMB selection process****
+****This section needs careful review. What information can be public? This is a good place to integrate the document referred to in SEP meetings that broadly explains the OMB selection process****
 
 ### Need Identification
 SNWG sends out a survey to U.S. federal agencies to identify their Earth observation needs.
@@ -23,7 +23,7 @@ Once received, each submitted survey is assessed by a team of experts from NASA,
 Based on the needs submitted by the agencies, solutions are identified that would help meet those needs. An emphasis is placed on solutions that would help satisfy multiple agency needs.
 
 ### Solution Selection
-The proposed solutions are presented to US Office of Management and Budget (OMB) to be selected for funding. OMB selects the Solutions to fund, then appoints the Implementation teams to form the Project that will develop the Product that will provide the Solution to fulfill the Need. 
+The proposed solutions are presented to the U.S.Office of Management and Budget (OMB) to be selected for funding. OMB selects the Solutions to fund, then appoints the Implementation teams to form the Project that will develop the Product that will provide the Solution to fulfill the Need. 
 
 ### Solution Development
 Assessment personnel prioritize the solutions, determine a subset of solutions that will be proposed for funding and estimate the costs associated with each of these solutions.
