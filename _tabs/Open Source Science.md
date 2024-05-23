@@ -28,11 +28,6 @@ toc: true
 
 </div>
 
-**F**indable <br>
-**A**ccessible <br>
-**I**nteroperable<br>
-**R**eusable<br>
-
 ## Open Source Data Management Plan (OSDMP)
 
 _In keeping with the [NASA Plan for Increasing Access to Results of Federally Funded Research](https://smd-cms.nasa.gov/wp-content/uploads/2023/05/NASA_Plan_for_increasing_access_to_results_of_federally_funded_research1.pdf) the [SMD Strategy for Data Management and Computing for Ground Breaking Science 2019-2024](https://smd-cms.nasa.gov/wp-content/uploads/2023/06/SDMWG_Full_Document_v3.pdf), and [SPD-41A](https://science.nasa.gov/researchers/science-data/science-information-policy/), SMD's Scientific Information Policy, which was updated late in 2022, most proposers to ROSES-2023 must provide an "Open Science and Data Management Plan", (formerly called the Data Management Plan) or an explanation of why one is not necessary given the nature of the work proposed. This Open Science and Data Management Plan (OSDMP) must address how publications, data, and software will be made available, see below and the [SMD Open-Source Science Guidance] at https://science.nasa.gov/oss-guidance for more detail and examples._
@@ -165,13 +160,25 @@ NC - No Commercial Use<br>
 ND - No Derivative Works<br>
 <br>
 
-<i class="fa fa-arrow-right"></i> CC0 - Most permissive for copyright holders who want to assign their work to the public domain. Maximum Open Science (usually used for image and photo collections)<br>
-<i class="fa fa-arrow-right"></i> CC-BY (Creative Commons Attribution) - others distribute,remix, tweak, and build upon your work,even commercially, as long as they credit you for the original creation.<br>
-<i class="fa fa-arrow-right"></i> CC-BY-NC requires attribution, but only allows non-commercial use.<br>
-<i class="fa fa-arrow-right"></i> CC-BY-ND requires attribution, blocks derivative works - no changing, adapting, or transforming a work.<br>
-<i class="fa fa-arrow-right"></i> CC-BY-SA (ShareAlike) - requires attribution, and people can use and adapt the material for any purpose, even commercially.  must give appropriate credits and indicate if changes were made.The new material produced must be distributed under the same licenses as the original.<br>
-<i class="fa fa-arrow-right"></i> CC-BY-SA-NC - you can use the original work in your own publication, as long as you:* Attribute the original author (BY); * Publish your work with the same license as the original author (SA); * Do not use the work for commercial purposes (NC).<br>
-<i class="fa fa-arrow-right"></i> CC-BY-NC-ND - Most restrictive; only distribution for non-commercial use of the unmodified original work is allowed.<br>
+<i class="fa fa-arrow-right"></i> **CC0** <br> Most permissive for copyright holders who want to assign their work to the public domain. Maximum Open Science (usually used for image and photo collections)<br>
+<br>
+
+<i class="fa fa-arrow-right"></i> **CC-BY** <br>(Creative Commons Attribution) - others distribute,remix, tweak, and build upon your work,even commercially, as long as they credit you for the original creation.<br>
+<br>
+
+<i class="fa fa-arrow-right"></i> **CC-BY-NC** <br> requires attribution, but only allows non-commercial use.<br>
+<br>
+
+<i class="fa fa-arrow-right"></i> **CC-BY-ND** requires attribution, blocks derivative works - no changing, adapting, or transforming a work.<br>
+<br>
+
+<i class="fa fa-arrow-right"></i> **CC-BY-SA** (ShareAlike) - requires attribution, and people can use and adapt the material for any purpose, even commercially.  must give appropriate credits and indicate if changes were made.The new material produced must be distributed under the same licenses as the original.<br>
+<br>
+
+<i class="fa fa-arrow-right"></i> **CC-BY-SA-NC** - you can use the original work in your own publication, as long as you:* Attribute the original author (BY); * Publish your work with the same license as the original author (SA); * Do not use the work for commercial purposes (NC).<br>
+<br>
+
+<i class="fa fa-arrow-right"></i> **CC-BY-NC-ND** - Most restrictive; only distribution for non-commercial use of the unmodified original work is allowed.<br>
 
 ## Open Meetings
 
