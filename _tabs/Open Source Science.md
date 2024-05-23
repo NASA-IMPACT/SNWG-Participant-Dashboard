@@ -15,23 +15,18 @@ toc: true
 
 ## What is Open Source Science?
 “Open Science is the principle and practice of making research products and processes available to all, while respecting diverse cultures, maintaining security and privacy, and fostering collaborations, reproducibility, and equity”.
-<br>
-
-[The White House Office of Science and Technology Policy Memo, 2022 (adapted)](https://open.science.gov/)
+[_The White House Office of Science and Technology Policy Memo, 2022 (adapted)_](https://open.science.gov/)
 
 <!-- markdownlint-disable-next-line -->
 <div align="center">
 
   <!-- markdownlint-disable-next-line -->
-  As open as **possible** ,
-  <br>
+  [As open as **possible** ,<br>
 
-  as restricted as **necessary** ,
-  <br>
+  as restricted as **necessary** ,<br>
   
-  and **always** secure.
-  
-</div>
+  and **always** secure.]
+  </div>
 
 
 
