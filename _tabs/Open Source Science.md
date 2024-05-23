@@ -130,29 +130,28 @@ _Research software includes various components like source code, algorithms, scr
 
 |                         Open Source vs FAIR                       |
 | :-------------------------------------------------------- | :--------------- |
-| OS Software: released with a license granting user rights | FAIR Software: provided via executable without releasing source code |
+| OS Software: released with a license <br> granting user rights | FAIR Software: provided via executable <br> without releasing source code |
 
-FAIR Software
+### FAIR Software
+<br>
+
 **F**indable: archive your software with a persistent identifier (DOI) and describe it with accurate metadata.
 <br>
 
-**A**ccessible:  
-<br> make your software available either directly or through a standardized protocol, allowing users to obtain and access the software and its documentation.
+**A**ccessible: make your software available either directly or through a standardized protocol, allowing users to obtain and access the software and its documentation.
 
 **I**nteroperable: your software should use community standards, formats, and protocols to ensure compatibility and interoperability with other tools and systems.
 
-<br>
-
 **R**eusable: your software should be well documented, modular, and designed in a way that promotes its reuse, allowing others to build upon or integrate it in their work.
-
-<br>
 
 ## Open Publications
 
 ### Paths to Publication
 
-**Golden Road:** journal publishes the article open access with immediate access to the publication and free for anyone to read. Author pays “Article Processing Charge” (APC) for publishing.
+**Golden Road:** journal publishes the article open access with immediate access to the publication and free for anyone to read. Author pays “Article Processing Charge” (APC) for publishing.<br>
+
     - _Diamond/Platinum Access:_ journal publishes the article open access with immediate access to the publication and free for anyone to read. Free to author publication costs covered by research department that runs the journal.
+
     - _Hybrid:_ Subscription-based journals offering a paid open access publishing option 
 <br>
 
@@ -160,11 +159,11 @@ FAIR Software
 
 ### Contribution Licenses
 
-CC - Creative Commons
-BY - BY original author
-SA - Same Attribute (ShareAlike)
-NC - No Commercial Use
-ND - No Derivative Works
+CC - Creative Commons<br>
+BY - BY original author<br>
+SA - Same Attribute (ShareAlike)<br>
+NC - No Commercial Use<br>
+ND - No Derivative Works<br>
 <br>
 
 <i class="fa fa-arrow-right"></i> CC0 - Most permissive for copyright holders who want to assign their work to the public domain. Maximum Open Science (usually used for image and photo collections)
@@ -198,10 +197,10 @@ ND - No Derivative Works
 
 - [TOPS](https://nasa.github.io/Transform-to-Open-Science/)
 
-[SNWG OSS Quick Win Strategy.pptx](https://docs.google.com/presentation/d/1Nk8whKqDxwkjko5W0T7l2Ed1kLpvuxQ-/edit?usp=sharing&ouid=106604293755679367477&rtpof=true&sd=true)
+- [SNWG OSS Quick Win Strategy.pptx](https://docs.google.com/presentation/d/1Nk8whKqDxwkjko5W0T7l2Ed1kLpvuxQ-/edit?usp=sharing&ouid=106604293755679367477&rtpof=true&sd=true)
 
-[SNWG OSS Adoption in Action Scope Document](https://docs.google.com/document/d/1QIJJW8A9nrbZYHyiPW30IuMvnW_jQD4QTNO_RS1aOmQ/edit?usp=drive_link)
+- [SNWG OSS Adoption in Action Scope Document](https://docs.google.com/document/d/1QIJJW8A9nrbZYHyiPW30IuMvnW_jQD4QTNO_RS1aOmQ/edit?usp=drive_link)
 
-[https://docs.google.com/document/d/1QIJJW8A9nrbZYHyiPW30IuMvnW_jQD4QTNO_RS1aOmQ/edit?usp=drive_link](https://docs.google.com/presentation/d/1OOHgdqS82E81P7jXNxJzGsByJ-Wfh_RZPFakczECp4A/edit#slide=id.g2634b21d2c2_1_1471)
+- [https://docs.google.com/document/d/1QIJJW8A9nrbZYHyiPW30IuMvnW_jQD4QTNO_RS1aOmQ/edit?usp=drive_link](https://docs.google.com/presentation/d/1OOHgdqS82E81P7jXNxJzGsByJ-Wfh_RZPFakczECp4A/edit#slide=id.g2634b21d2c2_1_1471)
 
-[Developing a Toolkit for Fostering Open SCience Practices](https://drive.google.com/file/d/11nsQV1_MJRIxtEGig5WxfcyX3paiuX0d/view?usp=drive_link)
+- [Developing a Toolkit for Fostering Open SCience Practices](https://driv-e.google.com/file/d/11nsQV1_MJRIxtEGig5WxfcyX3paiuX0d/view?usp=drive_link)
