@@ -4,6 +4,7 @@ layout: post
 icon: fas fa-users
 title: What is the SNWG
 order: 1
+date: 2024-05-21 13:00:00 +0600
 ---
 
 ![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }

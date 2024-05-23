@@ -4,6 +4,7 @@ icon: fas fa-atom
 title: Open Source Science
 order: 6
 toc: true
+date: 2024-05-22 16:00:00 +0600
 ---
 
 <!-- markdownlint-capture -->

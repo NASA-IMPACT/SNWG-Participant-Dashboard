@@ -4,6 +4,7 @@ layout: post
 icon: fas fa-comments
 order: 3
 toc: true
+date: 2024-05-22 13:00:00 +0600
 ---
 
 ![dark mode only](assets/DarkModeSEPGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }

@@ -2,6 +2,7 @@
 layout: post
 permalink: /
 toc: true
+date: 2024-05-21 12:00:00 +0600
 ---
 
 ![dark mode only](assets/DarkModeMissionsGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1275' h='668' }

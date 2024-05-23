@@ -3,6 +3,7 @@ layout: post
 icon: fas fa-book-bookmark
 order: 7
 toc: true
+date: 2024-05-21 17:00:00 +0600
 ---
 ## Glossary 
 - Stakeholder

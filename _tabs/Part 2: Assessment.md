@@ -4,6 +4,7 @@ layout: post
 icon: fas fa-magnifying-glass
 order: 4
 toc: true
+date: 2024-05-22 14:00:00 +0600
 ---
 If you have been pointed to this website, you have most likely been chosen to proceed to the Pre-Formulation process. Here is a BRIEF OVERVIEW of the process you just went through.
 

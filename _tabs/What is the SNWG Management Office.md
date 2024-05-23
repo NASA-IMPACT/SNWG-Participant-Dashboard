@@ -4,6 +4,7 @@ icon: fas fa-handshake
 title: What is the SNWG Management Office
 order: 2
 toc: true
+date: 2024-05-21 14:00:00 +0600
 ---
 
 ![](assets/SNWG MO circle.png)
