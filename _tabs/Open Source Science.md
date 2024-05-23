@@ -123,11 +123,58 @@ A group at the Delft University of Technology has developed a [costing tool that
 
 _Research software includes various components like source code, algorithms, scripts, workflows, and executables created during or for research. It does not cover software like operating systems, libraries, dependencies, and packages that are used in research but weren't specifically developed for it. Research software should have persistent identifiers, be stored in repositories, be properly cited, and described with metadata. It is unique because it is executable, evolves with versioning, and depends on a specific development system._
 
-|FAIR Data vs FAIR Software    |
+
+|                         FAIR Data vs FAIR Software                      |
 | :--------------------------------------------------- | :--------------- |
 |Focus is on actions taken at the <br>**end of archiving** | Requires **ongoing action** from the start of the project,<br> such as in code documentation and modularization |
 
+|                         Open Source vs FAIR                       |
+| :-------------------------------------------------------- | :--------------- |
+| OS Software: released with a license granting user rights | FAIR Software: provided via executable without releasing source code |
+
+FAIR Software
+**F**indable: archive your software with a persistent identifier (DOI) and describe it with accurate metadata.
+<br>
+
+**A**ccessible:  
+<br> make your software available either directly or through a standardized protocol, allowing users to obtain and access the software and its documentation.
+
+**I**nteroperable: your software should use community standards, formats, and protocols to ensure compatibility and interoperability with other tools and systems.
+
+<br>
+
+**R**eusable: your software should be well documented, modular, and designed in a way that promotes its reuse, allowing others to build upon or integrate it in their work.
+
+<br>
+
 ## Open Publications
+
+### Paths to Publication
+
+**Golden Road:** journal publishes the article open access with immediate access to the publication and free for anyone to read. Author pays “Article Processing Charge” (APC) for publishing.
+    - _Diamond/Platinum Access:_ journal publishes the article open access with immediate access to the publication and free for anyone to read. Free to author publication costs covered by research department that runs the journal.
+    - _Hybrid:_ Subscription-based journals offering a paid open access publishing option 
+<br>
+
+**Green Road:** Publishing in a subscription based journal, then self-archiving your publication and give access to those without a subscription to the journal. 
+
+### Contribution Licenses
+
+CC - Creative Commons
+BY - BY original author
+SA - Same Attribute (ShareAlike)
+NC - No Commercial Use
+ND - No Derivative Works
+<br>
+
+<i class="fa fa-arrow-right"></i> CC0 - Most permissive for copyright holders who want to assign their work to the public domain. Maximum Open Science (usually used for image and photo collections)
+<i class="fa fa-arrow-right"></i> CC-BY (Creative Commons Attribution) - others distribute,remix, tweak, and build upon your work,even commercially, as long as they credit you for the original creation.
+<i class="fa fa-arrow-right"></i> CC-BY-NC requires attribution, but only allows non-commercial use.
+<i class="fa fa-arrow-right"></i> CC-BY-ND requires attribution, blocks derivative works - no changing, adapting, or transforming a work.
+<i class="fa fa-arrow-right"></i> CC-BY-SA (ShareAlike) - requires attribution, and people can use and adapt the material for any purpose, even commercially.  must give appropriate credits and indicate if changes were made.The new material produced must be distributed under the same licenses as the original.
+<i class="fa fa-arrow-right"></i> CC-BY-SA-NC - you can use the original work in your own publication, as long as you:* Attribute the original author (BY); * Publish your work with the same license as the original author (SA); * Do not use the work for commercial purposes (NC).
+<i class="fa fa-arrow-right"></i> CC-BY-NC-ND - Most restrictive; only distribution for non-commercial use of the unmodified original work is allowed.
+
 
 ## Open Meetings
 
