@@ -143,9 +143,7 @@ _Research software includes various components like source code, algorithms, scr
 ### Paths to Publication
 
 **Golden Road:** journal publishes the article open access with immediate access to the publication and free for anyone to read. Author pays “Article Processing Charge” (APC) for publishing.<br>
-
-    _Diamond/Platinum Access:_ journal publishes the article open access with immediate access to the publication and free for anyone to read. Free to author publication costs covered by research department that runs the journal.
-
+    _Diamond/Platinum Access:_ journal publishes the article open access with immediate access to the publication and free for anyone to read. Free to author publication costs covered by research department that runs the journal.<br>
     _Hybrid:_ Subscription-based journals offering a paid open access publishing option 
 <br>
 
@@ -169,16 +167,16 @@ ND - No Derivative Works<br>
 <i class="fa fa-arrow-right"></i> **CC-BY-NC** <br> requires attribution, but only allows non-commercial use.<br>
 <br>
 
-<i class="fa fa-arrow-right"></i> **CC-BY-ND** requires attribution, blocks derivative works - no changing, adapting, or transforming a work.<br>
+<i class="fa fa-arrow-right"></i> **CC-BY-ND** <br> requires attribution, blocks derivative works - no changing, adapting, or transforming a work.<br>
 <br>
 
-<i class="fa fa-arrow-right"></i> **CC-BY-SA** (ShareAlike) - requires attribution, and people can use and adapt the material for any purpose, even commercially.  must give appropriate credits and indicate if changes were made.The new material produced must be distributed under the same licenses as the original.<br>
+<i class="fa fa-arrow-right"></i> **CC-BY-SA** <br>(ShareAlike) - requires attribution, and people can use and adapt the material for any purpose, even commercially.  must give appropriate credits and indicate if changes were made.The new material produced must be distributed under the same licenses as the original.<br>
 <br>
 
-<i class="fa fa-arrow-right"></i> **CC-BY-SA-NC** - you can use the original work in your own publication, as long as you:* Attribute the original author (BY); * Publish your work with the same license as the original author (SA); * Do not use the work for commercial purposes (NC).<br>
+<i class="fa fa-arrow-right"></i> **CC-BY-SA-NC** <br>- you can use the original work in your own publication, as long as you:* Attribute the original author (BY); * Publish your work with the same license as the original author (SA); * Do not use the work for commercial purposes (NC).<br>
 <br>
 
-<i class="fa fa-arrow-right"></i> **CC-BY-NC-ND** - Most restrictive; only distribution for non-commercial use of the unmodified original work is allowed.<br>
+<i class="fa fa-arrow-right"></i> **CC-BY-NC-ND** <br> Most restrictive; only distribution for non-commercial use of the unmodified original work is allowed.<br>
 
 ## Open Meetings
 
