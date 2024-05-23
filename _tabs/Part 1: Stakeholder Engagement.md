@@ -39,17 +39,17 @@ A bunch of Federal agencies. They go to another school. You wouldn't know them.
 <br>
 
 ## Implementation phase
-- Who we talk to:
+- **Who we talk to:**
 People who submitted surveys in the Assessment phase for the chosen Solution Products.
 
-- What we want to know:
+- **What we want to know:**
 This product is getting made. What do you want most to see it do? 
 
-- How we engage: 
+- **How we engage:** 
 SPoRT partnership, trainings, workshops
 
 **User Impact Stories during Implementation**
-_Detail: how do we get impact stories when the Product isn't complete and in use by Federal agencies and private users_
+_Internal note: Detail: how do we get impact stories when the Product isn't complete and in use by Federal agencies and private users_
 
 ## Operations phase
 - Who we talk to
