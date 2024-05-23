@@ -41,8 +41,7 @@ Solution Project Teams should have the following in their OSDMP:
 
 ### Open Data
 
-<i class="fa fa-arrow"></i>
- **What:** "A description of data types, volume, formats, and (where relevant) standards”;
+<i class="fa fa-arrow-right"></i> **What:** "A description of data types, volume, formats, and (where relevant) standards”;
 --> **When**: “A description of the schedule for data archiving and sharing;”
 --> **Where**: “A description of the intended repositories for archived data, including mechanisms for public access and distribution;”
 - [ ] **How**: “A discussion of how the plan enables long-term preservation of data;”
