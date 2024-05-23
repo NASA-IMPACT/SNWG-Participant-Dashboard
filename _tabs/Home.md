@@ -1,5 +1,4 @@
 ---
-
 layout: post
 permalink: /
 toc: true
@@ -13,8 +12,7 @@ _This graphic originated 2022ish and does need updating. Using for website draft
 <div align="center">
 
    <!-- markdownlint-disable-next-line -->
-   <h1> Welcome to the Satellite Needs Working Group Management Office!</h1>
-   
+   <h1>Welcome to the Satellite Needs Working Group Management Office!</h1> 
 </div>
 
 ## What do we produce?

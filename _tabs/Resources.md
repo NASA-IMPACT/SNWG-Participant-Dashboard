@@ -16,6 +16,10 @@ toc: true
 ## Document Links
 - [SNWG MO Program Plan pdf](https://drive.google.com/file/d/1xe-rrKjwZZ7p0w39umL7nPdjCXmWwkUW/view?usp=sharing)
 
-## Presentation Links
+## Templates
 
-## Partnering Organizations
+[OSDMP Template](https://docs.google.com/document/d/1Q1bwUlnPS4LqSHUAkyBwHSsLtUTDizMvbf8oNSOlTtk/edit#heading=h.bga6f4my90jo)
+
+
+
+## Presentation Links

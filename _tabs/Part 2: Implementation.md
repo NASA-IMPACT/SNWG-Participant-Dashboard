@@ -32,7 +32,9 @@ While the SNWG MO Program Plan governs the overall process and actions of the SN
 
 Key parts of the SNWG MO Program Plan for the purposes of the Project Implementation Teams are:
 
+- 2.3.2.1 Enabling Open Science
 - 5.1.2 Requirements on the SNWG Solution Projects
+- 5.1.2.1 Open Source Science Requirements
 - 6.2 Solution Project Implementation Collaborations
 - 6.3 SNWG MO SEP Collaborations
 - **12.2 Solution Project Lifecycle**
