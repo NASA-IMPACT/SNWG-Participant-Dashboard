@@ -179,14 +179,14 @@ ND - No Derivative Works<br>
 <i class="fa fa-arrow-right"></i> **CC-BY-NC-ND** <br> Most restrictive; only distribution for non-commercial use of the unmodified original work is allowed.<br>
 
 ## Open Meetings
-
+_more information needed here_
 - Meeting Notice
 - Meeting Notes
 - Meeting Outcomes
 - Document Hosting
 
 ## Algorithm Theoretical Basis Documents (ATBD)
-
+_More information needed here. Pontus to advise._
 
 ## Further Reading
 
