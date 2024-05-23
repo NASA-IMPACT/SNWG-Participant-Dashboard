@@ -1,8 +1,8 @@
 ---
-title: 'Part 2: Implementation'
+title: 'Part 3: Implementation'
 layout: post
 icon: fas fa-users-gear
-order: 4
+order: 5
 toc: true
 ---
 

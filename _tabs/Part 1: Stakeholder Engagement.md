@@ -1,8 +1,8 @@
 ---
-title: 'Part 3: Stakeholder Engagement'
+title: 'Part 1: Stakeholder Engagement'
 layout: post
 icon: fas fa-comments
-order: 5
+order: 3
 toc: true
 ---
 
