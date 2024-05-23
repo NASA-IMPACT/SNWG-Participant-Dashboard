@@ -20,15 +20,13 @@ toc: true
 <!-- markdownlint-disable-next-line -->
 <div align="center">
 
-  <!-- markdownlint-disable-next-line -->
-  [As open as **possible** ,<br>
+  As open as <strong>possible</strong>,<br>
 
-  as restricted as **necessary** ,<br>
+  as restricted as <strong>necessary</strong>,<br>
   
-  and **always** secure.]
-  </div>
+  and <strong>always</strong> secure.
 
-
+</div>
 
 
 ## Further Reading
