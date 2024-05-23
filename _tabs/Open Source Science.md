@@ -32,9 +32,7 @@ toc: true
 
 _In keeping with the [NASA Plan for Increasing Access to Results of Federally Funded Research](https://smd-cms.nasa.gov/wp-content/uploads/2023/05/NASA_Plan_for_increasing_access_to_results_of_federally_funded_research1.pdf) the [SMD Strategy for Data Management and Computing for Ground Breaking Science 2019-2024](https://smd-cms.nasa.gov/wp-content/uploads/2023/06/SDMWG_Full_Document_v3.pdf), and [SPD-41A](https://science.nasa.gov/researchers/science-data/science-information-policy/), SMD's Scientific Information Policy, which was updated late in 2022, most proposers to ROSES-2023 must provide an "Open Science and Data Management Plan", (formerly called the Data Management Plan) or an explanation of why one is not necessary given the nature of the work proposed. This Open Science and Data Management Plan (OSDMP) must address how publications, data, and software will be made available, see below and the [SMD Open-Source Science Guidance] at https://science.nasa.gov/oss-guidance for more detail and examples._
 
-Solution Project Teams should have the following in their OSDMP:
-
-### Open Data
+### Open Data in the OSDMP
 
 <i class="fa fa-arrow-right"></i> **What:** "A description of data types, volume, formats, and (where relevant) standards”;<br>
 <i class="fa fa-arrow-right"></i> **When**: “A description of the schedule for data archiving and sharing;”<br>
@@ -42,7 +40,8 @@ Solution Project Teams should have the following in their OSDMP:
 <i class="fa fa-arrow-right"></i> **How**: “A discussion of how the plan enables long-term preservation of data;”<br>
 <i class="fa fa-arrow-right"></i> **Who**: “A discussion of roles and responsibilities of team members in accomplishing the OSDMP. If funds are required for data management activities, these should be covered in the normal budget and budget justification sections of the proposal.
 
-### Open Software
+### Open Software in the OSDMP
+
 <i class="fa fa-arrow-right"></i> Acknowledge that “software needed to validate the scientific conclusions of a peer-reviewed publication resulting from an award, e.g., data underlying figures, maps, and tables in a publication must be made available at the time of publication.
     Include:
         - Expected software types
@@ -52,10 +51,11 @@ Solution Project Teams should have the following in their OSDMP:
 <i class="fa fa-arrow-right"></i> Acknowledge that “publicly available software projects developed under the grant must include a code of conduct and guidelines for contributors and when released, have a digital persistent identifier, such as a Digital Object Identifier, associated with it to support citation.”<br>
 <i class="fa fa-arrow-right"></i> Acknowledge that “software should be released with an open, permissive license such as Apache 2.0, BSD 3-Clause “Revised” License, or MIT License. Any limitations to sharing the software should be described as part of the SMP.”<br>
 
-### Open Publications
+### Open Publications in the OSDMP
+
 <i class="fa fa-arrow-right"></i> Acknowledge that the “as-accepted manuscript or the version of record of peer-reviewed publications must be made publicly available at the time of publication. <br>
 
-Note: There are two options for how to comply with this requirement: 
+Note: There are two options for compliance with this requirement: 
     (1) the manuscript is individually uploaded to NASA PubSpace by the time of publication or 
     (2) It is published in a journal that makes it openly available at the time of publication and also it is indexed by either CHORUS or ADS”
 
