@@ -55,13 +55,13 @@ _In keeping with the [NASA Plan for Increasing Access to Results of Federally Fu
 
 <i class="fa fa-arrow-right"></i> Acknowledge that the “as-accepted manuscript or the version of record of peer-reviewed publications must be made publicly available at the time of publication. <br>
 
-Note: There are two options for compliance with this requirement: 
-    (1) the manuscript is individually uploaded to NASA PubSpace by the time of publication or 
+Note: There are two options for compliance with this requirement: <br>
+    (1) the manuscript is individually uploaded to NASA PubSpace by the time of publication or <br>
     (2) It is published in a journal that makes it openly available at the time of publication and also it is indexed by either CHORUS or ADS”
 
 ## Open Data
 
-### Consider:
+### Consider
 - What is the nature of the data I am collecting or creating?
 - How can the data be safely stored?
 - Who can access the data without manipulating it (view-only)?  
@@ -80,7 +80,7 @@ Note: There are two options for compliance with this requirement:
     - If I am planning to publish, what does the publisher say?
 <br>
 
-### Document Attributes:
+### Documenting Data Attributes
 
 | Description      | Full documentation |
 | Quality          | Storage            |
@@ -89,7 +89,7 @@ Note: There are two options for compliance with this requirement:
 | Preservation     | Archival           |
 | Responsibilities | Resources          |
 
-### Deposit Locations
+### Data Deposit Locations
 
 The following are examples of data repositories that can be used to host open data. Inclusion on this site does not indicate endorsement. 
 
@@ -100,7 +100,7 @@ The following are examples of data repositories that can be used to host open da
 
 ### Data Preservation
 
-Consider:
+Consider
 - What type of data am I creating?
 - What is the level of sensitivity of the data I am creating?
 - Will future work or publications use this data as a base?
