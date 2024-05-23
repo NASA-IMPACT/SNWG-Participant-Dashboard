@@ -75,9 +75,9 @@ _How will your project adhere to Open Source Science principles during Solution 
 _How will your project promote stakeholder engagement throughout the Solution Product development and operation?_
 - [x] Outline your management approach <br>
 _Team structure, partnerships, acquisition strategy, Milestone reviews_<br> 
-_<i class="fa fa-thumbs-up"></i> Tip: Refer to team members by their ROLE throughout the plan. Define the names associated with the role in a chart in supporting sections._
+_<i class="fa fa-shuttle-space"></i> Tip: Refer to team members by their ROLE throughout the plan. Define the names associated with the role in a chart in supporting sections._
 - [x] Notional schedule <br>
-_<i class="fa fa-thumbs-up"></i>Tip: Use ranges and relative times, not exact dates i.e. "2 months after project signing" "2 years after project Implementation start" Do keep in mind the limitations of final funding dates._
+_<i class="fa fa-shuttle-space"></i> Tip: Use ranges and relative times, not exact dates i.e. "2 months after project signing" "2 years after project Implementation start" Do keep in mind the limitations of final funding dates._
 - [x] Resource requirements
     - Project L1
     - PLR Compliance matrix

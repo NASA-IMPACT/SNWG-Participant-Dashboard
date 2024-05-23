@@ -110,7 +110,7 @@ Consider
 - Is there a formal obligation to preserve data for the longer term?
 - Who is responsible for the management of data preservation?
 
-<i class="fa fa-thumbs-up"></i> Tip: Data Management Costing Tool
+<i class="fa fa-shuttle-space"></i> Tip: Data Management Costing Tool
 A group at the Delft University of Technology has developed a [costing tool that allows a rough estimation of FTE resources](https://forms.gle/8mUXX3TWTr85eyK47).
 
 
