@@ -5,6 +5,10 @@ title: What is the SNWG Management Office
 order: 2
 toc: true
 ---
+
+![](assets/SNWG MO circle.png)
+_The three core components of the SNWG MO._
+
 ## Facilitate the **Assessment** of SNWG Agency Needs
 "NASA leads a tri-agency assessment (with USGS and NOAA) of federal agency needs submitted through the SNWG survey. The assessment is carried out by more than 100 scientists with expertise on the geophysical observables requested by the agencies. The SNWG Management Office coordinates the assessment process, develops tools used by the assessment participants, schedules and supports follow-up discussions with each participating agency, performs statistical analysis of the survey responses, coordinates the evaluation of solutions proposed to meet agency needs, and drafts NASA’s presentation of selected solutions to the Executive Branch. After each assessment cycle, the SNWG Management Office conducts an extensive lessons learned retrospective, collecting feedback from participants that is used to inform tool refinement and process updates that streamline and support the next assessment cycle."
 
@@ -13,10 +17,6 @@ toc: true
 
 ## Provide Training and Community **Engagement** Around SNWG Solutions
 "The SNWG SEP is the key to providing training, outreach, and community engagement around NASA SNWG data products and systems through collaboration across NASA’s Earth Science Division. The program includes polling stakeholders about their training and data needs, connecting with capacity-building efforts within NASA, funding and organizing training activities such as workshops, and bringing together communities of federal and other users around funded solutions. Collaborations among federal users, the scientific community, academia, industry, and NASA’s Earth Science Division empowers these communities to integrate SNWG solutions into their research and decision-making processes."[^1]
-
-
-![](assets/SNWG MO circle.png)
-_The three core components of the SNWG MO._
 
 
 [^1]:[The SNWG MO on EarthData (ESDS-IMPACT)](https://www.earthdata.nasa.gov/esds/impact/snwg)
