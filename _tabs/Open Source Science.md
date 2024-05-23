@@ -28,10 +28,10 @@ toc: true
 
 </div>
 
-**F**indable
-**A**ccessible
-**I**nteroperable
-**R**eusable
+**F**indable <br>
+**A**ccessible <br>
+**I**nteroperable<br>
+**R**eusable<br>
 
 ## Open Source Data Management Plan (OSDMP)
 
@@ -41,9 +41,9 @@ Solution Project Teams should have the following in their OSDMP:
 
 ### Open Data
 
-- [ ] **What:** "A description of data types, volume, formats, and (where relevant) standards”;
-- [ ] **When**: “A description of the schedule for data archiving and sharing;”
-- [ ] **Where**: “A description of the intended repositories for archived data, including mechanisms for public access and distribution;”
+- [] **What:** "A description of data types, volume, formats, and (where relevant) standards”;
+- [] **When**: “A description of the schedule for data archiving and sharing;”
+- [] **Where**: “A description of the intended repositories for archived data, including mechanisms for public access and distribution;”
 - [ ] **How**: “A discussion of how the plan enables long-term preservation of data;”
 - [ ] **Who**: “A discussion of roles and responsibilities of team members in accomplishing the OSDMP. If funds are required for data management activities, these should be covered in the normal budget and budget justification sections of the proposal.”
 
@@ -60,12 +60,12 @@ Solution Project Teams should have the following in their OSDMP:
 - [ ]  Acknowledge that the “as-accepted manuscript or the version of record of peer-reviewed publications must be made publicly available at the time of publication. 
 
 Note: There are two options for how to comply with this requirement: 
-- (1) the manuscript is individually uploaded to NASA PubSpace by the time of publication or 
-- (2) It is published in a journal that makes it openly available at the time of publication and also it is indexed by either CHORUS or ADS”
+    (1) the manuscript is individually uploaded to NASA PubSpace by the time of publication or 
+    (2) It is published in a journal that makes it openly available at the time of publication and also it is indexed by either CHORUS or ADS”
 
 ## Open Data
 
-### Considerations:
+### Consider:
 - What is the nature of the data I am collecting or creating?
 - How can the data be safely stored?
 - Who can access the data without manipulating it (view-only)?  
@@ -105,12 +105,12 @@ The following are examples of data repositories that can be used to host open da
 ### Data Preservation
 
 Consider:
-- Type of data created
-- Level of sensitivity
-- Will future work or publications use it as a base
-is the data unique?
+- What type of data am I creating?
+- What is the level of sensitivity of the data I am creating?
+- Will future work or publications use this data as a base?
+- Is the data unique?
 - Is it easy to replicate the data?
-are the costs of replication disproportionately high?
+- Are the costs of replication disproportionately high?
 - Is there a formal obligation to preserve data for the longer term?
 - Who is responsible for the management of data preservation?
 
@@ -124,8 +124,7 @@ _Research software includes various components like source code, algorithms, scr
 
 |FAIR Data vs FAIR Software    |
 | :--------------------------------------------------- | :--------------- |
-|Focus is on actions taken at the **end of archiving** | Requires **ongoing action** from the start of the project,<br> such as in code documentation and modularization |
-
+|Focus is on actions taken at the <br>**end of archiving** | Requires **ongoing action** from the start of the project,<br> such as in code documentation and modularization |
 
 ## Open Publications
 
