@@ -66,6 +66,8 @@ Trainings, workshops, press releases
 _Detail: Getting user impact stories once Federal Agencies are using the Product_
 
 ## SPoRT (Short-term Prediction Research and Transition Center) Collaboration
+<br>
+
 _Internal Note: Ask Anita for help completing this section_
 - Who is SPoRT?
 - Why do we work with SPoRT?
