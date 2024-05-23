@@ -50,8 +50,6 @@ SPoRT partnership, trainings, workshops
 **User Impact Stories during Implementation**
 _Detail: how do we get impact stories when the Product isn't complete and in use by Federal agencies and private users_
 
-<br>
-
 ## Operations phase
 - Who we talk to
     - People who submitted surveys in the Assessment phase for the chosen Solution Products.
@@ -66,9 +64,8 @@ Trainings, workshops, press releases
 
 _Detail: Getting user impact stories once Federal Agencies are using the Product_
 
-<br>
-
 ## SPoRT (Short-term Prediction Research and Transition Center) Collaboration
+_Internal Note: Ask Anita for help completing this section_
 - Who is SPoRT?
 - Why do we work with SPoRT?
 - What does SPoRT do for you? 
@@ -79,7 +76,7 @@ Keeping it real
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
 
-> For detailed info on Open Source Science, see [https://cherrelletucker.github.io/Open-Source-Science/](https://cherrelletucker.github.io/Open-Source-Science/).
+> For more detailed guidance on Open Source Science [click here.](https://cherrelletucker.github.io/Open-Source-Science/).
 {: .prompt-info }
 
 <!-- markdownlint-restore -->

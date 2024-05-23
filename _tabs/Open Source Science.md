@@ -34,26 +34,26 @@ _In keeping with the [NASA Plan for Increasing Access to Results of Federally Fu
 
 ### Open Data in the OSDMP
 
-<i class="fa fa-arrow-right"></i> **What:** "A description of data types, volume, formats, and (where relevant) standards”;<br>
-<i class="fa fa-arrow-right"></i> **When**: “A description of the schedule for data archiving and sharing;”<br>
-<i class="fa fa-arrow-right"></i>  **Where**: “A description of the intended repositories for archived data, including mechanisms for public access and distribution;”<br>
-<i class="fa fa-arrow-right"></i> **How**: “A discussion of how the plan enables long-term preservation of data;”<br>
-<i class="fa fa-arrow-right"></i> **Who**: “A discussion of roles and responsibilities of team members in accomplishing the OSDMP. If funds are required for data management activities, these should be covered in the normal budget and budget justification sections of the proposal.
+- **What:** "A description of data types, volume, formats, and (where relevant) standards”;<br>
+- **When**: “A description of the schedule for data archiving and sharing;”<br>
+-  **Where**: “A description of the intended repositories for archived data, including mechanisms for public access and distribution;”<br>
+- **How**: “A discussion of how the plan enables long-term preservation of data;”<br>
+- **Who**: “A discussion of roles and responsibilities of team members in accomplishing the OSDMP. If funds are required for data management activities, these should be covered in the normal budget and budget justification sections of the proposal.
 
 ### Open Software in the OSDMP
 
-<i class="fa fa-arrow-right"></i> Acknowledge that “software needed to validate the scientific conclusions of a peer-reviewed publication resulting from an award, e.g., data underlying figures, maps, and tables in a publication must be made available at the time of publication.
+- Acknowledge that “software needed to validate the scientific conclusions of a peer-reviewed publication resulting from an award, e.g., data underlying figures, maps, and tables in a publication must be made available at the time of publication.
     Include:
         - Expected software types
         - Repositories and timeline for sharing software
         - Description of software that are exempt from software sharing requirements<br>
-<i class="fa fa-arrow-right"></i> Acknowledge that the remaining scientifically useful software must be made available at the end of the award<br>
-<i class="fa fa-arrow-right"></i> Acknowledge that “publicly available software projects developed under the grant must include a code of conduct and guidelines for contributors and when released, have a digital persistent identifier, such as a Digital Object Identifier, associated with it to support citation.”<br>
-<i class="fa fa-arrow-right"></i> Acknowledge that “software should be released with an open, permissive license such as Apache 2.0, BSD 3-Clause “Revised” License, or MIT License. Any limitations to sharing the software should be described as part of the SMP.”<br>
+- Acknowledge that the remaining scientifically useful software must be made available at the end of the award<br>
+- Acknowledge that “publicly available software projects developed under the grant must include a code of conduct and guidelines for contributors and when released, have a digital persistent identifier, such as a Digital Object Identifier, associated with it to support citation.”<br>
+- Acknowledge that “software should be released with an open, permissive license such as Apache 2.0, BSD 3-Clause “Revised” License, or MIT License. Any limitations to sharing the software should be described as part of the SMP.”<br>
 
 ### Open Publications in the OSDMP
 
-<i class="fa fa-arrow-right"></i> Acknowledge that the “as-accepted manuscript or the version of record of peer-reviewed publications must be made publicly available at the time of publication. <br>
+- Acknowledge that the “as-accepted manuscript or the version of record of peer-reviewed publications must be made publicly available at the time of publication. <br>
 
 Note: There are two options for compliance with this requirement: <br>
     (1) the manuscript is individually uploaded to NASA PubSpace by the time of publication or <br>
@@ -80,14 +80,14 @@ Note: There are two options for compliance with this requirement: <br>
     - If I am planning to publish, what does the publisher say?
 <br>
 
-### Documenting Data Attributes
+### Data Attributes to document
 
-| Description      | Full documentation |
-| Quality          | Storage            |
-| Backup           | Access             |
-| Sharing          | Re-use             |
-| Preservation     | Archival           |
-| Responsibilities | Resources          |
+| Data Description      | Full data use documentation |
+| Data Quality          | Storage requirements        |
+| Backup                | Access                      |
+| Sharing               | Re-use                      |
+| Preservation          | Archival                    |
+| Responsibilities      | Resources                   |
 
 ### Data Deposit Locations
 
@@ -110,7 +110,7 @@ Consider
 - Is there a formal obligation to preserve data for the longer term?
 - Who is responsible for the management of data preservation?
 
-Tip: Data Management Costing Tool
+<i class="fa fa-star"></i> Tip: Data Management Costing Tool
 A group at the Delft University of Technology has developed a [costing tool that allows a rough estimation of FTE resources](https://forms.gle/8mUXX3TWTr85eyK47).
 
 
@@ -118,14 +118,14 @@ A group at the Delft University of Technology has developed a [costing tool that
 
 _Research software includes various components like source code, algorithms, scripts, workflows, and executables created during or for research. It does not cover software like operating systems, libraries, dependencies, and packages that are used in research but weren't specifically developed for it. Research software should have persistent identifiers, be stored in repositories, be properly cited, and described with metadata. It is unique because it is executable, evolves with versioning, and depends on a specific development system._
 
+|                         Open Source vs FAIR                       |
+| :-------------------------------------------------------- | :--------------- |
+| OS Software: released with a license <br> granting user rights | FAIR Software: provided via executable <br> without releasing source code |
+
 
 |                         FAIR Data vs FAIR Software                      |
 | :--------------------------------------------------- | :--------------- |
 |Focus is on actions taken at the <br>**end of archiving** | Requires **ongoing action** from the start of the project,<br> such as in code documentation and modularization |
-
-|                         Open Source vs FAIR                       |
-| :-------------------------------------------------------- | :--------------- |
-| OS Software: released with a license <br> granting user rights | FAIR Software: provided via executable <br> without releasing source code |
 
 ### FAIR Software
 
@@ -158,25 +158,25 @@ NC - No Commercial Use<br>
 ND - No Derivative Works<br>
 <br>
 
-<i class="fa fa-arrow-right"></i> **CC0** <br> Most permissive for copyright holders who want to assign their work to the public domain. Maximum Open Science (usually used for image and photo collections)<br>
+- **CC0** <br> Most permissive for copyright holders who want to assign their work to the public domain. Maximum Open Science (usually used for image and photo collections)<br>
 <br>
 
-<i class="fa fa-arrow-right"></i> **CC-BY** <br>(Creative Commons Attribution) - others distribute,remix, tweak, and build upon your work,even commercially, as long as they credit you for the original creation.<br>
+- **CC-BY** <br>(Creative Commons Attribution) - others distribute,remix, tweak, and build upon your work,even commercially, as long as they credit you for the original creation.<br>
 <br>
 
-<i class="fa fa-arrow-right"></i> **CC-BY-NC** <br> requires attribution, but only allows non-commercial use.<br>
+- **CC-BY-NC** <br> requires attribution, but only allows non-commercial use.<br>
 <br>
 
-<i class="fa fa-arrow-right"></i> **CC-BY-ND** <br> requires attribution, blocks derivative works - no changing, adapting, or transforming a work.<br>
+- **CC-BY-ND** <br> requires attribution, blocks derivative works - no changing, adapting, or transforming a work.<br>
 <br>
 
-<i class="fa fa-arrow-right"></i> **CC-BY-SA** <br>(ShareAlike) - requires attribution, and people can use and adapt the material for any purpose, even commercially.  must give appropriate credits and indicate if changes were made.The new material produced must be distributed under the same licenses as the original.<br>
+- **CC-BY-SA** <br>(ShareAlike) - requires attribution, and people can use and adapt the material for any purpose, even commercially.  must give appropriate credits and indicate if changes were made.The new material produced must be distributed under the same licenses as the original.<br>
 <br>
 
-<i class="fa fa-arrow-right"></i> **CC-BY-SA-NC** <br>- you can use the original work in your own publication, as long as you:* Attribute the original author (BY); * Publish your work with the same license as the original author (SA); * Do not use the work for commercial purposes (NC).<br>
+- **CC-BY-SA-NC** <br>- you can use the original work in your own publication, as long as you:* Attribute the original author (BY); * Publish your work with the same license as the original author (SA); * Do not use the work for commercial purposes (NC).<br>
 <br>
 
-<i class="fa fa-arrow-right"></i> **CC-BY-NC-ND** <br> Most restrictive; only distribution for non-commercial use of the unmodified original work is allowed.<br>
+- **CC-BY-NC-ND** <br> Most restrictive; only distribution for non-commercial use of the unmodified original work is allowed.<br>
 
 ## Open Meetings
 _more information needed here_
@@ -188,22 +188,3 @@ _more information needed here_
 ## Algorithm Theoretical Basis Documents (ATBD)
 _More information needed here. Pontus to advise._
 
-## Further Reading
-
-- [Memorandum Ensuring Free, Immediate, and Equitable Access to Federally Funded Research, 2022 Aug 25](https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-access-Memo.pdf)
-<br>
-
-- [Desirable Characteristics of Data Repositories for Federally Funded Research, 2022 May](https://repository.si.edu/bitstream/handle/10088/113528/Desirable%20Characteristics%20of%20Data%20Repositories.pdf)
-<br>
-
-- [ROSES Open Science and Data Management Plan](https://science.nasa.gov/researchers/sara/faqs/osdmp/)
-
-- [TOPS](https://nasa.github.io/Transform-to-Open-Science/)
-
-- [SNWG OSS Quick Win Strategy.pptx](https://docs.google.com/presentation/d/1Nk8whKqDxwkjko5W0T7l2Ed1kLpvuxQ-/edit?usp=sharing&ouid=106604293755679367477&rtpof=true&sd=true)
-
-- [SNWG OSS Adoption in Action Scope Document](https://docs.google.com/document/d/1QIJJW8A9nrbZYHyiPW30IuMvnW_jQD4QTNO_RS1aOmQ/edit?usp=drive_link)
-
-- [https://docs.google.com/document/d/1QIJJW8A9nrbZYHyiPW30IuMvnW_jQD4QTNO_RS1aOmQ/edit?usp=drive_link](https://docs.google.com/presentation/d/1OOHgdqS82E81P7jXNxJzGsByJ-Wfh_RZPFakczECp4A/edit#slide=id.g2634b21d2c2_1_1471)
-
-- [Developing a Toolkit for Fostering Open SCience Practices](https://driv-e.google.com/file/d/11nsQV1_MJRIxtEGig5WxfcyX3paiuX0d/view?usp=drive_link)
