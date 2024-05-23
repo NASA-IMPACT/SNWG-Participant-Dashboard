@@ -41,23 +41,24 @@ Solution Project Teams should have the following in their OSDMP:
 
 ### Open Data
 
-<i class="fa fa-arrow-right"></i> **What:** "A description of data types, volume, formats, and (where relevant) standards”;
---> **When**: “A description of the schedule for data archiving and sharing;”
---> **Where**: “A description of the intended repositories for archived data, including mechanisms for public access and distribution;”
-- [ ] **How**: “A discussion of how the plan enables long-term preservation of data;”
-- [ ] **Who**: “A discussion of roles and responsibilities of team members in accomplishing the OSDMP. If funds are required for data management activities, these should be covered in the normal budget and budget justification sections of the proposal.”
+<i class="fa fa-arrow-right"></i> **What:** "A description of data types, volume, formats, and (where relevant) standards”;<br>
+<i class="fa fa-arrow-right"></i> **When**: “A description of the schedule for data archiving and sharing;”<br>
+<i class="fa fa-arrow-right"></i>  **Where**: “A description of the intended repositories for archived data, including mechanisms for public access and distribution;”<br>
+<i class="fa fa-arrow-right"></i> **How**: “A discussion of how the plan enables long-term preservation of data;”<br>
+<i class="fa fa-arrow-right"></i> **Who**: “A discussion of roles and responsibilities of team members in accomplishing the OSDMP. If funds are required for data management activities, these should be covered in the normal budget and budget justification sections of the proposal.
 
 ### Open Software
-- [ ] Acknowledge that “software needed to validate the scientific conclusions of a peer-reviewed publication resulting from an award, e.g., data underlying figures, maps, and tables in a publication must be made available at the time of publication.” Include:
-    - Expected software types
-    - Repositories and timeline for sharing software
-    - Description of software that are exempt from software sharing requirements
-- [ ] Acknowledge that “the remaining scientifically useful software must be made available at the end of the award’”
-- [ ] Acknowledge that “publicly available software projects developed under the grant must include a code of conduct and guidelines for contributors and when released, have a digital persistent identifier, such as a Digital Object Identifier, associated with it to support citation.”
-- [ ] Acknowledge that “software should be released with an open, permissive license such as Apache 2.0, BSD 3-Clause “Revised” License, or MIT License. Any limitations to sharing the software should be described as part of the SMP.”
+<i class="fa fa-arrow-right"></i> Acknowledge that “software needed to validate the scientific conclusions of a peer-reviewed publication resulting from an award, e.g., data underlying figures, maps, and tables in a publication must be made available at the time of publication.
+    Include:
+        - Expected software types
+        - Repositories and timeline for sharing software
+        - Description of software that are exempt from software sharing requirements<br>
+<i class="fa fa-arrow-right"></i> Acknowledge that the remaining scientifically useful software must be made available at the end of the award<br>
+<i class="fa fa-arrow-right"></i> Acknowledge that “publicly available software projects developed under the grant must include a code of conduct and guidelines for contributors and when released, have a digital persistent identifier, such as a Digital Object Identifier, associated with it to support citation.”<br>
+<i class="fa fa-arrow-right"></i> Acknowledge that “software should be released with an open, permissive license such as Apache 2.0, BSD 3-Clause “Revised” License, or MIT License. Any limitations to sharing the software should be described as part of the SMP.”<br>
 
 ### Open Publications
-- [ ]  Acknowledge that the “as-accepted manuscript or the version of record of peer-reviewed publications must be made publicly available at the time of publication. 
+<i class="fa fa-arrow-right"></i> Acknowledge that the “as-accepted manuscript or the version of record of peer-reviewed publications must be made publicly available at the time of publication. <br>
 
 Note: There are two options for how to comply with this requirement: 
     (1) the manuscript is individually uploaded to NASA PubSpace by the time of publication or 
