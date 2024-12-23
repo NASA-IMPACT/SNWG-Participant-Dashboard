@@ -6,16 +6,22 @@ categories: [Guide]
 tags: [overview]
 ---
 
-<div class="navigation-tabs">
-  <div class="tab-list">
-    <button class="tab-button active" onclick="switchTab('overview')">Overview</button>
-    <button class="tab-button" onclick="switchTab('implementation')">Implementation</button>
-    <button class="tab-button" onclick="switchTab('engagement')">Stakeholder Engagement</button>
-    <button class="tab-button" onclick="switchTab('resources')">Resources</button>
+<div class="tabs-wrapper">
+  <input type="radio" name="tabs" id="tab1" checked="checked">
+  <input type="radio" name="tabs" id="tab2">
+  <input type="radio" name="tabs" id="tab3">
+  <input type="radio" name="tabs" id="tab4">
+  
+  <div class="tabs-nav">
+    <label for="tab1">Overview</label>
+    <label for="tab2">Implementation</label>
+    <label for="tab3">Stakeholder Engagement</label>
+    <label for="tab4">Resources</label>
   </div>
 
-  <div id="overview" class="tab-content active">
-    <div class="tab-section">
+  <div class="tabs-content">
+    <!-- Overview Tab -->
+    <div class="tab">
       <p class="text-center lead-text">Your resource for navigating the SNWG project lifecycle</p>
 
       ![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
@@ -62,24 +68,21 @@ tags: [overview]
         </div>
       </div>
     </div>
-  </div>
 
-  <div id="implementation" class="tab-content">
-    <div class="tab-section">
+    <!-- Implementation Tab -->
+    <div class="tab">
       <h2>Implementation</h2>
       <!-- Implementation content here -->
     </div>
-  </div>
 
-  <div id="engagement" class="tab-content">
-    <div class="tab-section">
+    <!-- Stakeholder Engagement Tab -->
+    <div class="tab">
       <h2>Stakeholder Engagement</h2>
       <!-- Engagement content here -->
     </div>
-  </div>
 
-  <div id="resources" class="tab-content">
-    <div class="tab-section">
+    <!-- Resources Tab -->
+    <div class="tab">
       <h2>Resources</h2>
       <!-- Resources content here -->
     </div>
@@ -87,37 +90,54 @@ tags: [overview]
 </div>
 
 <style>
-.navigation-tabs {
+.tabs-wrapper {
   margin: 2rem 0;
 }
 
-.tab-list {
+.tabs-wrapper input[type="radio"] {
+  display: none;
+}
+
+.tabs-nav {
   display: flex;
   border-bottom: 2px solid var(--border-color);
   margin-bottom: 2rem;
 }
 
-.tab-button {
-  background: none;
-  border: none;
-  padding: 1rem 2rem;
+.tabs-nav label {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
   cursor: pointer;
   color: var(--text-color);
   font-weight: 500;
+  transition: all 0.3s ease;
 }
 
-.tab-button.active {
+.tabs-nav label:hover {
   color: var(--link-color);
-  border-bottom: 2px solid var(--link-color);
-  margin-bottom: -2px;
 }
 
-.tab-content {
+.tabs-content .tab {
   display: none;
 }
 
-.tab-content.active {
+/* Show content for selected tab */
+#tab1:checked ~ .tabs-content div:nth-of-type(1),
+#tab2:checked ~ .tabs-content div:nth-of-type(2),
+#tab3:checked ~ .tabs-content div:nth-of-type(3),
+#tab4:checked ~ .tabs-content div:nth-of-type(4) {
   display: block;
+}
+
+/* Style active tab label */
+#tab1:checked ~ .tabs-nav label:nth-of-type(1),
+#tab2:checked ~ .tabs-nav label:nth-of-type(2),
+#tab3:checked ~ .tabs-nav label:nth-of-type(3),
+#tab4:checked ~ .tabs-nav label:nth-of-type(4) {
+  color: var(--link-color);
+  border-bottom: 2px solid var(--link-color);
+  margin-bottom: -2px;
 }
 
 .solutions-grid {
@@ -164,21 +184,3 @@ tags: [overview]
   color: var(--text-muted);
 }
 </style>
-
-<script>
-function switchTab(tabId) {
-  // Hide all tab contents
-  document.querySelectorAll('.tab-content').forEach(content => {
-    content.classList.remove('active');
-  });
-  
-  // Deactivate all tab buttons
-  document.querySelectorAll('.tab-button').forEach(button => {
-    button.classList.remove('active');
-  });
-  
-  // Show selected tab content and activate its button
-  document.getElementById(tabId).classList.add('active');
-  document.querySelector(`[onclick="switchTab('${tabId}')"]`).classList.add('active');
-}
-</script>
