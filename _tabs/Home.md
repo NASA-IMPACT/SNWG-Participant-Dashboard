@@ -23,24 +23,50 @@ toc: true
     
     <div class="content">
       <section>
-        <div class="card">
-          <h2>What is SNWG?</h2>
-          <ul>
-            <li>Assessment of federal agency needs</li>
-            <li>Implementation of solutions</li>
-            <li>Stakeholder engagement & training</li>
-          </ul>
+        <!-- Overview Tab Content -->
+        <div class="lifecycle-image">
+          ![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+          ![light mode only](assets/LightModeSNWGCycleGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+          <p class="image-caption">The SNWG Project lifecycle.</p>
         </div>
 
         <div class="card">
-          <h2>Key Phases</h2>
-          <ul>
-            <li>Pre-formulation</li>
-            <li>Formulation</li>
-            <li>Implementation</li>
-            <li>Operations</li>
-            <li>Closeout</li>
-          </ul>
+          <h2>What is SNWG?</h2>
+          <p>The Satellite Needs Working Group (SNWG) conducts a survey of U.S. federal agencies every two years to identify what Earth observation data they need to fulfill their mission. The SNWG is part of the U.S. Group on Earth Observations (USGEO) and includes members from various federal agencies that use Earth observation data.</p>
+          
+          <p>Survey responses are assessed by NASA, NOAA, and USGS to identify agency needs, potential data gaps in the current NASA program of record, and relevant datasets. Solutions that meet these identified needs are formulated, and those that are estimated to significantly increase satisfaction of multiple U.S. agencies are selected by the Executive Branch for funding and implementation.</p>
+        </div>
+
+        <div class="solution-grid">
+          <div class="solution-column">
+            <h3>Cycle 1 (2016)</h3>
+            <ul>
+              <li>ADMG - <em>CASEI</em></li>
+              <li>Data Curation for Discovery</li>
+              <li>Harmonized Landsat-Sentinel-2</li>
+              <li>Commercial Smallsat Data Acquisition</li>
+            </ul>
+          </div>
+          
+          <div class="solution-column">
+            <h3>Cycle 2 (2018)</h3>
+            <ul>
+              <li>Low Latency Freeboard & Ice Thickness Products</li>
+              <li>Internet of Animals</li>
+              <li>Global Surface Water Extent (DSWx)</li>
+              <li>Water Quality Products</li>
+            </ul>
+          </div>
+          
+          <div class="solution-column">
+            <h3>Cycle 3 (2020)</h3>
+            <ul>
+              <li>Air Quality Products</li>
+              <li>Planetary Boundary Layer</li>
+              <li>HLS-Vegetation Indices</li>
+              <li>TEMPO NRT</li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -114,8 +140,54 @@ toc: true
   color: var(--link-color);
 }
 
-.tabs .content {
-  margin-top: 1.5rem;
+.lifecycle-image {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.image-caption {
+  text-align: center;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.solution-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.solution-column {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.solution-column h3 {
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.solution-column ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.solution-column li {
+  margin: 0.8rem 0;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.solution-column li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--link-color);
 }
 
 .tabs .content section {
@@ -148,7 +220,7 @@ toc: true
   border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .card h2 {
@@ -157,21 +229,8 @@ toc: true
   color: var(--heading-color);
 }
 
-.card ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.card ul li {
-  margin-bottom: 0.5rem;
-  padding-left: 1.5rem;
-  position: relative;
-}
-
-.card ul li:before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  color: var(--link-color);
+.card p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
 }
 </style>
