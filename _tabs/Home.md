@@ -1,131 +1,177 @@
 ---
 layout: post
-icon: fas fa-handshake
-title: SNWG Stakeholder Engagement Guide
-order: 1
+title: SNWG Management Office Guide
 toc: true
-date: 2024-05-21 12:00:00 +0600
 ---
 
-![dark mode only](assets/DarkModeSEPGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
-![light mode only](assets/LightModeSEPGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
-_The SNWG stakeholder engagement lifecycle_
+<div class="guide-container">
+  <h1 class="text-center">SNWG Management Office Guide</h1>
+  <p class="text-center subtitle">Your resource for navigating the SNWG project lifecycle</p>
 
-## Welcome to SNWG SEP
+  <div class="tabs">
+    <input type="radio" id="tab1" name="tab-control" checked>
+    <input type="radio" id="tab2" name="tab-control">
+    <input type="radio" id="tab3" name="tab-control">
+    <input type="radio" id="tab4" name="tab-control">
+    
+    <ul>
+      <li><label for="tab1">Overview</label></li>
+      <li><label for="tab2">Implementation</label></li>
+      <li><label for="tab3">Stakeholder Engagement</label></li>
+      <li><label for="tab4">Resources</label></li>
+    </ul>
+    
+    <div class="content">
+      <section>
+        <div class="card">
+          <h2>What is SNWG?</h2>
+          <ul>
+            <li>Assessment of federal agency needs</li>
+            <li>Implementation of solutions</li>
+            <li>Stakeholder engagement & training</li>
+          </ul>
+        </div>
 
-> The SNWG Stakeholder Engagement Program (SEP) is the key to providing training, outreach, and community engagement around NASA's SNWG data products and systems through collaboration across NASA's Earth Science Division.
-{: .prompt-info }
+        <div class="card">
+          <h2>Key Phases</h2>
+          <ul>
+            <li>Pre-formulation</li>
+            <li>Formulation</li>
+            <li>Implementation</li>
+            <li>Operations</li>
+            <li>Closeout</li>
+          </ul>
+        </div>
+      </section>
 
-### Our Mission
-To support the development of user-centric SNWG solutions for federal agencies by facilitating collaborative stakeholder engagement and information sharing through design thinking and collaboration.
+      <section>
+        <h2>Implementation Content</h2>
+        <!-- Implementation tab content -->
+      </section>
 
-### Our Values
-* Trust, inclusion, and transparency leading to collaboration
-* Curiosity and empathy uncovering insightful understanding
-* Ingenuity and creativity leading to actionable solutions
+      <section>
+        <h2>Stakeholder Engagement Content</h2>
+        <!-- Stakeholder engagement tab content -->
+      </section>
 
-## Project Lifecycle Overview
-
-> Each phase of the SNWG project lifecycle has specific stakeholder engagement requirements and opportunities. Select a phase below to learn more.
-{: .prompt-tip }
-
-<div class="phase-grid">
-    <div class="phase-card">
-        <h3><a href="/assessment">Assessment</a></h3>
-        <ul>
-            <li>Identify stakeholders</li>
-            <li>Gather initial requirements</li>
-            <li>Analyze agency needs</li>
-        </ul>
+      <section>
+        <h2>Resources Content</h2>
+        <!-- Resources tab content -->
+      </section>
     </div>
-
-    <div class="phase-card">
-        <h3><a href="/pre-formulation">Pre-Formulation</a></h3>
-        <ul>
-            <li>Establish connections</li>
-            <li>Begin co-design process</li>
-            <li>Plan engagement strategy</li>
-        </ul>
-    </div>
-
-    <div class="phase-card">
-        <h3><a href="/formulation">Formulation</a></h3>
-        <ul>
-            <li>Detailed planning</li>
-            <li>Requirements validation</li>
-            <li>Stakeholder alignment</li>
-        </ul>
-    </div>
-
-    <div class="phase-card">
-        <h3><a href="/implementation">Implementation</a></h3>
-        <ul>
-            <li>Regular engagement</li>
-            <li>Progress updates</li>
-            <li>Feedback integration</li>
-        </ul>
-    </div>
-
-    <div class="phase-card">
-        <h3><a href="/operations">Operations</a></h3>
-        <ul>
-            <li>Transition planning</li>
-            <li>Impact assessment</li>
-            <li>Success documentation</li>
-        </ul>
-    </div>
+  </div>
 </div>
 
-## Quick Access Resources
-
-> ### Essential Tools & Templates
-> * [Stakeholder Analysis Template](/resources/stakeholder-analysis)
-> * [Communication Plan Template](/resources/communication-plan)
-> * [Meeting Templates](/resources/meeting-templates)
-{: .prompt-info }
-
-> ### Getting Help
-> * [Contact the SEP Team](/contact)
-> * [FAQ](/faq)
-> * [Best Practices Guide](/best-practices)
-{: .prompt-tip }
-
 <style>
-.phase-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
-    margin: 1.5rem 0;
+.guide-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-.phase-card {
-    padding: 1rem;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    background-color: var(--card-bg);
+.text-center {
+  text-align: center;
 }
 
-.phase-card h3 {
-    margin-top: 0;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--border-color);
+.subtitle {
+  margin-bottom: 2rem;
+  color: var(--text-muted);
 }
 
-.phase-card ul {
-    list-style-type: none;
-    padding-left: 0;
+.tabs {
+  margin: 2rem 0;
+  background: var(--card-bg);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-.phase-card li {
-    margin: 0.5rem 0;
-    padding-left: 1.2rem;
-    position: relative;
+.tabs input[type="radio"] {
+  display: none;
 }
 
-.phase-card li:before {
-    content: "→";
-    position: absolute;
-    left: 0;
-    color: var(--link-color);
+.tabs ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 1rem;
+}
+
+.tabs ul li {
+  flex: 1;
+  text-align: center;
+}
+
+.tabs ul li label {
+  display: block;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tabs ul li label:hover {
+  color: var(--link-color);
+}
+
+.tabs .content {
+  margin-top: 1.5rem;
+}
+
+.tabs .content section {
+  display: none;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#tab1:checked ~ .content section:nth-of-type(1),
+#tab2:checked ~ .content section:nth-of-type(2),
+#tab3:checked ~ .content section:nth-of-type(3),
+#tab4:checked ~ .content section:nth-of-type(4) {
+  display: block;
+}
+
+#tab1:checked ~ ul li:nth-of-type(1) label,
+#tab2:checked ~ ul li:nth-of-type(2) label,
+#tab3:checked ~ ul li:nth-of-type(3) label,
+#tab4:checked ~ ul li:nth-of-type(4) label {
+  color: var(--link-color);
+  border-bottom: 2px solid var(--link-color);
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--heading-color);
+}
+
+.card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.card ul li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.card ul li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--link-color);
 }
 </style>
