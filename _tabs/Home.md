@@ -1,83 +1,128 @@
 ---
 layout: post
-permalink: /
+icon: fas fa-handshake
+order: 1
 toc: true
 date: 2024-05-21 12:00:00 +0600
 ---
 
-<!-- markdownlint-disable-next-line -->
-<div align="center">
-   <h1>Welcome to the Satellite Needs Working Group Management Office!</h1>
-</div>
+# SNWG Stakeholder Engagement Guide
 
-## What do we produce?
+## Assessment Phase
+<!-- Quick Start Guide -->
+> ### Quick Start Guide
+> - **Key Stakeholders**: Identify primary stakeholders and their roles
+> - **Essential Activities**: Required engagement touchpoints
+> - **Common Challenges**: Typical hurdles and solutions
+{: .prompt-tip }
 
-The SNWG MO helps various agencies produce **EOSDIS Standard Products**[^1]
-"EOS Standard Products are internally consistent, well-calibrated records of observations of the Earth's geophysical properties. They are identified and defined by EOS investigators who have been selected through a competitive peer review process to develop algorithms and software for generating products from EOS observations.
+<!-- Deep Dive -->
+<details>
+<summary>Deep Dive</summary>
 
-- *Products* contain geophysical parameters and can be used for science research and application.
-- *Standard* products are validated, QA and fully documented.
-- A *standard product file* may require companion/support files to make data usable or to satisfy policy requirements. Examples include geolocation data files, browse image data, calibration and validation, higher-resolution data undergoing validation, and data quality metrics."
+### Stakeholder Mapping
+Comprehensive guide to identifying and categorizing stakeholders
 
-## What are our previous products?
+### Engagement Strategies
+Detailed approaches for different stakeholder types
 
-| Cycle 1 (2016) | Cycle 2 (2018) | Cycle 3 (2020) |
-| :------------- | :------------- | :------------- |
-| ADMG - *CASEI*[^2] | Low Latency Freeboard &<br>Ice Thickness Products<br>over the Great Lakes[^3] | Air Quality Products[^4] [^5] [^6] |
-| Data Curation for<br>Discovery[^7] | Internet of Animals | Planetary Boundary Layer |
-| Harmonized<br>Landsat-Sentinel-2[^8] | Global Surface Water<br>Extent (DSWx) | HLS-Vegetation Indices |
-| Commercial Smallsat<br>Data Acquisition[^9] | Global Land Surface<br>Disturbance and Change<br>Detection (DIST) | TEMPO NRT |
-|  | Land Surface Deformation<br>for North America<br>and U.S. Territories (DISP) |  |
-|  | Water Quality Products |  |
+### Documentation Templates
+Complete set of required templates and examples
+</details>
 
-## Who are we?
+## Pre-Formulation Phase
+> ### Quick Start Guide
+> - **Initial Contact Guide**: How to establish first connections
+> - **Requirements Gathering**: Essential information needed
+> - **Basic Documentation**: Must-have documentation
+{: .prompt-tip }
 
-### Management Office/Implementation
+<details>
+<summary>Deep Dive</summary>
 
-| Role | Name |
-| :--- | :--- |
-| SNWG Program Manager | [Natasha Sadoff](mailto:natasha.sadoff@nasa.gov) |
-| SNWG MO Project Manager | [Sean Gregory](mailto:sean.p.gregory@nasa.gov) |
-| SNWG MO Project Scientist | [Pontus Olofsson](mailto:pontus.olofsson@nasa.gov) |
-| SNWG MO Deputy Project Manager | [Eric Taylor](mailto:eric.s.taylor@nasa.gov) |
-| SNWG MO Deputy Project Scientist | [Katrina Virts](mailto:katrina.s.virts@nasa.gov) |
-| SNWG MO Systems Engineer | [Jenny Wood](mailto:jenny.m.wood@nasa.gov) |
-| SNWG MO Project Coordinator | [Cherrelle Tucker](mailto:cherrelle.j.tucker@nasa.gov) |
+### Co-Design Principles
+Understanding and implementing co-design effectively
 
-### Assessment
+### Stakeholder Analysis
+In-depth stakeholder needs assessment
 
-| Role | Name |
-| :--- | :--- |
-| Assessment Lead | [Katrina Virts](mailto:katrina.s.virts@nasa.gov) |
-| Position 2 | Name 2 |
-| Position 3 | Name 3 |
-| Position 4 | Name 4 |
-| Position 5 | Name 5 |
+### Communication Plans
+Developing comprehensive engagement strategies
+</details>
 
-### Stakeholder Engagement
+## Formulation Phase
+> ### Quick Start Guide
+> - **Engagement Checklist**: Key tasks and milestones
+> - **Required Meetings**: Essential touchpoints
+> - **Documentation Requirements**: What you need to prepare
+{: .prompt-tip }
 
-| Role | Name |
-| :--- | :--- |
-| SEP lead | [Pontus Olofsson](mailto:pontus.olofsson@nasa.gov) |
-| SEP deputy | [Katrina Virts](mailto:katrina.s.virts@nasa.gov) |
-| Position 3 | Name 3 |
-| Position 4 | Name 4 |
-| Project Coordinator | [Cherrelle Tucker](mailto:cherrelle.j.tucker@nasa.gov) |
+<details>
+<summary>Deep Dive</summary>
 
-## Let's Get Started!
+### Detailed Planning
+Comprehensive engagement planning
 
-<!-- markdownlint-capture -->
-<!-- markdownlint-disable -->
-> Ready to get started? [Page 1: What is the SNWG?](https://cherrelletucker.github.io/What-is-the-SNWG/)
+### Risk Assessment
+Identifying and mitigating engagement risks
+
+### Feedback Integration
+Incorporating stakeholder input effectively
+</details>
+
+## Implementation Phase
+> ### Quick Start Guide
+> - **Progress Updates**: Keeping stakeholders informed
+> - **Feedback Loops**: Maintaining effective communication
+> - **Issue Resolution**: Handling challenges
+{: .prompt-tip }
+
+<details>
+<summary>Deep Dive</summary>
+
+### Stakeholder Management
+Long-term engagement strategies
+
+### Change Communication
+Managing and communicating changes
+
+### Success Metrics
+Measuring engagement effectiveness
+</details>
+
+## Operations Phase
+> ### Quick Start Guide
+> - **Handover Guide**: Transition planning
+> - **Support Framework**: Ongoing assistance
+> - **Success Stories**: Demonstrating impact
+{: .prompt-tip }
+
+<details>
+<summary>Deep Dive</summary>
+
+### Long-term Engagement
+Maintaining stakeholder relationships
+
+### Impact Assessment
+Measuring long-term success
+
+### Case Studies
+Learning from previous projects
+</details>
+
+## Additional Resources
+
+> ### Quick Access
+> - [Templates Library](/resources/templates)
+> - [Case Studies](/resources/case-studies)
+> - [FAQ & Troubleshooting](/resources/faq)
 {: .prompt-info }
-<!-- markdownlint-restore -->
 
-[^1]:[https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
-[^2]:[https://impact.earthdata.nasa.gov/casei/](https://impact.earthdata.nasa.gov/casei/)
-[^3]:[https://nsidc.org/data/atl10ql/versions/6](https://nsidc.org/data/atl10ql/versions/6)
-[^4]:[https://www.earthdata.nasa.gov/learn/find-data/near-real-time/hazards-and-disasters/air-quality](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/hazards-and-disasters/air-quality)
-[^5]:[https://airquality.gsfc.nasa.gov/forecast](https://airquality.gsfc.nasa.gov/forecast)
-[^6]:[https://appliedsciences.nasa.gov/get-involved/training/english/arset-introduction-and-access-global-air-quality-forecasting-data-and](https://appliedsciences.nasa.gov/get-involved/training/english/arset-introduction-and-access-global-air-quality-forecasting-data-and)
-[^7]:[https://www.earthdata.nasa.gov/esds/impact/dcd](https://www.earthdata.nasa.gov/esds/impact/dcd)
-[^8]:[https://hls.gsfc.nasa.gov/](https://hls.gsfc.nasa.gov/)
-[^9]:[https://www.earthdata.nasa.gov/esds/csda](https://www.earthdata.nasa.gov/esds/csda)
+<!-- Scientific Translation Boxes throughout -->
+> ### Scientific Translation
+> Think of stakeholder engagement like experimental design:
+> - Stakeholders = Variables
+> - Interactions = Parameters
+> - Documentation = Lab Notebook
+> - Feedback = Data Collection
+{: .prompt-tip }
