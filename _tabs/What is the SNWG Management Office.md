@@ -1,91 +1,103 @@
 ---
-# the default layout is 'page'
 layout: post
-icon: fas fa-users
-title: What is the SNWG
-order: 1
+icon: fas fa-rocket
+title: Getting Started
+order: 2
 toc: true
 date: 2024-05-21 13:00:00 +0600
 ---
 
-> The Satellite Needs Working Group (SNWG) bridges the gap between Earth observation data providers and federal agencies, ensuring that satellite data effectively serves U.S. government needs.
+> Welcome to the SNWG Project Implementation Guide! This resource will help you understand the SNWG framework and navigate your project's journey from conception to completion.
 {: .prompt-info }
 
-## At a Glance
+## Understanding SNWG
 
-The SNWG conducts a survey of U.S. federal agencies every two years to identify what Earth observation data they need to fulfill their mission. This systematic process helps NASA and other agencies understand and address critical data gaps.
+The Satellite Needs Working Group (SNWG) conducts a survey of U.S. federal agencies every two years to identify what Earth observation data they need to fulfill their mission. As a project implementation team, you are part of the solution delivery process that turns these identified needs into operational products.
 
 ![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 ![light mode only](assets/LightModeSNWGCycleGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
 _The SNWG Project lifecycle._
 
-## Core Components
+### Project Implementation Context
 
-### Survey and Assessment
-> Think of this like experimental design:
-> - The survey is your hypothesis testing
-> - Agency needs are your research questions
-> - The assessment is your peer review
+> Think of your role like translating research into application:
+> - Agency needs = research questions
+> - Your solution = methodology
+> - Implementation = experimental work
+> - Stakeholder engagement = peer review
 {: .prompt-tip }
 
-The SNWG process begins with a comprehensive survey of federal agencies to:
-- Identify current Earth observation data needs
-- Understand gaps in existing data products
-- Assess potential improvements to current data offerings
+Your project exists within a larger framework:
+1. Federal agencies identified specific needs through the SNWG survey
+2. Experts from NASA, NOAA, and USGS assessed these needs
+3. Your solution was selected to address these needs
+4. Your team will develop and implement the solution
+5. The solution will become an operational product
 
-### Analysis and Solution Development
-> Like developing a new scientific method:
-> - Multiple agencies review the needs (peer review)
-> - Solutions are formulated (methodology)
-> - Resources are allocated (grant funding)
-{: .prompt-tip }
+## Working with the Management Office
 
-Key steps include:
-- Multi-agency assessment (NASA, NOAA, USGS)
-- Identification of potential solutions
-- Evaluation of technical feasibility
-- Resource requirement analysis
+![](assets/SNWG MO circle.png)
+_The three core components of the SNWG MO._
 
-### Implementation and Delivery
-> Similar to conducting your experiment:
-> - Solution development is your data collection
-> - Quality checks are your validation
-> - Deployment is your publication
-{: .prompt-tip }
+The SNWG Management Office will support your project through three key areas:
 
-The final phase involves:
-- Development of selected solutions
-- Quality assurance and validation
-- Deployment to user agencies
-- Long-term support and maintenance
-
-## Key Stakeholders
-
-### Data Providers
-- NASA Earth Science Division
-- NOAA
-- USGS
-- Other satellite data providers
-
-### Data Users
-- Federal agencies with Earth observation needs
-- Scientific research community
-- Policy makers and decision makers
-
-## Impact
-
-The SNWG has facilitated numerous successful projects that demonstrate the power of collaborative Earth observation solutions:
-
-> ### Success Stories
-> - **Air Quality Monitoring**: Enhanced forecasting capabilities
-> - **Water Resource Management**: Improved surface water mapping
-> - **Land Use Change Detection**: Better tracking of environmental changes
+### 1. Assessment Support
+> **What to Expect**: 
+> - Access to agency needs assessment
+> - Background on solution selection
+> - Context for project requirements
+> - Stakeholder contact information
 {: .prompt-info }
 
-## Getting Started
+### 2. Implementation Guidance
+> **What to Expect**:
+> - Project management support
+> - Timeline and milestone tracking
+> - Open science compliance guidance
+> - Resource coordination
+{: .prompt-info }
 
-Ready to learn more about how the SNWG process works in practice? Check out our guides on:
+### 3. Stakeholder Engagement
+> **What to Expect**:
+> - Training and workshop support
+> - Stakeholder communication guidance
+> - Co-design facilitation
+> - Impact documentation
+{: .prompt-info }
 
-- [Assessment Phase](/assessment) - Understanding needs and opportunities
-- [Implementation Phase](/implementation) - Developing and deploying solutions
-- [Stakeholder Engagement](/stakeholder-engagement) - Working with partners effectively
+## Project Implementation Lifecycle
+
+Your project will progress through several key phases:
+1. Pre-formulation
+2. Formulation
+3. Implementation
+4. Operations
+5. Closeout
+
+Each phase has specific requirements and deliverables, which are detailed in the following sections of this guide.
+
+## Essential Resources
+
+As a project implementation team, you'll need to familiarize yourself with:
+1. [Stakeholder Engagement Guidelines](/stakeholder-engagement)
+2. [Project Implementation Requirements](/project-implementation)
+3. [Open Science Protocols](/open-science)
+4. [Documentation Templates](/resources)
+
+## Key Contacts
+
+| Role | Name | Focus Area |
+|:---- |:---- |:---- |
+| Program Manager | [Natasha Sadoff](mailto:natasha.sadoff@nasa.gov) | Overall Program Direction |
+| Project Manager | [Sean Gregory](mailto:sean.p.gregory@nasa.gov) | Project Management Support |
+| Project Scientist | [Pontus Olofsson](mailto:pontus.olofsson@nasa.gov) | Technical Guidance |
+| SEP Lead | [Katrina Virts](mailto:katrina.s.virts@nasa.gov) | Stakeholder Engagement |
+
+## Next Steps
+
+The following sections will guide you through each phase of your project:
+
+1. [Stakeholder Engagement](/stakeholder-engagement) - Understanding co-design principles
+2. [Assessment Guide](/assessment-guide) - Project background and context
+3. [Project Implementation](/project-implementation) - Requirements and deliverables
+4. [Open Science Guide](/open-science) - Data and software requirements
