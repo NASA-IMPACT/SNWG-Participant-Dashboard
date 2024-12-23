@@ -29,7 +29,7 @@ _The SNWG Project lifecycle._
 
 Your project exists within a larger framework:
 1. Federal agencies identified specific needs through the SNWG survey
-2. Experts from NASA, NOAA, and USGS assessed these needs
+2. Experts from Federal Agencies assessed these needs
 3. Your solution was selected to address these needs
 4. Your team will develop and implement the solution
 5. The solution will become an operational product
