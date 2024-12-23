@@ -1,20 +1,91 @@
 ---
+# the default layout is 'page'
 layout: post
-icon: fas fa-handshake
-title: What is the SNWG Management Office
-order: 2
+icon: fas fa-users
+title: What is the SNWG
+order: 1
 toc: true
-date: 2024-05-21 14:00:00 +0600
+date: 2024-05-21 13:00:00 +0600
 ---
 
-![](assets/SNWG MO circle.png)
-_The three core components of the SNWG MO._
+> The Satellite Needs Working Group (SNWG) bridges the gap between Earth observation data providers and federal agencies, ensuring that satellite data effectively serves U.S. government needs.
+{: .prompt-info }
 
-## Facilitate the **Assessment** of SNWG Agency Needs
-"NASA leads a tri-agency assessment (with USGS and NOAA) of federal agency needs submitted through the SNWG survey. The assessment is carried out by more than 100 scientists with expertise on the geophysical observables requested by the agencies. The SNWG Management Office coordinates the assessment process, develops tools used by the assessment participants, schedules and supports follow-up discussions with each participating agency, performs statistical analysis of the survey responses, coordinates the evaluation of solutions proposed to meet agency needs, and drafts NASA’s presentation of selected solutions to the Executive Branch. After each assessment cycle, the SNWG Management Office conducts an extensive lessons learned retrospective, collecting feedback from participants that is used to inform tool refinement and process updates that streamline and support the next assessment cycle."
+## At a Glance
 
-## Oversee the **Implementation** and Operations of SNWG Solutions
-"At the heart of the SNWG process is the implementation and delivery of solutions that address the needs of federal agencies. The SNWG Management Office coordinates the status of all SNWG-funded projects at NASA, manages the implementation of solutions from each cycle, and oversees the lifecycle of each science project through operational product release.The SNWG Management office also engages end-users through the SNWG SEP. The ESDS open-source science policy is an important part of the development and implementation effort for all projects managed by the SNWG Management Office. This process will continue for all solutions arising from needs expressed in future SNWG cycles and will follow NASA’s open-source science policies permitting broad access to information on NASA-developed SNWG solutions"
+The SNWG conducts a survey of U.S. federal agencies every two years to identify what Earth observation data they need to fulfill their mission. This systematic process helps NASA and other agencies understand and address critical data gaps.
 
-## Provide Training and Community **Engagement** Around SNWG Solutions
-"The SNWG SEP is the key to providing training, outreach, and community engagement around NASA SNWG data products and systems through collaboration across NASA’s Earth Science Division. The program includes polling stakeholders about their training and data needs, connecting with capacity-building efforts within NASA, funding and organizing training activities such as workshops, and bringing together communities of federal and other users around funded solutions. Collaborations among federal users, the scientific community, academia, industry, and NASA’s Earth Science Division empowers these communities to integrate SNWG solutions into their research and decision-making processes." - [The SNWG MO on EarthData (ESDS-IMPACT)](https://www.earthdata.nasa.gov/esds/impact/snwg)
+![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+![light mode only](assets/LightModeSNWGCycleGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+_The SNWG Project lifecycle._
+
+## Core Components
+
+### Survey and Assessment
+> Think of this like experimental design:
+> - The survey is your hypothesis testing
+> - Agency needs are your research questions
+> - The assessment is your peer review
+{: .prompt-tip }
+
+The SNWG process begins with a comprehensive survey of federal agencies to:
+- Identify current Earth observation data needs
+- Understand gaps in existing data products
+- Assess potential improvements to current data offerings
+
+### Analysis and Solution Development
+> Like developing a new scientific method:
+> - Multiple agencies review the needs (peer review)
+> - Solutions are formulated (methodology)
+> - Resources are allocated (grant funding)
+{: .prompt-tip }
+
+Key steps include:
+- Multi-agency assessment (NASA, NOAA, USGS)
+- Identification of potential solutions
+- Evaluation of technical feasibility
+- Resource requirement analysis
+
+### Implementation and Delivery
+> Similar to conducting your experiment:
+> - Solution development is your data collection
+> - Quality checks are your validation
+> - Deployment is your publication
+{: .prompt-tip }
+
+The final phase involves:
+- Development of selected solutions
+- Quality assurance and validation
+- Deployment to user agencies
+- Long-term support and maintenance
+
+## Key Stakeholders
+
+### Data Providers
+- NASA Earth Science Division
+- NOAA
+- USGS
+- Other satellite data providers
+
+### Data Users
+- Federal agencies with Earth observation needs
+- Scientific research community
+- Policy makers and decision makers
+
+## Impact
+
+The SNWG has facilitated numerous successful projects that demonstrate the power of collaborative Earth observation solutions:
+
+> ### Success Stories
+> - **Air Quality Monitoring**: Enhanced forecasting capabilities
+> - **Water Resource Management**: Improved surface water mapping
+> - **Land Use Change Detection**: Better tracking of environmental changes
+{: .prompt-info }
+
+## Getting Started
+
+Ready to learn more about how the SNWG process works in practice? Check out our guides on:
+
+- [Assessment Phase](/assessment) - Understanding needs and opportunities
+- [Implementation Phase](/implementation) - Developing and deploying solutions
+- [Stakeholder Engagement](/stakeholder-engagement) - Working with partners effectively

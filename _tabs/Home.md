@@ -118,11 +118,3 @@ Learning from previous projects
 > - [FAQ & Troubleshooting](/resources/faq)
 {: .prompt-info }
 
-<!-- Scientific Translation Boxes throughout -->
-> ### Scientific Translation
-> Think of stakeholder engagement like experimental design:
-> - Stakeholders = Variables
-> - Interactions = Parameters
-> - Documentation = Lab Notebook
-> - Feedback = Data Collection
-{: .prompt-tip }
