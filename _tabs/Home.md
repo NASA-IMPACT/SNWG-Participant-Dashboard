@@ -5,15 +5,9 @@ toc: true
 date: 2024-05-21 12:00:00 +0600
 ---
 
-![dark mode only](assets/DarkModeMissionsGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1275' h='668' }
-![light mode only](assets/LightModeMissionsGraphic.png){: .light .w-75 .shadow .rounded-10 w='1275' h='668' }
-_This graphic originated 2022ish and does need updating. Using for website draft development purposes only_
-
 <!-- markdownlint-disable-next-line -->
 <div align="center">
-
-   <!-- markdownlint-disable-next-line -->
-   <h1>Welcome to the Satellite Needs Working Group Management Office!</h1> 
+   <h1>Welcome to the Satellite Needs Working Group Management Office!</h1>
 </div>
 
 ## What do we produce?
@@ -27,27 +21,14 @@ The SNWG MO helps various agencies produce **EOSDIS Standard Products**[^1]
 
 ## What are our previous products?
 
-| Cycle 1 (2016) | Cycle 2 (2018) | Cycle 3 (2020)   |
-| :------------- | :------------- | :--------------- |
-| ADMG - *CASEI*[^2] |   Low Latency Freeboard &<br>  Ice Thickness Products<br>  over the Great Lakes[^3] | Air Quality Products[^4] [^5] [^6] |
-| Data Curation for<br>Discovery[^7] |   Internet of Animals | Planetary Boundary Layer   |
-| Harmonized<br>Landsat-Sentinel-2[^8] |   Global Surface Water<br>  Extent (DSWx) | HLS-Vegetation Indices   |
-| Commercial Smallsat<br>Data Acquisition[^9] |   Global Land Surface<br>  Disturbance and Change<br>  Detection (DIST) | TEMPO NRT   |
-|  |   Land Surface Deformation<br>  for North America<br>  and U.S. Territories (DISP) |  |
-|  |   Water Quality Products |  |
-
-<!-- Commented out to reduce clutter
-Linked Table
-
 | Cycle 1 (2016) | Cycle 2 (2018) | Cycle 3 (2020) |
 | :------------- | :------------- | :------------- |
-| [ADMG - *CASEI*](https://impact.earthdata.nasa.gov/casei/) |   [Low Latency Freeboard &<br>  Ice Thickness Products<br>  over the Great Lakes](https://nsidc.org/data/atl10ql/versions/6) | Air Quality Products:<br>[LANCE](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/hazards-and-disasters/air-quality)<br>[Air Quality Forecasting](https://airquality.gsfc.nasa.gov/forecast)<br>[Air Quality Forecasting TRAINING ARSET](https://appliedsciences.nasa.gov/get-involved/training/english/arset-introduction-and-access-global-air-quality-forecasting-data-and) |
-| [Data Curation for<br>Discovery](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products) |   [Internet of Animals](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products) | [Planetary Boundary Layer](https://science.nasa.gov/earth-science/decadal-surveys/decadal-pbl/) |
-| [Harmonized<br>Landsat-Sentinel-2](https://hls.gsfc.nasa.gov/) |   [Global Surface Water<br>  Extent (DSWx)](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products) | [HLS-Vegetation Indices](https://hls.gsfc.nasa.gov/hls-data/) |
-| [Commercial Smallsat<br>Data Acquisition](https://www.earthdata.nasa.gov/esds/csda) |   [Global Land Surface<br>  Disturbance and Change<br>  Detection (DIST)](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products) | [TEMPO NRT](https://tempo.si.edu/) |
-|  |   [Land Surface Deformation<br>  for North America<br>  and U.S. Territories (DISP)](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products) |  |
-|  |   [Water Quality Products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products) |  |
--->
+| ADMG - *CASEI*[^2] | Low Latency Freeboard &<br>Ice Thickness Products<br>over the Great Lakes[^3] | Air Quality Products[^4] [^5] [^6] |
+| Data Curation for<br>Discovery[^7] | Internet of Animals | Planetary Boundary Layer |
+| Harmonized<br>Landsat-Sentinel-2[^8] | Global Surface Water<br>Extent (DSWx) | HLS-Vegetation Indices |
+| Commercial Smallsat<br>Data Acquisition[^9] | Global Land Surface<br>Disturbance and Change<br>Detection (DIST) | TEMPO NRT |
+|  | Land Surface Deformation<br>for North America<br>and U.S. Territories (DISP) |  |
+|  | Water Quality Products |  |
 
 ## Who are we?
 
@@ -87,32 +68,10 @@ Linked Table
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-
-> Ready to get started? [Page 1: What is the SNWG?](https://cherrelletucker.github.io/What-is-the-SNWG/)<!-- replace with appropriate link prior to deployment -->
+> Ready to get started? [Page 1: What is the SNWG?](https://cherrelletucker.github.io/What-is-the-SNWG/)
 {: .prompt-info }
-
 <!-- markdownlint-restore -->
 
-<!-- ## INTERNAL NOTEs
-
-* GOAL
-    * single location to provide relevant, brief information that answers FAQ that new implementation teams have had.
-* Graphics:
-    * **simple**, max of 3 colors.
-    * Easily digestible in a short glance.
-    * use only what is needed to provide context or improve site readability.
-* Text:
-    * Use H2 for ToC generation on all major parts.
-    * Do not attempt to explain any concepts in depth. The goal is to develop a LIGHTWEIGHT website for teams to refer to with the minimum amount of information needed to complete forms/tasks. If they want to know more, they can reach out to the SNWG MO team for further context/direction.
-    * Footnotes to links to further reading can be created[^10]
-    * do not embed slide decks. Extract relevant information and HIGH POINTS to this site and utilize footnotes.[^11]
-* Site Purpose
-The focus of this site is on providing a simplified version of information to provide general context of the Project within the SNWG MO and to assist the Project Implementation team in completing their expected tasks.
-* Site Audience
-The intended audience for this site is the Solution Project Team as they progress through the various document developments, decision gates, and reporting requirements of the SNWG project lifecycle.
-*Earth.gov info can go on this page or "Resources" -->
-
---------------------------------------------------
 [^1]:[https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-standard-products)
 [^2]:[https://impact.earthdata.nasa.gov/casei/](https://impact.earthdata.nasa.gov/casei/)
 [^3]:[https://nsidc.org/data/atl10ql/versions/6](https://nsidc.org/data/atl10ql/versions/6)
