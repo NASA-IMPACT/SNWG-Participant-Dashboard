@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "SNWG Management Office Guide"
-order: 8
+order: 1
 toc: true
 date: 2024-12-23 12:00:00 +0600
 categories: [Guide]
@@ -35,11 +35,9 @@ Copy  ![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shad
 
   ## Previous Solutions {: .no-margin }
 
-  <div class="solutions-wrapper">
+    <div class="solutions-wrapper">
     <div class="solution-card">
-      <div class="card-header">
-        <h3>Cycle 1 (2016)</h3>
-      </div>
+      <div class="card-header">Cycle 1 (2016)</div>
       <div class="card-content">
         <ul>
           <li>ADMG - <em>CASEI</em></li>
@@ -49,11 +47,8 @@ Copy  ![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shad
         </ul>
       </div>
     </div>
-
     <div class="solution-card">
-      <div class="card-header">
-        <h3>Cycle 2 (2018)</h3>
-      </div>
+      <div class="card-header">Cycle 2 (2018)</div>
       <div class="card-content">
         <ul>
           <li>Low Latency Freeboard & Ice Thickness</li>
@@ -63,11 +58,8 @@ Copy  ![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shad
         </ul>
       </div>
     </div>
-
     <div class="solution-card">
-      <div class="card-header">
-        <h3>Cycle 3 (2020)</h3>
-      </div>
+      <div class="card-header">Cycle 3 (2020)</div>
       <div class="card-content">
         <ul>
           <li>Air Quality Products</li>
@@ -77,11 +69,8 @@ Copy  ![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shad
         </ul>
       </div>
     </div>
-
     <div class="solution-card">
-      <div class="card-header">
-        <h3>Cycle 4 (2022)</h3>
-      </div>
+      <div class="card-header">Cycle 4 (2022)</div>
       <div class="card-content">
         <ul>
           <li>Forest Structure from GEDI & NISAR</li>
@@ -90,21 +79,7 @@ Copy  ![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shad
         </ul>
       </div>
     </div>
-
-    <div class="solution-card">
-      <div class="card-header">
-        <h3>Cycle 5 (2024)</h3>
-      </div>
-      <div class="card-content">
-        <ul>
-          <li>Survey Phase Complete</li>
-          <li>Assessment in Progress</li>
-          <li>Solutions Under Development</li>
-        </ul>
-      </div>
-    </div>
   </div>
-</div>
 
 <!-- Implementation Tab -->
 <div class="tab">
