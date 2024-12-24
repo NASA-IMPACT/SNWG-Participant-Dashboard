@@ -1,7 +1,8 @@
 ---
-title: SNWG Management Office Guide
-order: 1
-layout: post
+layout: page
+title: "SNWG Management Office Guide"
+order: 8
+toc: true
 date: 2024-12-23 12:00:00 +0600
 categories: [Guide]
 tags: [overview]

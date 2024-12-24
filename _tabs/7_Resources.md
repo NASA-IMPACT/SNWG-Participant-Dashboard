@@ -1,4 +1,5 @@
 ---
+title: Resources
 layout: post
 icon: fas fa-book-bookmark
 order: 7
