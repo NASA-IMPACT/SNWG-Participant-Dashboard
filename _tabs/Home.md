@@ -158,9 +158,15 @@ tags: [overview]
 
 .solutions-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   margin: 1rem 0 3rem 0;
+}
+
+@media (max-width: 768px) {
+  .solutions-wrapper {
+    grid-template-columns: 1fr;
+  }
 }
 
 .solution-card {
@@ -199,16 +205,18 @@ tags: [overview]
 }
 
 .card-content li {
-  margin: 0.8rem 0;
-  padding-left: 1.2rem;
+  margin: 0.5rem 0;
   position: relative;
+  display: flex;
+  align-items: baseline;
 }
 
 .card-content li:before {
-  content: "→";
-  position: absolute;
-  left: 0;
+  content: "•";
+  margin-right: 0.5rem;
   color: var(--link-color);
+  font-size: 1.2em;
+  line-height: 1;
 }
 
 .solution-link {
