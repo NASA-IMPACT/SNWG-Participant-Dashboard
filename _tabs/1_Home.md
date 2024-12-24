@@ -1,7 +1,7 @@
 ---
 title: SNWG Management Office Guide
 order: 1
-layout: default
+layout: post
 date: 2024-12-23 12:00:00 +0600
 categories: [Guide]
 tags: [overview]
