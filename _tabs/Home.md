@@ -43,10 +43,10 @@ tags: [overview]
           </div>
           <div class="card-content">
             <ul>
-              <li>ADMG - <em>CASEI</em></li>
-              <li>Data Curation for Discovery</li>
-              <li>Harmonized Landsat-Sentinel-2</li>
-              <li>Commercial Smallsat Data Acquisition</li>
+              <li> ADMG - <em>CASEI</em></li>
+              <li> Data Curation for Discovery</li>
+              <li> Harmonized Landsat-Sentinel-2</li>
+              <li> Commercial Smallsat Data Acquisition</li>
             </ul>
           </div>
         </div>
@@ -116,9 +116,9 @@ tags: [overview]
         <div class="phase-card">
           <h3>Pre-formulation</h3>
           <ul>
-            <li>Initial planning</li>
-            <li>Team formation</li>
-            <li>Preliminary documentation</li>
+            <li> Initial planning</li>
+            <li> Team formation</li>
+            <li> Preliminary documentation</li>
           </ul>
         </div>
 
