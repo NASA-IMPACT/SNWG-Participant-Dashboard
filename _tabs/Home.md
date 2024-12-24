@@ -1,6 +1,7 @@
 ---
 title: SNWG Management Office Guide
-layout: post
+order: 1
+layout: default
 date: 2024-12-23 12:00:00 +0600
 categories: [Guide]
 tags: [overview]
@@ -11,96 +12,204 @@ tags: [overview]
   <input type="radio" name="tabs" id="tab2">
   <input type="radio" name="tabs" id="tab3">
   <input type="radio" name="tabs" id="tab4">
-  
   <div class="tabs-nav">
     <label for="tab1">Overview</label>
     <label for="tab2">Implementation</label>
     <label for="tab3">Stakeholder Engagement</label>
     <label for="tab4">Resources</label>
   </div>
-
   <div class="tabs-content">
     <!-- Overview Tab -->
     <div class="tab">
       <p class="text-center lead-text">Your resource for navigating the SNWG project lifecycle</p>
+Copy  ![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+  ![light mode only](assets/LightModeSNWGCycleGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+  _The SNWG Project lifecycle._
 
-      ![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
-      ![light mode only](assets/LightModeSNWGCycleGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
-      _The SNWG Project lifecycle._
+  ## What is SNWG?
 
-      ## What is SNWG?
+  The Satellite Needs Working Group (SNWG) conducts a survey of U.S. federal agencies every two years to identify what Earth observation data they need to fulfill their mission. The SNWG is part of the U.S. Group on Earth Observations (USGEO) and includes members from various federal agencies that use Earth observation data.
 
-      The Satellite Needs Working Group (SNWG) conducts a survey of U.S. federal agencies every two years to identify what Earth observation data they need to fulfill their mission. The SNWG is part of the U.S. Group on Earth Observations (USGEO) and includes members from various federal agencies that use Earth observation data.
+  Survey responses are assessed by NASA, NOAA, and USGS to identify agency needs, potential data gaps in the current NASA program of record, and relevant datasets. Solutions that meet these identified needs are formulated, and those that are estimated to significantly increase satisfaction of multiple U.S. agencies are selected by the Executive Branch for funding and implementation.
 
-      Survey responses are assessed by NASA, NOAA, and USGS to identify agency needs, potential data gaps in the current NASA program of record, and relevant datasets. Solutions that meet these identified needs are formulated, and those that are estimated to significantly increase satisfaction of multiple U.S. agencies are selected by the Executive Branch for funding and implementation.
+  ## Previous Solutions {: .no-margin }
 
-      ## Previous Solutions {: .no-margin }
-
-      <div class="solutions-wrapper">
-        <div class="solution-card">
-          <div class="card-header">
-            <h3>Cycle 1 (2016)</h3>
-          </div>
-          <div class="card-content">
-            <ul>
-              <li><a href="#" class="solution-link">ADMG - <em>CASEI</em></a></li>
-              <li><a href="#" class="solution-link">Data Curation for Discovery</a></li>
-              <li><a href="#" class="solution-link">Harmonized Landsat-Sentinel-2</a></li>
-              <li><a href="#" class="solution-link">Commercial Smallsat Data Acquisition</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="solution-card">
-          <div class="card-header">
-            <h3>Cycle 2 (2018)</h3>
-          </div>
-          <div class="card-content">
-            <ul>
-              <li><a href="#" class="solution-link">Low Latency Freeboard & Ice Thickness Products</a></li>
-              <li><a href="#" class="solution-link">Internet of Animals</a></li>
-              <li><a href="#" class="solution-link">Global Surface Water Extent (DSWx)</a></li>
-              <li><a href="#" class="solution-link">Water Quality Products</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="solution-card">
-          <div class="card-header">
-            <h3>Cycle 3 (2020)</h3>
-          </div>
-          <div class="card-content">
-            <ul>
-              <li><a href="#" class="solution-link">Air Quality Products</a></li>
-              <li><a href="#" class="solution-link">Planetary Boundary Layer</a></li>
-              <li><a href="#" class="solution-link">HLS-Vegetation Indices</a></li>
-              <li><a href="#" class="solution-link">TEMPO NRT</a></li>
-            </ul>
-          </div>
-        </div>
+  <div class="solutions-wrapper">
+    <div class="solution-card">
+      <div class="card-header">
+        <h3>Cycle 1 (2016)</h3>
+      </div>
+      <div class="card-content">
+        <ul>
+          <li>ADMG - <em>CASEI</em></li>
+          <li>Data Curation for Discovery</li>
+          <li>Harmonized Landsat-Sentinel-2</li>
+          <li>Commercial Smallsat Data Acquisition</li>
+        </ul>
       </div>
     </div>
 
-    <!-- Implementation Tab -->
-    <div class="tab">
-      <h2>Implementation</h2>
-      <!-- Implementation content here -->
+    <div class="solution-card">
+      <div class="card-header">
+        <h3>Cycle 2 (2018)</h3>
+      </div>
+      <div class="card-content">
+        <ul>
+          <li>Low Latency Freeboard & Ice Thickness</li>
+          <li>Internet of Animals</li>
+          <li>Global Surface Water Extent (DSWx)</li>
+          <li>Water Quality Products</li>
+        </ul>
+      </div>
     </div>
 
-    <!-- Stakeholder Engagement Tab -->
-    <div class="tab">
-      <h2>Stakeholder Engagement</h2>
-      <!-- Engagement content here -->
+    <div class="solution-card">
+      <div class="card-header">
+        <h3>Cycle 3 (2020)</h3>
+      </div>
+      <div class="card-content">
+        <ul>
+          <li>Air Quality Products</li>
+          <li>Planetary Boundary Layer</li>
+          <li>HLS-Vegetation Indices</li>
+          <li>TEMPO NRT</li>
+        </ul>
+      </div>
     </div>
 
-    <!-- Resources Tab -->
-    <div class="tab">
-      <h2>Resources</h2>
-      <!-- Resources content here -->
+    <div class="solution-card">
+      <div class="card-header">
+        <h3>Cycle 4 (2022)</h3>
+      </div>
+      <div class="card-content">
+        <ul>
+          <li>Forest Structure from GEDI & NISAR</li>
+          <li>Coastal Ocean Color Products</li>
+          <li>Surface Deformation Analytics</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="solution-card">
+      <div class="card-header">
+        <h3>Cycle 5 (2024)</h3>
+      </div>
+      <div class="card-content">
+        <ul>
+          <li>Survey Phase Complete</li>
+          <li>Assessment in Progress</li>
+          <li>Solutions Under Development</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
 
+<!-- Implementation Tab -->
+<div class="tab">
+  <h2>Project Implementation Process</h2>
+  <p>The SNWG project implementation follows a structured lifecycle with key decision gates and deliverables:</p>
+
+  <div class="phase-grid">
+    <div class="phase-card">
+      <h3>Pre-formulation</h3>
+      <ul>
+        <li>Initial planning</li>
+        <li>Team formation</li>
+        <li>Preliminary documentation</li>
+      </ul>
+    </div>
+
+    <div class="phase-card">
+      <h3>Formulation</h3>
+      <ul>
+        <li>Project Plan development</li>
+        <li>Requirements definition</li>
+        <li>Resource planning</li>
+      </ul>
+    </div>
+
+    <div class="phase-card">
+      <h3>Implementation</h3>
+      <ul>
+        <li>Solution development</li>
+        <li>Technical reviews</li>
+        <li>Testing & validation</li>
+      </ul>
+    </div>
+
+    <div class="phase-card">
+      <h3>Operations</h3>
+      <ul>
+        <li>Solution deployment</li>
+        <li>User training</li>
+        <li>Maintenance & support</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Stakeholder Engagement Tab -->
+<div class="tab">
+  <h2>Stakeholder Engagement</h2>
+  <p>The SNWG SEP facilitates collaboration between implementation teams and stakeholders throughout the project lifecycle.</p>
+
+  <div class="engagement-grid">
+    <div class="engagement-card">
+      <h3>Co-Design Process</h3>
+      <ul>
+        <li>Requirements gathering</li>
+        <li>Design validation</li>
+        <li>User feedback integration</li>
+      </ul>
+    </div>
+
+    <div class="engagement-card">
+      <h3>Training & Support</h3>
+      <ul>
+        <li>User workshops</li>
+        <li>Documentation</li>
+        <li>Technical assistance</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Resources Tab -->
+<div class="tab">
+  <h2>Project Resources</h2>
+
+  <div class="resources-grid">
+    <div class="resource-card">
+      <h3>Templates</h3>
+      <ul>
+        <li>Project Plan Template</li>
+        <li>OSDMP Template</li>
+        <li>SEP Template</li>
+      </ul>
+    </div>
+
+    <div class="resource-card">
+      <h3>Guides</h3>
+      <ul>
+        <li>Co-Design Guide</li>
+        <li>Implementation Guide</li>
+        <li>Best Practices</li>
+      </ul>
+    </div>
+
+    <div class="resource-card">
+      <h3>Tools</h3>
+      <ul>
+        <li>Assessment Tools</li>
+        <li>Review Checklists</li>
+        <li>Training Materials</li>
+      </ul>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
 <style>
 .tabs-wrapper {
   margin: 2rem 0;
@@ -134,7 +243,6 @@ tags: [overview]
   display: none;
 }
 
-/* Show content for selected tab */
 #tab1:checked ~ .tabs-content div:nth-of-type(1),
 #tab2:checked ~ .tabs-content div:nth-of-type(2),
 #tab3:checked ~ .tabs-content div:nth-of-type(3),
@@ -142,7 +250,6 @@ tags: [overview]
   display: block;
 }
 
-/* Style active tab label */
 #tab1:checked ~ .tabs-nav label:nth-of-type(1),
 #tab2:checked ~ .tabs-nav label:nth-of-type(2),
 #tab3:checked ~ .tabs-nav label:nth-of-type(3),
@@ -152,34 +259,24 @@ tags: [overview]
   margin-bottom: -2px;
 }
 
-.no-margin {
-  margin-bottom: 1rem !important;
-}
-
-.solutions-wrapper {
+.solutions-wrapper,
+.phase-grid,
+.engagement-grid,
+.resources-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   margin: 1rem 0 3rem 0;
 }
 
-@media (max-width: 768px) {
-  .solutions-wrapper {
-    grid-template-columns: 1fr;
-  }
-}
-
-.solution-card {
+.solution-card,
+.phase-card,
+.engagement-card,
+.resource-card {
   background: var(--card-bg);
   border: 1px solid var(--border-color);
   border-radius: 8px;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.solution-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .card-header {
@@ -188,46 +285,41 @@ tags: [overview]
   padding: 1rem 1.5rem;
 }
 
-.card-header h3 {
+.card-header h3,
+.phase-card h3,
+.engagement-card h3,
+.resource-card h3 {
   margin: 0;
+  padding: 1rem 1.5rem;
   color: var(--heading-color);
   font-size: 1.25rem;
+  border-bottom: 2px solid var(--border-color);
 }
 
-.card-content {
+.card-content,
+.phase-card ul,
+.engagement-card ul,
+.resource-card ul {
   padding: 1.5rem;
 }
 
-.card-content ul {
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.card-content li {
+li {
   margin: 0.5rem 0;
   position: relative;
-  display: flex;
-  align-items: baseline;
+  padding-left: 1em;
 }
 
-.card-content li:before {
+li:before {
   content: "•";
-  margin-right: 0.5rem;
+  position: absolute;
+  left: 0;
   color: var(--link-color);
-  font-size: 1.2em;
-  line-height: 1;
-}
-
-.solution-link {
-  color: var(--link-color);
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.solution-link:hover {
-  color: var(--link-hover-color, var(--link-color));
-  text-decoration: underline;
 }
 
 .lead-text {
@@ -236,13 +328,12 @@ tags: [overview]
   color: var(--text-muted);
 }
 
-/* Dark mode specific styles */
-[data-theme="dark"] .solution-card {
-  background: var(--card-bg);
-  border-color: var(--border-color);
-}
-
-[data-theme="dark"] .card-header {
-  background: var(--card-header-bg, var(--card-bg));
+@media (max-width: 768px) {
+  .solutions-wrapper,
+  .phase-grid,
+  .engagement-grid,
+  .resources-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
