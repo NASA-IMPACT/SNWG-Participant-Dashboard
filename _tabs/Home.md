@@ -11,7 +11,7 @@ tags: [overview]
   <input type="radio" name="tabs" id="tab2">
   <input type="radio" name="tabs" id="tab3">
   <input type="radio" name="tabs" id="tab4">
- 
+  
   <div class="tabs-nav">
     <label for="tab1">Overview</label>
     <label for="tab2">Implementation</label>
@@ -24,53 +24,85 @@ tags: [overview]
     <div class="tab">
       <p class="text-center lead-text">Your resource for navigating the SNWG project lifecycle</p>
 
+      ![dark mode only](assets/DarkModeSNWGCycleGraphic.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+      ![light mode only](assets/LightModeSNWGCycleGraphic.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+      _The SNWG Project lifecycle._
+
+      ## What is SNWG?
+
+      The Satellite Needs Working Group (SNWG) conducts a survey of U.S. federal agencies every two years to identify what Earth observation data they need to fulfill their mission. The SNWG is part of the U.S. Group on Earth Observations (USGEO) and includes members from various federal agencies that use Earth observation data.
+
+      Survey responses are assessed by NASA, NOAA, and USGS to identify agency needs, potential data gaps in the current NASA program of record, and relevant datasets. Solutions that meet these identified needs are formulated, and those that are estimated to significantly increase satisfaction of multiple U.S. agencies are selected by the Executive Branch for funding and implementation.
+
+      ## Previous Solutions {: .no-margin }
+
       <div class="solutions-wrapper">
         <div class="solution-card">
-          <h3>Cycle 1 (2016)</h3>
-          <ul>
-            <li>ADMG - <em>CASEI</em></li>
-            <li>Data Curation for Discovery</li>
-            <li>Harmonized Landsat-Sentinel-2</li>
-            <li>Commercial Smallsat Data Acquisition</li>
-          </ul>
+          <div class="card-header">
+            <h3>Cycle 1 (2016)</h3>
+          </div>
+          <div class="card-content">
+            <ul>
+              <li> ADMG - <em>CASEI</em></li>
+              <li> Data Curation for Discovery</li>
+              <li> Harmonized Landsat-Sentinel-2</li>
+              <li> Commercial Smallsat Data Acquisition</li>
+            </ul>
+          </div>
         </div>
 
         <div class="solution-card">
-          <h3>Cycle 2 (2018)</h3>
-          <ul>
-            <li>Low Latency Freeboard & Ice Thickness</li>
-            <li>Internet of Animals</li>
-            <li>Global Surface Water Extent (DSWx)</li>
-            <li>Water Quality Products</li>
-          </ul>
+          <div class="card-header">
+            <h3>Cycle 2 (2018)</h3>
+          </div>
+          <div class="card-content">
+            <ul>
+              <li>Low Latency Freeboard & Ice Thickness</li>
+              <li>Internet of Animals</li>
+              <li>Global Surface Water Extent (DSWx)</li>
+              <li>Water Quality Products</li>
+            </ul>
+          </div>
         </div>
 
         <div class="solution-card">
-          <h3>Cycle 3 (2020)</h3>
-          <ul>
-            <li>Air Quality Products</li>
-            <li>Planetary Boundary Layer</li>
-            <li>HLS-Vegetation Indices</li>
-            <li>TEMPO NRT</li>
-          </ul>
+          <div class="card-header">
+            <h3>Cycle 3 (2020)</h3>
+          </div>
+          <div class="card-content">
+            <ul>
+              <li>Air Quality Products</li>
+              <li>Planetary Boundary Layer</li>
+              <li>HLS-Vegetation Indices</li>
+              <li>TEMPO NRT</li>
+            </ul>
+          </div>
         </div>
 
         <div class="solution-card">
-          <h3>Cycle 4 (2022)</h3>
-          <ul>
-            <li>Forest Structure from GEDI & NISAR</li>
-            <li>Coastal Ocean Color Products</li>
-            <li>Surface Deformation Analytics</li>
-          </ul>
+          <div class="card-header">
+            <h3>Cycle 4 (2022)</h3>
+          </div>
+          <div class="card-content">
+            <ul>
+              <li>Forest Structure from GEDI & NISAR</li>
+              <li>Coastal Ocean Color Products</li>
+              <li>Surface Deformation Analytics</li>
+            </ul>
+          </div>
         </div>
 
         <div class="solution-card">
-          <h3>Cycle 5 (2024)</h3>
-          <ul>
-            <li>Survey Phase Complete</li>
-            <li>Assessment in Progress</li>
-            <li>Solutions Under Development</li>
-          </ul>
+          <div class="card-header">
+            <h3>Cycle 5 (2024)</h3>
+          </div>
+          <div class="card-content">
+            <ul>
+              <li>Survey Phase Complete</li>
+              <li>Assessment in Progress</li>
+              <li>Solutions Under Development</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
