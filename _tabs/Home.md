@@ -1,3 +1,4 @@
+
 ---
 title: SNWG Management Office Guide
 layout: post
@@ -22,8 +23,6 @@ tags: [overview]
   <div class="tabs-content">
     <!-- Overview Tab -->
     <div class="tab">
-      <p class="text-center lead-text">Your resource for navigating the SNWG project lifecycle</p>
-
       <div class="grid-wrapper">
         <div class="grid-card">
           <h3>Cycle 1 (2016)</h3>
