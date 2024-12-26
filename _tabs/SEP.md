@@ -35,109 +35,104 @@ tags: ["overview"]
       </div>
     </div>
 
-    <!-- Implementation Tab -->
+  <!-- Implementation Tab -->
 
-    <div class="tab">
-      <h2>Implementation</h2>
-      <p>The SNWG project implementation follows a structured lifecycle with key decision gates and deliverables:</p>
-      <div class="grid-wrapper">
-        <div class="grid-card">
-          <h3>Pre-formulation</h3>
-          <ul>
-            <li>Initial planning</li>
-            <li>Team formation</li>
-            <li>Preliminary documentation</li>
-          </ul>
-        </div>
-
-        <div class="grid-card">
-          <h3>Formulation</h3>
-          <ul>
-            <li>Project Plan development</li>
-            <li>Requirements definition</li>
-            <li>Resource planning</li>
-          </ul>
-        </div>
-
-        <div class="grid-card">
-          <h3>Implementation</h3>
-          <ul>
-            <li>Solution development</li>
-            <li>Technical reviews</li>
-            <li>Testing & validation</li>
-          </ul>
-        </div>
-
-        <div class="grid-card">
-          <h3>Operations</h3>
-          <ul>
-            <li>Solution deployment</li>
-            <li>User training</li>
-            <li>Maintenance & support</li>
-          </ul>
-        </div>
+  <div class="tab">
+    <h2>Implementation</h2>
+    <p>The SNWG project implementation follows a structured lifecycle with key decision gates and deliverables:</p>
+    <div class="grid-wrapper">
+      <div class="grid-card">
+        <h3>Pre-formulation</h3>
+        <ul>
+          <li>Initial planning</li>
+          <li>Team formation</li>
+          <li>Preliminary documentation</li>
+        </ul>
       </div>
+
+  <div class="grid-card">
+    <h3>Formulation</h3>
+    <ul>
+      <li>Project Plan development</li>
+      <li>Requirements definition</li>
+      <li>Resource planning</li>
+    </ul>
     </div>
 
-    <!-- Stakeholder Engagement Tab -->
-
-    <div class="tab">
-      <h2>Stakeholder Engagement</h2>
-      <p>The SNWG SEP facilitates collaboration between implementation teams and stakeholders throughout the project lifecycle.</p>
-      <div class="grid-wrapper">
-        <div class="grid-card">
-          <h3>Co-Design Process</h3>
-          <ul>
-            <li>Requirements gathering</li>
-            <li>Design validation</li>
-            <li>User feedback integration</li>
-          </ul>
-        </div>
-
-        <div class="grid-card">
-          <h3>Training & Support</h3>
-          <ul>
-            <li>User workshops</li>
-            <li>Documentation</li>
-            <li>Technical assistance</li>
-          </ul>
-        </div>
-      </div>
+  <div class="grid-card">
+    <h3>Implementation</h3>
+    <ul>
+      <li>Solution development</li>
+      <li>Technical reviews</li>
+      <li>Testing & validation</li>
+    </ul>
     </div>
 
-    <!-- Resources Tab -->
-    
-    <div class="tab">
-      <h2>Resources</h2>
-      <div class="grid-wrapper">
-        <div class="grid-card">
-          <h3>Templates</h3>
-          <ul>
-            <li>Project Plan Template</li>
-            <li>OSDMP Template</li>
-            <li>SEP Template</li>
-          </ul>
-        </div>
-
-        <div class="grid-card">
-          <h3>Guides</h3>
-          <ul>
-            <li>Co-Design Guide</li>
-            <li>Implementation Guide</li>
-            <li>Best Practices</li>
-          </ul>
-        </div>
-
-        <div class="grid-card">
-          <h3>Tools</h3>
-          <ul>
-            <li>Assessment Tools</li>
-            <li>Review Checklists</li>
-            <li>Training Materials</li>
-          </ul>
-        </div>
-      </div>
+  <div class="grid-card">
+    <h3>Operations</h3>
+    <ul>
+      <li>Solution deployment</li>
+      <li>User training</li>
+      <li>Maintenance & support</li>
+    </ul>
     </div>
+  </div>
+
+  <!-- Stakeholder Engagement Tab -->
+
+  <div class="tab">
+    <h2>Stakeholder Engagement</h2>
+    <p>The SNWG SEP facilitates collaboration between implementation teams and stakeholders throughout the project lifecycle.</p>
+    <div class="grid-wrapper">
+      <div class="grid-card">
+        <h3>Co-Design Process</h3>
+        <ul>
+          <li>Requirements gathering</li>
+          <li>Design validation</li>
+          <li>User feedback integration</li>
+        </ul>
+      </div>
+
+  <div class="grid-card">
+    <h3>Training & Support</h3>
+    <ul>
+      <li>User workshops</li>
+      <li>Documentation</li>
+      <li>Technical assistance</li>
+    </ul>
+    </div>
+  </div>
+
+  <!-- Resources Tab -->
+
+  <div class="tab">
+    <h2>Resources</h2>
+    <div class="grid-wrapper">
+      <div class="grid-card">
+        <h3>Templates</h3>
+        <ul>
+          <li>Project Plan Template</li>
+          <li>OSDMP Template</li>
+          <li>SEP Template</li>
+        </ul>
+        </div>
+
+  <div class="grid-card">
+    <h3>Guides</h3>
+    <ul>
+      <li>Co-Design Guide</li>
+      <li>Implementation Guide</li>
+      <li>Best Practices</li>
+    </ul>
+    </div>
+
+  <div class="grid-card">
+    <h3>Tools</h3>
+    <ul>
+      <li>Assessment Tools</li>
+      <li>Review Checklists</li>
+      <li>Training Materials</li>
+    </ul>
   </div>
 </div>
 
