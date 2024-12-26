@@ -26,35 +26,117 @@ tags: ["overview"]
     <!-- Overview Tab -->
     <div class="tab">
       <h2>Overview</h2>
-      <p>Welcome to the SNWG Management Office Guide. This tab provides an overview of the Satellite Needs Working Group (SNWG) project lifecycle and essential resources.</p>
+      <div class="grid-wrapper">
+        {% include grid-card.html title="Cycle 1 (2016)" items="ADMG - <em>CASEI</em>, Data Curation for Discovery, Harmonized Landsat-Sentinel-2, Commercial Smallsat Data Acquisition" %}
+        {% include grid-card.html title="Cycle 2 (2018)" items="Low Latency Freeboard & Ice Thickness, Internet of Animals, Global Surface Water Extent (DSWx), Water Quality Products" %}
+        {% include grid-card.html title="Cycle 3 (2020)" items="Air Quality Products, Planetary Boundary Layer, HLS-Vegetation Indices, TEMPO NRT" %}
+        {% include grid-card.html title="Cycle 4 (2022)" items="Forest Structure from GEDI & NISAR, Coastal Ocean Color Products, Surface Deformation Analytics" %}
+        {% include grid-card.html title="Cycle 5 (2024)" items="Survey Phase Complete, Assessment in Progress, Solutions Under Development" %}
+      </div>
     </div>
 
     <!-- Implementation Tab -->
+
     <div class="tab">
       <h2>Implementation</h2>
-      <p>Explore the structured lifecycle of SNWG project implementation, including key decision gates and deliverables.</p>
-      <ul>
-        <li>Pre-formulation: Initial planning, team formation, and preliminary documentation.</li>
-        <li>Formulation: Project plan development, requirements definition, and resource planning.</li>
-        <li>Implementation: Solution development, technical reviews, and validation.</li>
-        <li>Operations: Solution deployment, user training, and ongoing maintenance.</li>
-      </ul>
+      <p>The SNWG project implementation follows a structured lifecycle with key decision gates and deliverables:</p>
+      <div class="grid-wrapper">
+        <div class="grid-card">
+          <h3>Pre-formulation</h3>
+          <ul>
+            <li>Initial planning</li>
+            <li>Team formation</li>
+            <li>Preliminary documentation</li>
+          </ul>
+        </div>
+
+        <div class="grid-card">
+          <h3>Formulation</h3>
+          <ul>
+            <li>Project Plan development</li>
+            <li>Requirements definition</li>
+            <li>Resource planning</li>
+          </ul>
+        </div>
+
+        <div class="grid-card">
+          <h3>Implementation</h3>
+          <ul>
+            <li>Solution development</li>
+            <li>Technical reviews</li>
+            <li>Testing & validation</li>
+          </ul>
+        </div>
+
+        <div class="grid-card">
+          <h3>Operations</h3>
+          <ul>
+            <li>Solution deployment</li>
+            <li>User training</li>
+            <li>Maintenance & support</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <!-- Stakeholder Engagement Tab -->
+
     <div class="tab">
       <h2>Stakeholder Engagement</h2>
-      <p>This tab covers the co-design processes, training, and support mechanisms to ensure effective collaboration between stakeholders and project teams.</p>
+      <p>The SNWG SEP facilitates collaboration between implementation teams and stakeholders throughout the project lifecycle.</p>
+      <div class="grid-wrapper">
+        <div class="grid-card">
+          <h3>Co-Design Process</h3>
+          <ul>
+            <li>Requirements gathering</li>
+            <li>Design validation</li>
+            <li>User feedback integration</li>
+          </ul>
+        </div>
+
+        <div class="grid-card">
+          <h3>Training & Support</h3>
+          <ul>
+            <li>User workshops</li>
+            <li>Documentation</li>
+            <li>Technical assistance</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <!-- Resources Tab -->
+    
     <div class="tab">
       <h2>Resources</h2>
-      <ul>
-        <li>Templates: Project Plan Template, OSDMP Template, SEP Template.</li>
-        <li>Guides: Co-Design Guide, Implementation Guide, Best Practices.</li>
-        <li>Tools: Assessment Tools, Review Checklists, Training Materials.</li>
-      </ul>
+      <div class="grid-wrapper">
+        <div class="grid-card">
+          <h3>Templates</h3>
+          <ul>
+            <li>Project Plan Template</li>
+            <li>OSDMP Template</li>
+            <li>SEP Template</li>
+          </ul>
+        </div>
+
+        <div class="grid-card">
+          <h3>Guides</h3>
+          <ul>
+            <li>Co-Design Guide</li>
+            <li>Implementation Guide</li>
+            <li>Best Practices</li>
+          </ul>
+        </div>
+
+        <div class="grid-card">
+          <h3>Tools</h3>
+          <ul>
+            <li>Assessment Tools</li>
+            <li>Review Checklists</li>
+            <li>Training Materials</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>
