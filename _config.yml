@@ -16,7 +16,7 @@ timezone:
 
 title: The SEP Navigator # the main title
 
-tagline: A minimal site to assist Project teams through Stakeholder Engagement throughout the SNWG lifecycle  # it will display as the sub-title
+tagline: Assisting SNWG Solution teams through throughout the SNWG lifecycle  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive website explaining the base need-to-know information for project selected and funded by the Satellite Needs Working Group.
