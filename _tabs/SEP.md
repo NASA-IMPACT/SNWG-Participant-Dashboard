@@ -470,6 +470,47 @@ body {
     background-color: #f3f4f6;
 }
 
+/* 
+ * Solutions Tab System
+ */
+.tabs-wrapper {
+    margin: 1rem 0;
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tabs-wrapper input[type="radio"] {
+    display: none !important;
+}
+
+.tabs-nav {
+    display: flex;
+    border-bottom: 2px solid #e5e7eb;
+    margin-bottom: 1.5rem;
+    gap: 0.5rem;
+}
+
+.tabs-nav label {
+    flex: 1;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    color: #64748b;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.tabs-nav label:hover {
+    color: #3498db;
+}
+
+.tabs-content .tab {
+    display: none;
+}
+
 /* Content sections */
 .content-section {
     background-color: white;
