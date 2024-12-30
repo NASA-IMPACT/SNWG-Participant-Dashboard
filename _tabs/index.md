@@ -1289,12 +1289,19 @@ ul li {
 
 .solution-header,
 .card-header {
+    align-items: center;
     color: #7f8c8d;
+    cursor: pointer;
+    display: flex;
     font-size: 0.875rem;
-    margin-bottom: 0.5rem;
-    text-transform: uppercase;
+    gap: 0.75rem;
     letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
 }
+
 
 .solution-header:hover,
 .card-header:hover {

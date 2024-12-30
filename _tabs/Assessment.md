@@ -425,6 +425,7 @@ order: 3
 </div>
 
 <script>
+/* JavaScript for card toggling */
 /**
  * Toggles the expanded/collapsed state of a card
  * @param {HTMLElement} header - The header element that was clicked
@@ -446,7 +447,6 @@ function toggleCard(header) {
         }
     });
 }
-
 </script>
 
 <style>
