@@ -3,6 +3,10 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
+sass: 
+  sass_dir: _sass
+  style: compressed
+
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
@@ -23,7 +27,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://nasa-impact.github.io/"
 
 github:
   username: CherrelleTucker # change to your github username
@@ -86,7 +90,7 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: # [light]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -149,7 +153,7 @@ pwa:
 #paginate_path: /page:num/
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/SNWG-Navigator"
 
 # ------------ The following options are not recommended to be modified ------------------
 
