@@ -1,8 +1,471 @@
 ---
-title: Assessment
+# title: Assessment
 layout: page
 order: 3
 ---
+
+<!-- Container 1: Timeline -->
+<div class="content-section">
+    <h2>Key Milestones</h2>
+        <div class="header-line"></div>
+    <!-- Timeline -->
+        <div class="timeline-wrapper">
+            <div class="timeline-line"></div>            
+            <div class="timeline-phases">
+                <!-- Phase 1 -->
+                <div class="timeline-phase">
+                    <div class="timeline-content">
+                        <div class="timeline-date"> Months 1-2</div>
+                        <div class="timeline-title"> Survey Review & Team Assembly</div>
+                        <div class="timeline-details">
+                            <div class="mb-2"><i class="fas fa-tasks mr-2"></i> Review surveys & form teams</div>
+                            <div class="mb-2"><i class="fas fa-tools mr-2"></i> Tools: Asana</div>
+                        </div>
+                        <div class="timeline-milestone">
+                            <i class="fas fa-flag mr-1"></i>Teams Formed
+                        </div>
+                    </div>
+                </div>
+                <!-- Phase 2 -->
+                <div class="timeline-phase">
+                    <div class="timeline-content">
+                        <div class="timeline-date"> Months 3-5</div>
+                        <div class="timeline-title"> Agency Interviews</div>
+                        <div class="timeline-details">
+                            <div class="mb-2"><i class="fas fa-comments mr-2"></i> Conduct interviews</div>
+                            <div class="mb-2"><i class="fas fa-clipboard mr-2"></i> Document findings</div>
+                            <div class="mb-2"><i class="fas fa-tools mr-2"></i> Tools: Miro, Google Drive</div>
+                        </div>
+                        <div class="timeline-milestone">
+                            <i class="fas fa-flag mr-1"></i> Interviews Complete
+                        </div>
+                    </div>
+                </div>
+                <!-- Phase 3 -->
+                <div class="timeline-phase">
+                    <div class="timeline-content">
+                        <div class="timeline-date"> Months 6-8</div>
+                        <div class="timeline-title"> Solution Development</div>
+                        <div class="timeline-details">
+                            <div class="mb-2"><i class="fas fa-lightbulb mr-2"></i> Submit solutions</div>
+                            <div class="mb-2"><i class="fas fa-chart-line mr-2"></i> Estimate satisfaction</div>
+                            <div class="mb-2"><i class="fas fa-tools mr-2"></i> Tools: Miro, Google Drive</div>
+                        </div>
+                        <div class="timeline-milestone">
+                            <i class="fas fa-flag mr-1"></i> Solutions Submitted
+                        </div>
+                    </div>
+                </div>
+                <!-- Phase 4 -->
+                <div class="timeline-phase">
+                    <div class="timeline-content">
+                        <div class="timeline-date"> Months 9-12</div>
+                        <div class="timeline-title"> Report Writing</div>
+                        <div class="timeline-details">
+                            <div class="mb-2"><i class="fas fa-file-alt mr-2"></i> Draft reports</div>
+                            <div class="mb-2"><i class="fas fa-check-double mr-2"></i> Review & finalize</div>
+                            <div class="mb-2"><i class="fas fa-tools mr-2"></i> Tools: Asana, RGT</div>
+                        </div>
+                        <div class="timeline-milestone">
+                            <i class="fas fa-flag mr-1"></i> Reports Finalized
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="role">
+        <br><i class="fas fa-info-circle mr-2"></i>
+        Each phase is supported by the SNWG Management Office, including tools, templates, and guidance.
+    </div>
+</div>
+
+
+<!-- Container 2: Assessment Tabs -->
+<div class="tabs-wrapper">
+<!-- Tab Navigation -->
+    <div class="tabs-nav">
+        <!-- Radio buttons for team tab control -->
+        <button class="tab-button active" onclick="showTab('overview')">Overview</button>
+        <button class="tab-button" onclick="showTab('roles')">Roles</button>
+        <button class="tab-button" onclick="showTab('tools')">Tools</button>
+        <button class="tab-button" onclick="showTab('processes')">Processes</button>
+    </div>
+    <!--Container for all Assessment Tabs> -->
+    <div id="overview" class="tab-content active">
+        <div class="team-section">
+            <div class="team-grid">
+                <div class="role">Timeline & Structure</div>
+                <br>
+                <!-- Card 1: Duration -->
+                <div class="team-card leadership">
+                    <div class="card-header">
+                        <i class="far fa-calendar"></i>
+                        <div class="role">Duration</div>
+                    </div>
+                    <p>12-month comprehensive assessment cycle</p>
+                </div>
+                <!-- Card 2: Key Phases -->
+                <div class="team-card leadership">
+                    <div class="card-header">
+                        <i class="fas fa-arrow-right"></i>
+                        <div class="role">Key Phases</div>
+                    </div>
+                    <ul class="list-disc list-inside">
+                        <li>Survey Review</li>
+                        <li>Team Assembly</li>
+                        <li>Agency Interviews</li>
+                        <li>Solution Development</li>
+                        <li>Report Writing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tab 2: Roles -->
+    <div id="roles" class="tab-content">
+        <div class="team-section">
+            <div class="team-grid">
+                <!-- Card Title -->
+                <div class="role">Participant Roles</div>
+                <br>
+                <!-- Card 1: Assessment Lead -->
+                <div class="team-card leadership">
+                    <div class="card-header">
+                        <i class="fas fa-user"></i>
+                        <div class="role">Assessment Lead</div>
+                    </div>
+                        <ul>
+                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Responsible for leading team coordination
+                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Oversees interview preparation and execution
+                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Manages solution development process
+                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Ensures report completion and quality
+                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Primary point of contact for the Need ID
+                        </ul>
+                </div>
+                <!-- Card 2: Team Member -->
+                <div class="team-card">
+                    <div class="card-header">
+                        <i class="fas fa-users"></i>
+                        <div class="role">Team Member</div>
+                    </div>
+                    <ul class="space-y-2">
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Participates in agency interviews
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews survey responses and documentation
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contributes to solution development
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Assists with report writing
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides technical expertise in specialty area
+                    </ul>
+                </div>
+                <!-- Card 3: Subject Matter Expert-->
+                <div class="team-card">
+                    <div class="card-header">
+                        <i class="fas fa-star"></i>
+                        <div class="role">Subject Matter Expert</div>
+                    </div>
+                    <ul class="space-y-2">
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides specialized technical expertise
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews and validates proposed solutions
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Assists with technical documentation
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Supports solution feasibility assessment
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contributes to satisfaction level estimates
+                    </ul>
+                </div>
+                <!-- Card 4: Agency Representative-->
+                <div class="team-card">
+                    <div class="card-header">
+                        <i class="fas fa-building"></i>
+                        <div class="role">Agency Representative</div>
+                    </div>
+                    <ul class="space-y-2">
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Represents agency interests and needs
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides agency context and requirements
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Facilitates agency communication
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews and validates recommendations
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Supports solution implementation planning
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tab 3: Tools -->
+    <div id="tools" class="tab-content">
+        <div class="team-section">
+            <div class="role">Assessment Tools</div>
+            <!-- Card 1: Asana -->
+            <div class="card">
+                <div class="card-header" onclick="toggleCard(this)">
+                    <i class="fas fa-tasks"></i>
+                    <div class="role">Asana</div>
+                    <i class="fas fa-chevron-down chevron ml-auto"></i>
+                </div>
+                <div class="card-content">
+                    <p class="mb-4">Project management platform for tracking needs, solutions, and milestones throughout the assessment process.</p>
+                    <div class="grid-container">
+                        <div class="card">
+                            <h4 class="font-medium mb-2">Key Features</h4>
+                            <ul class="space-y-2">
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Need ID tracking and organization
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Solution submission and tagging
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Progress monitoring through milestones
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Team collaboration tools
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h4 class="font-medium mb-2">Quick Tips</h4>
+                            <ul class="space-y-2">
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Use search to quickly find your Need IDs
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Complete milestones in sequential order
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Set your role in your profile settings
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contact SNWG MO for account issues
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <h4 class="font-medium mb-2">Common Solutions</h4>
+                        <ul class="space-y-2">
+                            <br><i class="fas fa-exclamation-circle text-blue-600 mr-2"></i>  <strong>See "Trial Version"?</strong> Contact SNWG MO for the correct account setup
+                            <br><i class="fas fa-exclamation-circle text-blue-600 mr-2"></i>  <strong>Wrong workspace?</strong> Click your profile icon to switch to nasa.gov
+                            <br><i class="fas fa-exclamation-circle text-blue-600 mr-2"></i>  <strong>Need help with LOS?</strong> Request a quick demo from SNWG MO
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+            <!-- Card 2: RGT -->
+            <div class="card">
+                <div class="card-header" onclick="toggleCard(this)">
+                    <i class="fas fa-file-alt"></i>
+                    <div class="role">Report Generation Tool (RGT)</div>
+                    <i class="fas fa-chevron-down chevron ml-auto"></i>
+                    </div>
+                <div class="card-content">
+                    <p class="mb-4">Collaborative platform for writing and managing standardized assessment reports.</p>
+                    <div class="grid-container">
+                        <div class="card">
+                            <h4 class="font-medium mb-2">Key Features</h4>
+                            <ul class="space-y-2">
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Standardized report templates
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Collaborative writing environment
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Mission/product selection tools
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Automatic boilerplate integration
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h4 class="font-medium mb-2">Best Practices</h4>
+                            <ul class="space-y-2">
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Save work frequently while editing
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Use comments for team communication
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Review example reports provided
+                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contact SNWG MO for login issues
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <h4 class="font-medium mb-2">Report Writing Tips</h4>
+                        <ul class="space-y-2">
+                            <br><i class="fas fa-lightbulb text-blue-600 mr-2"></i>  Focus on comprehensive needs assessment, not just solution listings
+                            <br><i class="fas fa-lightbulb text-blue-600 mr-2"></i>  Use free text fields for information not available in dropdowns
+                            <br><i class="fas fa-lightbulb text-blue-600 mr-2"></i>  Review your report in "View" mode before submitting
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tab 4: Processes -->
+    <div id="processes" class="tab-content">
+        <div class="team-section">
+            <div class="team-grid">
+                <div class="role">Key Processes</div>
+                <br>
+                <!-- Card 1: Agency Interviews -->
+                <div class="card">
+                    <div class="card-header" onclick="toggleCard(this)">
+                        <i class="fas fa-comments"></i>
+                        <div class="role">Agency Interviews</div>
+                        <i class="fas fa-chevron-down chevron ml-auto"></i>
+                    </div>
+                    <div class="card-content">
+                        <p>Structured discussions with agency stakeholders to understand their needs in detail. Interviews are scheduled by the SNWG MO team and include features to support your success:</p>
+                        <div class="grid-container">
+                            <div class="card">
+                                <h4 class="font-medium mb-2">Before the Interview</h4>
+                                <ul class="space-y-2">
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Optional pre-interview huddle with your team
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Interview preparation guide and blueprint
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Welcome packet for all participants
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Previous cycle information (if applicable)
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4 class="font-medium mb-2">During the Interview</h4>
+                                <ul class="space-y-2">
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  SNWG MO note-taker present
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Interview recording available
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  SNWG agency representative participation
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  CSDA expert for commercial data needs
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="space-y-3 mt-6">
+                            <h4 class="font-medium mb-2">Best Practices for Assessment Leads</h4>
+                            <div class="process-step">
+                                <div class="step-number">1</div>
+                                <div>
+                                    <h4 class="font-medium">Review Survey & Materials</h4>
+                                    <p class="text-gray-600">Study the survey response and any previous cycle information. Consider both stated and underlying needs.</p>
+                                </div>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-number">2</div>
+                                <div>
+                                    <h4 class="font-medium">Prepare Your Team</h4>
+                                    <p class="text-gray-600">Schedule a pre-interview huddle to discuss strategy and assign roles. Share prepared questions with your team.</p>
+                                </div>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-number">3</div>
+                                <div>
+                                    <h4 class="font-medium">Lead the Discussion</h4>
+                                    <p class="text-gray-600">Focus on understanding needs rather than immediately proposing solutions. Encourage all team members to participate.</p>
+                                </div>
+                            </div>
+                            <div class="process-step">
+                                <div class="step-number">4</div>
+                                <div>
+                                    <h4 class="font-medium">Follow Up</h4>
+                                    <p class="text-gray-600">Review interview notes and recordings. Document key findings in Asana. Continue agency communication as needed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2: Solution Development -->
+                <div class="card">
+                    <div class="card-header" onclick="toggleCard(this)">
+                        <i class="fas fa-lightbulb"></i>
+                        <div class="role">Solution Development</div>
+                        <i class="fas fa-chevron-down chevron ml-auto"></i>   
+                    </div>
+                    <div class="card-content">
+                        <p class="mb-4">Process for identifying, developing, and prioritizing solutions to meet agency needs.</p>
+                    <div class="space-y-3">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <div>
+                                <h4 class="font-medium"> Solution Identification</h4>
+                                <p class="text-gray-600"> Research and propose potential solutions</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <div>
+                                <h4 class="font-medium"> Solution Submission</h4>
+                                <p class="text-gray-600"> Submit solutions through the provided form</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <div>
+                                <h4 class="font-medium"> Need ID Tagging</h4>
+                                <p class="text-gray-600"> Connect solutions to relevant needs</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <div>
+                                <h4 class="font-medium">Satisfaction Estimation</h4>
+                                <p class="text-gray-600">Estimate Level of Satisfaction for each solution</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3: Report Writing -->
+            <div class="card">
+                    <div class="card-header" onclick="toggleCard(this)">
+                        <i class="fas fa-file-alt"></i>
+                        <div class="role">Report Writing</div>
+                        <i class="fas fa-chevron-down chevron ml-auto"></i>   
+                    </div>
+                    <div class="card-content">
+                        <p class="mb-4">Collaborative process for documenting findings and recommendations.</p>
+                    <div class="space-y-3">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <div>
+                                <h4 class="font-medium">Information Gathering</h4>
+                                <p class="text-gray-600">Collect all relevant documentation and findings</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <div>
+                                <h4 class="font-medium">Draft Development</h4>
+                                <p class="text-gray-600">Write initial report content in RGT</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <div>
+                                <h4 class="font-medium">Team Review</h4>
+                                <p class="text-gray-600">Collaborative review and revision process</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <div>
+                                <h4 class="font-medium">Finalization</h4>
+                                <p class="text-gray-600">Complete final edits and submit for approval</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+/**
+ * Toggles the expanded/collapsed state of a card
+ * @param {HTMLElement} header - The header element that was clicked
+ */
+function toggleCard(header) {
+    // Toggle active class on header
+    header.classList.toggle('active');
+    
+    // Toggle active class on content section
+    const content = header.nextElementSibling;
+    content.classList.toggle('active');
+    
+    // Close other open cards
+    const allHeaders = document.querySelectorAll('.card-header');
+    allHeaders.forEach(otherHeader => {
+        if (otherHeader !== header && otherHeader.classList.contains('active')) {
+            otherHeader.classList.remove('active');
+            otherHeader.nextElementSibling.classList.remove('active');
+        }
+    });
+}
+
+function showTab(tabName) {
+    // Hide all tabs
+    document.querySelectorAll('.tab-content').forEach(content => {
+        content.classList.remove('active');
+    });
+    
+    // Remove active class from all buttons
+    document.querySelectorAll('.tab-button').forEach(button => {
+        button.classList.remove('active');
+    });
+    
+    // Show selected tab
+    document.getElementById(tabName).classList.add('active');
+    
+    // Highlight active button
+    event.target.classList.add('active');
+}
+</script>
 
 <style>
 /* Custom styles to match Overview page design */
@@ -19,36 +482,28 @@ order: 3
     margin: 0 auto;
 }
 
-.nav-tabs {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 2rem;
-}
-
 .tab-button {
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    font-weight: 500;
-    transition: all 0.3s;
+    padding: 1rem 1.5rem;
     border: none;
+    background: none;
     cursor: pointer;
+    color: #64748b;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 0; /* Remove the rounded corners */
+    box-shadow: none; /* Remove any shadow */
 }
 
 .tab-button.active {
-    background-color: #4682B4;
-    color: white;
-    transition: all 0.3s ease;
-}
-
-.tab-button:not(.active) {
-    background-color: white;
-    color: #2c3e50;
-    border: 1px solid #e5e7eb;
+    color: #3498db; /* Blue text for active tab */
+    background: transparent; /* Remove background color */
+    border-bottom: 2px solid #3498db; /* Add bottom border for active tab */
 }
 
 .tab-button:not(.active):hover {
-    background-color: #f3f4f6;
+    color: #3498db;
+    background: transparent; /* Remove hover background */
 }
 
 .content-section {
@@ -265,459 +720,376 @@ order: 3
         display: block;
     }
 }
+
+/*Base (index.md) Styles,Core layout and typography */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    background-color: #f8fafc;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* 
+ * Header Styles
+ */
+.page-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.page-header h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+/* 
+ * Section Headers
+ */
+.section-header {
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+    position: relative;
+}
+
+.section-header h2 {
+    color: #34495e;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.section-header h5 {
+   margin-bottom: 2rem;
+    position: relative;
+}
+
+.header-line {
+    height: 3px;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    margin-top: 0.5rem;
+    border-radius: 2px;
+    width: 100px;
+}
+
+/* 
+ * Team Section Styles 
+ */
+.team-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.team-section {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.team-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-card.leadership {
+    background: linear-gradient(135deg, #f6f9fc, #eef2f7);
+    border-left: 4px solid #3498db;
+}
+
+.role {
+    color: #7f8c8d;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.name {
+    color: #2c3e50;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.name a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.name a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* 
+ * Solutions Tab System
+ */
+.tabs-wrapper {
+    margin: 1rem 0;
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tabs-wrapper input[type="radio"] {
+    display: none !important;
+}
+
+.tabs-nav {
+    display: flex;
+    border-bottom: 2px solid #e5e7eb;
+    margin-bottom: 1.5rem;
+    gap: 0.5rem;
+}
+
+.tabs-nav label {
+    flex: 1;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    color: #64748b;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.tabs-nav label:hover {
+    color: #3498db;
+}
+
+.tabs-content .tab {
+    display: none;
+}
+
+/* Personnel Tab Selection States */
+#team-tab1:checked ~ .tabs-content .tab:nth-of-type(1),
+#team-tab2:checked ~ .tabs-content .tab:nth-of-type(2),
+#team-tab3:checked ~ .tabs-content .tab:nth-of-type(3),
+#team-tab4:checked ~ .tabs-content .tab:nth-of-type(4){
+    display: block;
+}
+
+#team-tab1:checked ~ .tabs-nav label:nth-of-type(1),
+#team-tab2:checked ~ .tabs-nav label:nth-of-type(2),
+#team-tab3:checked ~ .tabs-nav label:nth-of-type(3),
+#team-tab4:checked ~ .tabs-nav label:nth-of-type(4){
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    margin-bottom: -2px;
+}
+
+/* Solutions Tab Selection States */
+#solution-tab1:checked ~ .tabs-content .tab:nth-of-type(1),
+#solution-tab2:checked ~ .tabs-content .tab:nth-of-type(2),
+#solution-tab3:checked ~ .tabs-content .tab:nth-of-type(3),
+#solution-tab4:checked ~ .tabs-content .tab:nth-of-type(4) {
+    display: block;
+}
+
+#solution-tab1:checked ~ .tabs-nav label:nth-of-type(1),
+#solution-tab2:checked ~ .tabs-nav label:nth-of-type(2),
+#solution-tab3:checked ~ .tabs-nav label:nth-of-type(3),
+#solution-tab4:checked ~ .tabs-content .tab:nth-of-type(4) {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    margin-bottom: -2px;
+}
+
+/* 
+ * Solutions Grid and Cards
+ */
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+
+.grid-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: white;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.card-header:hover {
+    background: #f9fafb;
+}
+
+.card-header h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.chevron {
+    font-size: 0.875rem;
+    transition: transform 0.2s;
+    color: #64748b;
+}
+
+.card-header.active .chevron {
+    transform: rotate(180deg);
+}
+
+.card-content {
+    display: none;
+    padding: 1.5rem;
+}
+
+.card-content.active {
+    display: block;
+}
+
+.card-section {
+    margin-bottom: 1.5rem;
+}
+
+.card-section:last-child {
+    margin-bottom: 0;
+}
+
+.card-section i {
+    color: #64748b;
+    font-style: italic;
+}
+
+/* 
+ * Typography and Lists
+ */
+h4 {
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+h5 {
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin: 0.75rem 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* 
+ * Content Sections
+ */
+.content-section {
+    margin-bottom: 3rem;
+}
+
+.content-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 
+ * Utility Classes
+ */
+.text-gradient {
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 
+ * Responsive Design
+ */
+@media (max-width: 768px) {
+    .page-container {
+        padding: 1rem;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .team-grid {
+        grid-template-columns: 2fr;
+    }
+    
+    .grid-wrapper {
+        grid-template-columns: 2fr;
+    }
+}
+
+/* 
+ * Print Styles
+ */
+@media print {
+    .team-card,
+    .grid-card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    
+    .card-header {
+        background: none;
+    }
+    
+    .card-content {
+        display: block !important;
+    }
+    
+    .chevron {
+        display: none;
+    }
+}
 </style>
 
-<!-- Timeline Container -->
-<div class="content-section">
-    <h3 class="text-xl font-semibold mb-4">Key Milestones</h3>
-    <div class="mobile-note">
-        <i class="fas fa-info-circle mr-2"></i>
-        Scroll horizontally to view the complete timeline
-    </div>
-        <div class="timeline-wrapper">
-            <div class="timeline-line"></div>            
-            <div class="timeline-phases">
-                <!-- Phase 1 -->
-                <div class="timeline-phase">
-                    <div class="timeline-content">
-                        <div class="timeline-date"> Months 1-2</div>
-                        <div class="timeline-title"> Survey Review & Team Assembly</div>
-                        <div class="timeline-details">
-                            <div class="mb-2"><i class="fas fa-tasks mr-2"></i> Review surveys & form teams</div>
-                            <div class="mb-2"><i class="fas fa-tools mr-2"></i> Tools: Asana</div>
-                        </div>
-                        <div class="timeline-milestone">
-                            <i class="fas fa-flag mr-1"></i>Teams Formed
-                        </div>
-                    </div>
-                </div>
-                <!-- Phase 2 -->
-                <div class="timeline-phase">
-                    <div class="timeline-content">
-                        <div class="timeline-date"> Months 3-5</div>
-                        <div class="timeline-title"> Agency Interviews</div>
-                        <div class="timeline-details">
-                            <div class="mb-2"><i class="fas fa-comments mr-2"></i> Conduct interviews</div>
-                            <div class="mb-2"><i class="fas fa-clipboard mr-2"></i> Document findings</div>
-                            <div class="mb-2"><i class="fas fa-tools mr-2"></i> Tools: Miro, Google Drive</div>
-                        </div>
-                        <div class="timeline-milestone">
-                            <i class="fas fa-flag mr-1"></i> Interviews Complete
-                        </div>
-                    </div>
-                </div>
-                <!-- Phase 3 -->
-                <div class="timeline-phase">
-                    <div class="timeline-content">
-                        <div class="timeline-date"> Months 6-8</div>
-                        <div class="timeline-title"> Solution Development</div>
-                        <div class="timeline-details">
-                            <div class="mb-2"><i class="fas fa-lightbulb mr-2"></i> Submit solutions</div>
-                            <div class="mb-2"><i class="fas fa-chart-line mr-2"></i> Estimate satisfaction</div>
-                            <div class="mb-2"><i class="fas fa-tools mr-2"></i> Tools: Miro, Google Drive</div>
-                        </div>
-                        <div class="timeline-milestone">
-                            <i class="fas fa-flag mr-1"></i> Solutions Submitted
-                        </div>
-                    </div>
-                </div>
-                <!-- Phase 4 -->
-                <div class="timeline-phase">
-                    <div class="timeline-content">
-                        <div class="timeline-date"> Months 9-12</div>
-                        <div class="timeline-title"> Report Writing</div>
-                        <div class="timeline-details">
-                            <div class="mb-2"><i class="fas fa-file-alt mr-2"></i> Draft reports</div>
-                            <div class="mb-2"><i class="fas fa-check-double mr-2"></i> Review & finalize</div>
-                            <div class="mb-2"><i class="fas fa-tools mr-2"></i> Tools: Asana, RGT</div>
-                        </div>
-                        <div class="timeline-milestone">
-                            <i class="fas fa-flag mr-1"></i> Reports Finalized
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <div class="mt-8 text-sm text-gray-600">
-        <br><i class="fas fa-info-circle mr-2"></i>
-        Each phase includes support from the SNWG Management Office, including tools, templates, and guidance.
-    </div>
-</div>
-
-<!-- Assessment Tabs -->
-<div class="nav-tabs">
-    <button class="tab-button active" onclick="showTab('overview')">Overview</button>
-    <button class="tab-button" onclick="showTab('roles')">Roles</button>
-    <button class="tab-button" onclick="showTab('tools')">Tools</button>
-    <button class="tab-button" onclick="showTab('processes')">Processes</button>
-</div>
-
-<!-- Overview Section -->
-<div id="overview" class="tab-content active">
-    <div class="content-section">
-        <div class="mb-8">
-            <h3 class="text-xl font-semibold mb-4">Timeline & Structure</h3>
-            <div class="grid-container">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="far fa-calendar"></i>
-                        <h4 class="font-medium">Duration</h4>
-                    </div>
-                    <p>12-month comprehensive assessment cycle</p>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <i class="fas fa-arrow-right"></i>
-                        <h4 class="font-medium">Key Phases</h4>
-                    </div>
-                    <ul class="list-disc list-inside">
-                        <li>Survey Review</li>
-                        <li>Team Assembly</li>
-                        <li>Agency Interviews</li>
-                        <li>Solution Development</li>
-                        <li>Report Writing</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Roles Section -->
-<div id="roles" class="tab-content">
-    <div class="content-section">
-        <h3 class="text-xl font-semibold mb-4">Participant Roles</h3>
-       <div class="grid-container">
-            <div class="card">
-                <div class="card-header">
-                    <i class="fas fa-user"></i>
-                    <h3>Assessment Lead</h3>
-                </div>
-                <ul class="space-y-2">
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Responsible for leading team coordination
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Oversees interview preparation and execution
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Manages solution development process
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Ensures report completion and quality
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Primary point of contact for the Need ID
-                </ul>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <i class="fas fa-users"></i>
-                    <h3>Team Member</h3>
-                </div>
-                <ul class="space-y-2">
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Participates in agency interviews
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews survey responses and documentation
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contributes to solution development
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Assists with report writing
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides technical expertise in specialty area
-                </ul>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <i class="fas fa-star"></i>
-                    <h3>Subject Matter Expert</h3>
-                </div>
-                <ul class="space-y-2">
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides specialized technical expertise
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews and validates proposed solutions
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Assists with technical documentation
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Supports solution feasibility assessment
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contributes to satisfaction level estimates
-                </ul>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <i class="fas fa-building"></i>
-                    <h3>Agency Representative</h3>
-                </div>
-                <ul class="space-y-2">
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Represents agency interests and needs
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides agency context and requirements
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Facilitates agency communication
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews and validates recommendations
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Supports solution implementation planning
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Tools Section -->
-<div id="tools" class="tab-content">
-    <div class="content-section">
-        <h3 class="text-xl font-semibold mb-4">Assessment Tools</h3>
-          <div class="space-y-8">
-            <div class="card">
-                <div class="card-header" onclick="toggleCard(this)">
-                    <i class="fas fa-tasks"></i>
-                    <h3>Asana</h3>
-                    <i class="fas fa-chevron-down chevron ml-auto"></i>
-                </div>
-                <div class="card-content">
-                <p class="mb-4">Project management platform for tracking needs, solutions, and milestones throughout the assessment process.</p>
-                <div class="grid-container">
-                    <div class="card">
-                        <h4 class="font-medium mb-2">Key Features</h4>
-                        <ul class="space-y-2">
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Need ID tracking and organization
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Solution submission and tagging
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Progress monitoring through milestones
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Team collaboration tools
-                        </ul>
-                    </div>
-                    <div class="card">
-                        <h4 class="font-medium mb-2">Quick Tips</h4>
-                        <ul class="space-y-2">
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Use search to quickly find your Need IDs
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Complete milestones in sequential order
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Set your role in your profile settings
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contact SNWG MO for account issues
-                        </ul>
-                    </div>
-                </div>
-                <div class="mt-4">
-                    <h4 class="font-medium mb-2">Common Solutions</h4>
-                    <ul class="space-y-2">
-                        <br><i class="fas fa-exclamation-circle text-blue-600 mr-2"></i>  <strong>See "Trial Version"?</strong> Contact SNWG MO for the correct account setup
-                        <br><i class="fas fa-exclamation-circle text-blue-600 mr-2"></i>  <strong>Wrong workspace?</strong> Click your profile icon to switch to nasa.gov
-                        <br><i class="fas fa-exclamation-circle text-blue-600 mr-2"></i>  <strong>Need help with LOS?</strong> Request a quick demo from SNWG MO
-                    </ul>
-                </div>
-            </div>      
-            </div>      
-            <div class="card">
-                <div class="card-header" onclick="toggleCard(this)">
-                    <i class="fas fa-file-alt"></i>
-                    <h3>Report Generation Tool (RGT)</h3>
-                    <i class="fas fa-chevron-down chevron ml-auto"></i>
-                </div>
-                <div class="card-content">
-                <p class="mb-4">Collaborative platform for writing and managing standardized assessment reports.</p>
-                <div class="grid-container">
-                    <div class="card">
-                        <h4 class="font-medium mb-2">Key Features</h4>
-                        <ul class="space-y-2">
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Standardized report templates
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Collaborative writing environment
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Mission/product selection tools
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Automatic boilerplate integration
-                        </ul>
-                    </div>
-                    <div class="card">
-                        <h4 class="font-medium mb-2">Best Practices</h4>
-                        <ul class="space-y-2">
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Save work frequently while editing
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Use comments for team communication
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Review example reports provided
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contact SNWG MO for login issues
-                        </ul>
-                    </div>
-                </div>
-                <div class="mt-4">
-                    <h4 class="font-medium mb-2">Report Writing Tips</h4>
-                    <ul class="space-y-2">
-                        <br><i class="fas fa-lightbulb text-blue-600 mr-2"></i>  Focus on comprehensive needs assessment, not just solution listings
-                        <br><i class="fas fa-lightbulb text-blue-600 mr-2"></i>  Use free text fields for information not available in dropdowns
-                        <br><i class="fas fa-lightbulb text-blue-600 mr-2"></i>  Review your report in "View" mode before submitting
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-
-<div id="processes" class="tab-content">
-    <div class="content-section">
-        <h3 class="text-xl font-semibold mb-4">Key Processes</h3>
-        <div class="space-y-8">
-            <!-- Card 1 -->
-            <div class="card">
-                <div class="card-header" onclick="toggleCard(this)">
-                    <i class="fas fa-comments"></i>
-                    <h3>Agency Interviews</h3>
-                    <i class="fas fa-chevron-down chevron ml-auto"></i>
-                </div>
-                <div class="card-content">
-                    <p class="mb-4">Structured discussions with agency stakeholders to understand their needs in detail. Interviews are scheduled by the SNWG MO team and include features to support your success:</p>
-                    <div class="grid-container">
-                        <div class="card">
-                            <h4 class="font-medium mb-2">Before the Interview</h4>
-                            <ul class="space-y-2">
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Optional pre-interview huddle with your team
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Interview preparation guide and blueprint
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Welcome packet for all participants
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Previous cycle information (if applicable)
-                            </ul>
-                        </div>
-                        <div class="card">
-                            <h4 class="font-medium mb-2">During the Interview</h4>
-                            <ul class="space-y-2">
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  SNWG MO note-taker present
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Interview recording available
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  SNWG agency representative participation
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  CSDA expert for commercial data needs
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="space-y-3 mt-6">
-                        <h4 class="font-medium mb-2">Best Practices for Assessment Leads</h4>
-                        <div class="process-step">
-                            <div class="step-number">1</div>
-                            <div>
-                                <h4 class="font-medium">Review Survey & Materials</h4>
-                                <p class="text-gray-600">Study the survey response and any previous cycle information. Consider both stated and underlying needs.</p>
-                            </div>
-                        </div>
-                        <div class="process-step">
-                            <div class="step-number">2</div>
-                            <div>
-                                <h4 class="font-medium">Prepare Your Team</h4>
-                                <p class="text-gray-600">Schedule a pre-interview huddle to discuss strategy and assign roles. Share prepared questions with your team.</p>
-                            </div>
-                        </div>
-                        <div class="process-step">
-                            <div class="step-number">3</div>
-                            <div>
-                                <h4 class="font-medium">Lead the Discussion</h4>
-                                <p class="text-gray-600">Focus on understanding needs rather than immediately proposing solutions. Encourage all team members to participate.</p>
-                            </div>
-                        </div>
-                        <div class="process-step">
-                            <div class="step-number">4</div>
-                            <div>
-                                <h4 class="font-medium">Follow Up</h4>
-                                <p class="text-gray-600">Review interview notes and recordings. Document key findings in Asana. Continue agency communication as needed.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="card">
-                <div class="card-header" onclick="toggleCard(this)">
-                    <i class="fas fa-lightbulb"></i>
-                    <h3>Solution Development</h3>
-                    <i class="fas fa-chevron-down chevron ml-auto"></i>   
-                </div>
-                <div class="card-content">
-                <p class="mb-4">Process for identifying, developing, and prioritizing solutions to meet agency needs.</p>
-                <div class="space-y-3">
-                    <div class="process-step">
-                        <div class="step-number">1</div>
-                        <div>
-                            <h4 class="font-medium"> Solution Identification</h4>
-                            <p class="text-gray-600"> Research and propose potential solutions</p>
-                        </div>
-                    </div>
-                    <div class="process-step">
-                        <div class="step-number">2</div>
-                        <div>
-                            <h4 class="font-medium"> Solution Submission</h4>
-                            <p class="text-gray-600"> Submit solutions through the provided form</p>
-                        </div>
-                    </div>
-                    <div class="process-step">
-                        <div class="step-number">3</div>
-                        <div>
-                            <h4 class="font-medium"> Need ID Tagging</h4>
-                            <p class="text-gray-600"> Connect solutions to relevant needs</p>
-                        </div>
-                    </div>
-                    <div class="process-step">
-                        <div class="step-number">4</div>
-                        <div>
-                            <h4 class="font-medium">Satisfaction Estimation</h4>
-                            <p class="text-gray-600">Estimate Level of Satisfaction for each solution</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="card">
-            <div class="card-header" onclick="toggleCard(this)">
-                <i class="fas fa-file-alt"></i>
-                <h3>Report Writing</h3>
-                <i class="fas fa-chevron-down chevron ml-auto"></i>   
-            </div>
-            <div class="card-content">
-                <p class="mb-4">Collaborative process for documenting findings and recommendations.</p>
-                <div class="space-y-3">
-                    <div class="process-step">
-                        <div class="step-number">1</div>
-                        <div>
-                            <h4 class="font-medium">Information Gathering</h4>
-                            <p class="text-gray-600">Collect all relevant documentation and findings</p>
-                        </div>
-                    </div>
-                    <div class="process-step">
-                        <div class="step-number">2</div>
-                        <div>
-                            <h4 class="font-medium">Draft Development</h4>
-                            <p class="text-gray-600">Write initial report content in RGT</p>
-                        </div>
-                    </div>
-                    <div class="process-step">
-                        <div class="step-number">3</div>
-                        <div>
-                            <h4 class="font-medium">Team Review</h4>
-                            <p class="text-gray-600">Collaborative review and revision process</p>
-                        </div>
-                    </div>
-                    <div class="process-step">
-                        <div class="step-number">4</div>
-                        <div>
-                            <h4 class="font-medium">Finalization</h4>
-                            <p class="text-gray-600">Complete final edits and submit for approval</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-/**
- * Toggles the expanded/collapsed state of a card
- * @param {HTMLElement} header - The header element that was clicked
- */
-function toggleCard(header) {
-    // Toggle active class on header
-    header.classList.toggle('active');
-    
-    // Toggle active class on content section
-    const content = header.nextElementSibling;
-    content.classList.toggle('active');
-    
-    // Close other open cards
-    const allHeaders = document.querySelectorAll('.card-header');
-    allHeaders.forEach(otherHeader => {
-        if (otherHeader !== header && otherHeader.classList.contains('active')) {
-            otherHeader.classList.remove('active');
-            otherHeader.nextElementSibling.classList.remove('active');
-        }
-    });
-}
-
-function showTab(tabName) {
-    // Hide all tab content
-    document.querySelectorAll('.tab-content').forEach(content => {
-        content.classList.remove('active');
-    });
-    
-    // Remove active class from all buttons
-    document.querySelectorAll('.tab-button').forEach(button => {
-        button.classList.remove('active');
-    });
-    
-    // Show selected tab content
-    document.getElementById(tabName).classList.add('active');
-    
-    // Add active class to clicked button
-    event.target.classList.add('active');
-}
-</script>

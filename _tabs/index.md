@@ -23,14 +23,14 @@ order: 1
     <h1>Welcome to the Satellite Needs Working Group Management Office</h1>
 </div>
 
-<!-- Team sections container -->
+<!-- Page Section 1: Who are We? -->
 <section class="content-section">
     <div class="section-header">
         <h2>Who are we?</h2>
         <div class="header-line"></div>
         <p> The Satellite Needs Working Group designs and administers the bi-annual survey. The SNWG Management Office facilitates, analyzes, presents, and develops the data and Solutions that result from that survey, focusing on three core areas: Stakeholder Engagement, Solution Assessment, and Solution Project Implementation.</p>
     </div>
-    <!-- Personnel tabs wrapper container -->
+    <!-- Tab Container 1: Personnel tabs wrapper container -->
     <div class="tabs-wrapper">
         <!-- Radio buttons for team tab control -->
         <input type="radio" name="team-tabs" id="team-tab1" checked="checked">
@@ -45,35 +45,42 @@ order: 1
             <label for="team-tab4">SNWG & the MO</label>         
         </div>            
         <!-- Container for all Office tabs -->
-        <div class="tabs-content">
-            <!-- Implementation Tab -->
+        <div class="overview">
+            <!-- Tab 1: Implementation Personnel -->
             <div class="tab">
                 <div class="team-section">
                     <div class="team-grid">
+                        <!-- Card 1 -->
                         <div class="team-card leadership">
                             <div class="role">Program Manager</div>
                             <div class="name"><a href="mailto:natasha.sadoff@nasa.gov">Natasha Sadoff</a></div>
                         </div>
+                        <!-- Card 2 -->
                         <div class="team-card leadership">
                             <div class="role">Project Manager</div>
                             <div class="name"><a href="mailto:sean.p.gregory@nasa.gov">Sean Gregory</a></div>
                         </div>
+                        <!-- Card 3 -->
                         <div class="team-card leadership">
                             <div class="role">Project Scientist</div>
                             <div class="name"><a href="mailto:pontus.olofsson@nasa.gov">Pontus Olofsson</a></div>
                         </div>
+                        <!-- Card 4 -->
                         <div class="team-card">
                             <div class="role">Deputy Project Manager</div>
                             <div class="name"><a href="mailto:eric.s.taylor@nasa.gov">Eric Taylor</a></div>
                         </div>
+                        <!-- Card 5 -->
                         <div class="team-card">
                             <div class="role">Deputy Project Scientist</div>
                             <div class="name"><a href="mailto:katrina.s.virts@nasa.gov">Katrina Virts</a></div>
                         </div>
+                        <!-- Card 6 -->
                         <div class="team-card">
                             <div class="role">Systems Engineer</div>
                             <div class="name"><a href="mailto:jenny.m.wood@nasa.gov">Jenny Wood</a></div>
                         </div>
+                        <!-- Card 7 -->
                         <div class="team-card">
                             <div class="role">Project Coordinator</div>
                             <div class="name"><a href="mailto:cherrelle.j.tucker@nasa.gov">Cherrelle Tucker</a></div>
@@ -81,7 +88,7 @@ order: 1
                     </div>
                 </div>
             </div>
-            <!-- Assessment Tab -->
+            <!-- Tab 2: Assessment -->
             <div class="tab">
                 <div class="team-section">
                     <div class="team-grid">
@@ -104,10 +111,11 @@ order: 1
                     </div>
                 </div>
             </div>
-            <!-- Stakeholder Engagement Tab -->
+            <!-- Tab 3: Stakeholder Engagement -->
             <div class="tab">
                 <div class="team-section">
                     <div class="team-grid">
+                    <!-- No Card Title -->
                         <div class="team-card leadership">
                             <div class="role">SEP Lead</div>
                             <div class="name"><a href="mailto:pontus.olofsson@nasa.gov">Pontus Olofsson</a></div>
@@ -131,7 +139,7 @@ order: 1
                     </div>
                 </div>
             </div>
-            <!-- SNWG & the MO Tab -->
+            <!-- Tab 4: SNWG & the MO -->
             <div class="tab">
                 <div class="team-section">
                     <p>The Satellite Needs Working Group (SNWG) conducts a survey of U.S. federal agencies every two years to identify what Earth observation data they need to fulfill their mission. The SNWG is part of the U.S. Group on Earth Observations (USGEO) and includes members from various federal agencies that use Earth observation data. Survey responses are assessed by NASA, NOAA, and USGS to identify agency needs, potential data gaps in the current NASA program of record, and relevant datasets. Solutions that meet these identified needs are formulated, and those that are estimated to significantly increase satisfaction of multiple U.S. agencies are selected by the Executive Branch for funding and implementation.</p>
@@ -154,7 +162,7 @@ order: 1
     </div>
 </section>
 
-<!-- What do we produce section -->
+<!-- Page Section 2: What do we produce -->
 <section class="content-section">
     <div class="section-header">
         <h2>What do we produce?</h2>
@@ -171,14 +179,13 @@ order: 1
     </div>
 </section>
 
-<!-- Previous Solutions container -->
+<!--Page Section 3: Previous Solutions -->
 <section class="content-section">
     <div class="section-header">
         <h2>What are our previous Solutions?</h2>
         <div class="header-line"></div>
         <p> You may have heard of us!</p>
     </div>
-    <!-- Solutions tabs wrapper container -->
     <div class="tabs-wrapper">
         <!-- Radio buttons for solution tab control -->
         <input type="radio" name="solution-tabs" id="solution-tab1" checked="checked">
@@ -192,12 +199,12 @@ order: 1
             <label for="solution-tab3">Cycle 3 (2020)</label>
             <label for="solution-tab4">Cycle 4 (2022)</label>
         </div>
-        <!-- Container for all Cycle tabs -->
+        <!-- Tab Container 2: SNWG all Cycle -->
         <div class="tabs-content">
-            <!-- Cycle 1 Tab -->
+            <!-- Tab 1: Cycle 1 -->
             <div class="tab">
                 <div class="grid-wrapper">
-                    <!-- ADMG Card -->
+                    <!-- Card 1: ADMG -->
                     <div class="team-section">
                         <div class="role" onclick="toggleCard(this)">
                             <b>Airborne Data Management Group</b><br>(ADMG)
@@ -225,7 +232,7 @@ order: 1
                             </div>
                         </div>
                     </div>
-                    <!-- DCD Card -->
+                    <!-- Card 2: DCD -->
                     <div class="team-section">
                         <div class="role" onclick="toggleCard(this)">
                             <b>Data Curation for Discovery</b>
@@ -256,7 +263,7 @@ order: 1
                             </div>
                         </div>
                     </div>
-                    <!-- HLS Card -->
+                    <!-- Card 3: HLS -->
                     <div class="team-section">
                         <div class="role" onclick="toggleCard(this)">
                             <b>Harmonized Landsat-Sentinel-2</b><br>(HLS)
@@ -281,7 +288,7 @@ order: 1
                             </div>
                         </div>
                     </div>
-                    <!-- CSDA Card -->
+                    <!-- Card 4: CSDA -->
                     <div class="team-section">
                         <div class="role" onclick="toggleCard(this)">
                             <b>Commercial Smallsat Data Acquisition</b><br>(CSDA)
@@ -308,10 +315,10 @@ order: 1
                     </div>
                 </div>
             </div>
-            <!-- Cycle 2 Tab -->
+            <!-- Tab 2: Cycle 2 -->
             <div class="tab">
                 <div class="grid-wrapper">
-                    <!-- AC-GEOS Card -->
+                    <!-- Card 1: AC-GEOS -->
                     <div class="team-section">
                         <div class="role" onclick="toggleCard(this)">
                             <b>Atmospheric Composition using Goddard Earth Observing System</b><br>(AC-GEOS)
