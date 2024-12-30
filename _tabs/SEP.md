@@ -263,6 +263,30 @@ function showTab(tabName) {
 </script>
 
 <style>
+<!-- JavaScript for card toggling -->
+<script>
+/**
+ * Toggles the expanded/collapsed state of a card
+ * @param {HTMLElement} header - The header element that was clicked
+ */
+function toggleCard(header) {
+    // Toggle active class on header
+    header.classList.toggle('active');
+    
+    // Toggle active class on content section
+    const content = header.nextElementSibling;
+    content.classList.toggle('active');
+    
+    // Close other open cards
+    const allHeaders = document.querySelectorAll('.card-header');
+    allHeaders.forEach(otherHeader => {
+        if (otherHeader !== header && otherHeader.classList.contains('active')) {
+            otherHeader.classList.remove('active');
+            otherHeader.nextElementSibling.classList.remove('active');
+        }
+    });
+}
+
     /* Base styles from Overview page */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
