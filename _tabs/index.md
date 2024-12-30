@@ -207,7 +207,7 @@ order: 1
                     <!-- Card 1: ADMG -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Airborne Data Management Group</b><br>(ADMG)
+                            <b>Airborne Data Management Group</b> (ADMG)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -236,7 +236,7 @@ order: 1
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
                             <b>Data Curation for Discovery</b>
-                            <br>(DCD)
+                             (DCD)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -266,7 +266,7 @@ order: 1
                     <!-- Card 3: HLS -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Harmonized Landsat-Sentinel-2</b><br>(HLS)
+                            <b>Harmonized Landsat-Sentinel-2</b> (HLS)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -291,7 +291,7 @@ order: 1
                     <!-- Card 4: CSDA -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Commercial Smallsat Data Acquisition</b><br>(CSDA)
+                            <b>Commercial Smallsat Data Acquisition</b> (CSDA)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -321,7 +321,7 @@ order: 1
                     <!-- Card 1: AC-GEOS -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Atmospheric Composition using Goddard Earth Observing System</b><br>(AC-GEOS)
+                            <b>Atmospheric Composition using Goddard Earth Observing System</b> (AC-GEOS)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -346,7 +346,7 @@ order: 1
                     <!-- Freeboard & Ice Thickness Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Low Latency Freeboard & Ice Thickness Products over the Great Lakes</b><br>(Freeboard and Ice Thickness/ICESat-2)
+                            <b>Low Latency Freeboard & Ice Thickness Products over the Great Lakes</b> (ICESat-2)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -376,7 +376,7 @@ order: 1
                     <!-- Internet of Animals Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Internet of Animals (formerly ICARUS)</b><br>(IoA)
+                            <b>Internet of Animals (formerly ICARUS)</b> (IoA)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -401,7 +401,7 @@ order: 1
                     <!-- NISAR SM Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>NISAR Soil Moisture</b><br>(NISAR SM)
+                            <b>NISAR Soil Moisture</b> (NISAR SM)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -426,7 +426,7 @@ order: 1
                     <!-- Global Surface Water Extent Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Global Surface Water Extent</b><br>(OPERA-DSWx)
+                            <b>Global Surface Water Extent</b> (OPERA-DSWx)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -463,7 +463,7 @@ order: 1
                     <!-- Global Land Surface Disturbance Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Global Land Surface Disturbance and Change Detection</b><br>(OPERA-DIST)
+                            <b>Global Land Surface Disturbance and Change Detection</b> (OPERA-DIST)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -497,7 +497,7 @@ order: 1
                     <!-- Land Surface Deformation Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Land Surface Deformation for North America and U.S. Territories</b><br>(OPERA-DISP)
+                            <b>Land Surface Deformation for North America and U.S. Territories</b> (OPERA-DISP)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -529,7 +529,7 @@ order: 1
                     <!-- Radiation & Clouds Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Radiation & Clouds</b><br>(SatCorps)
+                            <b>Radiation & Clouds</b> (SatCorps)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -562,7 +562,7 @@ order: 1
                     <!-- Water Quality Products Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Water Quality Product</b><br>(Water Quality)
+                            <b>Water Quality Product</b> (Water Quality)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -600,7 +600,7 @@ order: 1
                     <!-- Air Quality Products Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Air Quality Products</b><br>(AQ)
+                            <b>Air Quality Products</b> (AQ)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -631,7 +631,7 @@ order: 1
                     <!-- EarthDEM 2.0 Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>EarthDEM 2.0 Elevation Mosaic & Strip Products</b><br>(EarthDEM 2.0)
+                            <b>EarthDEM 2.0 Elevation Mosaic & Strip Products</b> (EarthDEM 2.0)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -661,7 +661,7 @@ order: 1
                     <!-- PBL Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Merged GNSS-RO/Atmospheric Sounder Measurements for Planetary Boundary Layer Products</b><br>(PBL)
+                            <b>Merged GNSS-RO/Atmospheric Sounder Measurements for Planetary Boundary Layer Products</b> (PBL)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -691,7 +691,7 @@ order: 1
                     <!-- Sea Ice Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Sea Ice from Sea Surface Salinity</b><br>(Sea Ice)
+                            <b>Sea Ice from Sea Surface Salinity</b> (Sea Ice)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -721,7 +721,7 @@ order: 1
                     <!-- TEMPO NRT Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>TEMPO/GOES NRT and Enhanced Products</b><br>(TEMPO NRT)
+                            <b>TEMPO/GOES NRT and Enhanced Products</b> (TEMPO NRT)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -751,7 +751,7 @@ order: 1
                     <!-- HLS-VI Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Global HLS-Derived Vegetation Indices Suite</b><br>(HLS-VI)
+                            <b>Global HLS-Derived Vegetation Indices Suite</b> (HLS-VI)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -786,7 +786,7 @@ order: 1
                     <!-- VLM Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Vertical Land Motion</b><br>(VLM)
+                            <b>Vertical Land Motion</b> (VLM)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -816,7 +816,7 @@ order: 1
                     <!-- HLS-LL Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>HLS-Low Latency</b><br>(HLS-LL)
+                            <b>HLS-Low Latency</b> (HLS-LL)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -846,7 +846,7 @@ order: 1
                     <!-- TEMPO Enhanced Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>TEMPO/GOES NRT and Enhanced Products</b><br>(TEMPO Enhanced)
+                            <b>TEMPO/GOES NRT and Enhanced Products</b> (TEMPO Enhanced)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -877,7 +877,7 @@ order: 1
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
                             <b>Ocean Winds Official Name</b>
-                            <br>(Ocean Winds)
+                            (Ocean Winds)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -907,7 +907,7 @@ order: 1
                     <!-- GABAN Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Global Algal Blooms Assessment Network</b><br>(GABAN)
+                            <b>Global Algal Blooms Assessment Network</b> (GABAN)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -937,7 +937,7 @@ order: 1
                     <!-- ARSET Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>ARSET Official Name</b><br>(ARSET)
+                            <b>ARSET Official Name</b> (ARSET)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -1218,6 +1218,7 @@ body {
     font-size: 0.875rem;
     transition: transform 0.2s;
     color: #64748b;
+    margin-left: auto; /* This pushes the chevron to the right */
 }
 
 .card-header.active .chevron {
@@ -1227,6 +1228,7 @@ body {
 .card-content {
     display: none;
     padding: 1.5rem;
+    background: #f8fafc;
 }
 
 .card-content.active {
@@ -1287,19 +1289,23 @@ ul li {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Ensure text content takes up the right amount of space */
+.solution-header b {
+    flex: 1;
+}
+
 .solution-header,
 .card-header {
-    align-items: center;
-    color: #7f8c8d;
+    padding: 1rem;
     cursor: pointer;
     display: flex;
-    font-size: 0.875rem;
     gap: 0.75rem;
-    letter-spacing: 0.5px;
-    margin-bottom: 0.5rem;
-    padding: 1rem;
-    text-transform: uppercase;
+    color: #4682B4;
+    font-size: 1rem;
     transition: all 0.2s ease;
+    position: relative;
+    background: white; /* Add background color */
+    border-bottom: 1px solid transparent;
 }
 
 
@@ -1311,6 +1317,11 @@ ul li {
 .solution-header.active .chevron,
 .card-header.active .chevron {
     transform: rotate(180deg);
+}
+
+.solution-header.active + .card-content,
+.card-header.active + .card-content {
+    display: block;
 }
 
 /* 
