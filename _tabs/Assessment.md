@@ -92,104 +92,99 @@ order: 3
     </div>
     <!--Container for all Assessment Tabs> -->
     <div id="overview" class="tab-content active">
-        <div class="team-section">
-            <div class="team-grid">
-                <div class="role">Timeline & Structure</div>
-                <br>
-                <!-- Card 1: Duration -->
-                <div class="team-card leadership">
-                    <div class="card-header">
-                        <i class="far fa-calendar"></i>
-                        <div class="role">Duration</div>
-                    </div>
-                    <p>12-month comprehensive assessment cycle</p>
+        <div class="team-grid">
+            <div class="role">Timeline & Structure</div>
+            <br>
+            <!-- Card 1: Duration -->
+            <div class="team-card leadership">
+                <div class="card-header">
+                    <i class="far fa-calendar"></i>
+                    <div class="role">Duration</div>
                 </div>
-                <!-- Card 2: Key Phases -->
-                <div class="team-card leadership">
-                    <div class="card-header">
-                        <i class="fas fa-arrow-right"></i>
-                        <div class="role">Key Phases</div>
-                    </div>
-                    <ul class="list-disc list-inside">
-                        <li>Survey Review</li>
-                        <li>Team Assembly</li>
-                        <li>Agency Interviews</li>
-                        <li>Solution Development</li>
-                        <li>Report Writing</li>
-                    </ul>
+                <p>12-month comprehensive assessment cycle</p>
+            </div>
+            <!-- Card 2: Key Phases -->
+            <div class="team-card leadership">
+                <div class="card-header">
+                    <i class="fas fa-arrow-right"></i>
+                    <div class="role">Key Phases</div>
                 </div>
+                <ul class="list-disc list-inside">
+                    <li>Survey Review</li>
+                    <li>Team Assembly</li>
+                    <li>Agency Interviews</li>
+                    <li>Solution Development</li>
+                    <li>Report Writing</li>
+                </ul>
             </div>
         </div>
     </div>
     <!-- Tab 2: Roles -->
     <div id="roles" class="tab-content">
-        <div class="team-section">
-            <div class="team-grid">
-                <!-- Card Title -->
-                <div class="role">Participant Roles</div>
-                <br>
-                <!-- Card 1: Assessment Lead -->
-                <div class="team-card leadership">
-                    <div class="card-header">
-                        <i class="fas fa-user"></i>
-                        <div class="role">Assessment Lead</div>
-                    </div>
-                        <ul>
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Responsible for leading team coordination
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Oversees interview preparation and execution
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Manages solution development process
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Ensures report completion and quality
-                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Primary point of contact for the Need ID
-                        </ul>
+        <div class="team-grid">
+            <!-- Card Title -->
+            <div class="role">Participant Roles</div>
+            <br>
+            <!-- Card 1: Assessment Lead -->
+            <div class="team-card leadership">
+                <div class="card-header">
+                    <i class="fas fa-user"></i>
+                    <div class="role">Assessment Lead</div>
                 </div>
-                <!-- Card 2: Team Member -->
-                <div class="team-card">
-                    <div class="card-header">
-                        <i class="fas fa-users"></i>
-                        <div class="role">Team Member</div>
-                    </div>
-                    <ul class="space-y-2">
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Participates in agency interviews
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews survey responses and documentation
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contributes to solution development
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Assists with report writing
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides technical expertise in specialty area
+                    <ul>
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Responsible for leading team coordination
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Oversees interview preparation and execution
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Manages solution development process
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Ensures report completion and quality
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Primary point of contact for the Need ID
                     </ul>
+            </div>
+            <!-- Card 2: Team Member -->
+            <div class="team-card">
+                <div class="card-header">
+                    <i class="fas fa-users"></i>
+                    <div class="role">Team Member</div>
                 </div>
-                <!-- Card 3: Subject Matter Expert-->
-                <div class="team-card">
-                    <div class="card-header">
-                        <i class="fas fa-star"></i>
-                        <div class="role">Subject Matter Expert</div>
-                    </div>
-                    <ul class="space-y-2">
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides specialized technical expertise
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews and validates proposed solutions
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Assists with technical documentation
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Supports solution feasibility assessment
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contributes to satisfaction level estimates
-                    </ul>
+                <ul class="space-y-2">
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Participates in agency interviews
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews survey responses and documentation
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contributes to solution development
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Assists with report writing
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides technical expertise in specialty area
+                </ul>
+            </div>
+            <!-- Card 3: Subject Matter Expert-->
+            <div class="team-card">
+                <div class="card-header">
+                    <i class="fas fa-star"></i>
+                    <div class="role">Subject Matter Expert</div>
                 </div>
-                <!-- Card 4: Agency Representative-->
-                <div class="team-card">
-                    <div class="card-header">
-                        <i class="fas fa-building"></i>
-                        <div class="role">Agency Representative</div>
-                    </div>
-                    <ul class="space-y-2">
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Represents agency interests and needs
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides agency context and requirements
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Facilitates agency communication
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews and validates recommendations
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Supports solution implementation planning
-                    </ul>
+                <ul class="space-y-2">
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides specialized technical expertise
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews and validates proposed solutions
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Assists with technical documentation
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Supports solution feasibility assessment
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contributes to satisfaction level estimates
+                </ul>
+            </div>
+            <!-- Card 4: Agency Representative-->
+            <div class="team-card">
+                <div class="card-header">
+                    <i class="fas fa-building"></i>
+                    <div class="role">Agency Representative</div>
                 </div>
+                <ul class="space-y-2">
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Represents agency interests and needs
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides agency context and requirements
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Facilitates agency communication
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews and validates recommendations
+                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Supports solution implementation planning
+                </ul>
             </div>
         </div>
     </div>
     <!-- Tab 3: Tools -->
     <div id="tools" class="tab-content">
-        <div class="team-section">
             <div class="role">Assessment Tools</div>
             <!-- Card 1: Asana -->
             <div class="card">
@@ -268,12 +263,10 @@ order: 3
                         </ul>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
     <!-- Tab 4: Processes -->
     <div id="processes" class="tab-content">
-        <div class="team-section">
             <div class="team-grid">
                 <div class="role">Key Processes</div>
                 <br>
