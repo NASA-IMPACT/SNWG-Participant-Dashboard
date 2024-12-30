@@ -82,333 +82,339 @@ order: 3
 
 <!-- Container 2: Assessment Tabs -->
 <div class="tabs-wrapper">
-<!-- Tab Navigation -->
+    <!-- Tab Navigation/Radio buttons -->
+    <input type="radio" name="content-tabs" id="overview-tab" checked="checked">
+    <input type="radio" name="content-tabs" id="roles-tab">
+    <input type="radio" name="content-tabs" id="tools-tab">
+    <input type="radio" name="content-tabs" id="processes-tab">
+    <!-- Labels -->
     <div class="tabs-nav">
-        <!-- Radio buttons for team tab control -->
-        <button class="tab-button active" data-tab="overview">Overview</button>
-        <button class="tab-button" data-tab="roles">Roles</button>
-        <button class="tab-button" data-tab="tools">Tools</button>
-        <button class="tab-button" data-tab="processes">Processes</button>
+        <label for="overview-tab">Overview</label>
+        <label for="roles-tab">Roles</label>
+        <label for="tools-tab">Tools</label>
+        <label for="processes-tab">Processes</label>
     </div>
     <!--Container for all Assessment Tabs> -->
-    <div id="overview" class="tab-content active">
-        <div class="team-grid">
-            <div class="role">Timeline & Structure</div>
-            <br>
-            <!-- Card 1: Duration -->
-            <div class="team-card leadership">
-                <div class="card-header">
-                    <i class="far fa-calendar"></i>
-                    <div class="role">Duration</div>
-                </div>
-                <p>12-month comprehensive assessment cycle</p>
-            </div>
-            <!-- Card 2: Key Phases -->
-            <div class="team-card leadership">
-                <div class="card-header">
-                    <i class="fas fa-arrow-right"></i>
-                    <div class="role">Key Phases</div>
-                </div>
-                <ul class="list-disc list-inside">
-                    <li>Survey Review</li>
-                    <li>Team Assembly</li>
-                    <li>Agency Interviews</li>
-                    <li>Solution Development</li>
-                    <li>Report Writing</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- Tab 2: Roles -->
-    <div id="roles" class="tab-content">
-        <div class="team-grid">
-            <!-- Card Title -->
-            <div class="role">Participant Roles</div>
-            <br>
-            <!-- Card 1: Assessment Lead -->
-            <div class="team-card leadership">
-                <div class="card-header">
-                    <i class="fas fa-user"></i>
-                    <div class="role">Assessment Lead</div>
-                </div>
-                    <ul>
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Responsible for leading team coordination
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Oversees interview preparation and execution
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Manages solution development process
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Ensures report completion and quality
-                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Primary point of contact for the Need ID
-                    </ul>
-            </div>
-            <!-- Card 2: Team Member -->
-            <div class="team-card">
-                <div class="card-header">
-                    <i class="fas fa-users"></i>
-                    <div class="role">Team Member</div>
-                </div>
-                <ul class="space-y-2">
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Participates in agency interviews
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews survey responses and documentation
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contributes to solution development
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Assists with report writing
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides technical expertise in specialty area
-                </ul>
-            </div>
-            <!-- Card 3: Subject Matter Expert-->
-            <div class="team-card">
-                <div class="card-header">
-                    <i class="fas fa-star"></i>
-                    <div class="role">Subject Matter Expert</div>
-                </div>
-                <ul class="space-y-2">
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides specialized technical expertise
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews and validates proposed solutions
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Assists with technical documentation
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Supports solution feasibility assessment
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contributes to satisfaction level estimates
-                </ul>
-            </div>
-            <!-- Card 4: Agency Representative-->
-            <div class="team-card">
-                <div class="card-header">
-                    <i class="fas fa-building"></i>
-                    <div class="role">Agency Representative</div>
-                </div>
-                <ul class="space-y-2">
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Represents agency interests and needs
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides agency context and requirements
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Facilitates agency communication
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews and validates recommendations
-                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Supports solution implementation planning
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- Tab 3: Tools -->
-    <div id="tools" class="tab-content">
-            <div class="role">Assessment Tools</div>
-            <!-- Card 1: Asana -->
-            <div class="card">
-                <div class="card-header" onclick="toggleCard(this)">
-                    <i class="fas fa-tasks"></i>
-                    <div class="role">Asana</div>
-                    <i class="fas fa-chevron-down chevron ml-auto"></i>
-                </div>
-                <div class="card-content">
-                    <p class="mb-4">Project management platform for tracking needs, solutions, and milestones throughout the assessment process.</p>
-                    <div class="grid-container">
-                        <div class="card">
-                            <h4 class="font-medium mb-2">Key Features</h4>
-                            <ul class="space-y-2">
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Need ID tracking and organization
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Solution submission and tagging
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Progress monitoring through milestones
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Team collaboration tools
-                            </ul>
-                        </div>
-                        <div class="card">
-                            <h4 class="font-medium mb-2">Quick Tips</h4>
-                            <ul class="space-y-2">
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Use search to quickly find your Need IDs
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Complete milestones in sequential order
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Set your role in your profile settings
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contact SNWG MO for account issues
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="mt-4">
-                        <h4 class="font-medium mb-2">Common Solutions</h4>
-                        <ul class="space-y-2">
-                            <br><i class="fas fa-exclamation-circle text-blue-600 mr-2"></i>  <strong>See "Trial Version"?</strong> Contact SNWG MO for the correct account setup
-                            <br><i class="fas fa-exclamation-circle text-blue-600 mr-2"></i>  <strong>Wrong workspace?</strong> Click your profile icon to switch to nasa.gov
-                            <br><i class="fas fa-exclamation-circle text-blue-600 mr-2"></i>  <strong>Need help with LOS?</strong> Request a quick demo from SNWG MO
-                        </ul>
-                    </div>
-                </div>  
-            </div>
-            <!-- Card 2: RGT -->
-            <div class="card">
-                <div class="card-header" onclick="toggleCard(this)">
-                    <i class="fas fa-file-alt"></i>
-                    <div class="role">Report Generation Tool (RGT)</div>
-                    <i class="fas fa-chevron-down chevron ml-auto"></i>
-                    </div>
-                <div class="card-content">
-                    <p class="mb-4">Collaborative platform for writing and managing standardized assessment reports.</p>
-                    <div class="grid-container">
-                        <div class="card">
-                            <h4 class="font-medium mb-2">Key Features</h4>
-                            <ul class="space-y-2">
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Standardized report templates
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Collaborative writing environment
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Mission/product selection tools
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Automatic boilerplate integration
-                            </ul>
-                        </div>
-                        <div class="card">
-                            <h4 class="font-medium mb-2">Best Practices</h4>
-                            <ul class="space-y-2">
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Save work frequently while editing
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Use comments for team communication
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Review example reports provided
-                                <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contact SNWG MO for login issues
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="mt-4">
-                        <h4 class="font-medium mb-2">Report Writing Tips</h4>
-                        <ul class="space-y-2">
-                            <br><i class="fas fa-lightbulb text-blue-600 mr-2"></i>  Focus on comprehensive needs assessment, not just solution listings
-                            <br><i class="fas fa-lightbulb text-blue-600 mr-2"></i>  Use free text fields for information not available in dropdowns
-                            <br><i class="fas fa-lightbulb text-blue-600 mr-2"></i>  Review your report in "View" mode before submitting
-                        </ul>
-                    </div>
-                </div>
-        </div>
-    </div>
-    <!-- Tab 4: Processes -->
-    <div id="processes" class="tab-content">
+    <div class="tabs-content">
+        <div id="overview" class="tab-content active">
             <div class="team-grid">
-                <div class="role">Key Processes</div>
+                <div class="role">Timeline & Structure</div>
                 <br>
-                <!-- Card 1: Agency Interviews -->
+                <!-- Card 1: Duration -->
+                <div class="team-card leadership">
+                    <div class="card-header">
+                        <i class="far fa-calendar"></i>
+                        <div class="role">Duration</div>
+                    </div>
+                    <p>12-month comprehensive assessment cycle</p>
+                </div>
+                <!-- Card 2: Key Phases -->
+                <div class="team-card leadership">
+                    <div class="card-header">
+                        <i class="fas fa-arrow-right"></i>
+                        <div class="role">Key Phases</div>
+                    </div>
+                    <ul class="list-disc list-inside">
+                        <li>Survey Review</li>
+                        <li>Team Assembly</li>
+                        <li>Agency Interviews</li>
+                        <li>Solution Development</li>
+                        <li>Report Writing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Tab 2: Roles -->
+        <div id="roles" class="tab-content">
+            <div class="team-grid">
+                <!-- Card Title -->
+                <div class="role">Participant Roles</div>
+                <br>
+                <!-- Card 1: Assessment Lead -->
+                <div class="team-card leadership">
+                    <div class="card-header">
+                        <i class="fas fa-user"></i>
+                        <div class="role">Assessment Lead</div>
+                    </div>
+                        <ul>
+                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Responsible for leading team coordination
+                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Oversees interview preparation and execution
+                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Manages solution development process
+                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Ensures report completion and quality
+                            <br><i class="fas fa-check text-blue-600 mr-2"></i>  Primary point of contact for the Need ID
+                        </ul>
+                </div>
+                <!-- Card 2: Team Member -->
+                <div class="team-card">
+                    <div class="card-header">
+                        <i class="fas fa-users"></i>
+                        <div class="role">Team Member</div>
+                    </div>
+                    <ul class="space-y-2">
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Participates in agency interviews
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews survey responses and documentation
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contributes to solution development
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Assists with report writing
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides technical expertise in specialty area
+                    </ul>
+                </div>
+                <!-- Card 3: Subject Matter Expert-->
+                <div class="team-card">
+                    <div class="card-header">
+                        <i class="fas fa-star"></i>
+                        <div class="role">Subject Matter Expert</div>
+                    </div>
+                    <ul class="space-y-2">
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides specialized technical expertise
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews and validates proposed solutions
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Assists with technical documentation
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Supports solution feasibility assessment
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contributes to satisfaction level estimates
+                    </ul>
+                </div>
+                <!-- Card 4: Agency Representative-->
+                <div class="team-card">
+                    <div class="card-header">
+                        <i class="fas fa-building"></i>
+                        <div class="role">Agency Representative</div>
+                    </div>
+                    <ul class="space-y-2">
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Represents agency interests and needs
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Provides agency context and requirements
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Facilitates agency communication
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Reviews and validates recommendations
+                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Supports solution implementation planning
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Tab 3: Tools -->
+        <div id="tools" class="tab-content">
+            <div class="role">Assessment Tools</div>
+                <!-- Card 1: Asana -->
                 <div class="card">
                     <div class="card-header" onclick="toggleCard(this)">
-                        <i class="fas fa-comments"></i>
-                        <div class="role">Agency Interviews</div>
+                        <i class="fas fa-tasks"></i>
+                        <div class="role">Asana</div>
                         <i class="fas fa-chevron-down chevron ml-auto"></i>
                     </div>
                     <div class="card-content">
-                        <p>Structured discussions with agency stakeholders to understand their needs in detail. Interviews are scheduled by the SNWG MO team and include features to support your success:</p>
+                        <p class="mb-4">Project management platform for tracking needs, solutions, and milestones throughout the assessment process.</p>
                         <div class="grid-container">
                             <div class="card">
-                                <h4 class="font-medium mb-2">Before the Interview</h4>
+                                <h4 class="font-medium mb-2">Key Features</h4>
                                 <ul class="space-y-2">
-                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Optional pre-interview huddle with your team
-                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Interview preparation guide and blueprint
-                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Welcome packet for all participants
-                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Previous cycle information (if applicable)
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Need ID tracking and organization
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Solution submission and tagging
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Progress monitoring through milestones
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Team collaboration tools
                                 </ul>
                             </div>
                             <div class="card">
-                                <h4 class="font-medium mb-2">During the Interview</h4>
+                                <h4 class="font-medium mb-2">Quick Tips</h4>
                                 <ul class="space-y-2">
-                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  SNWG MO note-taker present
-                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Interview recording available
-                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  SNWG agency representative participation
-                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  CSDA expert for commercial data needs
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Use search to quickly find your Need IDs
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Complete milestones in sequential order
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Set your role in your profile settings
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contact SNWG MO for account issues
                                 </ul>
                             </div>
                         </div>
-                        <div class="space-y-3 mt-6">
-                            <h4 class="font-medium mb-2">Best Practices for Assessment Leads</h4>
+                        <div class="mt-4">
+                            <h4 class="font-medium mb-2">Common Solutions</h4>
+                            <ul class="space-y-2">
+                                <br><i class="fas fa-exclamation-circle text-blue-600 mr-2"></i>  <strong>See "Trial Version"?</strong> Contact SNWG MO for the correct account setup
+                                <br><i class="fas fa-exclamation-circle text-blue-600 mr-2"></i>  <strong>Wrong workspace?</strong> Click your profile icon to switch to nasa.gov
+                                <br><i class="fas fa-exclamation-circle text-blue-600 mr-2"></i>  <strong>Need help with LOS?</strong> Request a quick demo from SNWG MO
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+                <!-- Card 2: RGT -->
+                <div class="card">
+                    <div class="card-header" onclick="toggleCard(this)">
+                        <i class="fas fa-file-alt"></i>
+                        <div class="role">Report Generation Tool (RGT)</div>
+                        <i class="fas fa-chevron-down chevron ml-auto"></i>
+                        </div>
+                    <div class="card-content">
+                        <p class="mb-4">Collaborative platform for writing and managing standardized assessment reports.</p>
+                        <div class="grid-container">
+                            <div class="card">
+                                <h4 class="font-medium mb-2">Key Features</h4>
+                                <ul class="space-y-2">
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Standardized report templates
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Collaborative writing environment
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Mission/product selection tools
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Automatic boilerplate integration
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <h4 class="font-medium mb-2">Best Practices</h4>
+                                <ul class="space-y-2">
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Save work frequently while editing
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Use comments for team communication
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Review example reports provided
+                                    <br><i class="fas fa-check text-blue-600 mr-2"></i>  Contact SNWG MO for login issues
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-medium mb-2">Report Writing Tips</h4>
+                            <ul class="space-y-2">
+                                <br><i class="fas fa-lightbulb text-blue-600 mr-2"></i>  Focus on comprehensive needs assessment, not just solution listings
+                                <br><i class="fas fa-lightbulb text-blue-600 mr-2"></i>  Use free text fields for information not available in dropdowns
+                                <br><i class="fas fa-lightbulb text-blue-600 mr-2"></i>  Review your report in "View" mode before submitting
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Tab 4: Processes -->
+            <div id="processes" class="tab-content">
+                <div class="team-grid">
+                    <div class="role">Key Processes</div>
+                    <br>
+                    <!-- Card 1: Agency Interviews -->
+                    <div class="card">
+                        <div class="card-header" onclick="toggleCard(this)">
+                            <i class="fas fa-comments"></i>
+                            <div class="role">Agency Interviews</div>
+                            <i class="fas fa-chevron-down chevron ml-auto"></i>
+                        </div>
+                        <div class="card-content">
+                            <p>Structured discussions with agency stakeholders to understand their needs in detail. Interviews are scheduled by the SNWG MO team and include features to support your success:</p>
+                            <div class="grid-container">
+                                <div class="card">
+                                    <h4 class="font-medium mb-2">Before the Interview</h4>
+                                    <ul class="space-y-2">
+                                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Optional pre-interview huddle with your team
+                                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Interview preparation guide and blueprint
+                                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Welcome packet for all participants
+                                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Previous cycle information (if applicable)
+                                    </ul>
+                                </div>
+                                <div class="card">
+                                    <h4 class="font-medium mb-2">During the Interview</h4>
+                                    <ul class="space-y-2">
+                                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  SNWG MO note-taker present
+                                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  Interview recording available
+                                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  SNWG agency representative participation
+                                        <br><i class="fas fa-check text-blue-600 mr-2"></i>  CSDA expert for commercial data needs
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="space-y-3 mt-6">
+                                <h4 class="font-medium mb-2">Best Practices for Assessment Leads</h4>
+                                <div class="process-step">
+                                    <div class="step-number">1</div>
+                                    <div>
+                                        <h4 class="font-medium">Review Survey & Materials</h4>
+                                        <p class="text-gray-600">Study the survey response and any previous cycle information. Consider both stated and underlying needs.</p>
+                                    </div>
+                                </div>
+                                <div class="process-step">
+                                    <div class="step-number">2</div>
+                                    <div>
+                                        <h4 class="font-medium">Prepare Your Team</h4>
+                                        <p class="text-gray-600">Schedule a pre-interview huddle to discuss strategy and assign roles. Share prepared questions with your team.</p>
+                                    </div>
+                                </div>
+                                <div class="process-step">
+                                    <div class="step-number">3</div>
+                                    <div>
+                                        <h4 class="font-medium">Lead the Discussion</h4>
+                                        <p class="text-gray-600">Focus on understanding needs rather than immediately proposing solutions. Encourage all team members to participate.</p>
+                                    </div>
+                                </div>
+                                <div class="process-step">
+                                    <div class="step-number">4</div>
+                                    <div>
+                                        <h4 class="font-medium">Follow Up</h4>
+                                        <p class="text-gray-600">Review interview notes and recordings. Document key findings in Asana. Continue agency communication as needed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2: Solution Development -->
+                    <div class="card">
+                        <div class="card-header" onclick="toggleCard(this)">
+                            <i class="fas fa-lightbulb"></i>
+                            <div class="role">Solution Development</div>
+                            <i class="fas fa-chevron-down chevron ml-auto"></i>   
+                        </div>
+                        <div class="card-content">
+                            <p class="mb-4">Process for identifying, developing, and prioritizing solutions to meet agency needs.</p>
+                        <div class="space-y-3">
                             <div class="process-step">
                                 <div class="step-number">1</div>
                                 <div>
-                                    <h4 class="font-medium">Review Survey & Materials</h4>
-                                    <p class="text-gray-600">Study the survey response and any previous cycle information. Consider both stated and underlying needs.</p>
+                                    <h4 class="font-medium"> Solution Identification</h4>
+                                    <p class="text-gray-600"> Research and propose potential solutions</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">2</div>
                                 <div>
-                                    <h4 class="font-medium">Prepare Your Team</h4>
-                                    <p class="text-gray-600">Schedule a pre-interview huddle to discuss strategy and assign roles. Share prepared questions with your team.</p>
+                                    <h4 class="font-medium"> Solution Submission</h4>
+                                    <p class="text-gray-600"> Submit solutions through the provided form</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">3</div>
                                 <div>
-                                    <h4 class="font-medium">Lead the Discussion</h4>
-                                    <p class="text-gray-600">Focus on understanding needs rather than immediately proposing solutions. Encourage all team members to participate.</p>
+                                    <h4 class="font-medium"> Need ID Tagging</h4>
+                                    <p class="text-gray-600"> Connect solutions to relevant needs</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">4</div>
                                 <div>
-                                    <h4 class="font-medium">Follow Up</h4>
-                                    <p class="text-gray-600">Review interview notes and recordings. Document key findings in Asana. Continue agency communication as needed.</p>
+                                    <h4 class="font-medium">Satisfaction Estimation</h4>
+                                    <p class="text-gray-600">Estimate Level of Satisfaction for each solution</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Card 2: Solution Development -->
+                <!-- Card 3: Report Writing -->
                 <div class="card">
-                    <div class="card-header" onclick="toggleCard(this)">
-                        <i class="fas fa-lightbulb"></i>
-                        <div class="role">Solution Development</div>
-                        <i class="fas fa-chevron-down chevron ml-auto"></i>   
-                    </div>
-                    <div class="card-content">
-                        <p class="mb-4">Process for identifying, developing, and prioritizing solutions to meet agency needs.</p>
-                    <div class="space-y-3">
-                        <div class="process-step">
-                            <div class="step-number">1</div>
-                            <div>
-                                <h4 class="font-medium"> Solution Identification</h4>
-                                <p class="text-gray-600"> Research and propose potential solutions</p>
-                            </div>
+                        <div class="card-header" onclick="toggleCard(this)">
+                            <i class="fas fa-file-alt"></i>
+                            <div class="role">Report Writing</div>
+                            <i class="fas fa-chevron-down chevron ml-auto"></i>   
                         </div>
-                        <div class="process-step">
-                            <div class="step-number">2</div>
-                            <div>
-                                <h4 class="font-medium"> Solution Submission</h4>
-                                <p class="text-gray-600"> Submit solutions through the provided form</p>
+                        <div class="card-content">
+                            <p class="mb-4">Collaborative process for documenting findings and recommendations.</p>
+                        <div class="space-y-3">
+                            <div class="process-step">
+                                <div class="step-number">1</div>
+                                <div>
+                                    <h4 class="font-medium">Information Gathering</h4>
+                                    <p class="text-gray-600">Collect all relevant documentation and findings</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="process-step">
-                            <div class="step-number">3</div>
-                            <div>
-                                <h4 class="font-medium"> Need ID Tagging</h4>
-                                <p class="text-gray-600"> Connect solutions to relevant needs</p>
+                            <div class="process-step">
+                                <div class="step-number">2</div>
+                                <div>
+                                    <h4 class="font-medium">Draft Development</h4>
+                                    <p class="text-gray-600">Write initial report content in RGT</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="process-step">
-                            <div class="step-number">4</div>
-                            <div>
-                                <h4 class="font-medium">Satisfaction Estimation</h4>
-                                <p class="text-gray-600">Estimate Level of Satisfaction for each solution</p>
+                            <div class="process-step">
+                                <div class="step-number">3</div>
+                                <div>
+                                    <h4 class="font-medium">Team Review</h4>
+                                    <p class="text-gray-600">Collaborative review and revision process</p>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 3: Report Writing -->
-            <div class="card">
-                    <div class="card-header" onclick="toggleCard(this)">
-                        <i class="fas fa-file-alt"></i>
-                        <div class="role">Report Writing</div>
-                        <i class="fas fa-chevron-down chevron ml-auto"></i>   
-                    </div>
-                    <div class="card-content">
-                        <p class="mb-4">Collaborative process for documenting findings and recommendations.</p>
-                    <div class="space-y-3">
-                        <div class="process-step">
-                            <div class="step-number">1</div>
-                            <div>
-                                <h4 class="font-medium">Information Gathering</h4>
-                                <p class="text-gray-600">Collect all relevant documentation and findings</p>
-                            </div>
-                        </div>
-                        <div class="process-step">
-                            <div class="step-number">2</div>
-                            <div>
-                                <h4 class="font-medium">Draft Development</h4>
-                                <p class="text-gray-600">Write initial report content in RGT</p>
-                            </div>
-                        </div>
-                        <div class="process-step">
-                            <div class="step-number">3</div>
-                            <div>
-                                <h4 class="font-medium">Team Review</h4>
-                                <p class="text-gray-600">Collaborative review and revision process</p>
-                            </div>
-                        </div>
-                        <div class="process-step">
-                            <div class="step-number">4</div>
-                            <div>
-                                <h4 class="font-medium">Finalization</h4>
-                                <p class="text-gray-600">Complete final edits and submit for approval</p>
+                            <div class="process-step">
+                                <div class="step-number">4</div>
+                                <div>
+                                    <h4 class="font-medium">Finalization</h4>
+                                    <p class="text-gray-600">Complete final edits and submit for approval</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -441,28 +447,28 @@ function toggleCard(header) {
     });
 }
 
-function showTab(tabName, event) {
-    // Hide all tab content
-    document.querySelectorAll('.tab-content').forEach(content => {
-        content.classList.remove('active');
-    });
-     
-    // Remove active class from all buttons
-    document.querySelectorAll('.tab-button').forEach(button => {
-        button.classList.remove('active');
-    });
-     
-    // Show selected tab content
-    document.getElementById(tabName).classList.add('active');
-     
-    // Add active class to clicked button
-    if (event && event.target) {
-        event.target.classList.add('active');
-    }
-}
 </script>
 
 <style>
+
+/* Show the selected tab content */
+#overview-tab:checked ~ .tabs-content #overview,
+#roles-tab:checked ~ .tabs-content #roles,
+#tools-tab:checked ~ .tabs-content #tools,
+#processes-tab:checked ~ .tabs-content #processes {
+    display: block;
+}
+
+/* Style the active tab label */
+#overview-tab:checked ~ .tabs-nav label[for="overview-tab"],
+#roles-tab:checked ~ .tabs-nav label[for="roles-tab"],
+#tools-tab:checked ~ .tabs-nav label[for="tools-tab"],
+#processes-tab:checked ~ .tabs-nav label[for="processes-tab"] {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    margin-bottom: -2px;
+}
+
 /* Custom styles to match Overview page design */
 .hero-section {
     background: linear-gradient(135deg, #87CEEB, #4682B4);
@@ -490,15 +496,21 @@ function showTab(tabName, event) {
     box-shadow: none; /* Remove any shadow */
 }
 
-.tab-button.active {
-    color: #3498db; /* Blue text for active tab */
-    background: transparent; /* Remove background color */
-    border-bottom: 2px solid #3498db; /* Add bottom border for active tab */
+/* Then add the correct CSS selector pattern */
+#overview-tab:checked ~ .tabs-content #overview {
+    display: block !important;
 }
 
-.tab-button:not(.active):hover {
-    color: #3498db;
-    background: transparent; /* Remove hover background */
+#roles-tab:checked ~ .tabs-content #roles {
+    display: block !important;
+}
+
+#tools-tab:checked ~ .tabs-content #tools {
+    display: block !important;
+}
+
+#processes-tab:checked ~ .tabs-content #processes {
+    display: block !important;
 }
 
 .content-section {
