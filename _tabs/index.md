@@ -1398,31 +1398,6 @@ function toggleCard(button) {
   content.classList.toggle('show');
 }
 
-/**
- * Toggles the expanded/collapsed state of a card
- * @param {HTMLElement} header - The header element that was clicked
-
-function toggleCard(header) {
-    // Toggle active class on header
-    header.classList.toggle('active');
-    
-    // Toggle active class on content section
-    const content = header.nextElementSibling;
-    content.classList.toggle('show');
-    
-    // Close other open cards
-    const allHeaders = document.querySelectorAll('.solution-header.active, .card-header.active');
-    allHeaders.forEach(otherHeader => {
-        if (otherHeader !== header && otherHeader.classList.contains('active')) {
-            otherHeader.classList.remove('active');
-            const otherContent = otherHeader.nextElementSibling;
-            if (otherContent) {
-                otherContent.classList.remove('active');
-            }
-        }
-    });
-}*/
-
 // Optional: Add keyboard navigation
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Escape') {
