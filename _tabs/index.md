@@ -45,7 +45,7 @@ order: 1
             <label for="team-tab4">SNWG & the MO</label>         
         </div>            
         <!-- Container for all Office tabs -->
-        <div class="overview">
+        <div class="tabs-content">
             <!-- Tab 1: Implementation Personnel -->
             <div class="tab">
                 <div class="team-section">
