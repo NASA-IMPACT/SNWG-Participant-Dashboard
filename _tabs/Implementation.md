@@ -2,7 +2,7 @@
 # title: Implementation
 layout: page
 permalink: /implementation/
-toc: true
+order: 4
 ---
 
 The Implementation phase is where SNWG solutions move from planning to reality. This critical stage involves coordinated effort between implementation teams, stakeholders, and the Management Office to ensure successful delivery of solutions that meet agency needs.
