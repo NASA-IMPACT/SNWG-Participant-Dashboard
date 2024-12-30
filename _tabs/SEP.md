@@ -35,12 +35,19 @@ order: 2
 
 <br>
 
-<div class="nav-tabs">
-    <button class="tab-button active" onclick="showTab('overview')">Overview</button>
-    <button class="tab-button" onclick="showTab('philosophy')">Philosophy</button>
-    <button class="tab-button" onclick="showTab('lifecycle')">Solution Lifecycle</button>
-    <button class="tab-button" onclick="showTab('resources')">Resources</button>
-</div>
+<div class="tabs-wrapper">
+    <!-- Radio buttons -->
+    <input type="radio" name="sep-tabs" id="overview-tab" checked="checked">
+    <input type="radio" name="sep-tabs" id="philosophy-tab">
+    <input type="radio" name="sep-tabs" id="lifecycle-tab">
+    <input type="radio" name="sep-tabs" id="resources-tab">
+    <!-- Labels -->
+    <div class="tabs-nav">
+        <label for="overview-tab">Overview</label>
+        <label for="philosophy-tab">Philosophy</label>
+        <label for="lifecycle-tab">Solution Lifecycle</label>
+        <label for="resources-tab">Resources</label>
+    </div>
 
 <!-- Overview Section -->
 <div id="overview" class="tab-content active">
@@ -242,26 +249,6 @@ order: 2
   </div>
 </div>
 
-<script>
-function showTab(tabName) {
-    // Hide all tab content
-    document.querySelectorAll('.tab-content').forEach(content => {
-        content.classList.remove('active');
-    });
-    
-    // Remove active class from all buttons
-    document.querySelectorAll('.tab-button').forEach(button => {
-        button.classList.remove('active');
-    });
-    
-    // Show selected tab content
-    document.getElementById(tabName).classList.add('active');
-    
-    // Add active class to clicked button
-    event.target.classList.add('active');
-}
-</script>
-
 <style>
 <!-- JavaScript for card toggling -->
 <script>
@@ -453,21 +440,7 @@ body {
     transition: all 0.3s;
     border: none;
     cursor: pointer;
-}
-
-.tab-button.active {
-    background-color: #4682B4;
-    color: white;
-}
-
-.tab-button:not(.active) {
-    background-color: white;
-    color: #2c3e50;
-    border: 1px solid #e5e7eb;
-}
-
-.tab-button:not(.active):hover {
-    background-color: #f3f4f6;
+    display: none
 }
 
 /* 
@@ -481,8 +454,27 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* radio button tab switching */
 .tabs-wrapper input[type="radio"] {
     display: none !important;
+}
+
+/* Show the selected tab content */
+#overview-tab:checked ~ .tabs-content #overview,
+#philosophy-tab:checked ~ .tabs-content #philosophy,
+#lifecycle-tab:checked ~ .tabs-content #lifecycle,
+#resources-tab:checked ~ .tabs-content #resources {
+    display: block !important;
+}
+
+/* Style for active tab label */
+#overview-tab:checked ~ .tabs-nav label[for="overview-tab"],
+#philosophy-tab:checked ~ .tabs-nav label[for="philosophy-tab"],
+#lifecycle-tab:checked ~ .tabs-nav label[for="lifecycle-tab"],
+#resources-tab:checked ~ .tabs-nav label[for="resources-tab"] {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    margin-bottom: -2px;
 }
 
 .tabs-nav {
@@ -492,6 +484,7 @@ body {
     gap: 0.5rem;
 }
 
+/* Tab label styling */
 .tabs-nav label {
     flex: 1;
     padding: 1rem 1.5rem;
