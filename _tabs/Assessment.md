@@ -96,7 +96,7 @@ order: 3
     </div>
     <!--Container for all Assessment Tabs> -->
     <div class="tabs-content">
-        <div id="overview" class="tab-content active">
+        <div id="overview" class="tab-content">
             <div class="team-grid">
                 <div class="role">Timeline & Structure</div>
                 <br>
@@ -511,6 +511,15 @@ function toggleCard(header) {
 
 #processes-tab:checked ~ .tabs-content #processes {
     display: block !important;
+}
+
+/* Add specificity for tab labels */
+.tabs-nav label[for="overview-tab"],
+.tabs-nav label[for="roles-tab"],
+.tabs-nav label[for="tools-tab"],
+.tabs-nav label[for="processes-tab"] {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
 }
 
 .content-section {
