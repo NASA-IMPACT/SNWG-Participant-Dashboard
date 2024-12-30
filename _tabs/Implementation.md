@@ -480,7 +480,6 @@ SNWG projects progress through several key decision gates that ensure proper dev
         </div>
       </div>
     </div>
-    
     <div class="doc-category">
       <button class="doc-toggle active" onclick="toggleSection(this)">
         <i class="fas fa-folder"></i>
@@ -502,7 +501,6 @@ SNWG projects progress through several key decision gates that ensure proper dev
         </div>
       </div>
     </div>
-    
     <div class="doc-category">
       <button class="doc-toggle active" onclick="toggleSection(this)">
         <i class="fas fa-folder"></i>

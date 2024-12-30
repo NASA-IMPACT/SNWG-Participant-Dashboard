@@ -85,10 +85,10 @@ order: 3
 <!-- Tab Navigation -->
     <div class="tabs-nav">
         <!-- Radio buttons for team tab control -->
-        <button class="tab-button active" onclick="showTab('overview')">Overview</button>
-        <button class="tab-button" onclick="showTab('roles')">Roles</button>
-        <button class="tab-button" onclick="showTab('tools')">Tools</button>
-        <button class="tab-button" onclick="showTab('processes')">Processes</button>
+        <button class="tab-button active" data-tab="overview">Overview</button>
+        <button class="tab-button" data-tab="roles">Roles</button>
+        <button class="tab-button" data-tab="tools">Tools</button>
+        <button class="tab-button" data-tab="processes">Processes</button>
     </div>
     <!--Container for all Assessment Tabs> -->
     <div id="overview" class="tab-content active">
@@ -441,22 +441,24 @@ function toggleCard(header) {
     });
 }
 
-function showTab(tabName) {
-    // Hide all tabs
+function showTab(tabName, event) {
+    // Hide all tab content
     document.querySelectorAll('.tab-content').forEach(content => {
         content.classList.remove('active');
     });
-    
+     
     // Remove active class from all buttons
     document.querySelectorAll('.tab-button').forEach(button => {
         button.classList.remove('active');
     });
-    
-    // Show selected tab
+     
+    // Show selected tab content
     document.getElementById(tabName).classList.add('active');
-    
-    // Highlight active button
-    event.target.classList.add('active');
+     
+    // Add active class to clicked button
+    if (event && event.target) {
+        event.target.classList.add('active');
+    }
 }
 </script>
 

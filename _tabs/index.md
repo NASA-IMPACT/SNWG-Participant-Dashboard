@@ -1383,4 +1383,24 @@ document.addEventListener('keydown', function(event) {
         activeHeaders.forEach(header => toggleCard(header));
     }
 });
+
+function showTab(tabName, event) {
+    // Hide all tab content
+    document.querySelectorAll('.tab-content').forEach(content => {
+        content.classList.remove('active');
+    });
+     
+    // Remove active class from all buttons
+    document.querySelectorAll('.tab-button').forEach(button => {
+        button.classList.remove('active');
+    });
+     
+    // Show selected tab content
+    document.getElementById(tabName).classList.add('active');
+     
+    // Add active class to clicked button
+    if (event && event.target) {
+        event.target.classList.add('active');
+    }
+}
 </script>
