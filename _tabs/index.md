@@ -1296,6 +1296,7 @@ ul li {
 
 .solution-header,
 .card-header {
+    align-items: flex-start; 
     padding: 1rem;
     cursor: pointer;
     display: flex;
@@ -1400,9 +1401,7 @@ function toggleCard(header) {
     
     // Toggle active class on content section
     const content = header.nextElementSibling;
-    if (content) {
-        content.classList.toggle('active');
-    }
+    content.classList.toggle('show');
     
     // Close other open cards
     const allHeaders = document.querySelectorAll('.solution-header.active, .card-header.active');
