@@ -1391,10 +1391,17 @@ ul li {
 
 <!-- JavaScript for card toggling -->
 <script>
+
+function toggleCard(button) {
+  button.classList.toggle('active');
+  const content = button.nextElementSibling;
+  content.classList.toggle('show');
+}
+
 /**
  * Toggles the expanded/collapsed state of a card
  * @param {HTMLElement} header - The header element that was clicked
- */
+
 function toggleCard(header) {
     // Toggle active class on header
     header.classList.toggle('active');
@@ -1414,7 +1421,7 @@ function toggleCard(header) {
             }
         }
     });
-}
+}*/
 
 // Optional: Add keyboard navigation
 document.addEventListener('keydown', function(event) {
