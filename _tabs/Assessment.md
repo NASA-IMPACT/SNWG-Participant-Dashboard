@@ -428,6 +428,10 @@ order: 3
     </div>
 </div>
 
+> Want more help? See our [step-by-step Assessment participant guide](https://nasa-impact.github.io/)
+{:.prompt-tip}
+
+
 <script>
 function toggleCard(button) {
   button.classList.toggle('active');
