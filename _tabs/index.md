@@ -1198,7 +1198,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background: white;
     border-bottom: 1px solid transparent;
     transition: all 0.2s ease;
 }

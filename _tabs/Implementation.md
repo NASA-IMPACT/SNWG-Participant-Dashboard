@@ -8,6 +8,7 @@ order: 4
 The Implementation phase is where SNWG solutions move from planning to reality. This critical stage involves coordinated effort between implementation teams, stakeholders, and the Management Office to ensure successful delivery of solutions that meet agency needs.
 
 ## Project Lifecycle and Reviews
+<div class="header-line"></div>
 
 <!--Timeline-->
 <div class="timeline">
@@ -73,6 +74,7 @@ The Implementation phase is where SNWG solutions move from planning to reality. 
 </div>
 
 ## Decision Gates
+<div class="header-line"></div>
 
 SNWG projects progress through several key decision gates that ensure proper development, documentation, and readiness for each phase.
 
@@ -457,6 +459,8 @@ SNWG projects progress through several key decision gates that ensure proper dev
 
 <div class="documentation-container">
   <h2 class="doc-title">Project Documentation</h2>
+  <div class="header-line"></div>
+  <br>
   
   <div class="doc-section">
     <div class="doc-category">
@@ -627,6 +631,14 @@ SNWG projects progress through several key decision gates that ensure proper dev
     padding: 0.75rem;
   }
 }
+
+.header-line {
+    height: 3px;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    margin-top: 0.5rem;
+    border-radius: 2px;
+    width: 100px;
+}
 </style>
 
 <script>
@@ -636,3 +648,4 @@ function toggleSection(button) {
   content.classList.toggle('show');
 }
 </script>
+

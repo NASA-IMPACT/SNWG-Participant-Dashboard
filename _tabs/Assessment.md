@@ -1,8 +1,12 @@
 ---
-# title: Assessment
+title: Assessment
 layout: page
 order: 3
 ---
+<!-- page header -->
+<div class="page-header">
+    <h3>Join us as we assess Solutions to solve the satellite needs of the scientific community!</h3>
+</div>
 
 <!-- Container 1: Timeline -->
 <div class="content-section">
@@ -521,7 +525,6 @@ function toggleCard(button) {
 }
 
 .card {
-    background-color: #f8fafc;
     padding: 1.5rem;
     border-radius: 0.75rem;
     border: 1px solid #e5e7eb;
@@ -542,6 +545,7 @@ function toggleCard(button) {
     font-size: 1.125rem;
     cursor: pointer;
     user-select: none;
+    background: content-box
 }
 
 .chevron {
@@ -949,7 +953,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background: white;
+    background: content-box;
     border-bottom: 1px solid transparent;
     transition: all 0.2s ease;
 }
