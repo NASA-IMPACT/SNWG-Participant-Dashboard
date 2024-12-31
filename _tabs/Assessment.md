@@ -276,7 +276,6 @@ order: 3
             </div>
             <!-- Tab 4: Processes -->
             <div id="processes" class="tab-content">
-                <div class="team-grid">
                     <div class="role">Key Processes</div>
                     <br>
                     <!-- Card 1: Agency Interviews -->
@@ -426,7 +425,6 @@ order: 3
             </div>
         </div>
     </div>
-</div>
 
 > Want more help? See our [step-by-step Assessment participant guide](https://nasa-impact.github.io/)
 {:.prompt-tip}
