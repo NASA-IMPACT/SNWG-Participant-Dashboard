@@ -315,6 +315,7 @@ order: 4
 </div>
 
 ## Your Assessment Progress
+<div class="header-line"></div>
 
 Track your journey through each phase of the assessment process:
 
@@ -434,6 +435,49 @@ Track your journey through each phase of the assessment process:
 3. Connect with your thematic area lead for guidance
 4. Attend all scheduled training sessions
 5. Reach out to SNWG MO if you need support
+
+Information Handling Guidelines
+<div class="action-grid">
+    <div class="action-card">
+        <h3>✅ Acceptable to Share</h3>
+        <ul>
+            <li>General assessment process details</li>
+            <li>Your role and participation</li>
+            <li>Non-sensitive training materials</li>
+            <li>Public SNWG documentation</li>
+            <li>Published reports and findings</li>
+        </ul>
+    </div>
+    <div class="action-card">
+    <h3>🚫 Do Not Share</h3>
+    <ul>
+        <li>Agency-specific survey responses</li>
+        <li>Interview notes and recordings</li>
+        <li>Draft solutions or recommendations</li>
+        <li>Internal discussions and deliberations</li>
+        <li>Participant contact information</li>
+    </ul>
+</div>
+</div>
+Always consult the SNWG MO if you're unsure about sharing specific information.
+
+## FAQ
+
+<div class="faq-section">
+    <details>
+        <summary>How much time should I expect to commit?</summary>
+        <p>Plan for 2-4 hours monthly for regular activities, with additional time during key development phases.</p>
+    </details>
+    <details>
+        <summary>This is exciting! What can I talk about to co-workers and friends?</summary>
+        <p>Keep it secret. Keep it safe.</p>
+    </details>
+    <details>
+        <summary>How can I ensure my agency's needs are met?</summary>
+        <p>Active participation in early requirement gathering and regular feedback sessions is key.</p>
+    </details>
+</div>
+
 
 <div class="help-container">
     <div class="help-icon">💡</div>

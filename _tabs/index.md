@@ -220,15 +220,18 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <ul>
-                                    <li>Assist in communication and data transfer, improving policies, procedures, and best practices</li>
-                                    <li>Inventory all NASA airborne and field campaigns</li>
+                                    <li>Airborne Campaign Data Management: Stewardship and quicker access to NASA airborne and field campaign data, supporting faster archival and distribution.</li>
                                 </ul>
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
                                 <p>Catalog of Archived Suborbital Earth Science Investigations (CASEI)</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>CASEI maintenance and administration</p>
                             </div>
                         </div>
                     </div>
@@ -249,7 +252,7 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <ul>
                                     <li>Assist other agencies in incorporating NASA Earth observation data into their workflows</li>
                                     <li>Improve the discoverability of NASA Earth science data</li>
@@ -260,6 +263,10 @@ order: 1
                             <div class="card-section">
                                 <i>Operational Product:</i>
                                 <p>No operational product. This Solution's assets are the trained people within it.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Absorbed by the SNWG Management Office as part of the Stakeholder Engagement Program.</p>
                             </div>
                         </div>
                     </div>
@@ -279,12 +286,16 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <p>A team that perfects the algorithm that ingests data from Landsat and Sentinel-2, verifies the output, and processes for further use.</p>
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
-                                <p>A set of algorithms that gather and harmonize data from the LandSat and Sentinel-2 satellites.</p>
+                                <p>Unified surface reflectance data for vegetation and land-use analysis, with historical and ongoing updates.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>HLS portal/data(?) maintenance and administration</p>
                             </div>
                         </div>
                     </div>
@@ -304,12 +315,16 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <p>A team that manages licensing and distributing commercial imagery/data from Planet, Maxar/DigitalGlobe and Spire along with a limited set of hyperspectral imagery from the DLR's DESIS instrument on the ISS.</p>
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
                                 <p>Purchased licenses</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>License research and attainment</p>
                             </div>
                         </div>
                     </div>
@@ -334,19 +349,23 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <p>none</p>
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
-                                <p>High-quality model output of air quality to be assimilated within a current GEOS-5 model simulation</p>
+                                <p>Gridded datasets of trace gases and aerosols, with improved transport and deposition algorithms incorporated into the GEOS-5 system.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>outine model updates, assimilation of new satellite observations, and periodic recalibration of emission datasets​</p>
                             </div>
                         </div>
                     </div>
                     <!-- Freeboard & Ice Thickness Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Low Latency Freeboard & Ice Thickness Products over the Great Lakes</b> (ICESat-2)
+                            <b>Low Latency Freeboard & Ice Thickness Products over the Great Lakes</b> (ICESat-2 QuickLooks products)
                             <span class="chevron">▼</span>
                         </div>
                         <div class="card-content">
@@ -359,7 +378,7 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <ul>
                                     <li>Assist other agencies in incorporating NASA Earth observation data into their workflows</li>
                                     <li>Improve the discoverability of NASA Earth science data</li>
@@ -370,6 +389,10 @@ order: 1
                             <div class="card-section">
                                 <i>Operational Product:</i>
                                 <p>an algorithm(?), data generating program(?) that gathers and processes data from ICESat-2 with a certain degree of validity within 3 days, instead of the previous 45. </p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Unknown</p>
                             </div>
                         </div>
                     </div>
@@ -389,12 +412,16 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
-                                <p>a physical tag around 1 gram in mass</p>
+                                <i>Solution Service:</i>
+                                <p>A team who can apply and track the sensors(?)</p>
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
-                                <p>No operational product. This Solution's assets are the trained people within it.</p>
+                                <p>ICARUS-based animal tracking data and a physical tag around 1 gram in mass</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>annual maintenance of NISAR SM data at the DAAC(?)</p>
                             </div>
                         </div>
                     </div>
@@ -414,12 +441,16 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <ul>?</ul>
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
-                                <p>?</p>
+                                <p>200-meter resolution soil moisture data</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Algorithm evaluation and product updates with new data; annual maintenance of NISAR SM data at the DAAC(?)</p>
                             </div>
                         </div>
                     </div>
@@ -440,7 +471,7 @@ order: 1
                                 DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <ul>
                                     <li>expands the DSWE product line to include global coverage with Landsat data in partnership with the USGS </li>
                                     <li>develops a global SWE product with Sentinel-2 optical imagery using the DSWE algorithms that are optimized for Sentinel-2 imagery, </li>
@@ -457,6 +488,10 @@ order: 1
                                     <br> - <b>(RTC-S1)</b> Radiometric Terrain Corrected data product for ESA Sentinel-1 A/B - <i>Intermediate data product used as input for the DSWx-S1 product</i></li>
                                     <li><b>(DSWx-NI)</b> Dynamic Surface Water Extent product from NISAR L-band (Near Global)</li>
                                 </ul>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Algorithm evaluation and product updates with new data; annual maintenance of data at the DAAC(?)</p>
                             </div>
                         </div>
                     </div>
@@ -477,7 +512,7 @@ order: 1
                                 <br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <p>A team that accomplishes the following:</p>
                                 <ul>
                                     <li>produce an optical (Landsat and Sentinel-2) product</li>
@@ -491,6 +526,10 @@ order: 1
                                     <li><b>(DIST-ALERT-HLS)</b> Optical Land Surface Disturbance data products for Harmonized Landsat and Sentinel-2 (HLS): Alert product</li>
                                     <li><b>(DIST-ANN-HLS)</b> Optical Land Surface Disturbance data products for Harmonized Landsat and Sentinel-2 (HLS): Annual Summary product</li>
                                 </ul>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Algorithm evaluation and product updates with new data; annual maintenance of data at the DAAC(?)</p>
                             </div>
                         </div>
                     </div>
@@ -510,7 +549,7 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <ul>
                                     <li>making those products</li>
                                 </ul>
@@ -523,6 +562,10 @@ order: 1
                                     <li><b>(DISP-NI)</b> Geocoded Line-of-Sight Displacement data product for NISAR L-band SAR</li>
                                     - <b>(CSLC-NI)</b> Co-Registered Single Look Complex data product for NISAR L-band SAR
                                 </ul>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Algorithm evaluation and product updates with new data; annual maintenance of data at the DAAC(?)</p>
                             </div>
                         </div>
                     </div>
@@ -543,7 +586,7 @@ order: 1
                                 <br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <ul>
                                     <li>enhancing processing and storage capabilities at Satellite Cloud and Radiation Property retrieval System (SatCORPS)</li>
                                     <li>developing algorithms capable of ingesting observations from Visible Infrared Imaging Radiometer Suite (VIIRS), calculating ice & liquid water path & droplet number concentration in liquid clouds. </li>
@@ -553,9 +596,14 @@ order: 1
                             <div class="card-section">
                                 <i>Operational Product:</i>
                                 <ul>
+                                    <li> 3-km hourly cloud and radiation data</li>
                                     <li>Enhanced version of a pre-existing processing and storage algorithm.</li>
                                     <li>A VIIRS-observation based ingestion and ice/liquid concentration calculation algorithm.</li>
                                 </ul>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Data processing updates and periodic reanalysis; annual maintenance of data at the DAAC(?)</p>
                             </div>
                         </div>
                     </div>
@@ -576,7 +624,7 @@ order: 1
                                 <br>OB.DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <p>A team who accomplishes the following:</p>
                                 <ul>
                                     <li>performs higher-level data processing </li>
@@ -588,7 +636,11 @@ order: 1
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
-                                <p>High-quality L2 & L3 data housed at OB.DAAC.</p>
+                                <p>Sentinel-3 OLCI Level-2 and Level-3 water quality products housed at OB.DAAC.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Algorithm improvements and updates for continuous processing; annual maintenance of data at the DAAC(?)</p>
                             </div>
                         </div>
                     </div>
@@ -614,7 +666,7 @@ order: 1
                                 <br>SAO?</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <p>A team that accomplishes the following:</p>
                                 <ul>
                                     <li>These things</li>
@@ -624,7 +676,15 @@ order: 1
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
-                                <p>(#) Physical sensors; Sensor outputs and model data will be available online through the existing visualization platform(s).</p>
+                                    <ul>
+                                        <li> (#) Physical sensors installed</li>
+                                        <li> Integrated air quality datasets from Pandora sensors and GEOS-CF modeling available online through the existing visualization platform(s).</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Sensor maintenance, data assimilation, and system enhancements.; annual maintenance of data at the DAAC(?)</p>
                             </div>
                         </div>
                     </div>
@@ -644,17 +704,24 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <p>none</p>
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
-                                <p>A new solution will not be implemented as relevant DEMs are being produced by NGA</p>
+                                <p>A new solution will not be implemented as relevant DEMs are being produced by the National Geospatial-Intelligence Agency(NGA).<br>
+                                The NGA NextView License allows NASA to distribute the Polar Geospatial Center 2-m EarthDEM products to US Government-funded researchers.<br>
+                                EartDEM products are availabe through NASA's CSDA program to U.S. Federal employees, U.S. Federal contractors, and U.S. Government-funded researchers. This includes the NSF-funded scientists
+                                </p>
                                 <ul>
-                                    <li><b>ArcticDEM</b> - panarctic DEM, all land areas north of 60° at 2-m resolution https://www.pgc.umn.edu/data/arcticdem/</li>
-                                    <li><b>REMA</b> - Reference Elevation Model of Antarctica – DEM of Antarctica at 8-m spatial resolution (https://www.pgc.umn.edu/data/rema/)</li>
-                                    <li><b>EarthDEM</b> - DEM at 2-m spatial resolution, all land areas not covered by ArcticDEM and REMA – coverage shown below (https://www.pgc.umn.edu/data/earthdem/)</li>
+                                    <li><b>ArcticDEM</b> - (Polar) panarctic DEM, all land areas north of 60° at 2-m resolution <a href="https://www.pgc.umn.edu/data/arcticdem/" target="_blank">https://www.pgc.umn.edu/data/arcticdem/</a></li>
+                                    <li><b>REMA</b> - (Antartica) Reference Elevation Model of Antarctica – DEM of Antarctica at 8-m spatial resolution <a href="https://www.pgc.umn.edu/data/rema/" target="_blank">https://www.pgc.umn.edu/data/rema/</a></li>
+                                    <li><b>EarthDEM</b> - DEM at 2-m spatial resolution, all land areas not covered by ArcticDEM and REMA – coverage shown below <a href="https://www.pgc.umn.edu/data/earthdem/" target="_blank">https://www.pgc.umn.edu/data/earthdem/</a></li>
                                 </ul>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>None</p>
                             </div>
                         </div>
                     </div>
@@ -674,17 +741,18 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <ul>
-                                    <li>Assist other agencies in incorporating NASA Earth observation data into their workflows</li>
-                                    <li>Improve the discoverability of NASA Earth science data</li>
-                                    <li>Support accurate publication of NASA Earth observations</li>
-                                    <li>Create a profile of agency needs captured through the survey</li>
+                                    <li>This is a Product-based Solution, not a Service-based Solution</li>
                                 </ul>
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
-                                <p>No operational product. This Solution's assets are the trained people within it.</p>
+                                <p>Combined GNSS and hyperspectral sounder atmospheric datasets.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Ongoing data collection and refinement of merged retrievals; annual maintenance of data at the DAAC(?)</p>
                             </div>
                         </div>
                     </div>
@@ -704,7 +772,7 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <ul>
                                     <li>Assist other agencies in incorporating NASA Earth observation data into their workflows</li>
                                     <li>Improve the discoverability of NASA Earth science data</li>
@@ -714,7 +782,11 @@ order: 1
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
-                                <p>No operational product. This Solution's assets are the trained people within it.</p>
+                                <p>Enhanced sea surface salinity data with additional ice edge flags.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>None</p>
                             </div>
                         </div>
                     </div>
@@ -734,7 +806,7 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <ul>
                                     <li>Assist other agencies in incorporating NASA Earth observation data into their workflows</li>
                                     <li>Improve the discoverability of NASA Earth science data</li>
@@ -744,7 +816,11 @@ order: 1
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
-                                <p>No operational product. This Solution's assets are the trained people within it.</p>
+                                <p>Hourly air quality data (e.g., NO₂, SO₂, HCHO) and additional trace gas measurements.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Ongoing data processing, integration with NOAA operations, and maintenance of algorithms.; annual maintenance of data at the DAAC(?)</p>
                             </div>
                         </div>
                     </div>
@@ -764,7 +840,7 @@ order: 1
                                 <p>NASA MSFC IMPACT<br>DAAC</p>
                             </div>
                             <div class="card-section">
-                                <i>Service:</i>
+                                <i>Solution Service:</i>
                                 <ul>
                                     <li>Assist other agencies in incorporating NASA Earth observation data into their workflows</li>
                                     <li>Improve the discoverability of NASA Earth science data</li>
@@ -774,200 +850,211 @@ order: 1
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
-                                <p>No operational product. This Solution's assets are the trained people within it.</p>
+                                <p>Global indices (e.g., NDVI, EVI, SAVI) from HLS data archive and future acquisitions.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Regular updates to datasets and maintenance of the HLS production system.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cycle 4 Tab -->
+                <div class="tab">
+                    <div class="grid-wrapper">
+                        <!-- VLM Card -->
+                        <div class="team-section">
+                            <div class="solution-header" onclick="toggleCard(this)">
+                                <b>Vertical Land Motion</b> (VLM)
+                                <span class="chevron">▼</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-section">
+                                    <i>Initial Request:</i>
+                                    <p>integrate results from prior deformation studies with geodetic data to create products tracking vertical and horizontal land surface motions, including temporal variability maps and updates tied to Sentinel-1 and NISAR missions. These efforts align with the Administration's Climate and Infrastructure initiatives.</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Partner Organizations:</i>
+                                    <p>NASA MSFC IMPACT<br>DAAC</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Solution Service:</i>
+                                    <ul>
+                                        <li>?:  Long-term monitoring data for infrastructure and climate studies.</li>
+                                    </ul>
+                                </div>
+                                <div class="card-section">
+                                    <i>Operational Product:</i>
+                                    <p>?: Annual and monthly maps of land surface elevation changes and horizontal motions.</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Continuing Operation:</i>
+                                    <p>Regular updates to datasets and maintenance of the HLS production system.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- HLS-LL Card -->
+                        <div class="team-section">
+                            <div class="solution-header" onclick="toggleCard(this)">
+                                <b>HLS-Low Latency</b> (HLS-LL)
+                                <span class="chevron">▼</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-section">
+                                    <i>Initial Request:</i>
+                                    <p>4-6 hour latency of the HLS data for applications that need data quickly (e.g., disaster response, environmental monitoring)</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Partner Organizations:</i>
+                                    <p>NASA MSFC IMPACT<br>DAAC</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Solution Service:</i>
+                                    <ul>
+                                        <li>This is a Product-based Solution, not a Service-based Solution</li>
+                                        <li>Enhanced operational data streams for near real-time disaster response and environmental assessments.</li>
+                                    </ul>
+                                </div>
+                                <div class="card-section">
+                                    <i>Operational Product:</i>
+                                    <p> HLS Latency reduced to 4-6 hours.</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Continuing Operation:</i>
+                                    <p>Regular integration of Landsat-9 data, maintenance of archival processing, and improvements to data latency and accessibility​.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TEMPO Enhanced Card -->
+                        <div class="team-section">
+                            <div class="solution-header" onclick="toggleCard(this)">
+                                <b>TEMPO/GOES NRT and Enhanced Products</b> (TEMPO Enhanced)
+                                <span class="chevron">▼</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-section">
+                                    <i>Initial Request:</i>
+                                    <p>An hourly SO2 concentration product from TEMPO and adapt existing algorithms to generate additional trace gas measurements, including SO2, UVAOD, aerosol height, H2O, UVB, CHOCHO, and BrO.</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Partner Organizations:</i>
+                                    <p>Smithsonian Astrophysics Observatory (SAO)<br>DAAC</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Solution Service:</i>
+                                    <ul>
+                                        <li>None; this is a Product-based Solution, not a Service-based Solution</li>
+                                    </ul>
+                                </div>
+                                <div class="card-section">
+                                    <i>Operational Product:</i>
+                                    <p>hourly SO2 concentration product from TEMPO</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Continuing Operation:</i>
+                                    <p>Regular updates to datasets and maintenance of the HLS production system.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Ocean Winds Card -->
+                        <div class="team-section">
+                            <div class="solution-header" onclick="toggleCard(this)">
+                                <b>Ocean Winds Official Name</b>
+                                (Ocean Winds)
+                                <span class="chevron">▼</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-section">
+                                    <i>High-resolution wind data for improving oceanographic and meteorological modeling.</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Partner Organizations:</i>
+                                    <p>NASA/JPL<br>DAAC</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Solution Service:</i>
+                                    <ul>
+                                        <li>None; this is a Product-based Solution, not a Service-based Solution</li>
+                                    </ul>
+                                </div>
+                                <div class="card-section">
+                                    <i>Operational Product:</i>
+                                    <p>Gridded datasets of ocean surface wind speed and direction.</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Continuing Operation:</i>
+                                    <p>Regular updates to datasets and algorithm refinements.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- GABAN Card -->
+                        <div class="team-section">
+                            <div class="solution-header" onclick="toggleCard(this)">
+                                <b>Global Algal Blooms Assessment Network</b> (GABAN)
+                                <span class="chevron">▼</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-section">
+                                    <i>Initial Request:</i>
+                                    <p>Accurate monitoring of algal blooms to mitigate their impact on ecosystems and human health.</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Partner Organizations:</i>
+                                    <p>Smithsonian Astrophysics Observatory (SAO)<br>DAAC</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Solution Service:</i>
+                                    <ul>
+                                        <li>None; this is a Product-based Solution, not a Service-based Solution</li>
+                                    </ul>
+                                </div>
+                                <div class="card-section">
+                                    <i>Operational Product:</i>
+                                    <p>Analysis-ready water quality data and algal bloom indices from Sentinel-3.</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Continuing Operation:</i>
+                                    <p> Maintenance of data processing pipelines and updates to predictive algorithms​</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ARSET Card -->
+                        <div class="team-section">
+                            <div class="solution-header" onclick="toggleCard(this)">
+                                <b>ARSET Official Name</b> (ARSET)
+                                <span class="chevron">▼</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-section">
+                                    <i>Initial Request:</i>
+                                    <p>Training programs to build capacity in the use of satellite data for environmental monitoring.</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Partner Organizations:</i>
+                                    <p>NASA/JPL<br>DAAC</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Solution Service:</i>
+                                    <ul>
+                                        <li>Comprehensive training sessions on remote sensing applications for global stakeholders.</li>
+                                    </ul>
+                                </div>
+                                <div class="card-section">
+                                    <i>Operational Product:</i>
+                                    <p>Online and in-person training modules focused on practical uses of satellite-derived data.</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Continuing Operation:</i>
+                                    <p>Continuous development of new training materials and regular program updates​</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Cycle 4 Tab -->
-            <div class="tab">
-                <div class="grid-wrapper">
-                    <!-- VLM Card -->
-                    <div class="team-section">
-                        <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Vertical Land Motion</b> (VLM)
-                            <span class="chevron">▼</span>
-                        </div>
-                        <div class="card-content">
-                            <div class="card-section">
-                                <i>Initial Request:</i>
-                                <p>Provide support to other agencies in accessing the requested data</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Partner Organizations:</i>
-                                <p>NASA MSFC IMPACT<br>DAAC</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Service:</i>
-                                <ul>
-                                    <li>Assist other agencies in incorporating NASA Earth observation data into their workflows</li>
-                                    <li>Improve the discoverability of NASA Earth science data</li>
-                                    <li>Support accurate publication of NASA Earth observations</li>
-                                    <li>Create a profile of agency needs captured through the survey</li>
-                                </ul>
-                            </div>
-                            <div class="card-section">
-                                <i>Operational Product:</i>
-                                <p>No operational product. This Solution's assets are the trained people within it.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- HLS-LL Card -->
-                    <div class="team-section">
-                        <div class="solution-header" onclick="toggleCard(this)">
-                            <b>HLS-Low Latency</b> (HLS-LL)
-                            <span class="chevron">▼</span>
-                        </div>
-                        <div class="card-content">
-                            <div class="card-section">
-                                <i>Initial Request:</i>
-                                <p>Provide support to other agencies in accessing the requested data</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Partner Organizations:</i>
-                                <p>NASA MSFC IMPACT<br>DAAC</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Service:</i>
-                                <ul>
-                                    <li>Assist other agencies in incorporating NASA Earth observation data into their workflows</li>
-                                    <li>Improve the discoverability of NASA Earth science data</li>
-                                    <li>Support accurate publication of NASA Earth observations</li>
-                                    <li>Create a profile of agency needs captured through the survey</li>
-                                </ul>
-                            </div>
-                            <div class="card-section">
-                                <i>Operational Product:</i>
-                                <p>No operational product. This Solution's assets are the trained people within it.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- TEMPO Enhanced Card -->
-                    <div class="team-section">
-                        <div class="solution-header" onclick="toggleCard(this)">
-                            <b>TEMPO/GOES NRT and Enhanced Products</b> (TEMPO Enhanced)
-                            <span class="chevron">▼</span>
-                        </div>
-                        <div class="card-content">
-                            <div class="card-section">
-                                <i>Initial Request:</i>
-                                <p>Provide support to other agencies in accessing the requested data</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Partner Organizations:</i>
-                                <p>Smithsonian Astrophysics Observatory (SAO)<br>DAAC</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Service:</i>
-                                <ul>
-                                    <li>Assist other agencies in incorporating NASA Earth observation data into their workflows</li>
-                                    <li>Improve the discoverability of NASA Earth science data</li>
-                                    <li>Support accurate publication of NASA Earth observations</li>
-                                    <li>Create a profile of agency needs captured through the survey</li>
-                                </ul>
-                            </div>
-                            <div class="card-section">
-                                <i>Operational Product:</i>
-                                <p>No operational product. This Solution's assets are the trained people within it.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Ocean Winds Card -->
-                    <div class="team-section">
-                        <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Ocean Winds Official Name</b>
-                            (Ocean Winds)
-                            <span class="chevron">▼</span>
-                        </div>
-                        <div class="card-content">
-                            <div class="card-section">
-                                <i>Initial Request:</i>
-                                <p>Provide support to other agencies in accessing the requested data</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Partner Organizations:</i>
-                                <p>NASA/JPL<br>DAAC</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Service:</i>
-                                <ul>
-                                    <li>Assist other agencies in incorporating NASA Earth observation data into their workflows</li>
-                                    <li>Improve the discoverability of NASA Earth science data</li>
-                                    <li>Support accurate publication of NASA Earth observations</li>
-                                    <li>Create a profile of agency needs captured through the survey</li>
-                                </ul>
-                            </div>
-                            <div class="card-section">
-                                <i>Operational Product:</i>
-                                <p>No operational product. This Solution's assets are the trained people within it.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- GABAN Card -->
-                    <div class="team-section">
-                        <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Global Algal Blooms Assessment Network</b> (GABAN)
-                            <span class="chevron">▼</span>
-                        </div>
-                        <div class="card-content">
-                            <div class="card-section">
-                                <i>Initial Request:</i>
-                                <p>Provide support to other agencies in accessing the requested data</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Partner Organizations:</i>
-                                <p>Smithsonian Astrophysics Observatory (SAO)<br>DAAC</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Service:</i>
-                                <ul>
-                                    <li>Assist other agencies in incorporating NASA Earth observation data into their workflows</li>
-                                    <li>Improve the discoverability of NASA Earth science data</li>
-                                    <li>Support accurate publication of NASA Earth observations</li>
-                                    <li>Create a profile of agency needs captured through the survey</li>
-                                </ul>
-                            </div>
-                            <div class="card-section">
-                                <i>Operational Product:</i>
-                                <p>No operational product. This Solution's assets are the trained people within it.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ARSET Card -->
-                    <div class="team-section">
-                        <div class="solution-header" onclick="toggleCard(this)">
-                            <b>ARSET Official Name</b> (ARSET)
-                            <span class="chevron">▼</span>
-                        </div>
-                        <div class="card-content">
-                            <div class="card-section">
-                                <i>Initial Request:</i>
-                                <p>Provide support to other agencies in accessing the requested data</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Partner Organizations:</i>
-                                <p>NASA/JPL<br>DAAC</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Service:</i>
-                                <ul>
-                                    <li>Assist other agencies in incorporating NASA Earth observation data into their workflows</li>
-                                    <li>Improve the discoverability of NASA Earth science data</li>
-                                    <li>Support accurate publication of NASA Earth observations</li>
-                                    <li>Create a profile of agency needs captured through the survey</li>
-                                </ul>
-                            </div>
-                            <div class="card-section">
-                                <i>Operational Product:</i>
-                                <p>No operational product. This Solution's assets are the trained people within it.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
+        </div> 
+    </div>
+</div>
 
 <!-- Base Styles,Core layout and typography -->
 <style>
