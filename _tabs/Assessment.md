@@ -383,41 +383,40 @@ order: 3
                 </div>
                 <!-- Card 3: Report Writing -->
                 <div class="card">
-                        <div class="card-header" onclick="toggleCard(this)">
-                            <i class="fas fa-file-alt"></i>
-                            <div class="role">Report Writing</div>
-                            <i class="fas fa-chevron-down chevron ml-auto"></i>   
+                    <div class="card-header" onclick="toggleCard(this)">
+                        <i class="fas fa-file-alt"></i>
+                        <div class="role">Report Writing</div>
+                        <i class="fas fa-chevron-down chevron ml-auto"></i>   
+                    </div>
+                    <div class="card-content">
+                        <p class="mb-4">Collaborative process for documenting findings and recommendations.</p>
+                    <div class="space-y-3">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <div>
+                                <h4 class="font-medium">Information Gathering</h4>
+                                <p class="text-gray-600">Collect all relevant documentation and findings</p>
+                            </div>
                         </div>
-                        <div class="card-content">
-                            <p class="mb-4">Collaborative process for documenting findings and recommendations.</p>
-                        <div class="space-y-3">
-                            <div class="process-step">
-                                <div class="step-number">1</div>
-                                <div>
-                                    <h4 class="font-medium">Information Gathering</h4>
-                                    <p class="text-gray-600">Collect all relevant documentation and findings</p>
-                                </div>
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <div>
+                                <h4 class="font-medium">Draft Development</h4>
+                                <p class="text-gray-600">Write initial report content in RGT</p>
                             </div>
-                            <div class="process-step">
-                                <div class="step-number">2</div>
-                                <div>
-                                    <h4 class="font-medium">Draft Development</h4>
-                                    <p class="text-gray-600">Write initial report content in RGT</p>
-                                </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <div>
+                                <h4 class="font-medium">Team Review</h4>
+                                <p class="text-gray-600">Collaborative review and revision process</p>
                             </div>
-                            <div class="process-step">
-                                <div class="step-number">3</div>
-                                <div>
-                                    <h4 class="font-medium">Team Review</h4>
-                                    <p class="text-gray-600">Collaborative review and revision process</p>
-                                </div>
-                            </div>
-                            <div class="process-step">
-                                <div class="step-number">4</div>
-                                <div>
-                                    <h4 class="font-medium">Finalization</h4>
-                                    <p class="text-gray-600">Complete final edits and submit for approval</p>
-                                </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <div>
+                                <h4 class="font-medium">Finalization</h4>
+                                <p class="text-gray-600">Complete final edits and submit for approval</p>
                             </div>
                         </div>
                     </div>
@@ -425,6 +424,7 @@ order: 3
             </div>
         </div>
     </div>
+</div>
 
 > Want more help? See our [step-by-step Assessment participant guide](https://nasa-impact.github.io/)
 {:.prompt-tip}
@@ -432,10 +432,33 @@ order: 3
 
 <script>
 function toggleCard(button) {
-  button.classList.toggle('active');
-  const content = button.nextElementSibling;
-  content.classList.toggle('show');
+    button.classList.toggle('active');
+    const content = button.nextElementSibling;
+    content.classList.toggle('show');
+    
+    // Toggle chevron rotation
+    const chevron = button.querySelector('.chevron');
+    if (chevron) {
+        chevron.style.transform = button.classList.contains('active') ? 'rotate(180deg)' : '';
+    }
 }
+
+// Add event listeners to close cards on outside click
+document.addEventListener('click', (e) => {
+    if (!e.target.closest('.card-header')) {
+        document.querySelectorAll('.card-header').forEach(header => {
+            header.classList.remove('active');
+            const content = header.nextElementSibling;
+            if (content) {
+                content.classList.remove('show');
+            }
+            const chevron = header.querySelector('.chevron');
+            if (chevron) {
+                chevron.style.transform = '';
+            }
+        });
+    }
+});
 </script>
 
 <style>
@@ -561,6 +584,7 @@ function toggleCard(button) {
 .card-content {
     display: none;
     padding: 0 1rem 1rem 1rem;
+    transition: all 0.3s ease;
 }
 
 .card-header.active + .card-content {
@@ -801,6 +825,12 @@ body {
     border-radius: 12px;
     padding: 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.team-section.grid-expanded {
+    grid-column: 1 / -1;
+    margin: 1rem 0;
 }
 
 .team-grid {
@@ -990,6 +1020,10 @@ body {
     display: block;
 }
 
+.card-content.show {
+    display: block;
+}
+
 .card-section {
     margin-bottom: 1.5rem;
 }
@@ -1094,6 +1128,7 @@ ul li {
     
     .chevron {
         display: none;
+        transition: transform 0.3s ease;
     }
 }
 </style>
