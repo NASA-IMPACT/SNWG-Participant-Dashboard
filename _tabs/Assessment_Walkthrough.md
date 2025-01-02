@@ -462,13 +462,14 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
 
 ## Assessment Training Videos
 <div class="header-line"></div>
+
 <section class="video-section">
     <div class="tabs-container">
         <div class="tab-controls">
             <button class="tab-button active" data-tab="introduction">Introduction</button>
-            <button class="tab-button" data-tab="interviews">InterviewsAndBrainstorming</button>
-            <button class="tab-button" data-tab="evaluation">Evaluation</button>
-            <button class="tab-button" data-tab="asana">Asana</button>
+            <button class="tab-button" data-tab="interviews">Interviews & Brainstorming</button>
+            <button class="tab-button" data-tab="evaluation">Evaluating Information</button>
+            <button class="tab-button" data-tab="asana">Using Asana</button>
         </div>
         <div class="tab-content">
             <!-- Introduction Tab -->
@@ -531,7 +532,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                 </div>
             </div>
             <!-- Interviews Tab -->
-            <div class="tab-pane" id="InterviewsAndBrainstorming">
+            <div class="tab-pane" id="interviews">
                 <div class="video-grid">
                     <div class="video-item">
                         <div class="video-container">
@@ -650,26 +651,34 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    // Get all tab buttons and panes
     const tabButtons = document.querySelectorAll('.tab-button');
-    const tabPanes = document.querySelectorAll('.tab-pane');
-
+    
     function switchTab(tabId) {
         // Remove active class from all buttons and panes
-        tabButtons.forEach(button => button.classList.remove('active'));
-        tabPanes.forEach(pane => pane.classList.remove('active'));
-
+        document.querySelectorAll('.tab-button').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        document.querySelectorAll('.tab-pane').forEach(pane => {
+            pane.classList.remove('active');
+        });
+        
         // Add active class to selected button and pane
         const selectedButton = document.querySelector(`[data-tab="${tabId}"]`);
         const selectedPane = document.getElementById(tabId);
         
-        selectedButton.classList.add('active');
-        selectedPane.classList.add('active');
+        if (selectedButton && selectedPane) {
+            selectedButton.classList.add('active');
+            selectedPane.classList.add('active');
+        }
     }
-
+    
     // Add click handlers to tab buttons
     tabButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            switchTab(button.dataset.tab);
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            const tabId = button.getAttribute('data-tab');
+            switchTab(tabId);
         });
     });
 });
