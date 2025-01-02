@@ -460,50 +460,10 @@ Information Handling Guidelines
 </div>
 Always consult the SNWG MO if you're unsure about sharing specific information.
 
-## FAQ
-
-<div class="faq-section">
-    <details>
-        <summary>How much time should I expect to commit?</summary>
-        <p>Plan for 2-4 hours monthly for regular activities, with additional time during key development phases.</p>
-    </details>
-    <details>
-        <summary>This is exciting! What can I talk about to co-workers and friends?</summary>
-        <p>Keep it secret. Keep it safe.</p>
-    </details>
-    <details>
-        <summary>How can I ensure my agency's needs are met?</summary>
-        <p>Active participation in early requirement gathering and regular feedback sessions is key.</p>
-    </details>
-</div>
-
-
-<div class="help-container">
-    <div class="help-icon">💡</div>
-    <h3>Need Help?</h3>
-    <p>The SNWG Management Office is here to support you throughout the assessment process.</p>
-    <p>Contact us at: <a href="mailto:info@snwg-impact.net">info@snwg-impact.net</a></p>
-</div>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    // Add hover effects and animation triggers
-    const cards = document.querySelectorAll('.action-card, .resource-card');
-    
-    cards.forEach(card => {
-        card.addEventListener('mouseenter', () => {
-            card.style.transform = 'translateY(-5px)';
-        });
-        
-        card.addEventListener('mouseleave', () => {
-            card.style.transform = 'translateY(0)';
-        });
-    });
-});
-</script>
+## Assessment Training Videos
+<div class="header-line"></div>
 
 <section class="video-section">
-    <h2>Assessment Training Videos</h2>
     <div class="tabs-container">
         <!-- Tab Controls -->
         <div class="tab-controls">
@@ -745,3 +705,47 @@ document.addEventListener('DOMContentLoaded', function() {
     width: 100px;
 }
 </style>
+
+## FAQ
+<div class="header-line"></div>
+
+<div class="faq-section">
+    <details>
+        <summary>How much time should I expect to commit?</summary>
+        <p>Plan for 2-4 hours monthly for regular activities, with additional time during key development phases.</p>
+    </details>
+    <details>
+        <summary>This is exciting! What can I talk about to co-workers and friends?</summary>
+        <p>Keep it secret. Keep it safe.</p>
+    </details>
+    <details>
+        <summary>How can I ensure my agency's needs are met?</summary>
+        <p>Active participation in early requirement gathering and regular feedback sessions is key.</p>
+    </details>
+</div>
+
+
+<div class="help-container">
+    <div class="help-icon">💡</div>
+    <h3>Need Help?</h3>
+    <div class="header-line" style="margin: 0 auto;"></div>
+    <p>The SNWG Management Office is here to support you throughout the assessment process.</p>
+    <p>Contact us at: <a href="mailto:info@snwg-impact.net">info@snwg-impact.net</a></p>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Add hover effects and animation triggers
+    const cards = document.querySelectorAll('.action-card, .resource-card');
+    
+    cards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            card.style.transform = 'translateY(-5px)';
+        });
+        
+        card.addEventListener('mouseleave', () => {
+            card.style.transform = 'translateY(0)';
+        });
+    });
+});
+</script>
