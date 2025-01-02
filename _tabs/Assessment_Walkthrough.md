@@ -379,6 +379,7 @@ Track your journey through each phase of the assessment process:
 </div>
 
 ## Key Resources
+<div class="header-line"></div>
 
 <div class="resource-grid">
     <div class="resource-card">
@@ -502,3 +503,133 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 </script>
+
+<!-- Video Training Section -->
+<section class="video-section">
+    <h2>Assessment Training Videos</h2>
+    <div class="header-line"></div>
+    <div class="video-grid">
+        <!-- Introduction Video -->
+        <div class="video-card">
+            <div class="video-container">
+                <iframe 
+                    src="https://drive.google.com/file/d/1zrzk7-fRhxLbANGlorS3ed5TPRiwGsSu/preview" 
+                    allow="autoplay"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-info">
+                <h3>Introduction to Assessment Process</h3>
+                <p>Overview of the Asana tool and workshop interview preparation</p>
+            </div>
+        </div>
+        <!-- Placeholder for additional videos -->
+        <div class="video-card placeholder">
+            <div class="video-container">
+                <div class="placeholder-content">
+                    <span class="material-icons">add_circle_outline</span>
+                    <p>Additional Video Content Coming Soon</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.video-section {
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.video-card {
+    background: white;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.video-card:hover {
+    transform: translateY(-5px);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.video-info {
+    padding: 1.5rem;
+}
+
+.video-info h3 {
+    margin: 0 0 0.5rem 0;
+    color: #2c3e50;
+    font-size: 1.25rem;
+}
+
+.video-info p {
+    margin: 0;
+    color: #64748b;
+    font-size: 0.875rem;
+}
+
+.placeholder {
+    border: 2px dashed #e2e8f0;
+    background: #f8fafc;
+}
+
+.placeholder-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 2rem;
+    text-align: center;
+    color: #64748b;
+}
+
+.material-icons {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .video-section {
+        padding: 1rem;
+    }
+}
+
+/*colorful line below heading*/
+.header-line {
+    height: 3px;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    margin-top: 0.5rem;
+    border-radius: 2px;
+    width: 100px;
+}
+</style>
