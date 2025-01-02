@@ -546,7 +546,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             </div>
-
             <!-- Asana Tab -->
             <div class="tab-pane" id="asana">
                 <div class="video-container placeholder">
@@ -560,7 +559,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p>Guide to managing assessment tasks in Asana</p>
                 </div>
             </div>
-
             <!-- Interviews Tab -->
             <div class="tab-pane" id="interviews">
                 <div class="video-container placeholder">
