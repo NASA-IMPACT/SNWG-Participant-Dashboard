@@ -462,74 +462,142 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
 
 ## Assessment Training Videos
 <div class="header-line"></div>
-
 <section class="video-section">
+    <h2>Assessment Training Videos</h2>
     <div class="tabs-container">
-        <!-- Tab Controls -->
         <div class="tab-controls">
-            <button class="tab-button active" data-tab="overview">Overview</button>
-            <button class="tab-button" data-tab="asana">Asana</button>
-            <button class="tab-button" data-tab="interviews">Interviews</button>
+            <button class="tab-button active" data-tab="introduction">Introduction</button>
+            <button class="tab-button" data-tab="interviews">Interviews & Brainstorming</button>
+            <button class="tab-button" data-tab="evaluation">Evaluating Information</button>
+            <button class="tab-button" data-tab="asana">Using Asana</button>
         </div>
-        <!-- Tab Content -->
         <div class="tab-content">
-            <!-- Overview Tab -->
-            <div class="tab-pane active" id="overview">
+            <!-- Introduction Tab -->
+            <div class="tab-pane active" id="introduction">
                 <div class="video-grid">
-                    <!-- First Video -->
                     <div class="video-item">
                         <div class="video-container">
-                            <iframe 
-                                src="https://drive.google.com/file/d/1zrzk7-fRhxLbANGlorS3ed5TPRiwGsSu/preview" 
-                                allow="autoplay"
-                                allowfullscreen>
-                            </iframe>
+                            <iframe src="https://drive.google.com/file/d/1zrzk7-fRhxLbANGlorS3ed5TPRiwGsSu/preview" allowfullscreen></iframe>
                         </div>
                         <div class="video-info">
-                            <h3>Introduction to Assessment Process</h3>
-                            <p>Overview of the assessment workflow and key objectives</p>
+                            <h3>Introduction</h3>
+                            <p>Overview of the assessment process</p>
                         </div>
                     </div>
-                    <!-- Second Video -->
                     <div class="video-item">
                         <div class="video-container">
-                            <iframe 
-                                src="https://drive.google.com/file/d/1Xg0xVjrn5KQ-K9FgITkoUlznQVoHtDwP/preview" 
-                                allow="autoplay"
-                                allowfullscreen>
-                            </iframe>
+                            <iframe src="https://drive.google.com/file/d/1Xg0xVjrn5KQ-K9FgITkoUlznQVoHtDwP/preview" allowfullscreen></iframe>
                         </div>
                         <div class="video-info">
-                            <h3>Assessment Process Deep Dive</h3>
-                            <p>Detailed walkthrough of assessment procedures and best practices</p>
+                            <h3>Introduction: SNWG Solutions</h3>
+                            <p>Previous Solutions and how they fit in</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1QUIAXpDpJZdYx74gUMd-k_c0THg5Hogn/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Introduction: estimating Level of Satisfaction</h3>
+                            <p>How do we know it's a Solution we want to pursue?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Interviews Tab -->
+            <div class="tab-pane" id="interviews">
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Conducting a Brainstorming Session</h3>
+                            <p>Getting ready for stakeholder interviews</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Conducting Sessions</h3>
+                            <p>Interview and brainstorming techniques</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Follow-up Steps</h3>
+                            <p>Post-interview procedures</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Evaluation Tab -->
+            <div class="tab-pane" id="evaluation">
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Evaluating Potential Solutions</h3>
+                            <p>Gathering assessment information</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Placeholder</h3>
+                            <p>Evaluating collected data</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Placeholder</h3>
+                            <p>Synthesizing findings</p>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Asana Tab -->
             <div class="tab-pane" id="asana">
-                <div class="video-container placeholder">
-                    <div class="placeholder-content">
-                        <span class="material-icons">dashboard</span>
-                        <p>Asana Training Video Coming Soon</p>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1lNWgZdIDkcYXuWoDEGN8wMn-OT8yC2xJ/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Searching the Solution Board</h3>
+                            <p>Find a card to update or comment on.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="video-info">
-                    <h3>Using Asana for Assessment</h3>
-                    <p>Guide to managing assessment tasks in Asana</p>
-                </div>
-            </div>
-            <!-- Interviews Tab -->
-            <div class="tab-pane" id="interviews">
-                <div class="video-container placeholder">
-                    <div class="placeholder-content">
-                        <span class="material-icons">groups</span>
-                        <p>Interview Training Video Coming Soon</p>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Analysis Methods</h3>
+                            <p>Evaluating collected data</p>
+                        </div>
                     </div>
-                </div>
-                <div class="video-info">
-                    <h3>Conducting Assessment Interviews</h3>
-                    <p>Best practices for stakeholder interviews</p>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Drawing Conclusions</h3>
+                            <p>Synthesizing findings</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
