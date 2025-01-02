@@ -463,35 +463,35 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
 ## Assessment Training Videos
 <div class="header-line"></div>
 
-<section class="video-section">
-    <div class="tabs-container">
-        <div class="tab-controls" role="tablist">
-            <button class="tab-button active" role="tab" aria-selected="true" aria-controls="introduction" data-tab="introduction">
-                Introduction
-            </button>
-            <button class="tab-button" role="tab" aria-selected="false" aria-controls="interviews" data-tab="interviews">
-                Interviews & Brainstorming
-            </button>
-            <button class="tab-button" role="tab" aria-selected="false" aria-controls="evaluation" data-tab="evaluation">
-                Evaluating Information
-            </button>
-            <button class="tab-button" role="tab" aria-selected="false" aria-controls="asana" data-tab="asana">
-                Using Asana
-            </button>
-        </div>
-        <div class="tab-content">
-            <!-- Introduction Tab -->
-            <div id="introduction" class="tab-pane active" role="tabpanel" aria-labelledby="introduction-tab">
-                <div class="video-grid">
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1H0eDflwpXpdu0yMGKX8MyBy-0Jxv6T-O/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Welcome 2024</h3>
-                            <p>Welcome from SNWG Project Scientist Pontus Olofsson</p>
-                        </div>
+
+<div class="tabs">
+  <!-- Tab inputs -->
+  <input type="radio" id="video-tab1" name="video-tabs" class="tab-inputs" checked>
+  <input type="radio" id="video-tab2" name="video-tabs" class="tab-inputs">
+  <input type="radio" id="video-tab3" name="video-tabs" class="tab-inputs">
+  <input type="radio" id="video-tab4" name="video-tabs" class="tab-inputs">
+  
+  <!-- Tab labels -->
+  <div class="tab-labels">
+    <label for="video-tab1" class="tab-label">Introduction</label>
+    <label for="video-tab2" class="tab-label">Interviews & Brainstorming</label>
+    <label for="video-tab3" class="tab-label">Evaluating Information</label>
+    <label for="video-tab4" class="tab-label">Using Asana</label>
+  </div>
+  <!-- Tab panels -->
+    <div class="tab-panels">
+        <!-- Introduction Tab -->
+        <div id="video-panel1" class="tab-panel">
+            <div class="video-grid">
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1H0eDflwpXpdu0yMGKX8MyBy-0Jxv6T-O/preview" allowfullscreen></iframe>
                     </div>
+                    <div class="video-info">
+                        <h3>Welcome 2024</h3>
+                        <p>Welcome from SNWG Project Scientist Pontus Olofsson</p>
+                    </div>
+                </div>
                     <div class="video-item">
                         <div class="video-container">
                             <iframe src="https://drive.google.com/file/d/1BsxVb85yWCLmg-vwOdX7e1_S0iWtSWF1/preview" allowfullscreen></iframe>
@@ -540,7 +540,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                 </div>
             </div>
             <!-- Interviews Tab -->
-            <div id="interviews" class="tab-pane" role="tabpanel" aria-labelledby="interviews-tab">
+            <div id="video-panel2" class="tab-panel">
                 <div class="video-grid">
                     <div class="video-item">
                         <div class="video-container">
@@ -572,7 +572,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                 </div>
             </div>
             <!-- Evaluation Tab -->
-            <div id="evaluation" class="tab-pane" role="tabpanel" aria-labelledby="evaluation-tab">
+            <div id="video-panel3" class="tab-panel">
                 <div class="video-grid">
                     <div class="video-item">
                         <div class="video-container">
@@ -604,7 +604,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                 </div>
             </div>
             <!-- Asana Tab -->
-            <div id="asana" class="tab-pane" role="tabpanel" aria-labelledby="asana-tab">
+            <div id="video-panel4" class="tab-panel">
                 <div class="video-grid">
                     <div class="video-item">
                         <div class="video-container">
@@ -655,7 +655,6 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
             </div>
         </div>
     </div>
-</section>
 
 <script>
 (function() {
@@ -708,6 +707,43 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
     margin: 0 auto;
     position: relative;
     z-index: 1;
+}
+
+/* Update tab styles to match Open Source Requirements */
+.tabs {
+    width: 100%;
+    margin: 2rem 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.tab-inputs {
+    display: none;
+}
+
+.tab-labels {
+    display: flex;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.tab-label {
+    flex: 1;
+    padding: 1rem;
+    background: white;
+    color: #374151;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tab-panels {
+    background: white;
+    padding: 1.5rem;
+}
+
+.tab-panel {
+    display: none;
 }
 
 .tabs-container {
@@ -768,6 +804,12 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
 
 .tab-pane.active {
     display: block !important; /* Use !important to override any Jekyll styles */
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
 }
 
 .video-container {
@@ -848,6 +890,22 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
     margin-top: 0.5rem;
     border-radius: 2px;
     width: 100px;
+}
+
+/* Active states for video tabs */
+#video-tab1:checked ~ .tab-labels .tab-label[for="video-tab1"],
+#video-tab2:checked ~ .tab-labels .tab-label[for="video-tab2"],
+#video-tab3:checked ~ .tab-labels .tab-label[for="video-tab3"],
+#video-tab4:checked ~ .tab-labels .tab-label[for="video-tab4"] {
+    background: #4682B4;
+    color: white;
+}
+
+#video-tab1:checked ~ .tab-panels #video-panel1,
+#video-tab2:checked ~ .tab-panels #video-panel2,
+#video-tab3:checked ~ .tab-panels #video-panel3,
+#video-tab4:checked ~ .tab-panels #video-panel4 {
+    display: block;
 }
 </style>
 
