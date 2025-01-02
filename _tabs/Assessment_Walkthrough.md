@@ -463,13 +463,12 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
 ## Assessment Training Videos
 <div class="header-line"></div>
 <section class="video-section">
-    <h2>Assessment Training Videos</h2>
     <div class="tabs-container">
         <div class="tab-controls">
             <button class="tab-button active" data-tab="introduction">Introduction</button>
-            <button class="tab-button" data-tab="interviews">Interviews & Brainstorming</button>
-            <button class="tab-button" data-tab="evaluation">Evaluating Information</button>
-            <button class="tab-button" data-tab="asana">Using Asana</button>
+            <button class="tab-button" data-tab="interviews">InterviewsAndBrainstorming</button>
+            <button class="tab-button" data-tab="evaluation">Evaluation</button>
+            <button class="tab-button" data-tab="asana">Asana</button>
         </div>
         <div class="tab-content">
             <!-- Introduction Tab -->
@@ -532,7 +531,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                 </div>
             </div>
             <!-- Interviews Tab -->
-            <div class="tab-pane" id="interviews">
+            <div class="tab-pane" id="InterviewsAndBrainstorming">
                 <div class="video-grid">
                     <div class="video-item">
                         <div class="video-container">
