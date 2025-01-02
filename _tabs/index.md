@@ -203,7 +203,7 @@ order: 1
         <div class="tabs-content">
             <!-- Tab 1: Cycle 1 -->
             <div class="tab">
-                <div class="grid-wrapper">
+                <div class="grid-wrapper expandable-cards">
                     <!-- Card 1: ADMG -->
                         <div class="team-section">
                             <div class="solution-header" onclick="toggleCard(this)">
@@ -332,7 +332,7 @@ order: 1
             </div>
             <!-- Tab 2: Cycle 2 -->
             <div class="tab">
-                <div class="grid-wrapper">
+                <div class="grid-wrapper expandable-cards">
                     <!-- Card 1: AC-GEOS -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
@@ -648,7 +648,7 @@ order: 1
             </div>
             <!-- Cycle 3 Tab -->
             <div class="tab">
-                <div class="grid-wrapper">
+                <div class="grid-wrapper expandable-cards">
                     <!-- Air Quality Products Card -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
@@ -857,7 +857,7 @@ order: 1
             </div>
                 <!-- Cycle 4 Tab -->
                 <div class="tab">
-                    <div class="grid-wrapper">
+                    <div class="grid-wrapper expandable-cards">
                         <!-- Card 1: VLM Card -->
                         <div class="team-section">
                             <div class="solution-header" onclick="toggleCard(this)">
@@ -1252,6 +1252,41 @@ body {
     margin-bottom: -2px;
 }
 
+/*Expandable Dropdown Cards*/
+.expandable-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.expandable-cards .team-section {
+    transition: all 0.3s ease;
+}
+
+.expandable-cards .team-section.expanded {
+    grid-column: 1 / -1;
+    margin: 1rem 0;
+}
+
+.expandable-cards .card-content {
+    display: none;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.expandable-cards .team-section.expanded .card-content {
+    display: block;
+    max-height: 2000px;
+    padding: 1.5rem;
+}
+
+.solution-header {
+    cursor: pointer;
+}
+
 /* 
  * Solutions Grid and Cards
  */
@@ -1481,7 +1516,31 @@ function toggleCard(button) {
   content.classList.toggle('show');
 }
 
-// Optional: Add keyboard navigation
+function toggleCard(header) {
+    const section = header.closest('.team-section');
+    const wasExpanded = section.classList.contains('expanded');
+    
+    // Close all other cards
+    document.querySelectorAll('.team-section').forEach(card => {
+        card.classList.remove('expanded');
+    });
+    
+    // Toggle current card if it wasn't expanded
+    if (!wasExpanded) {
+        section.classList.add('expanded');
+    }
+}
+
+// Close expanded card when clicking outside
+document.addEventListener('click', (e) => {
+    if (!e.target.closest('.team-section')) {
+        document.querySelectorAll('.team-section').forEach(section => {
+            section.classList.remove('expanded');
+        });
+    }
+});
+
+// Keyboard navigation
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Escape') {
         // Close all open cards when Escape is pressed
