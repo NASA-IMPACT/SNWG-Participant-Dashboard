@@ -387,15 +387,13 @@ Track your journey through each phase of the assessment process:
         <h4>Survey Analysis Guide</h4>
         <p>Best practices for reviewing and analyzing agency survey responses</p>
         <a href="#" class="btn btn-primary btn-sm">View Guide</a>
-    </div>
-    
+    </div>    
     <div class="resource-card">
         <div class="resource-icon">👥</div>
         <h4>Interview Preparation</h4>
         <p>Tips and templates for effective agency interviews</p>
         <a href="#" class="btn btn-primary btn-sm">View Guide</a>
     </div>
-    
     <div class="resource-card">
         <div class="resource-icon">📊</div>
         <h4>Previous Cycle Examples</h4>
@@ -504,68 +502,177 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
-<!-- Video Training Section -->
 <section class="video-section">
     <h2>Assessment Training Videos</h2>
-    <div class="header-line"></div>
-    <div class="video-grid">
-        <!-- Introduction Video -->
-        <div class="video-card">
-            <div class="video-container">
-                <iframe 
-                    src="https://drive.google.com/file/d/1zrzk7-fRhxLbANGlorS3ed5TPRiwGsSu/preview" 
-                    allow="autoplay"
-                    allowfullscreen>
-                </iframe>
-            </div>
-            <div class="video-info">
-                <h3>Introduction to Assessment Process</h3>
-                <p>Overview of the Asana tool and workshop interview preparation</p>
-            </div>
+    <div class="tabs-container">
+        <!-- Tab Controls -->
+        <div class="tab-controls">
+            <button class="tab-button active" data-tab="overview">Overview</button>
+            <button class="tab-button" data-tab="asana">Asana</button>
+            <button class="tab-button" data-tab="interviews">Interviews</button>
         </div>
-        <!-- Placeholder for additional videos -->
-        <div class="video-card placeholder">
-            <div class="video-container">
-                <div class="placeholder-content">
-                    <span class="material-icons">add_circle_outline</span>
-                    <p>Additional Video Content Coming Soon</p>
+        <!-- Tab Content -->
+        <div class="tab-content">
+            <!-- Overview Tab -->
+            <div class="tab-pane active" id="overview">
+                <div class="video-grid">
+                    <!-- First Video -->
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe 
+                                src="https://drive.google.com/file/d/1zrzk7-fRhxLbANGlorS3ed5TPRiwGsSu/preview" 
+                                allow="autoplay"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Introduction to Assessment Process</h3>
+                            <p>Overview of the assessment workflow and key objectives</p>
+                        </div>
+                    </div>
+                    <!-- Second Video -->
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe 
+                                src="https://drive.google.com/file/d/1Xg0xVjrn5KQ-K9FgITkoUlznQVoHtDwP/preview" 
+                                allow="autoplay"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Assessment Process Deep Dive</h3>
+                            <p>Detailed walkthrough of assessment procedures and best practices</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Asana Tab -->
+            <div class="tab-pane" id="asana">
+                <div class="video-container placeholder">
+                    <div class="placeholder-content">
+                        <span class="material-icons">dashboard</span>
+                        <p>Asana Training Video Coming Soon</p>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3>Using Asana for Assessment</h3>
+                    <p>Guide to managing assessment tasks in Asana</p>
+                </div>
+            </div>
+
+            <!-- Interviews Tab -->
+            <div class="tab-pane" id="interviews">
+                <div class="video-container placeholder">
+                    <div class="placeholder-content">
+                        <span class="material-icons">groups</span>
+                        <p>Interview Training Video Coming Soon</p>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3>Conducting Assessment Interviews</h3>
+                    <p>Best practices for stakeholder interviews</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+
+    function switchTab(tabId) {
+        // Remove active class from all buttons and panes
+        tabButtons.forEach(button => button.classList.remove('active'));
+        tabPanes.forEach(pane => pane.classList.remove('active'));
+
+        // Add active class to selected button and pane
+        const selectedButton = document.querySelector(`[data-tab="${tabId}"]`);
+        const selectedPane = document.getElementById(tabId);
+        
+        selectedButton.classList.add('active');
+        selectedPane.classList.add('active');
+    }
+
+    // Add click handlers to tab buttons
+    tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            switchTab(button.dataset.tab);
+        });
+    });
+});
+</script>
+
 <style>
 .video-section {
-    padding: 2rem 0;
+    padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.video-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-}
-
-.video-card {
+.tabs-container {
     background: white;
     border-radius: 0.75rem;
-    overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
+    overflow: hidden;
 }
 
-.video-card:hover {
-    transform: translateY(-5px);
+.tab-controls {
+    display: flex;
+    background: #f8fafc;
+    border-bottom: 2px solid #e2e8f0;
+    padding: 1rem 1rem 0;
+}
+
+.tab-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background: none;
+    color: #64748b;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.tab-button:hover {
+    color: #3b82f6;
+}
+
+.tab-button.active {
+    color: #3b82f6;
+}
+
+.tab-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #3b82f6;
+}
+
+.tab-content {
+    padding: 2rem;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
 }
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
+    border-radius: 0.5rem;
 }
 
 .video-container iframe {
@@ -578,7 +685,7 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 
 .video-info {
-    padding: 1.5rem;
+    padding: 1.5rem 0;
 }
 
 .video-info h3 {
@@ -590,22 +697,23 @@ document.addEventListener('DOMContentLoaded', () => {
 .video-info p {
     margin: 0;
     color: #64748b;
-    font-size: 0.875rem;
 }
 
 .placeholder {
-    border: 2px dashed #e2e8f0;
     background: #f8fafc;
+    border: 2px dashed #e2e8f0;
 }
 
 .placeholder-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    padding: 2rem;
-    text-align: center;
     color: #64748b;
 }
 
@@ -615,12 +723,18 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 
 @media (max-width: 768px) {
-    .video-grid {
-        grid-template-columns: 1fr;
-    }
-    
     .video-section {
         padding: 1rem;
+    }
+    
+    .tab-controls {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+    
+    .tab-button {
+        width: 100%;
+        text-align: center;
     }
 }
 
