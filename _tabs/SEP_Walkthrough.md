@@ -2,6 +2,7 @@
 title: Your SNWG Stakeholder Journey
 layout: page
 toc: true
+order: 6
 ---
 
 # Welcome to SNWG Co-Design

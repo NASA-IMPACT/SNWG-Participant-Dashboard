@@ -205,36 +205,36 @@ order: 1
             <div class="tab">
                 <div class="grid-wrapper">
                     <!-- Card 1: ADMG -->
-                    <div class="team-section">
-                        <div class="solution-header" onclick="toggleCard(this)">
-                            <b>Airborne Data Management Group</b> (ADMG)
-                            <span class="chevron">▼</span>
+                        <div class="team-section">
+                            <div class="solution-header" onclick="toggleCard(this)">
+                                <b>Airborne Data Management Group</b> (ADMG)
+                                <span class="chevron">▼</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-section">
+                                    <i>Initial Request:</i>
+                                    <p>Archival and distribution of historical airborne data products.</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Partner Organizations:</i>
+                                    <p>NASA MSFC IMPACT<br>DAAC</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Solution Service:</i>
+                                    <ul>
+                                        <li>Airborne Campaign Data Management: Stewardship and quicker access to NASA airborne and field campaign data, supporting faster archival and distribution.</li>
+                                    </ul>
+                                </div>
+                                <div class="card-section">
+                                    <i>Operational Product:</i>
+                                    <p>Catalog of Archived Suborbital Earth Science Investigations (CASEI)</p>
+                                </div>
+                                <div class="card-section">
+                                    <i>Continuing Operation:</i>
+                                    <p>CASEI maintenance and administration​</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-content">
-                            <div class="card-section">
-                                <i>Initial Request:</i>
-                                <p>Archival and distribution of historical airborne data products</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Partner Organizations:</i>
-                                <p>NASA MSFC IMPACT<br>DAAC</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Solution Service:</i>
-                                <ul>
-                                    <li>Airborne Campaign Data Management: Stewardship and quicker access to NASA airborne and field campaign data, supporting faster archival and distribution.</li>
-                                </ul>
-                            </div>
-                            <div class="card-section">
-                                <i>Operational Product:</i>
-                                <p>Catalog of Archived Suborbital Earth Science Investigations (CASEI)</p>
-                            </div>
-                            <div class="card-section">
-                                <i>Continuing Operation:</i>
-                                <p>CASEI maintenance and administration</p>
-                            </div>
-                        </div>
-                    </div>
                     <!-- Card 2: DCD -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
@@ -658,12 +658,12 @@ order: 1
                         <div class="card-content">
                             <div class="card-section">
                                 <i>Initial Request:</i>
-                                <p>Expand the Pandora air quality sensors network to improve the U.S. Government's ability to detect and forecast crucial air quality parameters in poorly sampled locations both domestic and international.<i>(Assessment Needs: 2020-160, -176, -194, -209, -235, -268, -278; Proposed Activity 2020-7)</i></p>
+                                <p>Expand the Pandora air quality sensors network to improve the U.S. Government's ability to detect and forecast crucial air quality parameters in poorly sampled locations both domestic and international.<br>
+                                <i>(Assessment Needs: 2020-160, -176, -194, -209, -235, -268, -278; Proposed Activity 2020-7)</i></p>
                             </div>
                             <div class="card-section">
                                 <i>Partner Organizations:</i>
-                                <p>NASA MSFC IMPACT
-                                <br>SAO?</p>
+                                <p>NASA MSFC IMPACT<br>SAO?</p>
                             </div>
                             <div class="card-section">
                                 <i>Solution Service:</i>
@@ -676,13 +676,8 @@ order: 1
                             </div>
                             <div class="card-section">
                                 <i>Operational Product:</i>
-                                    <ul>
                                         <li> (#) Physical sensors installed</li>
                                         <li> Integrated air quality datasets from Pandora sensors and GEOS-CF modeling available online through the existing visualization platform(s).</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-section">
                                 <i>Continuing Operation:</i>
                                 <p>Sensor maintenance, data assimilation, and system enhancements.; annual maintenance of data at the DAAC(?)</p>
                             </div>
@@ -859,10 +854,11 @@ order: 1
                         </div>
                     </div>
                 </div>
+            </div>
                 <!-- Cycle 4 Tab -->
                 <div class="tab">
                     <div class="grid-wrapper">
-                        <!-- VLM Card -->
+                        <!-- Card 1: VLM Card -->
                         <div class="team-section">
                             <div class="solution-header" onclick="toggleCard(this)">
                                 <b>Vertical Land Motion</b> (VLM)
@@ -956,16 +952,16 @@ order: 1
                                 </div>
                             </div>
                         </div>
-                        <!-- Ocean Winds Card -->
+                        <!-- Card 4: Ocean Winds -->
                         <div class="team-section">
                             <div class="solution-header" onclick="toggleCard(this)">
-                                <b>Ocean Winds Official Name</b>
-                                (Ocean Winds)
+                                <b>Ocean Winds Official Name</b> (Ocean Winds)
                                 <span class="chevron">▼</span>
                             </div>
                             <div class="card-content">
                                 <div class="card-section">
-                                    <i>High-resolution wind data for improving oceanographic and meteorological modeling.</p>
+                                    <i>Initial Request:</i>
+                                    <p>High-resolution wind data for improving oceanographic and meteorological modeling.</p>
                                 </div>
                                 <div class="card-section">
                                     <i>Partner Organizations:</i>
@@ -1053,8 +1049,6 @@ order: 1
                 </div>
             </div>
         </div> 
-    </div>
-</div>
 
 <!-- Base Styles,Core layout and typography -->
 <style>
@@ -1128,9 +1122,11 @@ body {
 
 .team-section {
     background: white;
-    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
     padding: 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 .team-grid {
@@ -1261,9 +1257,10 @@ body {
  */
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
-    margin: 1rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .grid-card {
@@ -1467,7 +1464,7 @@ ul li {
     
     .card-content {
         display: block !important;
-    }
+    }*/
     
     .chevron {
         display: none;
