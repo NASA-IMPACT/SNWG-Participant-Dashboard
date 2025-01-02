@@ -477,11 +477,38 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                 <div class="video-grid">
                     <div class="video-item">
                         <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1H0eDflwpXpdu0yMGKX8MyBy-0Jxv6T-O/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Welcome 2024</h3>
+                            <p>Welcome from SNWG Project Scientist Pontus Olofsson</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1BsxVb85yWCLmg-vwOdX7e1_S0iWtSWF1/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>CSDA and SNWG</h3>
+                            <p>Melissa Martin, CSDA Program Manager, ESD</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
                             <iframe src="https://drive.google.com/file/d/1zrzk7-fRhxLbANGlorS3ed5TPRiwGsSu/preview" allowfullscreen></iframe>
                         </div>
                         <div class="video-info">
-                            <h3>Introduction: Overview</h3>
+                            <h3>Assessment Overview</h3>
                             <p>Overview of the assessment process</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1-MyJrz7byTQbKYBgN9_b1zhJM-EZ7Is5/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Process Overview </h3>
+                            <p>More expanded overview of the assessment process with Anita, with lessons learned and look ahead</p>
                         </div>
                     </div>
                     <div class="video-item">
@@ -571,6 +598,24 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
             <!-- Asana Tab -->
             <div class="tab-pane" id="asana">
                 <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/1lNWgZdIDkcYXuWoDEGN8wMn-OT8yC2xJ/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Setting up your Asana account</h3>
+                            <p>Join our team!</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://drive.google.com/file/d/10OyCRjFOkGs7AipazZMh2ceek_emEMcm/preview" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3>Setting up your Asana environment</h3>
+                            <p>Nifty!</p>
+                        </div>
+                    </div>
                     <div class="video-item">
                         <div class="video-container">
                             <iframe src="https://drive.google.com/file/d/1lNWgZdIDkcYXuWoDEGN8wMn-OT8yC2xJ/preview" allowfullscreen></iframe>
