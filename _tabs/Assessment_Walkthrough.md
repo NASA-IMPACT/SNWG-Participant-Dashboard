@@ -465,15 +465,23 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
 
 <section class="video-section">
     <div class="tabs-container">
-        <div class="tab-controls">
-            <button class="tab-button active" data-tab="introduction">Introduction</button>
-            <button class="tab-button" data-tab="interviews">Interviews & Brainstorming</button>
-            <button class="tab-button" data-tab="evaluation">Evaluating Information</button>
-            <button class="tab-button" data-tab="asana">Using Asana</button>
+        <div class="tab-controls" role="tablist">
+            <button class="tab-button active" role="tab" aria-selected="true" aria-controls="introduction" data-tab="introduction">
+                Introduction
+            </button>
+            <button class="tab-button" role="tab" aria-selected="false" aria-controls="interviews" data-tab="interviews">
+                Interviews & Brainstorming
+            </button>
+            <button class="tab-button" role="tab" aria-selected="false" aria-controls="evaluation" data-tab="evaluation">
+                Evaluating Information
+            </button>
+            <button class="tab-button" role="tab" aria-selected="false" aria-controls="asana" data-tab="asana">
+                Using Asana
+            </button>
         </div>
         <div class="tab-content">
             <!-- Introduction Tab -->
-            <div class="tab-pane active" id="introduction">
+            <div id="introduction" class="tab-pane active" role="tabpanel" aria-labelledby="introduction-tab">
                 <div class="video-grid">
                     <div class="video-item">
                         <div class="video-container">
@@ -507,7 +515,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                             <iframe src="https://drive.google.com/file/d/1-MyJrz7byTQbKYBgN9_b1zhJM-EZ7Is5/preview" allowfullscreen></iframe>
                         </div>
                         <div class="video-info">
-                            <h3>Process Overview </h3>
+                            <h3>Process Overview</h3>
                             <p>More expanded overview of the assessment process with Anita, with lessons learned and look ahead</p>
                         </div>
                     </div>
@@ -532,7 +540,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                 </div>
             </div>
             <!-- Interviews Tab -->
-            <div class="tab-pane" id="interviews">
+            <div id="interviews" class="tab-pane" role="tabpanel" aria-labelledby="interviews-tab">
                 <div class="video-grid">
                     <div class="video-item">
                         <div class="video-container">
@@ -564,7 +572,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                 </div>
             </div>
             <!-- Evaluation Tab -->
-            <div class="tab-pane" id="evaluation">
+            <div id="evaluation" class="tab-pane" role="tabpanel" aria-labelledby="evaluation-tab">
                 <div class="video-grid">
                     <div class="video-item">
                         <div class="video-container">
@@ -596,7 +604,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                 </div>
             </div>
             <!-- Asana Tab -->
-            <div class="tab-pane" id="asana">
+            <div id="asana" class="tab-pane" role="tabpanel" aria-labelledby="asana-tab">
                 <div class="video-grid">
                     <div class="video-item">
                         <div class="video-container">
@@ -650,38 +658,47 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
 </section>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Get all tab buttons and panes
-    const tabButtons = document.querySelectorAll('.tab-button');
-    
-    function switchTab(tabId) {
-        // Remove active class from all buttons and panes
-        document.querySelectorAll('.tab-button').forEach(btn => {
-            btn.classList.remove('active');
-        });
-        document.querySelectorAll('.tab-pane').forEach(pane => {
-            pane.classList.remove('active');
-        });
-        
-        // Add active class to selected button and pane
-        const selectedButton = document.querySelector(`[data-tab="${tabId}"]`);
-        const selectedPane = document.getElementById(tabId);
-        
-        if (selectedButton && selectedPane) {
-            selectedButton.classList.add('active');
-            selectedPane.classList.add('active');
+(function() {
+    // Wait for DOM to be ready
+    document.addEventListener('DOMContentLoaded', function() {
+        var tabButtons = document.querySelectorAll('.tab-button');
+        var tabPanes = document.querySelectorAll('.tab-pane');
+
+        function setActiveTab(targetId) {
+            // Remove active class from all tabs and panes
+            tabButtons.forEach(function(btn) {
+                btn.classList.remove('active');
+                btn.setAttribute('aria-selected', 'false');
+            });
+            
+            tabPanes.forEach(function(pane) {
+                pane.classList.remove('active');
+            });
+
+            // Add active class to target tab and pane
+            var targetButton = document.querySelector('[data-tab="' + targetId + '"]');
+            var targetPane = document.getElementById(targetId);
+
+            if (targetButton && targetPane) {
+                targetButton.classList.add('active');
+                targetButton.setAttribute('aria-selected', 'true');
+                targetPane.classList.add('active');
+            }
         }
-    }
-    
-    // Add click handlers to tab buttons
-    tabButtons.forEach(button => {
-        button.addEventListener('click', (e) => {
-            e.preventDefault();
-            const tabId = button.getAttribute('data-tab');
-            switchTab(tabId);
+
+        // Add click handlers
+        tabButtons.forEach(function(button) {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                var targetId = this.getAttribute('data-tab');
+                setActiveTab(targetId);
+            });
         });
+
+        // Initialize first tab
+        setActiveTab('introduction');
     });
-});
+})();
 </script>
 
 <style>
@@ -689,6 +706,8 @@ document.addEventListener('DOMContentLoaded', function() {
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
 
 .tabs-container {
@@ -696,6 +715,7 @@ document.addEventListener('DOMContentLoaded', function() {
     border-radius: 0.75rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    position: relative
 }
 
 .tab-controls {
@@ -703,6 +723,8 @@ document.addEventListener('DOMContentLoaded', function() {
     background: #f8fafc;
     border-bottom: 2px solid #e2e8f0;
     padding: 1rem 1rem 0;
+    position: relative;
+    z-index: 2;
 }
 
 .tab-button {
@@ -714,6 +736,7 @@ document.addEventListener('DOMContentLoaded', function() {
     font-weight: 500;
     transition: all 0.2s ease;
     position: relative;
+    z-index: 3;
 }
 
 .tab-button:hover {
@@ -736,14 +759,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .tab-content {
     padding: 2rem;
+    z-index: 1;
 }
 
 .tab-pane {
-    display: none;
+    display: none !important; /* Use !important to override any Jekyll styles */
 }
 
 .tab-pane.active {
-    display: block;
+    display: block !important; /* Use !important to override any Jekyll styles */
 }
 
 .video-container {
