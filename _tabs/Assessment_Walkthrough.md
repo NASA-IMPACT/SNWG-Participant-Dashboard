@@ -480,7 +480,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                             <iframe src="https://drive.google.com/file/d/1zrzk7-fRhxLbANGlorS3ed5TPRiwGsSu/preview" allowfullscreen></iframe>
                         </div>
                         <div class="video-info">
-                            <h3>Introduction</h3>
+                            <h3>Introduction: Overview</h3>
                             <p>Overview of the assessment process</p>
                         </div>
                     </div>
@@ -498,7 +498,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                             <iframe src="https://drive.google.com/file/d/1QUIAXpDpJZdYx74gUMd-k_c0THg5Hogn/preview" allowfullscreen></iframe>
                         </div>
                         <div class="video-info">
-                            <h3>Introduction: estimating Level of Satisfaction</h3>
+                            <h3>Introduction: Estimating Level of Satisfaction</h3>
                             <p>How do we know it's a Solution we want to pursue?</p>
                         </div>
                     </div>
@@ -582,20 +582,20 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                     </div>
                     <div class="video-item">
                         <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                            <iframe src="https://drive.google.com/file/d/10OyCRjFOkGs7AipazZMh2ceek_emEMcm/preview" allowfullscreen></iframe>
                         </div>
                         <div class="video-info">
-                            <h3>Analysis Methods</h3>
-                            <p>Evaluating collected data</p>
+                            <h3>Using the Google Form to Create a Need Card</h3>
+                            <p>Nifty!</p>
                         </div>
                     </div>
                     <div class="video-item">
                         <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                            <iframe src="https://drive.google.com/file/d/1eLpybRN7Tccf8a291xlwsNcjtKx9PHM8/preview" allowfullscreen></iframe>
                         </div>
                         <div class="video-info">
-                            <h3>Drawing Conclusions</h3>
-                            <p>Synthesizing findings</p>
+                            <h3>Editing Your submission</h3>
+                            <p>Hold up, I forgot something!</p>
                         </div>
                     </div>
                 </div>
