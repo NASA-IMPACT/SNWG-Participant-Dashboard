@@ -2,7 +2,7 @@
 title: SNWG Website Demo
 layout: page
 permalink: /demo/
-order: 8
+order: 1
 ---
 
 <div class="header-line"></div>
