@@ -2,10 +2,11 @@
 # title: Implementation
 layout: page
 permalink: /implementation/
-order: 5
+order: 7
 ---
-
-The Implementation phase is where SNWG solutions move from planning to reality. This critical stage involves coordinated effort between implementation teams, stakeholders, and the Management Office to ensure successful delivery of solutions that meet agency needs.
+<div class="header-line"></div>
+<br>
+This is where SNWG solutions move from planning to reality. This critical stage involves coordinated effort between implementation teams, stakeholders, and the Management Office to ensure successful delivery of solutions that meet agency needs.
 
 ## Project Lifecycle and Reviews
 <div class="header-line"></div>
@@ -472,7 +473,7 @@ SNWG projects progress through several key decision gates that ensure proper dev
       <div class="doc-content show">
         <div class="doc-item">
           <i class="fas fa-file-alt"></i>
-          <span>Project Plan</span>
+          <span><a href="https://docs.google.com/document/d/1hfbKXOta7htTs1RDtvpAXxBwu6QxuqnndGXOMkyM-UQ/edit?usp=drive_link">Project Plan Template</a></span>
         </div>
         <div class="doc-item">
           <i class="fas fa-file-alt"></i>

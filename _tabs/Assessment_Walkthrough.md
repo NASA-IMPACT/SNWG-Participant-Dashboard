@@ -5,7 +5,10 @@ date: 2024-12-30 12:00:00 +0600
 categories: [Guide]
 tags: [overview, getting-started]
 order: 4
+permalink: /assessment/walkthrough/
 ---
+
+<div class="header-line"></div>
 
 <!-- Custom styles - add to assets/css/style.scss -->
 <style>
@@ -309,15 +312,15 @@ order: 4
 }
 </style>
 
-<div class="hero-section">
+<!--<div class="hero-section">
     <h1>Welcome to Your SNWG Assessment Journey!</h1>
     <p>Your guide to navigating the assessment process successfully</p>
-</div>
+</div>-->
 
-## Your Assessment Progress
+<!--## Your Assessment Progress
 <div class="header-line"></div>
 
-Track your journey through each phase of the assessment process:
+Track your journey through each phase of the assessment process:-->
 
 <div class="timeline">
     <div class="timeline-line"></div>
@@ -365,8 +368,7 @@ Track your journey through each phase of the assessment process:
             <li>Schedule pre-interview huddle</li>
             <li>Complete training modules</li>
         </ul>
-    </div>
-    
+    </div>    
     <div class="action-card">
         <h3>📅 Coming Up Next</h3>
         <ul>
@@ -402,7 +404,7 @@ Track your journey through each phase of the assessment process:
     </div>
 </div>
 
-## Timeline & Key Dates
+## Key Dates
 
 <table class="timeline-table">
     <tr>
@@ -435,7 +437,8 @@ Track your journey through each phase of the assessment process:
 4. Attend all scheduled training sessions
 5. Reach out to SNWG MO if you need support
 
-Information Handling Guidelines
+## Information Handling Guidelines
+
 <div class="action-grid">
     <div class="action-card">
         <h3>✅ Acceptable to Share</h3>
@@ -449,20 +452,20 @@ Information Handling Guidelines
     </div>
     <div class="action-card">
     <h3>🚫 Do Not Share</h3>
-    <ul>
-        <li>Agency-specific survey responses</li>
-        <li>Interview notes and recordings</li>
-        <li>Draft solutions or recommendations</li>
-        <li>Internal discussions and deliberations</li>
-        <li>Participant contact information</li>
-    </ul>
-</div>
+        <ul>
+            <li>Agency-specific survey responses</li>
+            <li>Interview notes and recordings</li>
+            <li>Draft solutions or recommendations</li>
+            <li>Internal discussions and deliberations</li>
+            <li>Participant contact information</li>
+        </ul>
+    </div>
 </div>
 Always consult the SNWG MO if you're unsure about sharing specific information.
 
 ## Assessment Training Videos
-<div class="header-line"></div>
-
+<div class="header-line"></div><br>
+<i>Due to the nature of some of the content discussed, you may need to have been granted access to the videos and be logged in to that account to view. Please contact your Assessment Team Lead to obtain access if you are unable to view a video.</i>
 
 <div class="tabs">
   <!-- Tab inputs -->
@@ -481,7 +484,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
   <!-- Tab panels -->
     <div class="tab-panels">
         <!-- Introduction Tab -->
-        <div id="video-panel1" class="tab-panel">
+        <div id="video-panel1" class="tab-panel active">
             <div class="video-grid">
                 <div class="video-item">
                     <div class="video-container">
@@ -492,169 +495,214 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                         <p>Welcome from SNWG Project Scientist Pontus Olofsson</p>
                     </div>
                 </div>
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1BsxVb85yWCLmg-vwOdX7e1_S0iWtSWF1/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>CSDA and SNWG</h3>
-                            <p>Melissa Martin, CSDA Program Manager, ESD</p>
-                        </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1BsxVb85yWCLmg-vwOdX7e1_S0iWtSWF1/preview" allowfullscreen></iframe>
                     </div>
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1zrzk7-fRhxLbANGlorS3ed5TPRiwGsSu/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Assessment Overview</h3>
-                            <p>Overview of the assessment process</p>
-                        </div>
+                    <div class="video-info">
+                        <h3>CSDA and SNWG</h3>
+                        <p>Melissa Martin, CSDA Program Manager, ESD</p>
                     </div>
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1-MyJrz7byTQbKYBgN9_b1zhJM-EZ7Is5/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Process Overview</h3>
-                            <p>More expanded overview of the assessment process with Anita, with lessons learned and look ahead</p>
-                        </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1zrzk7-fRhxLbANGlorS3ed5TPRiwGsSu/preview" allowfullscreen></iframe>
                     </div>
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1Xg0xVjrn5KQ-K9FgITkoUlznQVoHtDwP/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Introduction: SNWG Solutions</h3>
-                            <p>Previous Solutions and how they fit in</p>
-                        </div>
+                    <div class="video-info">
+                        <h3>Assessment Solutions Workshop Overview</h3>
+                        <p>Overview of the assessment process with Katrina Virts, SNWG Assessment Lead</p>
                     </div>
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1QUIAXpDpJZdYx74gUMd-k_c0THg5Hogn/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Introduction: Estimating Level of Satisfaction</h3>
-                            <p>How do we know it's a Solution we want to pursue?</p>
-                        </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1-MyJrz7byTQbKYBgN9_b1zhJM-EZ7Is5/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>SNWG Assessment Process Overview</h3>
+                        <p>More expanded overview of the assessment process with Anita LeRoy, Stakeholder Engagement Program Co-Design Lead, with lessons learned and look ahead</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1Xg0xVjrn5KQ-K9FgITkoUlznQVoHtDwP/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Introduction: SNWG Solutions</h3>
+                        <p>Previous Solutions and how they fit in</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1QUIAXpDpJZdYx74gUMd-k_c0THg5Hogn/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Introduction: Estimating Level of Satisfaction</h3>
+                        <p>How do we know it's a Solution we want to pursue?</p>
                     </div>
                 </div>
             </div>
-            <!-- Interviews Tab -->
-            <div id="video-panel2" class="tab-panel">
-                <div class="video-grid">
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Conducting a Brainstorming Session</h3>
-                            <p>Getting ready for stakeholder interviews</p>
-                        </div>
+        </div>
+        <!-- Interviews Tab -->
+        <div id="video-panel2" class="tab-panel">
+            <div class="video-grid">
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
                     </div>
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Conducting Sessions</h3>
-                            <p>Interview and brainstorming techniques</p>
-                        </div>
+                    <div class="video-info">
+                        <h3>Conducting a Brainstorming Session</h3>
+                        <p>Getting ready for stakeholder interviews</p>
                     </div>
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Follow-up Steps</h3>
-                            <p>Post-interview procedures</p>
-                        </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Conducting Sessions</h3>
+                        <p>Interview and brainstorming techniques</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Follow-up Steps</h3>
+                        <p>Post-interview procedures</p>
                     </div>
                 </div>
             </div>
-            <!-- Evaluation Tab -->
-            <div id="video-panel3" class="tab-panel">
-                <div class="video-grid">
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Evaluating Potential Solutions</h3>
-                            <p>Gathering assessment information</p>
-                        </div>
+        </div>
+        <!-- Evaluation Tab -->
+        <div id="video-panel3" class="tab-panel">
+            <div class="video-grid">
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
                     </div>
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Placeholder</h3>
-                            <p>Evaluating collected data</p>
-                        </div>
+                    <div class="video-info">
+                        <h3>Evaluating Potential Solutions</h3>
+                        <p>Gathering assessment information</p>
                     </div>
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Placeholder</h3>
-                            <p>Synthesizing findings</p>
-                        </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Placeholder</h3>
+                        <p>Evaluating collected data</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Placeholder</h3>
+                        <p>Synthesizing findings</p>
                     </div>
                 </div>
             </div>
-            <!-- Asana Tab -->
-            <div id="video-panel4" class="tab-panel">
-                <div class="video-grid">
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1lNWgZdIDkcYXuWoDEGN8wMn-OT8yC2xJ/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Setting up your Asana account</h3>
-                            <p>Join our team!</p>
-                        </div>
+        </div>
+        <!-- Asana Tab -->
+        <div id="video-panel4" class="tab-panel">
+            <div class="video-grid">
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1PjFlbLb0PDkYiQIO2bxC5mo08F3lCnv7/preview" allowfullscreen></iframe>
                     </div>
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/10OyCRjFOkGs7AipazZMh2ceek_emEMcm/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Setting up your Asana environment</h3>
-                            <p>Nifty!</p>
-                        </div>
+                    <div class="video-info">
+                        <h3>Intro to Asana</h3>
+                        <p>A robust and endlessly customizable organization and communication tool! First views, updating your profile, adjustimng notification settings.</p>
                     </div>
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1lNWgZdIDkcYXuWoDEGN8wMn-OT8yC2xJ/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Searching the Solution Board</h3>
-                            <p>Find a card to update or comment on.</p>
-                        </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1lNWgZdIDkcYXuWoDEGN8wMn-OT8yC2xJ/preview" allowfullscreen></iframe>
                     </div>
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/10OyCRjFOkGs7AipazZMh2ceek_emEMcm/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Using the Google Form to Create a Need Card</h3>
-                            <p>Nifty!</p>
-                        </div>
+                    <div class="video-info">
+                        <h3>Setting up your Asana account</h3>
+                        <p>Join our team!</p>
                     </div>
-                    <div class="video-item">
-                        <div class="video-container">
-                            <iframe src="https://drive.google.com/file/d/1eLpybRN7Tccf8a291xlwsNcjtKx9PHM8/preview" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3>Editing Your submission</h3>
-                            <p>Hold up, I forgot something!</p>
-                        </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/10OyCRjFOkGs7AipazZMh2ceek_emEMcm/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Setting up your Asana environment</h3>
+                        <p>Nifty!</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1lNWgZdIDkcYXuWoDEGN8wMn-OT8yC2xJ/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>General Searching of the Solution Board</h3>
+                        <p>Find a card to update or comment on.</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1JGpUGTJaYhk2XLQVNt7FaPiLCL4RJFYg/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Customized Searching the Solution Board</h3>
+                        <p>Save a custom search for more complex, routine searching.</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1T6KA5CFZBY1ygQvjWduHjwButJU6zLNB/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Milestone 1</h3>
+                        <p>Save a custom search for more complex, routine searching.</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1fSucKfbsKqW5mf0O3Xb7h5lna4d1zzzL/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Milestone 2</h3>
+                        <p>Save a custom search for more complex, routine searching.</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1YLhUqK83IMAnDwDy_vmQUF3bW3rUrncD/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Milestone 3</h3>
+                        <p>Save a custom search for more complex, routine searching.</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/10OyCRjFOkGs7AipazZMh2ceek_emEMcm/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Using the Google Form to Create a Need Card</h3>
+                        <p>Nifty!</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1eLpybRN7Tccf8a291xlwsNcjtKx9PHM8/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Editing Your submission</h3>
+                        <p>Hold up, I forgot something!</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 <script>
 (function() {
@@ -952,3 +1000,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 </script>
+

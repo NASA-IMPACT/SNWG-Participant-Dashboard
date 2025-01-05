@@ -2,7 +2,11 @@
 title: Assessment
 layout: page
 order: 3
+permalink: /assessment/
 ---
+
+<div class="header-line"></div>
+
 <!-- page header -->
 <div class="page-header">
     <h3>Join us as we assess Solutions to solve the satellite needs of the scientific community!</h3>

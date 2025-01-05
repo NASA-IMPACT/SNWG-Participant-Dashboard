@@ -1,8 +1,9 @@
 ---
 title: Stakeholder Engagement   
 layout: page
-order: 2
+order: 5
 ---
+<div class="header-line"></div>
 
 ## The Co-Design Process
 
@@ -39,14 +40,16 @@ order: 2
     <!-- Radio buttons -->
     <input type="radio" name="sep-tabs" id="overview-tab" checked="checked">
     <input type="radio" name="sep-tabs" id="philosophy-tab">
+    <input type="radio" name="sep-tabs" id="stakeholders-tab">
     <input type="radio" name="sep-tabs" id="lifecycle-tab">
-    <input type="radio" name="sep-tabs" id="resources-tab">
+    <input type="radio" name="sep-tabs" id="Services-tab">
     <!-- Labels -->
     <div class="tabs-nav">
         <label for="overview-tab">Overview</label>
         <label for="philosophy-tab">Philosophy</label>
+        <label for="stakeholders-tab">Stakeholder Types</label>
         <label for="lifecycle-tab">Solution Lifecycle</label>
-        <label for="resources-tab">Resources</label>
+        <label for="Services-tab">Service Menu</label>
     </div>
     <div class="tabs-content">
         <!-- Overview Section -->
@@ -119,6 +122,79 @@ order: 2
                 </div>
             </div>
         </div>
+        <!-- Stakeholder Section -->
+        <div id="stakeholders" class="tab-content">
+            <div class="stakeholders-card">
+                <h3>Assessment Survey Submitters</h3>
+                <p>Scientists and technical experts who express specific needs through the SNWG survey.</p>
+                <div class="grid-container">
+                    <div class="card">
+                        <h4>Key Characteristics</h4>
+                        <ul>
+                            <li>Deep technical expertise</li>
+                            <li>Direct experience with data needs</li>
+                            <li>Agency representation</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Engagement Strategy</h4>
+                        <ul>
+                            <li>Technical interviews</li>
+                            <li>Requirements workshops</li>
+                            <li>Solution validation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="stakeholders-card">
+                <h3>Solution End Users</h3>
+                <p>Organizations and individuals who will utilize the developed solutions.</p>
+                <div class="grid-container">
+                    <div class="card">
+                        <h4>Categories</h4>
+                        <ul>
+                            <li>Federal Agencies</li>
+                            <li>Private Industry</li>
+                            <li>Research Community</li>
+                            <li>General Public</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Engagement Strategy</h4>
+                        <ul>
+                            <li>User testing</li>
+                            <li>Training programs</li>
+                            <li>Documentation</li>
+                            <li>Support channels</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="stakeholders-card">
+                <h3>Partner & Funding Agencies</h3>
+                <p>Organizations that support and enable SNWG solutions.</p>
+                <div class="grid-container">
+                    <div class="card">
+                        <h4>Key Partners</h4>
+                        <ul>
+                            <li>US Office of Management and Budget</li>
+                            <li>NOAA</li>
+                            <li>USGS</li>
+                            <li>Other Federal Partners</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Engagement Strategy</h4>
+                        <ul>
+                            <li>Progress reporting</li>
+                            <li>Resource planning</li>
+                            <li>Partnership development</li>
+                            <li>Impact assessment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Solution Lifecycle Section -->
         <div id="lifecycle" class="tab-content">
             <h4>Engagement Throughout the Solution Lifecycle</h4>
@@ -161,11 +237,11 @@ order: 2
                 </div>
             </div>
         </div>
-        <!-- Resources Section -->
-        <div id="resources" class="tab-content">
-            <h4>Engagement Resources</h4>
+        <!-- Services Section -->
+        <div id="Services" class="tab-content">
+            <!--<h4>Engagement Services</h4>-->
             <div class="grid-container">
-                <div class="card">
+                <!-- <div class="card">
                     <div class="card-header">
                         <i class="fas fa-book"></i>  
                         <h3>Tools & Templates</h3>
@@ -188,6 +264,108 @@ order: 2
                         <br><i class="fas fa-check text-blue-600 mr-2"></i>    Implementation Team Guidance
                         <br><i class="fas fa-check text-blue-600 mr-2"></i>    Facilitation Support
                     </ul>
+                </div> -->
+                <div class="restaurant-menu-container">
+                    <div class="menu-header">
+                        <h1 class="menu-title">Stakeholder Engagement à la Carte</h1>
+                        <div class="header-line"></div>
+                        <p class="tagline">"Serving Excellence in Earth Science Solutions"</p>
+                    </div>
+                    <div class="menu-section appetizers">
+                        <h2>First Course: Getting Started</h2>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h3>The Starter Package</h3>
+                                    <div class="price-tag">Basic</div>
+                                </div>
+                                <p class="description">A light introduction to stakeholder engagement practices.</p>
+                                <div class="ingredients">
+                                    <span>Includes:</span>
+                                    <ul>
+                                        <li>Documentation Templates</li>
+                                        <li>Basic Training Materials</li>
+                                        <li>Self-Service Services</li>
+                                    </ul>
+                                </div>
+                                <div class="chef-note">
+                                    <i>Perfect for teams ready to take their first steps into stakeholder engagement.</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-section main-course">
+                        <h2>Main Course: Full Service Solutions</h2>
+                        <div class="menu-items">
+                            <div class="menu-item house-special">
+                                <div class="special-banner">Chef's Recommendation</div>
+                                <div class="item-header">
+                                    <h3>The Complete Experience</h3>
+                                    <div class="price-tag">Premium</div>
+                                </div>
+                                <p class="description">Our signature full-service stakeholder engagement program.</p>
+                                <div class="ingredients">
+                                    <span>Includes:</span>
+                                    <ul>
+                                        <li>Dedicated SEP Team</li>
+                                        <li>Custom Workshop Development</li>
+                                        <li>Comprehensive Documentation</li>
+                                        <li>Impact Assessment</li>
+                                        <li>Ongoing Support</li>
+                                    </ul>
+                                </div>
+                                <div class="chef-note">
+                                    <i>The perfect choice for projects requiring comprehensive stakeholder engagement.</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-section sides">
+                        <h2>À La Carte Additions</h2>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h3>Workshop Package</h3>
+                                    <div class="price-tag">Add-on</div>
+                                </div>
+                                <p class="description">Custom stakeholder workshops and training sessions.</p>
+                                <div class="portion-size">Serves: Multiple stakeholder groups</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <h3>Documentation Suite</h3>
+                                    <div class="price-tag">Add-on</div>
+                                </div>
+                                <p class="description">Comprehensive documentation and reporting services.</p>
+                                <div class="portion-size">Serves: Project-wide implementation</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-section specials">
+                        <h2>Daily Specials</h2>
+                        <div class="menu-items">
+                            <div class="menu-item seasonal">
+                                <div class="seasonal-banner">Limited Time</div>
+                                <div class="item-header">
+                                    <h3>Early Adopter Program</h3>
+                                    <div class="price-tag">Special</div>
+                                </div>
+                                <p class="description">Enhanced support for early-stage implementation.</p>
+                                <div class="ingredients">
+                                    <span>Features:</span>
+                                    <ul>
+                                        <li>Priority Support Access</li>
+                                        <li>Custom Solution Design</li>
+                                        <li>Extended Team Support</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-footer">
+                        <p class="note">* All services can be customized to meet your specific needs</p>
+                        <button class="reserve-button">Schedule a Consultation</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -195,6 +373,9 @@ order: 2
 </div>
 
 ## Open Source Science Requirements
+
+<div class="header-line"></div>
+
 
 <div class="tabs">
   <!-- Tab inputs -->
@@ -239,6 +420,229 @@ order: 2
     </div>
   </div>
 </div>
+
+
+
+<style>
+/* Base styles */
+.restaurant-menu-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 3rem;
+    background: #fff;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Bodoni MT", "Times New Roman", serif;
+}
+
+/* Menu Header */
+.menu-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.menu-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-family: "Bodoni MT", "Times New Roman", serif;
+}
+
+.tagline {
+    font-style: italic;
+    color: #64748b;
+    font-size: 1.2rem;
+}
+
+/* Menu Sections */
+.menu-section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: #f8fafc;
+    border-radius: 8px;
+    position: relative;
+}
+
+.menu-section h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+}
+
+/* Menu Items */
+.menu-items {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.menu-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Special Items */
+.house-special {
+    border: 2px solid #3498db;
+    background: linear-gradient(to bottom right, #ffffff, #f0f9ff);
+}
+
+.special-banner {
+    position: absolute;
+    top: 1rem;
+    right: -0.5rem;
+    background: #3498db;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transform: rotate(3deg);
+}
+
+/* Item Components */
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.item-header h3 {
+    color: #2c3e50;
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.price-tag {
+    background: #edf2f7;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    color: #4a5568;
+}
+
+.description {
+    color: #4a5568;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.ingredients {
+    margin-bottom: 1.5rem;
+}
+
+.ingredients ul {
+    list-style: none;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.ingredients li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.ingredients li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #3498db;
+}
+
+/* Chef Notes */
+.chef-note {
+    font-size: 0.9rem;
+    color: #718096;
+    padding: 1rem;
+    background: #f7fafc;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+/* Footer */
+.menu-footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid #e5e7eb;
+}
+
+.note {
+    color: #718096;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.reserve-button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reserve-button:hover {
+    background: #2980b9;
+}
+
+/* Seasonal Specials */
+.seasonal {
+    border: 2px solid #e53e3e;
+    background: linear-gradient(to bottom right, #ffffff, #fff5f5);
+}
+
+.seasonal-banner {
+    position: absolute;
+    top: 1rem;
+    right: -0.5rem;
+    background: #e53e3e;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transform: rotate(3deg);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .restaurant-menu-container {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+
+    .menu-title {
+        font-size: 2rem;
+    }
+
+    .menu-section {
+        padding: 1.5rem;
+    }
+
+    .menu-items {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
 
 <script>
 /* JavaScript for card toggling */
@@ -379,7 +783,7 @@ body {
     color: #4682B4;
 }
 
-/* Active states for tabs */
+/* Active states for OSS tabs */
 #tab1:checked ~ .tab-labels .tab-label[for="tab1"],
 #tab2:checked ~ .tab-labels .tab-label[for="tab2"],
 #tab3:checked ~ .tab-labels .tab-label[for="tab3"] {
@@ -451,19 +855,21 @@ body {
     display: none !important;
 }
 
-/* Show the selected tab content */
+/* Active states for Container 1 tabs */
 #overview-tab:checked ~ .tabs-content #overview,
 #philosophy-tab:checked ~ .tabs-content #philosophy,
+#stakeholders-tab:checked ~ .tabs-content #stakeholders,
 #lifecycle-tab:checked ~ .tabs-content #lifecycle,
-#resources-tab:checked ~ .tabs-content #resources {
+#Services-tab:checked ~ .tabs-content #Services {
     display: block !important; /* Using !important to override any other display rules */
 }
 
 /* Style for active tab label */
 #overview-tab:checked ~ .tabs-nav label[for="overview-tab"],
 #philosophy-tab:checked ~ .tabs-nav label[for="philosophy-tab"],
+#stakeholders-tab:checked ~ .tabs-nav label[for="stakeholders-tab"],
 #lifecycle-tab:checked ~ .tabs-nav label[for="lifecycle-tab"],
-#resources-tab:checked ~ .tabs-nav label[for="resources-tab"] {
+#Services-tab:checked ~ .tabs-nav label[for="Services-tab"] {
     color: #3498db;
     border-bottom: 2px solid #3498db;
     margin-bottom: -2px;
@@ -557,6 +963,28 @@ body {
 .flow-step:last-child::after {
     display: none;
 }
+
+.stakeholders-section {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stakeholders-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e5e7eb;
+}
+
+.stakeholders-card h3 {
+    color: #4682B4;
+    margin-bottom: 1rem;
+}
+
 
 /* Typography */
 h2, h3, h4 {

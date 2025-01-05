@@ -1,11 +1,12 @@
 ---
-title: Your SNWG Stakeholder Journey
+title: Your Stakeholder Engagement Journey
+hide_title: true
 layout: page
 toc: true
 order: 6
 ---
 
-# Welcome to SNWG Co-Design
+<!--# Welcome to SNWG Co-Design-->
 <div class="header-line"></div>
 
 > "Your participation is crucial in shaping Earth observation solutions that work for federal agencies. Through co-design, we build better solutions together."
@@ -196,6 +197,7 @@ order: 6
 
 >*Remember: Your expertise and participation are vital to developing effective Earth observation solutions. We're committed to supporting your engagement throughout this journey.*
 {:.prompt-tip}
+
 
 <style>
 .tabs-wrapper {

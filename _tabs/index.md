@@ -5,7 +5,7 @@ permalink: /
 date: 2024-12-23 12:00:00 +0600  
 categories: [Guide]  
 tags: [overview]  
-order: 1
+order: 2
 ---
 
 <html lang="en">
@@ -205,36 +205,44 @@ order: 1
             <div class="tab">
                 <div class="grid-wrapper expandable-cards">
                     <!-- Card 1: ADMG -->
-                        <div class="team-section">
-                            <div class="solution-header" onclick="toggleCard(this)">
-                                <b>Airborne Data Management Group</b> (ADMG)
-                                <span class="chevron">▼</span>
+                    <div class="team-section">
+                        <div class="solution-header" onclick="toggleCard(this)">
+                            <b>Airborne Data Management Group</b> (ADMG)
+                            <span class="chevron">▼</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-section">
+                                <i>Initial Request:</i>
+                                <p>Archival and distribution of historical airborne data products.</p>
                             </div>
-                            <div class="card-content">
-                                <div class="card-section">
-                                    <i>Initial Request:</i>
-                                    <p>Archival and distribution of historical airborne data products.</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Partner Organizations:</i>
-                                    <p>NASA MSFC IMPACT<br>DAAC</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Solution Service:</i>
-                                    <ul>
-                                        <li>Airborne Campaign Data Management: Stewardship and quicker access to NASA airborne and field campaign data, supporting faster archival and distribution.</li>
-                                    </ul>
-                                </div>
-                                <div class="card-section">
-                                    <i>Operational Product:</i>
-                                    <p>Catalog of Archived Suborbital Earth Science Investigations (CASEI)</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Continuing Operation:</i>
-                                    <p>CASEI maintenance and administration​</p>
-                                </div>
+                            <div class="card-section">
+                                <i>Partner Organizations:</i>
+                                <p>NASA MSFC IMPACT<br>DAAC</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Solution Service:</i>
+                                <ul>
+                                    <li>Airborne Campaign Data Management: Stewardship and quicker access to NASA airborne and field campaign data, supporting faster archival and distribution.</li>
+                                </ul>
+                            </div>
+                            <div class="card-section">
+                                <i>Operational Product:</i>
+                                <p>Catalog of Archived Suborbital Earth Science Investigations (CASEI)</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>CASEI maintenance and administration​</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/admg-casei-solution" target="_blank" rel="noopener noreferrer">ADMG-CASEI Solution</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                    </div>
                     <!-- Card 2: DCD -->
                     <div class="team-section">
                         <div class="solution-header" onclick="toggleCard(this)">
@@ -268,6 +276,14 @@ order: 1
                                 <i>Continuing Operation:</i>
                                 <p>Absorbed by the SNWG Management Office as part of the Stakeholder Engagement Program.</p>
                             </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/data-curation-discovery-solution" target="_blank" rel="noopener noreferrer">the DCD Solution</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <!-- Card 3: HLS -->
@@ -297,6 +313,14 @@ order: 1
                                 <i>Continuing Operation:</i>
                                 <p>HLS portal/data(?) maintenance and administration</p>
                             </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/hls-solution" target="_blank" rel="noopener noreferrer">HLS Solution</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <!-- Card 4: CSDA -->
@@ -325,6 +349,26 @@ order: 1
                             <div class="card-section">
                                 <i>Continuing Operation:</i>
                                 <p>License research and attainment</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/access-desis-data" target="_blank" rel="noopener noreferrer">Access to DESIS data</a>
+                                    </li>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/snwg/solutions/broader-access-planet-data" target="_blank" rel="noopener noreferrer">Broader access to Planet data</a>
+                                    </li>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/broader-access-spire-data" target="_blank" rel="noopener noreferrer">Broader access to SPIRE data</a>
+                                    </li>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/discovery-access-commercial-data" target="_blank" rel="noopener noreferrer">Discovery and Access of Commercial data</a>
+                                    </li>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/nga-product-support" target="_blank" rel="noopener noreferrer">NGA Product Support.</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -358,7 +402,15 @@ order: 1
                             </div>
                             <div class="card-section">
                                 <i>Continuing Operation:</i>
-                                <p>outine model updates, assimilation of new satellite observations, and periodic recalibration of emission datasets​</p>
+                                <p>Routine model updates, assimilation of new satellite observations, and periodic recalibration of emission datasets​</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/atmospheric-composition-using-geos-5" target="_blank" rel="noopener noreferrer">Atmospheric Composition using GEOS-5</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -394,6 +446,14 @@ order: 1
                                 <i>Continuing Operation:</i>
                                 <p>Unknown</p>
                             </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/low-latency-freeboard-ice-thickness-products-over-great-lakes" target="_blank" rel="noopener noreferrer"> Low Latency ICESat-2/ATLAS Products.</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <!-- Internet of Animals Card -->
@@ -423,6 +483,14 @@ order: 1
                                 <i>Continuing Operation:</i>
                                 <p>annual maintenance of NISAR SM data at the DAAC(?)</p>
                             </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/animal-tracking-internet-animals" target="_blank" rel="noopener noreferrer">Animal tracking (Internet of Animals)</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <!-- NISAR SM Card -->
@@ -451,6 +519,17 @@ order: 1
                             <div class="card-section">
                                 <i>Continuing Operation:</i>
                                 <p>Algorithm evaluation and product updates with new data; annual maintenance of NISAR SM data at the DAAC(?)</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/global-nisar-soil-moisture" target="_blank" rel="noopener noreferrer">Global NISAR Soil Moisture Product</a>
+                                    </li>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/high-resolution-north-america-nisar-data" target="_blank" rel="noopener noreferrer">Global NISAR High-Res Product</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -493,6 +572,14 @@ order: 1
                                 <i>Continuing Operation:</i>
                                 <p>Algorithm evaluation and product updates with new data; annual maintenance of data at the DAAC(?)</p>
                             </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/opera-near-global-dswx" target="_blank" rel="noopener noreferrer">OPERA Near-Global DSWx Product Suite.</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <!-- Global Land Surface Disturbance Card -->
@@ -531,6 +618,14 @@ order: 1
                                 <i>Continuing Operation:</i>
                                 <p>Algorithm evaluation and product updates with new data; annual maintenance of data at the DAAC(?)</p>
                             </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/opera-near-global-surface-dist" target="_blank" rel="noopener noreferrer">OPERA Near-Global Surface DIST Product.</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <!-- Land Surface Deformation Card -->
@@ -566,6 +661,14 @@ order: 1
                             <div class="card-section">
                                 <i>Continuing Operation:</i>
                                 <p>Algorithm evaluation and product updates with new data; annual maintenance of data at the DAAC(?)</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/opera-north-america-land-surface-displacement-product" target="_blank" rel="noopener noreferrer">OPERA North America Land Surface DISP Product.</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -605,6 +708,14 @@ order: 1
                                 <i>Continuing Operation:</i>
                                 <p>Data processing updates and periodic reanalysis; annual maintenance of data at the DAAC(?)</p>
                             </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/radiation-clouds" target="_blank" rel="noopener noreferrer">Radiation and Clouds Products</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <!-- Water Quality Products Card -->
@@ -641,6 +752,14 @@ order: 1
                             <div class="card-section">
                                 <i>Continuing Operation:</i>
                                 <p>Algorithm improvements and updates for continuous processing; annual maintenance of data at the DAAC(?)</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/water-quality-product" target="_blank" rel="noopener noreferrer">Water Quality Products.</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -681,6 +800,12 @@ order: 1
                                 <i>Continuing Operation:</i>
                                 <p>Sensor maintenance, data assimilation, and system enhancements.; annual maintenance of data at the DAAC(?)</p>
                             </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li><a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/air-quality-forecasts-distributed-pandora-sensors"  target="_blank" rel="noopener noreferrer">Air Quality Forecasts and Distributed Pandora Sensors</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <!-- EarthDEM 2.0 Card -->
@@ -706,17 +831,25 @@ order: 1
                                 <i>Operational Product:</i>
                                 <p>A new solution will not be implemented as relevant DEMs are being produced by the National Geospatial-Intelligence Agency(NGA).<br>
                                 The NGA NextView License allows NASA to distribute the Polar Geospatial Center 2-m EarthDEM products to US Government-funded researchers.<br>
-                                EartDEM products are availabe through NASA's CSDA program to U.S. Federal employees, U.S. Federal contractors, and U.S. Government-funded researchers. This includes the NSF-funded scientists
+                                EarthDEM products are availabe through NASA's CSDA program to U.S. Federal employees, U.S. Federal contractors, and U.S. Government-funded researchers. This includes the NSF-funded scientists.
                                 </p>
-                                <ul>
-                                    <li><b>ArcticDEM</b> - (Polar) panarctic DEM, all land areas north of 60° at 2-m resolution <a href="https://www.pgc.umn.edu/data/arcticdem/" target="_blank">https://www.pgc.umn.edu/data/arcticdem/</a></li>
-                                    <li><b>REMA</b> - (Antartica) Reference Elevation Model of Antarctica – DEM of Antarctica at 8-m spatial resolution <a href="https://www.pgc.umn.edu/data/rema/" target="_blank">https://www.pgc.umn.edu/data/rema/</a></li>
-                                    <li><b>EarthDEM</b> - DEM at 2-m spatial resolution, all land areas not covered by ArcticDEM and REMA – coverage shown below <a href="https://www.pgc.umn.edu/data/earthdem/" target="_blank">https://www.pgc.umn.edu/data/earthdem/</a></li>
-                                </ul>
                             </div>
                             <div class="card-section">
                                 <i>Continuing Operation:</i>
                                 <p>None</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li> Access to 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/access-high-resolution-dems" target="_blank" rel="noopener noreferrer">High-Resolution DEMs</a></li>
+                                    <li><b>ArcticDEM</b> - (Polar) panarctic DEM, all land areas north of 60° at 2-m resolution 
+                                        <a href="https://www.pgc.umn.edu/data/arcticdem/"  target="_blank" rel="noopener noreferrer">https://www.pgc.umn.edu/data/arcticdem/</a></li>
+                                    <li><b>REMA</b> - (Antartica) Reference Elevation Model of Antarctica – DEM of Antarctica at 8-m spatial resolution 
+                                        <a href="https://www.pgc.umn.edu/data/rema/"  target="_blank" rel="noopener noreferrer">https://www.pgc.umn.edu/data/rema/</a></li>
+                                    <li><b>EarthDEM</b> - DEM at 2-m spatial resolution, all land areas not covered by ArcticDEM and REMA – coverage shown below 
+                                        <a href="https://www.pgc.umn.edu/data/earthdem/"  target="_blank" rel="noopener noreferrer">https://www.pgc.umn.edu/data/earthdem/</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -748,6 +881,14 @@ order: 1
                             <div class="card-section">
                                 <i>Continuing Operation:</i>
                                 <p>Ongoing data collection and refinement of merged retrievals; annual maintenance of data at the DAAC(?)</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/merged-gnss-ro-atmospheric-sounder-measurements-pbl-products" target="_blank" rel="noopener noreferrer">PBL Products</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -783,6 +924,14 @@ order: 1
                                 <i>Continuing Operation:</i>
                                 <p>None</p>
                             </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/sea-surface-salinity-sea-ice-mask" target="_blank" rel="noopener noreferrer">Sea Surface Salinity with Sea Ice Mask.</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <!-- TEMPO NRT Card -->
@@ -816,6 +965,14 @@ order: 1
                             <div class="card-section">
                                 <i>Continuing Operation:</i>
                                 <p>Ongoing data processing, integration with NOAA operations, and maintenance of algorithms.; annual maintenance of data at the DAAC(?)</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/tempo-near-real-time-so2-enhanced-products" target="_blank" rel="noopener noreferrer">TEMPO/GOES NRT Products.</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -851,204 +1008,293 @@ order: 1
                                 <i>Continuing Operation:</i>
                                 <p>Regular updates to datasets and maintenance of the HLS production system.</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                <!-- Cycle 4 Tab -->
-                <div class="tab">
-                    <div class="grid-wrapper expandable-cards">
-                        <!-- Card 1: VLM Card -->
-                        <div class="team-section">
-                            <div class="solution-header" onclick="toggleCard(this)">
-                                <b>Vertical Land Motion</b> (VLM)
-                                <span class="chevron">▼</span>
-                            </div>
-                            <div class="card-content">
-                                <div class="card-section">
-                                    <i>Initial Request:</i>
-                                    <p>integrate results from prior deformation studies with geodetic data to create products tracking vertical and horizontal land surface motions, including temporal variability maps and updates tied to Sentinel-1 and NISAR missions. These efforts align with the Administration's Climate and Infrastructure initiatives.</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Partner Organizations:</i>
-                                    <p>NASA MSFC IMPACT<br>DAAC</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Solution Service:</i>
-                                    <ul>
-                                        <li>?:  Long-term monitoring data for infrastructure and climate studies.</li>
-                                    </ul>
-                                </div>
-                                <div class="card-section">
-                                    <i>Operational Product:</i>
-                                    <p>?: Annual and monthly maps of land surface elevation changes and horizontal motions.</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Continuing Operation:</i>
-                                    <p>Regular updates to datasets and maintenance of the HLS production system.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- HLS-LL Card -->
-                        <div class="team-section">
-                            <div class="solution-header" onclick="toggleCard(this)">
-                                <b>HLS-Low Latency</b> (HLS-LL)
-                                <span class="chevron">▼</span>
-                            </div>
-                            <div class="card-content">
-                                <div class="card-section">
-                                    <i>Initial Request:</i>
-                                    <p>4-6 hour latency of the HLS data for applications that need data quickly (e.g., disaster response, environmental monitoring)</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Partner Organizations:</i>
-                                    <p>NASA MSFC IMPACT<br>DAAC</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Solution Service:</i>
-                                    <ul>
-                                        <li>This is a Product-based Solution, not a Service-based Solution</li>
-                                        <li>Enhanced operational data streams for near real-time disaster response and environmental assessments.</li>
-                                    </ul>
-                                </div>
-                                <div class="card-section">
-                                    <i>Operational Product:</i>
-                                    <p> HLS Latency reduced to 4-6 hours.</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Continuing Operation:</i>
-                                    <p>Regular integration of Landsat-9 data, maintenance of archival processing, and improvements to data latency and accessibility​.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TEMPO Enhanced Card -->
-                        <div class="team-section">
-                            <div class="solution-header" onclick="toggleCard(this)">
-                                <b>TEMPO/GOES NRT and Enhanced Products</b> (TEMPO Enhanced)
-                                <span class="chevron">▼</span>
-                            </div>
-                            <div class="card-content">
-                                <div class="card-section">
-                                    <i>Initial Request:</i>
-                                    <p>An hourly SO2 concentration product from TEMPO and adapt existing algorithms to generate additional trace gas measurements, including SO2, UVAOD, aerosol height, H2O, UVB, CHOCHO, and BrO.</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Partner Organizations:</i>
-                                    <p>Smithsonian Astrophysics Observatory (SAO)<br>DAAC</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Solution Service:</i>
-                                    <ul>
-                                        <li>None; this is a Product-based Solution, not a Service-based Solution</li>
-                                    </ul>
-                                </div>
-                                <div class="card-section">
-                                    <i>Operational Product:</i>
-                                    <p>hourly SO2 concentration product from TEMPO</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Continuing Operation:</i>
-                                    <p>Regular updates to datasets and maintenance of the HLS production system.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Card 4: Ocean Winds -->
-                        <div class="team-section">
-                            <div class="solution-header" onclick="toggleCard(this)">
-                                <b>Ocean Winds Official Name</b> (Ocean Winds)
-                                <span class="chevron">▼</span>
-                            </div>
-                            <div class="card-content">
-                                <div class="card-section">
-                                    <i>Initial Request:</i>
-                                    <p>High-resolution wind data for improving oceanographic and meteorological modeling.</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Partner Organizations:</i>
-                                    <p>NASA/JPL<br>DAAC</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Solution Service:</i>
-                                    <ul>
-                                        <li>None; this is a Product-based Solution, not a Service-based Solution</li>
-                                    </ul>
-                                </div>
-                                <div class="card-section">
-                                    <i>Operational Product:</i>
-                                    <p>Gridded datasets of ocean surface wind speed and direction.</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Continuing Operation:</i>
-                                    <p>Regular updates to datasets and algorithm refinements.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- GABAN Card -->
-                        <div class="team-section">
-                            <div class="solution-header" onclick="toggleCard(this)">
-                                <b>Global Algal Blooms Assessment Network</b> (GABAN)
-                                <span class="chevron">▼</span>
-                            </div>
-                            <div class="card-content">
-                                <div class="card-section">
-                                    <i>Initial Request:</i>
-                                    <p>Accurate monitoring of algal blooms to mitigate their impact on ecosystems and human health.</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Partner Organizations:</i>
-                                    <p>Smithsonian Astrophysics Observatory (SAO)<br>DAAC</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Solution Service:</i>
-                                    <ul>
-                                        <li>None; this is a Product-based Solution, not a Service-based Solution</li>
-                                    </ul>
-                                </div>
-                                <div class="card-section">
-                                    <i>Operational Product:</i>
-                                    <p>Analysis-ready water quality data and algal bloom indices from Sentinel-3.</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Continuing Operation:</i>
-                                    <p> Maintenance of data processing pipelines and updates to predictive algorithms​</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- ARSET Card -->
-                        <div class="team-section">
-                            <div class="solution-header" onclick="toggleCard(this)">
-                                <b>ARSET Official Name</b> (ARSET)
-                                <span class="chevron">▼</span>
-                            </div>
-                            <div class="card-content">
-                                <div class="card-section">
-                                    <i>Initial Request:</i>
-                                    <p>Training programs to build capacity in the use of satellite data for environmental monitoring.</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Partner Organizations:</i>
-                                    <p>NASA/JPL<br>DAAC</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Solution Service:</i>
-                                    <ul>
-                                        <li>Comprehensive training sessions on remote sensing applications for global stakeholders.</li>
-                                    </ul>
-                                </div>
-                                <div class="card-section">
-                                    <i>Operational Product:</i>
-                                    <p>Online and in-person training modules focused on practical uses of satellite-derived data.</p>
-                                </div>
-                                <div class="card-section">
-                                    <i>Continuing Operation:</i>
-                                    <p>Continuous development of new training materials and regular program updates​</p>
-                                </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/snwg/solutions/global-hls-vi-solution" target="_blank" rel="noopener noreferrer">Global HLS-VI Solution</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> 
+            <!-- Cycle 4 Tab -->
+            <div class="tab">
+                <div class="grid-wrapper expandable-cards">
+                    <!-- Card 1: VLM Card -->
+                    <div class="team-section">
+                        <div class="solution-header" onclick="toggleCard(this)">
+                            <b>Vertical Land Motion</b> (VLM)
+                            <span class="chevron">▼</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-section">
+                                <i>Initial Request:</i>
+                                <p>integrate results from prior deformation studies with geodetic data to create products tracking vertical and horizontal land surface motions, including temporal variability maps and updates tied to Sentinel-1 and NISAR missions. These efforts align with the Administration's Climate and Infrastructure initiatives.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Partner Organizations:</i>
+                                <p>NASA MSFC IMPACT<br>DAAC</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Solution Service:</i>
+                                <ul>
+                                    <li>?:  Long-term monitoring data for infrastructure and climate studies.</li>
+                                </ul>
+                            </div>
+                            <div class="card-section">
+                                <i>Operational Product:</i>
+                                <p>?: Annual and monthly maps of land surface elevation changes and horizontal motions.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Regular updates to datasets and maintenance of the HLS production system.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/vlm-product" target="_blank" rel="noopener noreferrer">Vertical Land Motion.</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- HLS-LL Card -->
+                    <div class="team-section">
+                        <div class="solution-header" onclick="toggleCard(this)">
+                            <b>HLS-Low Latency</b> (HLS-LL)
+                            <span class="chevron">▼</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-section">
+                                <i>Initial Request:</i>
+                                <p>4-6 hour latency of the HLS data for applications that need data quickly (e.g., disaster response, environmental monitoring)</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Partner Organizations:</i>
+                                <p>NASA MSFC IMPACT<br>DAAC</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Solution Service:</i>
+                                <ul>
+                                    <li>This is a Product-based Solution, not a Service-based Solution</li>
+                                    <li>Enhanced operational data streams for near real-time disaster response and environmental assessments.</li>
+                                </ul>
+                            </div>
+                            <div class="card-section">
+                                <i>Operational Product:</i>
+                                <p> HLS Latency reduced to 4-6 hours.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Regular integration of Landsat-9 data, maintenance of archival processing, and improvements to data latency and accessibility​.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/low-latency-hls-products" target="_blank" rel="noopener noreferrer">HLS-Low Latency Products</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TEMPO Enhanced Card -->
+                    <div class="team-section">
+                        <div class="solution-header" onclick="toggleCard(this)">
+                            <b>TEMPO/GOES NRT and Enhanced Products</b> (TEMPO Enhanced)
+                            <span class="chevron">▼</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-section">
+                                <i>Initial Request:</i>
+                                <p>An hourly SO2 concentration product from TEMPO and adapt existing algorithms to generate additional trace gas measurements, including SO2, UVAOD, aerosol height, H2O, UVB, CHOCHO, and BrO.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Partner Organizations:</i>
+                                <p>Smithsonian Astrophysics Observatory (SAO)<br>DAAC</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Solution Service:</i>
+                                <ul>
+                                    <li>None; this is a Product-based Solution, not a Service-based Solution</li>
+                                </ul>
+                            </div>
+                            <div class="card-section">
+                                <i>Operational Product:</i>
+                                <p>hourly SO2 concentration product from TEMPO</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Regular updates to datasets and maintenance of the HLS production system.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4: Ocean Winds -->
+                    <div class="team-section">
+                        <div class="solution-header" onclick="toggleCard(this)">
+                            <b>Ocean Surface Winds Official Name</b> (Ocean Winds)
+                            <span class="chevron">▼</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-section">
+                                <i>Initial Request:</i>
+                                <p>High-resolution wind data for improving oceanographic and meteorological modeling.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Partner Organizations:</i>
+                                <p>NASA/JPL<br>DAAC</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Solution Service:</i>
+                                <ul>
+                                    <li>None; this is a Product-based Solution, not a Service-based Solution</li>
+                                </ul>
+                            </div>
+                            <div class="card-section">
+                                <i>Operational Product:</i>
+                                <p>Gridded datasets of ocean surface wind speed and direction.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Regular updates to datasets and algorithm refinements.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/multi-sensor-ocean-surface-winds-product" target="_blank" rel="noopener noreferrer"> Multi-Sensor Ocean Surface Winds Product.</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- GABAN Card -->
+                    <div class="team-section">
+                        <div class="solution-header" onclick="toggleCard(this)">
+                            <b>Global Algal Blooms Assessment Network</b> (GABAN)
+                            <span class="chevron">▼</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-section">
+                                <i>Initial Request:</i>
+                                <p>Accurate monitoring of algal blooms to mitigate their impact on ecosystems and human health.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Partner Organizations:</i>
+                                <p>Smithsonian Astrophysics Observatory (SAO)<br>DAAC</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Solution Service:</i>
+                                <ul>
+                                    <li>None; this is a Product-based Solution, not a Service-based Solution</li>
+                                </ul>
+                            </div>
+                            <div class="card-section">
+                                <i>Operational Product:</i>
+                                <p>Analysis-ready water quality data and algal bloom indices from Sentinel-3.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p> Maintenance of data processing pipelines and updates to predictive algorithms​</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/nasa-support-snwg/solutions/gaban" target="_blank" rel="noopener noreferrer">Global Algal Blooms Assessment Network (GABAN).</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ARSET Card -->
+                    <div class="team-section">
+                        <div class="solution-header" onclick="toggleCard(this)">
+                            <b>Targeted Remote Sensing Training</b> (ARSET)
+                            <span class="chevron">▼</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-section">
+                                <i>Initial Request:</i>
+                                <p>Training programs to build capacity in the use of satellite data for environmental monitoring.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Partner Organizations:</i>
+                                <p>NASA/JPL<br>DAAC</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Solution Service:</i>
+                                <ul>
+                                    <li>Comprehensive training sessions on remote sensing applications for global stakeholders.</li>
+                                </ul>
+                            </div>
+                            <div class="card-section">
+                                <i>Operational Product:</i>
+                                <p>Online and in-person training modules focused on practical uses of satellite-derived data.</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Continuing Operation:</i>
+                                <p>Continuous development of new training materials and regular program updates​</p>
+                            </div>
+                            <div class="card-section">
+                                <i>Resources:</i>
+                                <ul>
+                                    <li>Learn more about 
+                                        <a href="https://www.earthdata.nasa.gov/about/snwg/solutions/targeted-remote-sensing-training" target="_blank" rel="noopener noreferrer">Targeted Remote Sensing Training</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+<h2>Ready to Get Started?</h2>
+<div class="header-line"></div>
+
+
+<div class="content-section">
+    <div class="role-grid">
+        <div class="role-card">
+            <!--I'm an Assessment participant -->
+            <h3><i class="fas fa-rocket"></i> I'm an Assessment participant</h3>
+            <ul>
+                <li>
+                    <a href="{{ '/assessment/' | relative_url }}">How does the SNWG Assessment work?</a>
+                </li>
+                <li>
+                    <a href="{{ '/assessment/walkthrough/' | relative_url }}">I'm ready to dive in!</a>
+                </li>
+            </ul>
+        </div>
+        <!--I'm on a Solution project Implementation team -->
+        <div class="role-card">
+            <h3><i class="fas fa-users"></i> I'm on a Solution project Implementation team </h3>
+            <ul>
+                <li>
+                    <a href="{{ '/implementation/' | relative_url }}">How does Solution development in the SNWG MO work?</a>
+                </li>
+            </ul>
+        </div>
+        <!--I want to engage my stakeholders -->
+        <div class="role-card">
+            <h3><i class="fas fa-cogs"></i> I want to engage my Stakeholders</h3>
+            <ul>
+                <li>
+                    <a href="{{ '/sep/' | relative_url }}">How does SEP in the SNWG MO work?</a>
+                </li>
+                <li>I want to engage my Federal Agency end user stakeholders.</li>
+                <li>I want to engage my funding agency stakeholders</li>
+            </ul>
+        </div>
+    </div>
+</div>
 
 <!-- Base Styles,Core layout and typography -->
 <style>
