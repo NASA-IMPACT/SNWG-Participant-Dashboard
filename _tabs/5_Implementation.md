@@ -1,5 +1,5 @@
 ---
-# title: Implementation
+title: Implementation
 layout: page
 permalink: /implementation/
 order: 5
