@@ -1,6 +1,7 @@
 ---
 title: Training Paths
 layout: page
+permalink: /training-paths/
 order: 8
 ---
 

@@ -2,7 +2,7 @@
 title: Your Stakeholder Engagement Journey
 hide_title: true
 layout: page
-toc: true
+permalink: /SEP/walkthrough/
 order: 7
 ---
 
