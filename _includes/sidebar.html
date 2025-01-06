@@ -1,188 +1,178 @@
-<!-- Sidebar Component -->
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
     <!-- Profile Section -->
     <header class="profile-wrapper">
-      <!-- Avatar -->
-      <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
-        {%- if site.avatar != empty and site.avatar -%}
-          {%- capture avatar_url -%}
-            {% include media-url.html src=site.avatar %}
-          {%- endcapture -%}
-          <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
-        {%- endif -%}
-      </a>
-  
-      <!-- Site Title and Tagline -->
-      <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
+        <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
+            {%- if site.avatar != empty and site.avatar -%}
+                {%- capture avatar_url -%}
+                    {% include media-url.html src=site.avatar %}
+                {%- endcapture -%}
+                <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+            {%- endif -%}
+        </a>
+
+        <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
     </header>
-    <!-- End of Profile Section -->
-  
+
     <!-- Navigation Section -->
     <nav class="flex-column flex-grow-1 w-100 ps-0">
-      <ul class="nav">
-        <!-- Home Menu Item -->
-        <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
-          <a href="{{ '/' | relative_url }}" class="nav-link">
-            <i class="fa-fw fas fa-home"></i>
-            <span>Home</span>
-          </a>
-        </li>
-  
-        <!-- Dynamically Render Menu Items from navigation.yml -->
-        {% for item in site.data.navigation %}
-          <li class="nav-item menu-item">
-            <!-- Parent Menu Item -->
-            <a href="{{ item.url | relative_url }}" class="nav-link">
-              <i class="fa-fw {{ item.icon }}"></i>
-              <span>{{ item.title }}</span>
-            </a>
-  
-            <!-- Check for Children (Submenu Items) -->
-            {% if item.children %}
-              <ul class="submenu">
-                {% for child in item.children %}
-                  <li class="submenu-item">
-                    <a href="{{ child.url | relative_url }}">
-                      <i class="fa-fw {{ child.icon }}"></i>
-                      {{ child.title }}
+        <ul class="nav">
+            <!-- Home Menu Item -->
+            <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
+                <a href="{{ '/' | relative_url }}" class="nav-link">
+                    <i class="fa-fw fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+
+            <!-- Dynamic Navigation -->
+            {% for item in site.data.navigation %}
+                <li class="nav-item{% if item.children %} has-children{% endif %}">
+                    <a href="{{ item.url | relative_url }}" class="nav-link">
+                        {% if item.icon %}<i class="fa-fw {{ item.icon }}"></i>{% endif %}
+                        <span>{{ item.title }}</span>
+                        {% if item.children %}<i class="fas fa-chevron-down submenu-toggle"></i>{% endif %}
                     </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
+
+                    {% if item.children %}
+                        <ul class="nav submenu">
+                            {% for child in item.children %}
+                                <li class="nav-item">
+                                    <a href="{{ child.url | relative_url }}" class="nav-link">
+                                        {% if child.icon %}<i class="fa-fw {{ child.icon }}"></i>{% endif %}
+                                        <span>{{ child.title }}</span>
+                                    </a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
     </nav>
-    <!-- End of Navigation Section -->
-  
-    <!-- Bottom Section (Optional) -->
+
+    <!-- Bottom Section -->
     <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
-      <!-- Theme Mode Toggle -->
-      {% unless site.theme_mode %}
-        <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
-          <i class="fas fa-adjust"></i>
-        </button>
-      {% endunless %}
-  
-      <!-- Social Links -->
-      {% for entry in site.data.contact %}
-        {% assign url = entry.url %}
-        <a href="{{ url }}" aria-label="{{ entry.type }}" target="_blank" rel="noopener noreferrer">
-          <i class="{{ entry.icon }}"></i>
-        </a>
-      {% endfor %}
+        {% unless site.theme_mode %}
+            <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+                <i class="fas fa-adjust"></i>
+            </button>
+        {% endunless %}
+
+        {% for entry in site.data.contact %}
+            {% assign url = entry.url %}
+            <a href="{{ url }}" aria-label="{{ entry.type }}" target="_blank" rel="noopener noreferrer">
+                <i class="{{ entry.icon }}"></i>
+            </a>
+        {% endfor %}
     </div>
-    <!-- End of Bottom Section -->
-  </aside>
-  <!-- End of Sidebar Component -->
-  
-  <!-- Sidebar CSS -->
-  <style>
-  /* Base Sidebar Styles */
-  #sidebar {
-    width: 250px;
-    background: #f8f9fa;
-    padding: 1rem;
-    border-right: 1px solid #e5e7eb;
-  }
-  
-  /* Profile Section Styling */
-  .profile-wrapper {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  
-  .site-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .site-subtitle {
-    font-size: 0.875rem;
-    color: #666;
-  }
-  
-  /* Navigation Styling */
-  .nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .nav-item {
-    margin-bottom: 0.5rem;
-  }
-  
-  .nav-link {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-    color: #333;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s;
-  }
-  
-  .nav-link:hover {
-    background: #e9ecef;
-  }
-  
-  /* Submenu Styling */
-  .submenu {
-    display: none; /* Hidden by default */
-    list-style: none;
-    margin: 0;
-    padding-left: 1rem;
-  }
-  
-  .menu-item.open > .submenu {
-    display: block; /* Show submenu when parent has the 'open' class */
-  }
-  
-  .submenu-item a {
-    font-size: 0.9rem;
-    color: #555;
-  }
-  
-  /* Bottom Section Styling */
-  .sidebar-bottom {
-    margin-top: auto;
-    justify-content: center;
-  }
-  
-  .sidebar-bottom a {
-    color: #333;
-    margin: 0 0.5rem;
-  }
-  
-  .sidebar-bottom a:hover {
-    color: #007bff;
-  }
-  </style>
-  
-  <!-- Sidebar JavaScript -->
-  <script>
-  /**
-   * JavaScript to Handle Collapsible Menus
-   */
-  document.addEventListener("DOMContentLoaded", () => {
-    // Select all parent menu items
-    const menuItems = document.querySelectorAll('.menu-item > a');
-  
-    // Add click event listeners to toggle submenus
-    menuItems.forEach(link => {
-      link.addEventListener('click', function (e) {
-        const parent = this.parentElement; // Parent menu item
-        const submenu = parent.querySelector('.submenu'); // Submenu under parent
-        if (submenu) {
-          e.preventDefault(); // Prevent navigation for parent items
-          parent.classList.toggle('open'); // Toggle 'open' class on parent
-        }
-      });
-    });
-  });
-  </script>
+</aside>
+
+<style>
+    #sidebar {
+        width: 250px;
+        background: #f8f9fa;
+        padding: 1rem;
+        border-right: 1px solid #e5e7eb;
+    }
+    
+    .profile-wrapper {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .site-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #333;
+        text-decoration: none;
+    }
+    
+    .site-subtitle {
+        font-size: 0.875rem;
+        color: #666;
+    }
+    
+    .nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .nav-item {
+        margin-bottom: 0.5rem;
+    }
+    
+    .nav-link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5rem;
+        color: #333;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
+    
+    .nav-link:hover {
+        background: #e9ecef;
+    }
+    
+    .submenu-toggle {
+        transition: transform 0.3s ease;
+        margin-left: 0.5rem;
+        font-size: 0.75rem;
+    }
+    
+    .submenu {
+        display: none;
+     /*   padding: 0.5rem 0 0.5rem 0.5rem;*/
+        list-style: none;
+        margin: 0.5rem 0;
+    }
+    
+    .submenu .nav-item {
+        margin-bottom: 0.25rem;
+    }
+    
+    .submenu .nav-link {
+        padding: 0.375rem 0.75rem;
+        font-size: 0.9rem;
+    }
+    
+    .nav-item.has-children.active .submenu {
+        display: block;
+    }
+    
+    .nav-item.has-children.active .submenu-toggle {
+        transform: rotate(180deg);
+    }
+    
+    .nav-item.has-children > .nav-link {
+        padding-right: 0.75rem;
+    }
+    
+    .nav-item.has-children > .nav-link:focus + .submenu,
+    .nav-item.has-children > .nav-link:active + .submenu,
+    .nav-item.has-children:hover .submenu {
+        display: block;
+    }
+    
+    .nav-item.has-children:hover .submenu-toggle {
+        transform: rotate(180deg);
+    }
+    
+    .sidebar-bottom {
+        margin-top: auto;
+        justify-content: center;
+    }
+    
+    .sidebar-bottom a {
+        color: #333;
+        margin: 0 0.5rem;
+    }
+    
+    .sidebar-bottom a:hover {
+        color: #007bff;
+    }
+    </style>
