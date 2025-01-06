@@ -57,8 +57,7 @@
         {% if site.data.contact.size > 0 %}
           <span class="icon-border"></span>
         {% endif %}
-      {% endunless %}
-  
+      {% endunless %} 
       {% for entry in site.data.contact %}
         {% case entry.type %}
           {% when 'github', 'twitter' %}
@@ -75,7 +74,6 @@
           {% else %}
             {% assign url = entry.url %}
         {% endcase %}
-  
         {% if url %}
           <a
             href="{{ url }}"
@@ -104,39 +102,41 @@
   </aside>
   <!-- #sidebar -->
   
-  <!-- Collapsible Menu CSS -->
-  <style>
-  /* Hide submenus by default */
-  .submenu {
-    display: none;
-    list-style: none;
-    margin: 0;
-    padding-left: 15px;
-  }
+<!-- Collapsible Menu CSS -->
+<style>
+/* Hide submenus by default */
+#sidebar .submenu {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding-left: 15px;
+}
+
+#sidebar .menu-item.open > .submenu {
+  display: block;
+}
+
+#sidebar .submenu-item a {
+  font-size: 0.9rem;
+  color: #555;
+}
+</style>
   
-  /* Show submenu when the parent menu item is active or toggled */
-  .menu-item.open > .submenu {
-    display: block;
-  }
-  
-  /* Styling for submenu items */
-  .submenu-item a {
-    font-size: 0.9rem;
-    color: #555;
-  }
-  </style>
-  
-  <!-- Collapsible Menu JavaScript -->
-  <script>
-  document.querySelectorAll('.menu-item > a').forEach(link => {
-    link.addEventListener('click', function (e) {
-      const parent = this.parentElement;
-      const submenu = parent.querySelector('.submenu');
-      if (submenu) {
-        e.preventDefault();
-        parent.classList.toggle('open');
-      }
-    });
+<!-- Collapsible Menu JavaScript -->
+<script>
+document.querySelectorAll('#sidebar .menu-item > a').forEach(link => {
+  link.replaceWith(link.cloneNode(true));
+});
+
+document.querySelectorAll('#sidebar .menu-item > a').forEach(link => {
+  link.addEventListener('click', function (e) {
+    const parent = this.parentElement;
+    const submenu = parent.querySelector('.submenu');
+    if (submenu) {
+      e.preventDefault();
+      parent.classList.toggle('open');
+    }
   });
-  </script>
+});
+</script>
   
