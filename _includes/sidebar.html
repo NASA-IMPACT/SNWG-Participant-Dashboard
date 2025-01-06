@@ -1,4 +1,5 @@
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+    <!-- Profile Section -->
     <header class="profile-wrapper">
         <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
             {%- if site.avatar != empty and site.avatar -%}
@@ -8,12 +9,15 @@
                 <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
             {%- endif -%}
         </a>
+
         <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
     </header>
 
+    <!-- Navigation Section -->
     <nav class="flex-column flex-grow-1 w-100 ps-0">
         <ul class="nav">
+            <!-- Home Menu Item -->
             <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
                 <a href="{{ '/' | relative_url }}" class="nav-link">
                     <i class="fa-fw fas fa-home"></i>
@@ -21,17 +25,20 @@
                 </a>
             </li>
 
+            <!-- Dynamic Navigation -->
             {% for item in site.data.navigation %}
-                <li class="nav-item">
+                <li class="nav-item{% if item.children %} has-children{% endif %}">
                     <a href="{{ item.url | relative_url }}" class="nav-link">
                         {% if item.icon %}<i class="fa-fw {{ item.icon }}"></i>{% endif %}
                         <span>{{ item.title }}</span>
+                        {% if item.children %}<i class="fas fa-chevron-down submenu-toggle"></i>{% endif %}
                     </a>
+
                     {% if item.children %}
-                        <ul class="nav">
+                        <ul class="nav submenu">
                             {% for child in item.children %}
                                 <li class="nav-item">
-                                    <a href="{{ child.url | relative_url }}" class="nav-link ps-4">
+                                    <a href="{{ child.url | relative_url }}" class="nav-link">
                                         {% if child.icon %}<i class="fa-fw {{ child.icon }}"></i>{% endif %}
                                         <span>{{ child.title }}</span>
                                     </a>
@@ -44,6 +51,7 @@
         </ul>
     </nav>
 
+    <!-- Bottom Section -->
     <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
         {% unless site.theme_mode %}
             <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
@@ -73,27 +81,155 @@
     margin-bottom: 1rem;
 }
 
+.site-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.site-subtitle {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin-bottom: 0.5rem;
+}
+
 .nav-link {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0.5rem;
     color: #333;
     text-decoration: none;
-    gap: 0.5rem;
+    border-radius: 5px;
+    transition: background 0.3s;
 }
 
 .nav-link:hover {
     background: #e9ecef;
-    border-radius: 5px;
+}
+
+.submenu-toggle {
+    transition: transform 0.3s ease;
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+}
+
+.submenu {
+    display: none;
+    padding-left: 1.5rem;
+    list-style: none;
+    margin: 0.5rem 0;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.submenu .nav-item {
+    margin-bottom: 0.5rem;
+    padding-left: 0.75rem;
+}
+
+.submenu .nav-link {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.nav-item.has-children.active .submenu {
+    display: block;
+}
+
+.nav-item.has-children:hover .submenu,
+.nav-item.has-children:focus-within .submenu {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Remove duplicate hover selector and consolidate submenu-toggle transformations */
+.nav-item.has-children:hover .submenu-toggle,
+.nav-item.has-children:focus-within .submenu-toggle,
+.nav-item.has-children.active .submenu-toggle {
+    transform: rotate(180deg);
 }
 
 .sidebar-bottom {
     margin-top: auto;
     justify-content: center;
-    gap: 0.5rem;
 }
 
 .sidebar-bottom a {
     color: #333;
+    margin: 0 0.5rem;
+}
+
+.sidebar-bottom a:hover {
+    color: #007bff;
 }
 </style>
+
+<!--Index Toggle-->
+<script>
+function toggleCard(button) {
+    button.classList.toggle('active');
+    const content = button.nextElementSibling;
+    content.classList.toggle('show');
+  }
+  
+  function toggleCard(header) {
+      const section = header.closest('.team-section');
+      const wasExpanded = section.classList.contains('expanded');
+      
+      // Close all other cards
+      document.querySelectorAll('.team-section').forEach(card => {
+          card.classList.remove('expanded');
+      });
+      
+      // Toggle current card if it wasn't expanded
+      if (!wasExpanded) {
+          section.classList.add('expanded');
+      }
+  }
+</script>
+
+<!--Assessment Toggle-->
+<script>
+    function toggleCard(button) {
+        button.classList.toggle('active');
+        const content = button.nextElementSibling;
+        content.classList.toggle('show');
+        
+        // Toggle chevron rotation
+        const chevron = button.querySelector('.chevron');
+        if (chevron) {
+            chevron.style.transform = button.classList.contains('active') ? 'rotate(180deg)' : '';
+        }
+    }
+    
+    // Add event listeners to close cards on outside click
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.card-header')) {
+            document.querySelectorAll('.card-header').forEach(header => {
+                header.classList.remove('active');
+                const content = header.nextElementSibling;
+                if (content) {
+                    content.classList.remove('show');
+                }
+                const chevron = header.querySelector('.chevron');
+                if (chevron) {
+                    chevron.style.transform = '';
+                }
+            });
+        }
+    });
+</script>
