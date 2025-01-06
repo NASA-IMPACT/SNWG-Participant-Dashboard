@@ -310,6 +310,26 @@ permalink: /assessment/walkthrough/
         margin-left: 1rem;
     }
 }
+
+/* FAQ section */
+.faq-section {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+details {
+    background: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: 500;
+    color: #4682B4;
+}
 </style>
 
 <!--<div class="hero-section">
