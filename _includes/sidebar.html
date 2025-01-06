@@ -1,7 +1,8 @@
-<!-- The Side Bar -->
-
+<!-- Sidebar Component -->
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+    <!-- Profile Section -->
     <header class="profile-wrapper">
+      <!-- Avatar -->
       <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
         {%- if site.avatar != empty and site.avatar -%}
           {%- capture avatar_url -%}
@@ -11,87 +12,177 @@
         {%- endif -%}
       </a>
   
+      <!-- Site Title and Tagline -->
       <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
     </header>
-    <!-- .profile-wrapper -->
+    <!-- End of Profile Section -->
   
+    <!-- Navigation Section -->
     <nav class="flex-column flex-grow-1 w-100 ps-0">
       <ul class="nav">
-        <!-- home -->
+        <!-- Home Menu Item -->
         <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
           <a href="{{ '/' | relative_url }}" class="nav-link">
             <i class="fa-fw fas fa-home"></i>
-            <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
+            <span>Home</span>
           </a>
         </li>
-        <!-- the real tabs -->
-        {% for tab in site.tabs %}
-          <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
-            <a href="{{ tab.url | relative_url }}" class="nav-link">
-              <i class="fa-fw {{ tab.icon }}"></i>
-              {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
   
-              <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
+        <!-- Dynamically Render Menu Items from navigation.yml -->
+        {% for item in site.data.navigation %}
+          <li class="nav-item menu-item">
+            <!-- Parent Menu Item -->
+            <a href="{{ item.url | relative_url }}" class="nav-link">
+              <i class="fa-fw {{ item.icon }}"></i>
+              <span>{{ item.title }}</span>
             </a>
+  
+            <!-- Check for Children (Submenu Items) -->
+            {% if item.children %}
+              <ul class="submenu">
+                {% for child in item.children %}
+                  <li class="submenu-item">
+                    <a href="{{ child.url | relative_url }}">
+                      <i class="fa-fw {{ child.icon }}"></i>
+                      {{ child.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
           </li>
-          <!-- .nav-item -->
         {% endfor %}
       </ul>
     </nav>
+    <!-- End of Navigation Section -->
   
-    <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
+    <!-- Bottom Section (Optional) -->
+    <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
+      <!-- Theme Mode Toggle -->
       {% unless site.theme_mode %}
         <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
           <i class="fas fa-adjust"></i>
         </button>
-  
-        {% if site.data.contact.size > 0 %}
-          <span class="icon-border"></span>
-        {% endif %}
       {% endunless %}
   
+      <!-- Social Links -->
       {% for entry in site.data.contact %}
-        {% case entry.type %}
-          {% when 'github', 'twitter' %}
-            {%- capture url -%}
-              https://{{ entry.type }}.com/{{ site[entry.type].username }}
-            {%- endcapture -%}
-          {% when 'email' %}
-            {% assign email = site.social.email | split: '@' %}
-            {%- capture url -%}
-              javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
-            {%- endcapture -%}
-          {% when 'rss' %}
-            {% assign url = '/feed.xml' | relative_url %}
-          {% else %}
-            {% assign url = entry.url %}
-        {% endcase %}
-  
-        {% if url %}
-          <a
-            href="{{ url }}"
-            aria-label="{{ entry.type }}"
-            {% assign link_types = '' %}
-  
-            {% unless entry.noblank %}
-              target="_blank"
-              {% assign link_types = 'noopener noreferrer' %}
-            {% endunless %}
-  
-            {% if entry.type == 'mastodon' %}
-              {% assign link_types = link_types | append: ' me' | strip %}
-            {% endif %}
-  
-            {% unless link_types == empty %}
-              rel="{{ link_types }}"
-            {% endunless %}
-          >
-            <i class="{{ entry.icon }}"></i>
-          </a>
-        {% endif %}
+        {% assign url = entry.url %}
+        <a href="{{ url }}" aria-label="{{ entry.type }}" target="_blank" rel="noopener noreferrer">
+          <i class="{{ entry.icon }}"></i>
+        </a>
       {% endfor %}
     </div>
-    <!-- .sidebar-bottom -->
+    <!-- End of Bottom Section -->
   </aside>
-  <!-- #sidebar -->
+  <!-- End of Sidebar Component -->
+  
+  <!-- Sidebar CSS -->
+  <style>
+  /* Base Sidebar Styles */
+  #sidebar {
+    width: 250px;
+    background: #f8f9fa;
+    padding: 1rem;
+    border-right: 1px solid #e5e7eb;
+  }
+  
+  /* Profile Section Styling */
+  .profile-wrapper {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .site-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .site-subtitle {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  /* Navigation Styling */
+  .nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .nav-link:hover {
+    background: #e9ecef;
+  }
+  
+  /* Submenu Styling */
+  .submenu {
+    display: none; /* Hidden by default */
+    list-style: none;
+    margin: 0;
+    padding-left: 1rem;
+  }
+  
+  .menu-item.open > .submenu {
+    display: block; /* Show submenu when parent has the 'open' class */
+  }
+  
+  .submenu-item a {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Bottom Section Styling */
+  .sidebar-bottom {
+    margin-top: auto;
+    justify-content: center;
+  }
+  
+  .sidebar-bottom a {
+    color: #333;
+    margin: 0 0.5rem;
+  }
+  
+  .sidebar-bottom a:hover {
+    color: #007bff;
+  }
+  </style>
+  
+  <!-- Sidebar JavaScript -->
+  <script>
+  /**
+   * JavaScript to Handle Collapsible Menus
+   */
+  document.addEventListener("DOMContentLoaded", () => {
+    // Select all parent menu items
+    const menuItems = document.querySelectorAll('.menu-item > a');
+  
+    // Add click event listeners to toggle submenus
+    menuItems.forEach(link => {
+      link.addEventListener('click', function (e) {
+        const parent = this.parentElement; // Parent menu item
+        const submenu = parent.querySelector('.submenu'); // Submenu under parent
+        if (submenu) {
+          e.preventDefault(); // Prevent navigation for parent items
+          parent.classList.toggle('open'); // Toggle 'open' class on parent
+        }
+      });
+    });
+  });
+  </script>
