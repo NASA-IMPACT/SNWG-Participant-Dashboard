@@ -202,7 +202,7 @@ permalink: /assessment/
             <div class="role">Assessment Tools</div>
                 <!-- Card 1: Asana -->
                 <div class="card">
-                    <div class="card-header" onclick="toggleCard(this)">
+                    <div class="card-header" onclick="toggleCardAssessment(this)">
                         <i class="fas fa-tasks"></i>
                         <div class="role">Asana</div>
                         <i class="fas fa-chevron-down chevron ml-auto"></i>
@@ -241,7 +241,7 @@ permalink: /assessment/
                 </div>
                 <!-- Card 2: RGT -->
                 <div class="card">
-                    <div class="card-header" onclick="toggleCard(this)">
+                    <div class="card-header" onclick="toggleCardAssessment(this)">
                         <i class="fas fa-file-alt"></i>
                         <div class="role">Report Generation Tool (RGT)</div>
                         <i class="fas fa-chevron-down chevron ml-auto"></i>
@@ -285,7 +285,7 @@ permalink: /assessment/
                     <br>
                     <!-- Card 1: Agency Interviews -->
                     <div class="card">
-                        <div class="card-header" onclick="toggleCard(this)">
+                        <div class="card-header" onclick="toggleCardAssessment(this)">
                             <i class="fas fa-comments"></i>
                             <div class="role">Agency Interviews</div>
                             <i class="fas fa-chevron-down chevron ml-auto"></i>
@@ -347,7 +347,7 @@ permalink: /assessment/
                     </div>
                     <!-- Card 2: Solution Development -->
                     <div class="card">
-                        <div class="card-header" onclick="toggleCard(this)">
+                        <div class="card-header" onclick="toggleCardAssessment(this)">
                             <i class="fas fa-lightbulb"></i>
                             <div class="role">Solution Development</div>
                             <i class="fas fa-chevron-down chevron ml-auto"></i>   
@@ -388,7 +388,7 @@ permalink: /assessment/
                 </div>
                 <!-- Card 3: Report Writing -->
                 <div class="card">
-                    <div class="card-header" onclick="toggleCard(this)">
+                    <div class="card-header" onclick="toggleCardAssessment(this)">
                         <i class="fas fa-file-alt"></i>
                         <div class="role">Report Writing</div>
                         <i class="fas fa-chevron-down chevron ml-auto"></i>   
@@ -436,7 +436,7 @@ permalink: /assessment/
 
 
 <script>
-function toggleCard(button) {
+function toggleCardAssessment(button) {
     button.classList.toggle('active');
     const content = button.nextElementSibling;
     content.classList.toggle('show');

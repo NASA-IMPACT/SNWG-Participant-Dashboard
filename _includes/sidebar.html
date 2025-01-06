@@ -130,7 +130,7 @@ document.querySelectorAll('#sidebar .menu-item > a').forEach(link => {
 
 document.querySelectorAll('#sidebar .menu-item > a').forEach(link => {
   link.addEventListener('click', function (e) {
-    const parent = this.parentElement;
+    const parent = this.closest('.menu-item');
     const submenu = parent.querySelector('.submenu');
     if (submenu) {
       e.preventDefault();

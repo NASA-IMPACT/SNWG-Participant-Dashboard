@@ -1,10 +1,11 @@
 ---
 title: Stakeholder Engagement   
 icon: fas fa-bullhorn
-layout: default
-order: 6
+layout: page
 permalink: /SEP/
+order: 6
 ---
+
 <div class="header-line"></div>
 
 ## The Co-Design Process
@@ -647,12 +648,7 @@ permalink: /SEP/
 
 
 <script>
-/* JavaScript for card toggling */
-/**
- * Toggles the expanded/collapsed state of a card
- * @param {HTMLElement} header - The header element that was clicked
- */
-function toggleCard(header) {
+function toggleCardSEP(header) {
     // Toggle active class on header
     header.classList.toggle('active');
     
