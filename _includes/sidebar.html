@@ -68,7 +68,7 @@
     </div>
 </aside>
 
-<style>
+<!--style>
 #sidebar {
     width: 250px;
     background: #f8f9fa;
@@ -176,60 +176,4 @@
 .sidebar-bottom a:hover {
     color: #007bff;
 }
-</style>
-
-<!--Index Toggle-->
-<script>
-function toggleCard(button) {
-    button.classList.toggle('active');
-    const content = button.nextElementSibling;
-    content.classList.toggle('show');
-  }
-  
-  function toggleCard(header) {
-      const section = header.closest('.team-section');
-      const wasExpanded = section.classList.contains('expanded');
-      
-      // Close all other cards
-      document.querySelectorAll('.team-section').forEach(card => {
-          card.classList.remove('expanded');
-      });
-      
-      // Toggle current card if it wasn't expanded
-      if (!wasExpanded) {
-          section.classList.add('expanded');
-      }
-  }
-</script>
-
-<!--Assessment Toggle-->
-<script>
-    function toggleCard(button) {
-        button.classList.toggle('active');
-        const content = button.nextElementSibling;
-        content.classList.toggle('show');
-        
-        // Toggle chevron rotation
-        const chevron = button.querySelector('.chevron');
-        if (chevron) {
-            chevron.style.transform = button.classList.contains('active') ? 'rotate(180deg)' : '';
-        }
-    }
-    
-    // Add event listeners to close cards on outside click
-    document.addEventListener('click', (e) => {
-        if (!e.target.closest('.card-header')) {
-            document.querySelectorAll('.card-header').forEach(header => {
-                header.classList.remove('active');
-                const content = header.nextElementSibling;
-                if (content) {
-                    content.classList.remove('show');
-                }
-                const chevron = header.querySelector('.chevron');
-                if (chevron) {
-                    chevron.style.transform = '';
-                }
-            });
-        }
-    });
-</script>
+</style-->
