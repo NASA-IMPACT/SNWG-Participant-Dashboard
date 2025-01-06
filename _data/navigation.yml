@@ -3,7 +3,7 @@
 #  #icon: "fas fa-home"
 
 - title: "SNWG Website Demo"
-  #url: "/demo/"
+  url: "/demo/"
   #icon: "fas fa-folder"
   children:
     - title: "Demo Home"
@@ -18,7 +18,7 @@
   #icon: "fas fa-building"
 
 - title: "Assessment"
-  #url: "/assessment/"
+  url: "/assessment/"
   children:
     - title: "Assessment Overview"
       url: "/assessment/"
@@ -32,7 +32,7 @@
   #icon: "fas fa-play-circle"
 
 - title: "Stakeholder Engagement"
-  #url: "/SEP/"
+  url: "/SEP/"
   #icon: "fas fa-flag"
   children:
     - title: "SEP Overview"
