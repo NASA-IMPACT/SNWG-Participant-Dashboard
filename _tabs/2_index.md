@@ -1773,7 +1773,7 @@ ul li {
 <!-- JavaScript for card toggling -->
 <script>
 
-/*function toggleCardIndex(button) {
+function toggleCardIndex(button) {
   button.classList.toggle('active');
   const content = button.nextElementSibling;
   content.classList.toggle('show');
@@ -1801,7 +1801,7 @@ document.addEventListener('click', (e) => {
             section.classList.remove('expanded');
         });
     }
-});*/
+});
 
 // Keyboard navigation
 document.addEventListener('keydown', function(event) {
