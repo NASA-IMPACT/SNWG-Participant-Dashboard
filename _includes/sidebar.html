@@ -157,15 +157,17 @@
     padding-right: 0.75rem;
 }
 
-.nav-item.has-children > .nav-link:focus + .submenu,
-.nav-item.has-children > .nav-link:active + .submenu,
+.nav-item.has-children:hover .submenu,
+.nav-item.has-children:focus-within .submenu,
 .nav-item.has-children:hover .submenu {
     display: block;
     opacity: 1;
     transform: translateY(0);
 }
 
-.nav-item.has-children:hover .submenu-toggle {
+.nav-item.has-children:hover .submenu-toggle,
+.nav-item.has-children:focus-within .submenu-toggle,
+.nav-item.has-children.active .submenu-toggle {
     transform: rotate(180deg);
 }
 
