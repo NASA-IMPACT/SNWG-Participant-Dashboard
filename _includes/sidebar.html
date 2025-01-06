@@ -126,9 +126,9 @@
 
 .submenu {
     display: none;
-    padding: 0.5rem 0 0.5rem 0.5rem;
+    padding-left: 1.5rem;
     list-style: none;
-    margin: 0;
+    margin: 0.5rem 0;
     opacity: 0;
     transform: translateY(-10px);
     transition: opacity 0.3s ease, transform 0.3s ease;
@@ -149,22 +149,14 @@
     display: block;
 }
 
-.nav-item.has-children.active .submenu-toggle {
-    transform: rotate(180deg);
-}
-
-.nav-item.has-children > .nav-link {
-    padding-right: 0.75rem;
-}
-
 .nav-item.has-children:hover .submenu,
-.nav-item.has-children:focus-within .submenu,
-.nav-item.has-children:hover .submenu {
+.nav-item.has-children:focus-within .submenu {
     display: block;
     opacity: 1;
     transform: translateY(0);
 }
 
+/* Remove duplicate hover selector and consolidate submenu-toggle transformations */
 .nav-item.has-children:hover .submenu-toggle,
 .nav-item.has-children:focus-within .submenu-toggle,
 .nav-item.has-children.active .submenu-toggle {
