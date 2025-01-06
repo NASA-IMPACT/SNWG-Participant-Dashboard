@@ -11,7 +11,6 @@ permalink: /assessment/walkthrough/
 
 <div class="header-line"></div>
 
-<!-- Custom styles - add to assets/css/style.scss -->
 <style>
 :root {
     --primary: #3b82f6;

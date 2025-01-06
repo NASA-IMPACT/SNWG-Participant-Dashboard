@@ -941,11 +941,11 @@ body {
     padding: 1rem 0;
     margin: 1rem 0;
     gap: 1rem;
-
+    max-width: 100%;
 }
 
 .flow-step {
-    min-width: 200px;
+    min-width: 1000px;
     padding: 1.5rem;
     background: #f8fafc;
     border-left: 4px solid #4682B4;
