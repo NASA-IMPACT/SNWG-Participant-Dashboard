@@ -1259,44 +1259,39 @@ order: 2
 
 <h2>Ready to Get Started?</h2>
 <div class="header-line"></div>
-
-
-<div class="content-section">
-    <div class="role-grid">
-        <div class="role-card">
-            <!--I'm an Assessment participant -->
-            <h3><i class="fas fa-rocket"></i> I'm an Assessment participant</h3>
-            <ul>
-                <li>
-                    <a href="{{ '/assessment/' | relative_url }}">How does the SNWG Assessment work?</a>
-                </li>
-                <li>
-                    <a href="{{ '/assessment/walkthrough/' | relative_url }}">I'm ready to dive in!</a>
-                </li>
-            </ul>
-        </div>
-        <!--I'm on a Solution project Implementation team -->
-        <div class="role-card">
-            <h3><i class="fas fa-users"></i> I'm on a Solution project Implementation team </h3>
-            <ul>
-                <li>
-                    <a href="{{ '/implementation/' | relative_url }}">How does Solution development in the SNWG MO work?</a>
-                </li>
-            </ul>
-        </div>
-        <!--I want to engage my stakeholders -->
-        <div class="role-card">
-            <h3><i class="fas fa-cogs"></i> I want to engage my Stakeholders</h3>
-            <ul>
-                <li>
-                    <a href="{{ '/sep/' | relative_url }}">How does SEP in the SNWG MO work?</a>
-                </li>
-                <li>I want to engage my Federal Agency end user stakeholders.</li>
-                <li>I want to engage my funding agency stakeholders</li>
-            </ul>
-        </div>
-    </div>
+<br>
+<div class="faq-section">
+    <details>
+        <summary><i class="fas fa-rocket"></i> I'm an Assessment participant</summary>
+        <ul>
+            <li>
+                <a href="{{ '/assessment/' | relative_url }}">How does the SNWG Assessment work?</a>
+            </li>
+            <li>
+                <a href="{{ '/assessment/walkthrough/' | relative_url }}">I'm ready to dive in!</a>
+            </li>
+        </ul>
+    </details>
+    <details>
+        <summary><i class="fas fa-users"></i> I'm on a Solution project Implementation team</summary>
+        <ul>
+            <li>
+                <a href="{{ '/implementation/' | relative_url }}">How does Solution development in the SNWG MO work?</a>
+            </li>
+        </ul>
+    </details>
+    <details>
+        <summary><i class="fas fa-cogs"></i> I want to engage my Stakeholders</summary>
+        <ul>
+            <li>
+                <a href="{{ '/sep/' | relative_url }}">How does SEP in the SNWG MO work?</a>
+            </li>
+            <li>I want to engage my Federal Agency end user stakeholders.</li>
+            <li>I want to engage my funding agency stakeholders</li>
+        </ul>
+    </details>
 </div>
+
 
 <!-- Base Styles,Core layout and typography -->
 <style>
