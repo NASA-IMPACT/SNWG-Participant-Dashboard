@@ -1,9 +1,9 @@
 ---
 title: Impact Stories
 icon: fas fa-book
-url: /impact/
+permalink: /impact/
 layout: page
-order: 8
+order: 9
 ---
 
 <div class="header-line"></div>
@@ -13,7 +13,6 @@ order: 8
     <p>Discover how SNWG solutions are enabling better Earth science decisions and improving lives across federal agencies.</p>
 </div>
 
-<!-- Featured Stories Section -->
 <!-- Featured Impact Stories -->
 <div class="impact-stories">
     <div class="carousel-container">
