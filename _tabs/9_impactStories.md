@@ -1,6 +1,7 @@
 ---
 title: Impact Stories
 icon: fas fa-book
+url: /impact/
 layout: page
 order: 8
 ---

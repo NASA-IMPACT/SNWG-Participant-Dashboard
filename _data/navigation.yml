@@ -1,0 +1,54 @@
+#- title: "Home"
+#  url: "/"
+#  #icon: "fas fa-home"
+
+- title: "SNWG Website Demo"
+  #url: "/demo/"
+  #icon: "fas fa-folder"
+  children:
+    - title: "Demo Home"
+      url: "/demo/"
+      icon: "fas fa-laptop"
+    - title: "Training Paths"
+      url: "/training-paths/"
+      icon: "fas fa-graduation-cap"
+
+- title: "Management Office"
+  url: "/"
+  #icon: "fas fa-building"
+
+- title: "Assessment"
+  #url: "/assessment/"
+  children:
+    - title: "Assessment Overview"
+      url: "/assessment/"
+      icon: "fas fa-search"
+    - title: "Your Assessment Journey"
+      url: "/assessment/walkthrough/"
+      icon: "fas fa-route"
+
+- title: "Implementation"
+  url: "/implementation/"
+  #icon: "fas fa-play-circle"
+
+- title: "Stakeholder Engagement"
+  #url: "/SEP/"
+  #icon: "fas fa-flag"
+  children:
+    - title: "SEP Overview"
+      url: "/SEP/"
+      icon: "fas fa-search"
+    - title: "Your SEP Journey"
+      url: "/sep/walkthrough/"
+      icon: "fas fa-route"
+
+- title: "Updates"
+  url: "/newsletter-and-updates/"
+  #icon: "fas fa-envelope"
+  children:
+    - title: "Newsletter"
+      url: "/posts/"
+      icon: "fas fa-envelope"
+    - title: "Impact Stories"
+      url: "/impact/"
+      icon: "fas fa-leaf"

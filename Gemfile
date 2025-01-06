@@ -5,6 +5,9 @@ source "https://rubygems.org"
 gem "jekyll-theme-chirpy", "~> 7.0"
 gem 'jekyll-compose', group: [:jekyll_plugins]
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem 'jekyll-sitemap'
+gem 'jekyll-data'
+gem 'jekyll-feed'
 
 # Add csv and base64 gems if Ruby version is 3.3 or higher
 if Gem::Version.new(RUBY_VERSION) >= Gem::Version.new('3.3')

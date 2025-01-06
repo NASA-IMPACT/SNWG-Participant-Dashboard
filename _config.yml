@@ -90,7 +90,7 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|light]
+theme_mode: [light]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -149,8 +149,8 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 0
-paginate_path: /page:num/
+# paginate: 0
+# paginate_path: /page:num/
 
 # The base URL of your site
 baseurl: "/SNWG-Navigator"
@@ -179,7 +179,7 @@ defaults:
       path: "" # An empty string here means all files in the project
       type: posts
     values:
-      layout: post
+      layout: default
       comments: # Enable comments in posts.
       toc: true # Display TOC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
@@ -211,6 +211,14 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
+
+plugins:
+  - jekyll-data # Ensure Jekyll processes _data files
+
+# Sidebar Settings
+sidebar:
+  enabled: true
+  data_source: navigation.yml # Points to the file in _data
 
 exclude:
   - "*.gem"
