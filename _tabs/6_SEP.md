@@ -29,10 +29,10 @@ permalink: /SEP/
         </div>
     </div>
     <div class="team-card leadership">
-            <div class="role">
-                <h4>Measurement</h4>
-                <p>Track and evaluate solution impact metrics</p>
-            </div>
+        <div class="role">
+            <h4>Measurement</h4>
+            <p>Track and evaluate solution impact metrics</p>
+        </div>
     </div>
 </div>
 
@@ -941,6 +941,7 @@ body {
     padding: 1rem 0;
     margin: 1rem 0;
     gap: 1rem;
+
 }
 
 .flow-step {
@@ -1013,7 +1014,7 @@ h2, h3, h4 {
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .flow-diagram {
         flex-direction: column;
     }
