@@ -1,5 +1,6 @@
 ---
 title: Training Paths
+icon: fas fa-road
 layout: page
 permalink: /training-paths/
 order: 8

@@ -90,7 +90,7 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light]
+theme_mode: # [light|light]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -149,8 +149,8 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-#paginate: 0
-#paginate_path: /page:num/
+paginate: 0
+paginate_path: /page:num/
 
 # The base URL of your site
 baseurl: "/SNWG-Navigator"

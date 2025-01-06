@@ -1,6 +1,6 @@
 ---
 title: Your Stakeholder Engagement Journey
-hide_title: true
+icon: fas fa-flag-checkered
 layout: page
 permalink: /SEP/walkthrough/
 order: 7

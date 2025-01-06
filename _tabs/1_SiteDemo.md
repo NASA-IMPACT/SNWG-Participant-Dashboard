@@ -1,6 +1,7 @@
 ---
 title: SNWG Website Demo
 layout: page
+icon: fas fa-briefcase
 permalink: /demo/
 order: 1
 ---

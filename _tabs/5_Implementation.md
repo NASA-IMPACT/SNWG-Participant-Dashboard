@@ -1,5 +1,6 @@
 ---
 title: Implementation
+icon: fas fa-play
 layout: page
 permalink: /implementation/
 order: 5

@@ -1,5 +1,6 @@
 ---
 title: Assessment
+icon: fas fa-search
 layout: page
 order: 3
 permalink: /assessment/

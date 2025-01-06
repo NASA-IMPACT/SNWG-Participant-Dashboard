@@ -1,6 +1,7 @@
 ---
 title: Your SNWG Assessment Journey
 author: SNWG MO
+icon: fas fa-calendar
 date: 2024-12-30 12:00:00 +0600
 categories: [Guide]
 tags: [overview, getting-started]
