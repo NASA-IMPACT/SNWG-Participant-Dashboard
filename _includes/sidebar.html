@@ -1,164 +1,97 @@
+<!-- The Side Bar -->
+
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
     <header class="profile-wrapper">
       <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
         {%- if site.avatar != empty and site.avatar -%}
-          {%- capture avatar_url -%}{% include media-url.html src=site.avatar %}{%- endcapture -%}
+          {%- capture avatar_url -%}
+            {% include media-url.html src=site.avatar %}
+          {%- endcapture -%}
           <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
         {%- endif -%}
       </a>
+  
       <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
     </header>
+    <!-- .profile-wrapper -->
+  
     <nav class="flex-column flex-grow-1 w-100 ps-0">
       <ul class="nav">
-        <li class="nav-item{% if page.layout == 'home' %}{{' active'}}{% endif %}">
+        <!-- home -->
+        <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
           <a href="{{ '/' | relative_url }}" class="nav-link">
-            <i class="fa-fw fas fa-home"></i><span>Home</span>
+            <i class="fa-fw fas fa-home"></i>
+            <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
           </a>
         </li>
-        {% for item in site.data.navigation %}
-        <li class="nav-item">
-        <a href="{{ item.url | relative_url }}" class="nav-link">
-            {% if item.icon %}<i class="fa-fw {{ item.icon }}"></i>{% endif %}
-            <span>{{ item.title }}</span>
-        </a>
-        {% if item.children %}
-            <ul class="nav">
-            {% for child in item.children %}
-                <li class="nav-item">
-                <a href="{{ child.url | relative_url }}" class="nav-link ps-4">
-                    {% if child.icon %}<i class="fa-fw {{ child.icon }}"></i>{% endif %}
-                    <span>{{ child.title }}</span>
-                </a>
-                </li>
-            {% endfor %}
-            </ul>
+        <!-- the real tabs -->
+        {% for tab in site.tabs %}
+          <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
+            <a href="{{ tab.url | relative_url }}" class="nav-link">
+              <i class="fa-fw {{ tab.icon }}"></i>
+              {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
+  
+              <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
+            </a>
+          </li>
+          <!-- .nav-item -->
+        {% endfor %}
+      </ul>
+    </nav>
+  
+    <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
+      {% unless site.theme_mode %}
+        <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+          <i class="fas fa-adjust"></i>
+        </button>
+  
+        {% if site.data.contact.size > 0 %}
+          <span class="icon-border"></span>
         {% endif %}
-        </li>
-    {% endfor %}
-    </ul>
-</nav>
-<div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
-    {% unless site.theme_mode %}
-    <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
-        <i class="fas fa-adjust"></i>
-    </button>
-    {% endunless %}
-    {% for entry in site.data.contact %}
-    {% assign url = entry.url %}
-    <a href="{{ url }}" aria-label="{{ entry.type }}" target="_blank" rel="noopener noreferrer">
-        <i class="{{ entry.icon }}"></i>
-    </a>
-    {% endfor %}
-</div>
-</aside>
-
-<!--style>
-#sidebar {
-    width: 250px;
-    background: #f8f9fa;
-    padding: 1rem;
-    border-right: 1px solid #e5e7eb;
-}
-
-.profile-wrapper {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.site-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-}
-
-.site-subtitle {
-    font-size: 0.875rem;
-    color: #666;
-}
-
-.nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-item {
-    margin-bottom: 0.5rem;
-}
-
-.nav-link {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem;
-    color: #333;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-.nav-link:hover {
-    background: #e9ecef;
-}
-
-.submenu-toggle {
-    transition: transform 0.3s ease;
-    margin-left: 0.5rem;
-    font-size: 0.75rem;
-}
-
-.submenu {
-    display: none;
-    padding-left: 1.5rem;
-    list-style: none;
-    margin: 0.5rem 0;
-    opacity: 0;
-    transform: translateY(-10px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.submenu .nav-item {
-    margin-bottom: 0.5rem;
-    padding-left: 0.75rem;
-}
-
-.submenu .nav-link {
-    padding: 0.5rem 0.75rem;
-    font-size: 0.9rem;
-    transition: all 0.2s ease;
-}
-
-.nav-item.has-children.active .submenu {
-    display: block;
-}
-
-.nav-item.has-children:hover .submenu,
-.nav-item.has-children:focus-within .submenu {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* Remove duplicate hover selector and consolidate submenu-toggle transformations */
-.nav-item.has-children:hover .submenu-toggle,
-.nav-item.has-children:focus-within .submenu-toggle,
-.nav-item.has-children.active .submenu-toggle {
-    transform: rotate(180deg);
-}
-
-.sidebar-bottom {
-    margin-top: auto;
-    justify-content: center;
-}
-
-.sidebar-bottom a {
-    color: #333;
-    margin: 0 0.5rem;
-}
-
-.sidebar-bottom a:hover {
-    color: #007bff;
-}
-</style-->
+      {% endunless %}
+  
+      {% for entry in site.data.contact %}
+        {% case entry.type %}
+          {% when 'github', 'twitter' %}
+            {%- capture url -%}
+              https://{{ entry.type }}.com/{{ site[entry.type].username }}
+            {%- endcapture -%}
+          {% when 'email' %}
+            {% assign email = site.social.email | split: '@' %}
+            {%- capture url -%}
+              javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
+            {%- endcapture -%}
+          {% when 'rss' %}
+            {% assign url = '/feed.xml' | relative_url %}
+          {% else %}
+            {% assign url = entry.url %}
+        {% endcase %}
+  
+        {% if url %}
+          <a
+            href="{{ url }}"
+            aria-label="{{ entry.type }}"
+            {% assign link_types = '' %}
+  
+            {% unless entry.noblank %}
+              target="_blank"
+              {% assign link_types = 'noopener noreferrer' %}
+            {% endunless %}
+  
+            {% if entry.type == 'mastodon' %}
+              {% assign link_types = link_types | append: ' me' | strip %}
+            {% endif %}
+  
+            {% unless link_types == empty %}
+              rel="{{ link_types }}"
+            {% endunless %}
+          >
+            <i class="{{ entry.icon }}"></i>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <!-- .sidebar-bottom -->
+  </aside>
+  <!-- #sidebar -->
