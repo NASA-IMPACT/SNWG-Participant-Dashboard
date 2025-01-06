@@ -13,7 +13,7 @@ sass:
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Chicago
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -218,7 +218,7 @@ plugins:
 # Sidebar Settings
 sidebar:
   enabled: true
-  data_source: navigation.yml # Points to the file in _data
+#  data_source: navigation.yml # Points to the file in _data
 
 exclude:
   - "*.gem"

@@ -1,7 +1,7 @@
 ---
 title: Management Office
 icon: fas fa-building
-layout: default  
+layout: page  
 permalink: /
 date: 2024-12-23 12:00:00 +0600  
 categories: [Guide]  
