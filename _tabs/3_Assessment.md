@@ -111,7 +111,7 @@ permalink: /assessment/
                 <br>
                 <!-- Card 1: Duration -->
                 <div class="team-card leadership">
-                    <div class="assessment-card-header">
+                    <div class="card-header">
                         <i class="far fa-calendar"></i>
                         <div class="role">Duration</div>
                     </div>
@@ -119,7 +119,7 @@ permalink: /assessment/
                 </div>
                 <!-- Card 2: Key Phases -->
                 <div class="team-card leadership">
-                    <div class="assessment-card-header">
+                    <div class="card-header">
                         <i class="fas fa-arrow-right"></i>
                         <div class="role">Key Phases</div>
                     </div>
@@ -141,7 +141,7 @@ permalink: /assessment/
                 <br>
                 <!-- Card 1: Assessment Lead -->
                 <div class="team-card leadership">
-                    <div class="assessment-card-header">
+                    <div class="card-header">
                         <i class="fas fa-user"></i>
                         <div class="role">Assessment Lead</div>
                     </div>
@@ -155,7 +155,7 @@ permalink: /assessment/
                 </div>
                 <!-- Card 2: Team Member -->
                 <div class="team-card">
-                    <div class="assessment-card-header">
+                    <div class="card-header">
                         <i class="fas fa-users"></i>
                         <div class="role">Team Member</div>
                     </div>
@@ -169,7 +169,7 @@ permalink: /assessment/
                 </div>
                 <!-- Card 3: Subject Matter Expert-->
                 <div class="team-card">
-                    <div class="assessment-card-header">
+                    <div class="card-header">
                         <i class="fas fa-star"></i>
                         <div class="role">Subject Matter Expert</div>
                     </div>
@@ -183,7 +183,7 @@ permalink: /assessment/
                 </div>
                 <!-- Card 4: Agency Representative-->
                 <div class="team-card">
-                    <div class="assessment-card-header">
+                    <div class="card-header">
                         <i class="fas fa-building"></i>
                         <div class="role">Agency Representative</div>
                     </div>
@@ -202,7 +202,7 @@ permalink: /assessment/
             <div class="role">Assessment Tools</div>
                 <!-- Card 1: Asana -->
                 <div class="card">
-                    <div class="assessment-card-header" onclick="toggleCard(this)">
+                    <div class="card-header" onclick="toggleCard(this)">
                         <i class="fas fa-tasks"></i>
                         <div class="role">Asana</div>
                         <i class="fas fa-chevron-down chevron ml-auto"></i>
@@ -241,7 +241,7 @@ permalink: /assessment/
                 </div>
                 <!-- Card 2: RGT -->
                 <div class="card">
-                    <div class="assessment-card-header" onclick="toggleCard(this)">
+                    <div class="card-header" onclick="toggleCard(this)">
                         <i class="fas fa-file-alt"></i>
                         <div class="role">Report Generation Tool (RGT)</div>
                         <i class="fas fa-chevron-down chevron ml-auto"></i>
@@ -285,7 +285,7 @@ permalink: /assessment/
                     <br>
                     <!-- Card 1: Agency Interviews -->
                     <div class="card">
-                        <div class="assessment-card-header" onclick="toggleCard(this)">
+                        <div class="card-header" onclick="toggleCard(this)">
                             <i class="fas fa-comments"></i>
                             <div class="role">Agency Interviews</div>
                             <i class="fas fa-chevron-down chevron ml-auto"></i>
@@ -347,7 +347,7 @@ permalink: /assessment/
                     </div>
                     <!-- Card 2: Solution Development -->
                     <div class="card">
-                        <div class="assessment-card-header" onclick="toggleCard(this)">
+                        <div class="card-header" onclick="toggleCard(this)">
                             <i class="fas fa-lightbulb"></i>
                             <div class="role">Solution Development</div>
                             <i class="fas fa-chevron-down chevron ml-auto"></i>   
@@ -388,7 +388,7 @@ permalink: /assessment/
                 </div>
                 <!-- Card 3: Report Writing -->
                 <div class="card">
-                    <div class="assessment-card-header" onclick="toggleCard(this)">
+                    <div class="card-header" onclick="toggleCard(this)">
                         <i class="fas fa-file-alt"></i>
                         <div class="role">Report Writing</div>
                         <i class="fas fa-chevron-down chevron ml-auto"></i>   
@@ -449,24 +449,20 @@ function toggleCard(button) {
 }
 
 // Add event listeners to close cards on outside click
-document.addEventListener('DOMContentLoaded', function() {
-    // Add event listeners to close assessment cards on outside click
-    document.addEventListener('click', (e) => {
-        if (!e.target.closest('.assessment-assessment-card-header')) { // Make selector more specific
-            document.querySelectorAll('.assessment-assessment-card-header').forEach(header => {
-                header.classList.remove('active');
-                const content = header.nextElementSibling;
-                if (content) {
-                    content.classList.remove('show');
-                }
-                const chevron = header.querySelector('.chevron');
-                if (chevron) {
-                    chevron.style.transform = '';
-                }
-            });
-        }
-        e.stopPropagation(); // Prevent event from bubbling up
-    }, true);
+document.addEventListener('click', (e) => {
+    if (!e.target.closest('.card-header')) {
+        document.querySelectorAll('.card-header').forEach(header => {
+            header.classList.remove('active');
+            const content = header.nextElementSibling;
+            if (content) {
+                content.classList.remove('show');
+            }
+            const chevron = header.querySelector('.chevron');
+            if (chevron) {
+                chevron.style.transform = '';
+            }
+        });
+    }
 });
 </script>
 
@@ -570,7 +566,7 @@ document.addEventListener('DOMContentLoaded', function() {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.assessment-card-header {
+.card-header {
     display: flex;
     align-items: center;
     gap: 0.75rem;
@@ -586,7 +582,7 @@ document.addEventListener('DOMContentLoaded', function() {
     transition: transform 0.3s ease;
 }
 
-.assessment-card-header.active .chevron {
+.card-header.active .chevron {
     transform: rotate(180deg);
 }
 
@@ -596,7 +592,7 @@ document.addEventListener('DOMContentLoaded', function() {
     transition: all 0.3s ease;
 }
 
-.assessment-card-header.active + .card-content {
+.card-header.active + .card-content {
     display: block;
 }
 
@@ -988,7 +984,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.assessment-card-header {
+.card-header {
     padding: 1rem;
     cursor: pointer;
     display: flex;
@@ -999,11 +995,11 @@ body {
     transition: all 0.2s ease;
 }
 
-.assessment-card-header:hover {
+.card-header:hover {
     background: #f9fafb;
 }
 
-.assessment-card-header h3 {
+.card-header h3 {
     margin: 0;
     font-size: 1rem;
     color: #2c3e50;
@@ -1016,7 +1012,7 @@ body {
     color: #64748b;
 }
 
-.assessment-card-header.active .chevron {
+.card-header.active .chevron {
     transform: rotate(180deg);
 }
 
@@ -1127,7 +1123,7 @@ ul li {
         page-break-inside: avoid;
     }
     
-    .assessment-card-header {
+    .card-header {
         background: none;
     }
     
