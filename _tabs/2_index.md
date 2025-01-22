@@ -23,6 +23,7 @@ order: 2
 <!-- Main page header -->
 <div class="page-header">
     <h1>Welcome to the Satellite Needs Working Group Management Office</h1>
+    <h4><i>From Solution Assessment to Product Promotion, this is your dashboard for every step as a participant of the SNWG process.</i></h4>
 </div>
 
 <!-- Page Section 1: Who are We? -->

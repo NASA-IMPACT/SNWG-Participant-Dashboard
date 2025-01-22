@@ -18,7 +18,7 @@ timezone: America/Chicago
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: The SEP Navigator # the main title
+title: The SNWG Participant Dashboard # the main title
 
 tagline: Assisting SNWG Solution teams through throughout the SNWG lifecycle  # it will display as the sub-title
 
@@ -153,7 +153,7 @@ pwa:
 # paginate_path: /page:num/
 
 # The base URL of your site
-baseurl: "/SNWG-Participant-Dashboard"
+baseurl: "/SNWG-Participant-Dashboard/"
 
 # ------------ The following options are not recommended to be modified ------------------
 

@@ -3,7 +3,7 @@ title: Stakeholder Engagement
 icon: fas fa-bullhorn
 layout: page
 permalink: /SEP/
-order: 6
+order: 7
 ---
 
 <div class="header-line"></div>

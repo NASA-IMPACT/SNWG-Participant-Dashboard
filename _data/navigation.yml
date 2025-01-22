@@ -29,12 +29,19 @@
       icon: "fas fa-route"
 
 - title: "Implementation"
-  url: "/implementation/"
   icon: "fas fa-play-circle"
+  children:
+    - title: "Implementation Overview"
+      url: "/implementation/"
+      icon: "fas fa-search"
+    - title: "Your Project Filebox"
+      url: "/implementation/filebox/"
+      icon: "fas fa-file"
+
 
 - title: "Stakeholder Engagement"
   #url: "/SEP/"
-  icon: "fas fa-flag"
+  icon: "fa-solid fa-flag-checkered"
   children:
     - title: "SEP Overview"
       url: "/SEP/"
@@ -42,14 +49,17 @@
     - title: "Your SEP Journey"
       url: "/SEP/walkthrough/"
       icon: "fas fa-route"
+    - title: "Stakeholder Worksheet"
+      url: "/sep/worksheet"
+      icon: "fas fa-search"
 
 - title: "Updates"
-  #url: "/newsletter-and-updates/"
-  icon: "fas fa-bullhorn"
+  url: "/newsletter-and-updates/"
+  icon: "fa-solid fa-envelopes-bulk"
   children:
     - title: "Newsletter"
       url: "/posts/"
-      icon: "fas fa-envelope"
+      icon: "fas fa-bullhorn"
     - title: "Impact Stories"
       url: "/impact/"
       icon: "fas fa-leaf"

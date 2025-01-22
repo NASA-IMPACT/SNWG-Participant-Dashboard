@@ -3,7 +3,7 @@ title: Your Stakeholder Engagement Journey
 icon: fas fa-flag-checkered
 layout: page
 permalink: /SEP/walkthrough/
-order: 7
+order: 8
 ---
 
 <!--# Welcome to SNWG Co-Design-->
