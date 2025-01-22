@@ -1,6 +1,6 @@
 ---
 title: Management Office
-hide: true
+#hide: true
 icon: fas fa-building
 layout: page  
 permalink: /
