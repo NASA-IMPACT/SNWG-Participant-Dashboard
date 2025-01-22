@@ -40,21 +40,21 @@
 
 
 - title: "Stakeholder Engagement"
-  #url: "/SEP/"
+  #url: "/sep/"
   icon: "fa-solid fa-flag-checkered"
   children:
     - title: "SEP Overview"
-      url: "/SEP/"
+      url: "/sep/"
       icon: "fas fa-search"
     - title: "Your SEP Journey"
-      url: "/SEP/walkthrough/"
+      url: "/sep/walkthrough/"
       icon: "fas fa-route"
     - title: "Stakeholder Worksheet"
       url: "/sep/worksheet"
       icon: "fas fa-search"
 
 - title: "Updates"
-  url: "/newsletter-and-updates/"
+  #url: "/newsletter-and-updates/"
   icon: "fa-solid fa-envelopes-bulk"
   children:
     - title: "Newsletter"
