@@ -1,5 +1,5 @@
 ---
-title: SNWG Website Demo
+title: SNWG Participant Dashboard Demo
 layout: page
 icon: fas fa-briefcase
 permalink: /demo/
