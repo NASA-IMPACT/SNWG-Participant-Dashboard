@@ -2,7 +2,7 @@
 title: Your Stakeholder Engagement Journey
 icon: fas fa-flag-checkered
 layout: page
-permalink: /SEP/walkthrough/
+permalink: /sep/walkthrough/
 order: 8
 ---
 

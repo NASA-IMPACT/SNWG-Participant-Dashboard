@@ -64,3 +64,6 @@
       url: "/impact/"
       icon: "fas fa-leaf"
 
+- title: "FAQ"
+  url: "/faq/"
+  icon: fa-solid fa-clipboard-question
