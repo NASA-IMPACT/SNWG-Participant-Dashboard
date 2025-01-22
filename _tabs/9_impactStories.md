@@ -27,7 +27,7 @@ order: 9
                             webkitallowfullscreen="true">
                     </iframe>
                 </div>
-                <div class="slide-caption">SNWG Navigator Impact Story</div>
+                <div class="slide-caption">SNWG Participant Dashboard Impact Story</div>
             </div>
             <!-- Slide 2 -->
             <div class="carousel-slide">
