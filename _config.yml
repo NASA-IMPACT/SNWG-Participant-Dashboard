@@ -154,7 +154,7 @@ pwa:
 # paginate_path: /page:num/
 
 # The base URL of your site
-baseurl: "/SNWG-Participant-Dashboard"
+baseurl: "/SNWG-Participant-Dashboard/"
 
 # ------------ The following options are not recommended to be modified ------------------
 
