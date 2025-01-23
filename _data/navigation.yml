@@ -1,9 +1,4 @@
-#- title: "Home"
-#  url: "/"
-#  #icon: "fas fa-home"
-
 - title: "SNWG Website Demo"
-  #url: "/demo/"
   icon: "fas fa-folder"
   children:
     - title: "Demo Home"
@@ -18,7 +13,6 @@
   icon: "fas fa-building"
 
 - title: "Assessment"
- #url: "/assessment/"
   icon: "fas fa-bullseye"
   children:
     - title: "Assessment Overview"
@@ -40,7 +34,6 @@
 
 
 - title: "Stakeholder Engagement"
-  #url: "/sep/"
   icon: "fa-solid fa-flag-checkered"
   children:
     - title: "SEP Overview"
@@ -50,11 +43,10 @@
       url: "/sep/walkthrough/"
       icon: "fas fa-route"
     - title: "Stakeholder Worksheet"
-      url: "/sep/worksheet"
+      url: "/sep/worksheet/"
       icon: "fas fa-search"
 
 - title: "Updates"
-  #url: "/newsletter-and-updates/"
   icon: "fa-solid fa-envelopes-bulk"
   children:
     - title: "Newsletter"
