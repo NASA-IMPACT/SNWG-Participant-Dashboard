@@ -3,7 +3,7 @@ title: Impact Stories
 icon: fas fa-book
 permalink: /impact/
 layout: page
-order: 9
+order: 10
 ---
 
 <div class="header-line"></div>

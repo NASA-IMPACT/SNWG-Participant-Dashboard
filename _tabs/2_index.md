@@ -52,7 +52,7 @@ order: 2
         <div class="tabs-content">
             <!-- Tab 1: Implementation Personnel -->
             <div class="tab">
-                <div class="team-section">
+                <!--<div class="team-section">-->
                     <div class="team-grid">
                         <!-- Card 1 -->
                         <div class="team-card leadership">
@@ -90,11 +90,11 @@ order: 2
                             <div class="name"><a href="mailto:cherrelle.j.tucker@nasa.gov">Cherrelle Tucker</a></div>
                         </div>
                     </div>
-                </div>
+                <!--</div>-->
             </div>
             <!-- Tab 2: Assessment -->
             <div class="tab">
-                <div class="team-section">
+                <!--<div class="team-section">-->
                     <div class="team-grid">
                         <div class="team-card leadership">
                             <div class="role">Assessment Lead</div>
@@ -113,11 +113,11 @@ order: 2
                             <div class="name"><a href="mailto:tv0015@uah.edu">Trang Vo</a></div>
                         </div>
                     </div>
-                </div>
+                <!--</div>-->
             </div>
             <!-- Tab 3: Stakeholder Engagement -->
             <div class="tab">
-                <div class="team-section">
+                <!--<div class="team-section">-->
                     <div class="team-grid">
                     <!-- No Card Title -->
                         <div class="team-card leadership">
@@ -141,24 +141,29 @@ order: 2
                             <div class="name"><a href="mailto:cherrelle.j.tucker@nasa.gov">Cherrelle Tucker</a></div>
                         </div>
                     </div>
-                </div>
+                <!--</div>-->
             </div>
             <!-- Tab 4: SNWG & the MO -->
             <div class="tab">
-                <div class="team-section">
                     <p>The Satellite Needs Working Group (SNWG) conducts a survey of U.S. federal agencies every two years to identify what Earth observation data they need to fulfill their mission. The SNWG is part of the U.S. Group on Earth Observations (USGEO) and includes members from various federal agencies that use Earth observation data. Survey responses are assessed by NASA, NOAA, and USGS to identify agency needs, potential data gaps in the current NASA program of record, and relevant datasets. Solutions that meet these identified needs are formulated, and those that are estimated to significantly increase satisfaction of multiple U.S. agencies are selected by the Executive Branch for funding and implementation.</p>
                     <br>
-                    <h4>The SNWG Management Office facilitates the <i>Assessment</i> of SNWG Agency Needs</h4>
+                <div class="team-section">
+                    <h4>Facilitates the <i>Assessment</i> of SNWG Agency Needs</h4>
                     <div class="header-line"></div>
                     <br>
                     <p>“NASA leads a tri-agency assessment (with USGS and NOAA) of federal agency needs submitted through the SNWG survey. The assessment is carried out by more than 100 scientists with expertise on the geophysical observables requested by the agencies. The SNWG Management Office coordinates the assessment process, develops tools used by the assessment participants, schedules and supports follow-up discussions with each participating agency, performs statistical analysis of the survey responses, coordinates the evaluation of solutions proposed to meet agency needs, and drafts NASA’s presentation of selected solutions to the Executive Branch. After each assessment cycle, the SNWG Management Office conducts an extensive lessons learned retrospective, collecting feedback from participants that is used to inform tool refinement and process updates that streamline and support the next assessment cycle.”</p>
-                    <br>
-                    <h4>The SNWG Management Office oversees the <i>Implementation</i> and Operations of SNWG Solutions</h4>
+                </div>
+                <div class="team-section">
+                    <h4>Oversees the <i>Implementation</i> and Operations of SNWG Solutions</h4>
                     <div class="header-line"></div>
+                    <br>
                     <p>At the heart of the SNWG process is the implementation and delivery of solutions that address the needs of federal agencies. The SNWG Management Office coordinates the status of all SNWG-funded projects at NASA, manages the implementation of solutions from each cycle, and oversees the lifecycle of each science project through operational product release.The SNWG Management office also engages end-users through the SNWG SEP. The ESDS open-source science policy is an important part of the development and implementation effort for all projects managed by the SNWG Management Office. This process will continue for all solutions arising from needs expressed in future SNWG cycles and will follow NASA’s open-source science policies permitting broad access to information on NASA-developed SNWG solutions”</p>
                     <br>
-                    <h4>The SNWG Management Office provides Training and Community <i>Engagement</i> Around SNWG Solutions</h4>
+                </div>
+                <div class="team-section">
+                    <h4>Provides Training and Community <i>Engagement</i> Around SNWG Solutions</h4>
                     <div class="header-line"></div>
+                    <br>
                     <p>“The SNWG SEP is the key to providing training, outreach, and community engagement around NASA SNWG data products and systems through collaboration across NASA’s Earth Science Division. The program includes polling stakeholders about their training and data needs, connecting with capacity-building efforts within NASA, funding and organizing training activities such as workshops, and bringing together communities of federal and other users around funded solutions. Collaborations among federal users, the scientific community, academia, industry, and NASA’s Earth Science Division empowers these communities to integrate SNWG solutions into their research and decision-making processes.” - The SNWG MO on EarthData (ESDS-IMPACT)</p>
                 </div>
             </div>
@@ -1617,9 +1622,8 @@ order: 2
     <details>
         <summary><i class="fas fa-users"></i> I'm on a Solution project Implementation team</summary>
         <ul>
-            <li>
-                <a href="{{ '/implementation/' | relative_url }}">How does Solution development in the SNWG MO work?</a>
-            </li>
+            <li><a href="{{ '/implementation/' | relative_url }}">How does Solution development in the SNWG MO work?</a></li>
+            <li><a href="{{ '/implementation/filebox' | relative_url }}">Where is my Project Dashboard?</a></li>
         </ul>
     </details>
     <details>

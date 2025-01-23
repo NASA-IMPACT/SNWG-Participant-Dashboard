@@ -5,6 +5,7 @@ layout: page
 permalink: /implementation/
 order: 5
 ---
+
 <div class="header-line"></div>
 <br>
 This is where SNWG solutions move from planning to reality. This critical stage involves coordinated effort between implementation teams, stakeholders, and the Management Office to ensure successful delivery of solutions that meet agency needs.

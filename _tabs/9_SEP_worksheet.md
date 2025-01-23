@@ -1,7 +1,7 @@
 ---
 title: Stakeholder Worksheet
 layout: page
-permalink: /sep/worksheet
+permalink: /sep/worksheet/
 order: 9
 ---
 

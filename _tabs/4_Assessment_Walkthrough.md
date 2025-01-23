@@ -1001,7 +1001,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
     <h3>Need Help?</h3>
     <div class="header-line" style="margin: 0 auto;"></div>
     <p>The SNWG Management Office is here to support you throughout the assessment process.</p>
-    <p>Contact us at: <a href="mailto:info@snwg-impact.net">info@snwg-impact.net</a></p>
+    <p>Contact our Project Coordinator at: <a href="mailto:cherrelle.j.tucker@nasa.gov">cherrelle.j.tucker@nasa.gov</a></p>
 </div>
 
 <script>
