@@ -4,6 +4,9 @@ icon: fas fa-flag-checkered
 layout: page
 permalink: /sep/walkthrough/
 order: 8
+date: 2024-12-23 12:00:00 +0600  
+categories: [Guide]  
+tags: [overview]  
 ---
 
 <!--# Welcome to SNWG Co-Design-->

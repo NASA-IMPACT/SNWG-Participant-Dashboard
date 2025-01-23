@@ -4,6 +4,9 @@ layout: page
 icon: fas fa-briefcase
 permalink: /demo/
 order: 1
+date: 2024-12-23 12:00:00 +0600  
+categories: [Guide]  
+tags: [overview]  
 ---
 
 <div class="header-line"></div>
