@@ -35,29 +35,29 @@ permalink: /implementation/filebox/
       <div class="project-card">
         <div class="project-header">
           <h3>ADMG</h3>
-          <div class="thematic-flags">
+          <!--<div class="thematic-flags">
+            <span class="flag" data-tooltip="Earth Surface & Interior">
+              <i class="fas fa-mountain"></i>
+            </span>
+            <span class="flag" data-tooltip="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>
+            <span class="flag" data-tooltip="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-tooltip="Weather & Atmospheric Dynamics">
+              <i class="fas fa-cloud"></i>
+            </span>
+            <span class="flag" data-tooltip="Ocean & Cryosphere">
+              <i class="fas fa-water"></i>
+            </span>
             <span class="flag" data-tooltip="Atmospheric Composition">
               <i class="fas fa-wind"></i>
             </span>
             <span class="flag" data-tooltip="Carbon Cycle & Ecosystems">
               <i class="fas fa-leaf"></i>
             </span>
-            <span class="flag" data-tooltip="Earth Surface & Interior">
-              <i class="fas fa-mountain"></i>
-            </span>
-            <span class="flag" data-tooltip="Land Cover/Land Use Change">
-              <i class="fas fa-tree"></i>
-            </span>
-            <span class="flag" data-tooltip="Ocean & Cryosphere">
-              <i class="fas fa-water"></i>
-            </span>
-            <span class="flag" data-tooltip="Water & Energy Cycle">
-              <i class="fas fa-tint"></i>
-            </span>
-            <span class="flag" data-tooltip="Weather & Atmospheric Dynamics">
-              <i class="fas fa-cloud"></i>
-            </span>
-          </div>
+          </div> -->
         </div>
         <p>Airborne Data Management Group</p>
         <p class="project-description">Stewardship and access to NASA airborne and field campaign data</p>
@@ -65,25 +65,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- CSDA -->
       <div class="project-card">
         <div class="project-header">
           <h3>CSDA</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Disaster Response">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-            <span class="flag" data-tooltip="Earth Surface & Interior">
-              <i class="fas fa-mountain"></i>
-            </span>
-            <span class="flag" data-tooltip="Land Cover/Land Use Change">
-              <i class="fas fa-tree"></i>
-            </span>
-            <span class="flag" data-tooltip="Water & Energy Cycle">
-              <i class="fas fa-tint"></i>
-            </span>
-          </div>
         </div>
         <p>Commercial Smallsat Data Acquisition</p>
         <p class="project-description">Commercial imagery/data licensing and distribution</p>
@@ -91,40 +76,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- DCD -->
       <div class="project-card">
         <div class="project-header">
           <h3>DCD</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Atmospheric Composition">
-              <i class="fas fa-wind"></i>
-            </span>
-            <span class="flag" data-tooltip="Carbon Cycle & Ecosystems">
-              <i class="fas fa-leaf"></i>
-            </span>
-            <span class="flag" data-tooltip="Disaster Response">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-            <span class="flag" data-tooltip="Earth Surface & Interior">
-              <i class="fas fa-mountain"></i>
-            </span>
-            <span class="flag" data-tooltip="Infrastructure Products">
-              <i class="fas fa-building"></i>
-            </span>
-            <span class="flag" data-tooltip="Land Cover/Land Use Change">
-              <i class="fas fa-tree"></i>
-            </span>
-            <span class="flag" data-tooltip="Ocean & Cryosphere">
-              <i class="fas fa-water"></i>
-            </span>
-            <span class="flag" data-tooltip="Water & Energy Cycle">
-              <i class="fas fa-tint"></i>
-            </span>
-            <span class="flag" data-tooltip="Weather & Atmospheric Dynamics">
-              <i class="fas fa-cloud"></i>
-            </span>
-          </div>
         </div>
         <p>Data Curation for Discovery</p>
         <p class="project-description">Supporting agencies in accessing and utilizing NASA Earth observation data</p>
@@ -132,28 +87,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- HLS -->
       <div class="project-card">
         <div class="project-header">
           <h3>HLS</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Carbon Cycle & Ecosystems">
-              <i class="fas fa-leaf"></i>
-            </span>
-            <span class="flag" data-tooltip="Disaster Response">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-            <span class="flag" data-tooltip="Earth Surface & Interior">
-              <i class="fas fa-mountain"></i>
-            </span>
-            <span class="flag" data-tooltip="Land Cover/Land Use Change">
-              <i class="fas fa-tree"></i>
-            </span>
-            <span class="flag" data-tooltip="Water & Energy Cycle">
-              <i class="fas fa-tint"></i>
-            </span>
-          </div>
         </div>
         <p>Harmonized Landsat-Sentinel-2</p>
         <p class="project-description">Harmonized surface reflectance data from Landsat and Sentinel-2</p>
@@ -161,37 +98,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- NISAR High-Res -->
       <div class="project-card">
         <div class="project-header">
           <h3>NISAR High-Res</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Carbon Cycle & Ecosystems">
-              <i class="fas fa-leaf"></i>
-            </span>
-            <span class="flag" data-tooltip="Disaster Response">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-            <span class="flag" data-tooltip="Earth Surface & Interior">
-              <i class="fas fa-mountain"></i>
-            </span>
-            <span class="flag" data-tooltip="Infrastructure Products">
-              <i class="fas fa-building"></i>
-            </span>
-            <span class="flag" data-tooltip="Land Cover/Land Use Change">
-              <i class="fas fa-tree"></i>
-            </span>
-            <span class="flag" data-tooltip="Ocean & Cryosphere">
-              <i class="fas fa-water"></i>
-            </span>
-            <span class="flag" data-tooltip="Water & Energy Cycle">
-              <i class="fas fa-tint"></i>
-            </span>
-            <span class="flag" data-tooltip="Weather & Atmospheric Dynamics">
-              <i class="fas fa-cloud"></i>
-            </span>
-          </div>
         </div>
         <p>NISAR High Resolution Products</p>
         <p class="project-description">High-resolution radar imaging products</p>
@@ -200,18 +110,12 @@ permalink: /implementation/filebox/
         </div>
       </div>
     </div>
-
     <!-- Cycle 2 Projects -->
     <div class="project-grid">
       <!-- AC-GEOS -->
       <div class="project-card">
         <div class="project-header">
           <h3>AC-GEOS</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Atmospheric Composition">
-              <i class="fas fa-wind"></i>
-            </span>
-          </div>
         </div>
         <p>Atmospheric Composition using GEOS</p>
         <p class="project-description">Atmospheric composition reanalysis using GEOS-5</p>
@@ -219,25 +123,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- Freeboard & Ice -->
       <div class="project-card">
         <div class="project-header">
           <h3>ICESat-2</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Carbon Cycle & Ecosystems">
-              <i class="fas fa-leaf"></i>
-            </span>
-            <span class="flag" data-tooltip="Land Cover/Land Use Change">
-              <i class="fas fa-tree"></i>
-            </span>
-            <span class="flag" data-tooltip="Ocean & Cryosphere">
-              <i class="fas fa-water"></i>
-            </span>
-            <span class="flag" data-tooltip="Water & Energy Cycle">
-              <i class="fas fa-tint"></i>
-            </span>
-          </div>
         </div>
         <p>Freeboard & Ice Thickness Products</p>
         <p class="project-description">Low latency products over Great Lakes region</p>
@@ -245,22 +134,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- Internet of Animals -->
       <div class="project-card">
         <div class="project-header">
           <h3>Internet of Animals</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Carbon Cycle & Ecosystems">
-              <i class="fas fa-leaf"></i>
-            </span>
-            <span class="flag" data-tooltip="Land Cover/Land Use Change">
-              <i class="fas fa-tree"></i>
-            </span>
-            <span class="flag" data-tooltip="Water & Energy Cycle">
-              <i class="fas fa-tint"></i>
-            </span>
-          </div>
         </div>
         <p>ICARUS Animal Tracking System</p>
         <p class="project-description">Miniaturized animal tracking technology</p>
@@ -268,25 +145,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- NISAR SM -->
       <div class="project-card">
         <div class="project-header">
           <h3>NISAR SM</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Carbon Cycle & Ecosystems">
-              <i class="fas fa-leaf"></i>
-            </span>
-            <span class="flag" data-tooltip="Earth Surface & Interior">
-              <i class="fas fa-mountain"></i>
-            </span>
-            <span class="flag" data-tooltip="Land Cover/Land Use Change">
-              <i class="fas fa-tree"></i>
-            </span>
-            <span class="flag" data-tooltip="Water & Energy Cycle">
-              <i class="fas fa-tint"></i>
-            </span>
-          </div>
         </div>
         <p>NISAR Soil Moisture</p>
         <p class="project-description">High-resolution soil moisture measurements</p>
@@ -294,34 +156,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- OPERA -->
       <div class="project-card">
         <div class="project-header">
           <h3>OPERA</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Carbon Cycle & Ecosystems">
-              <i class="fas fa-leaf"></i>
-            </span>
-            <span class="flag" data-tooltip="Disaster Response">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-            <span class="flag" data-tooltip="Earth Surface & Interior">
-              <i class="fas fa-mountain"></i>
-            </span>
-            <span class="flag" data-tooltip="Infrastructure Products">
-              <i class="fas fa-building"></i>
-            </span>
-            <span class="flag" data-tooltip="Land Cover/Land Use Change">
-              <i class="fas fa-tree"></i>
-            </span>
-            <span class="flag" data-tooltip="Ocean & Cryosphere">
-              <i class="fas fa-water"></i>
-            </span>
-            <span class="flag" data-tooltip="Water & Energy Cycle">
-              <i class="fas fa-tint"></i>
-            </span>
-          </div>
         </div>
         <p>OPERA Suite (DSWX, DIST, DISP)</p>
         <p class="project-description">Comprehensive remote sensing analysis products</p>
@@ -329,16 +167,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- Radiation & Clouds -->
       <div class="project-card">
         <div class="project-header">
           <h3>Radiation & Clouds</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Weather & Atmospheric Dynamics">
-              <i class="fas fa-cloud"></i>
-            </span>
-          </div>
         </div>
         <p>SatCorps Cloud Analysis</p>
         <p class="project-description">Cloud and radiation data products</p>
@@ -346,19 +178,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- Water Quality -->
       <div class="project-card">
         <div class="project-header">
           <h3>Water Quality</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Ocean & Cryosphere">
-              <i class="fas fa-water"></i>
-            </span>
-            <span class="flag" data-tooltip="Water & Energy Cycle">
-              <i class="fas fa-tint"></i>
-            </span>
-          </div>
         </div>
         <p>Water Quality Products</p>
         <p class="project-description">Ocean and inland water quality monitoring</p>
@@ -367,18 +190,12 @@ permalink: /implementation/filebox/
         </div>
       </div>
     </div>
-
     <!-- Cycle 3 Projects -->
     <div class="project-grid">
       <!-- Air Quality -->
       <div class="project-card">
         <div class="project-header">
           <h3>Air Quality</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Atmospheric Composition">
-              <i class="fas fa-wind"></i>
-            </span>
-          </div>
         </div>
         <p>Air Quality Monitoring Network</p>
         <p class="project-description">Extended Pandora air quality sensor network</p>
@@ -386,16 +203,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- EarthDEM 2.0 -->
       <div class="project-card">
         <div class="project-header">
           <h3>EarthDEM 2.0</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Earth Surface & Interior">
-              <i class="fas fa-mountain"></i>
-            </span>
-          </div>
         </div>
         <p>Global Digital Elevation Model</p>
         <p class="project-description">High-resolution elevation data products</p>
@@ -403,16 +214,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- PBL -->
       <div class="project-card">
         <div class="project-header">
           <h3>PBL</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Weather & Atmospheric Dynamics">
-              <i class="fas fa-cloud"></i>
-            </span>
-          </div>
         </div>
         <p>Planetary Boundary Layer Products</p>
         <p class="project-description">Merged GNSS-RO/Atmospheric measurements</p>
@@ -420,16 +225,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- Sea Ice -->
       <div class="project-card">
         <div class="project-header">
           <h3>Sea Ice</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Ocean & Cryosphere">
-              <i class="fas fa-water"></i>
-            </span>
-          </div>
         </div>
         <p>Sea Ice from Sea Surface Salinity</p>
         <p class="project-description">Enhanced sea surface salinity products</p>
@@ -437,19 +236,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- TEMPO NRT -->
       <div class="project-card">
         <div class="project-header">
           <h3>TEMPO NRT</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Atmospheric Composition">
-              <i class="fas fa-wind"></i>
-            </span>
-            <span class="flag" data-tooltip="Disaster Response">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-          </div>
         </div>
         <p>TEMPO/GOES Near Real-Time Products</p>
         <p class="project-description">Near real-time atmospheric measurements</p>
@@ -457,22 +247,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- HLS-VI -->
       <div class="project-card">
         <div class="project-header">
           <h3>HLS-VI</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Carbon Cycle & Ecosystems">
-              <i class="fas fa-leaf"></i>
-            </span>
-            <span class="flag" data-tooltip="Earth Surface & Interior">
-              <i class="fas fa-mountain"></i>
-            </span>
-            <span class="flag" data-tooltip="Land Cover/Land Use Change">
-              <i class="fas fa-tree"></i>
-            </span>
-          </div>
         </div>
         <p>Global HLS-Derived Vegetation Indices</p>
         <p class="project-description">Vegetation index products from HLS data</p>
@@ -481,7 +259,6 @@ permalink: /implementation/filebox/
         </div>
       </div>
     </div>
-
     <!-- Cycle 4 Projects -->
     <div class="project-grid">
       <!-- ARSET -->
@@ -500,22 +277,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- GABAN -->
       <div class="project-card">
         <div class="project-header">
           <h3>GABAN</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Carbon Cycle & Ecosystems">
-              <i class="fas fa-leaf"></i>
-            </span>
-            <span class="flag" data-tooltip="Disaster Response">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-            <span class="flag" data-tooltip="Water & Energy Cycle">
-              <i class="fas fa-tint"></i>
-            </span>
-          </div>
         </div>
         <p>Global Algal Blooms Assessment Network</p>
         <p class="project-description">Algal bloom monitoring and assessment</p>
@@ -523,28 +288,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- HLS-LL -->
       <div class="project-card">
         <div class="project-header">
           <h3>HLS-LL</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Carbon Cycle & Ecosystems">
-              <i class="fas fa-leaf"></i>
-            </span>
-            <span class="flag" data-tooltip="Disaster Response">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-            <span class="flag" data-tooltip="Earth Surface & Interior">
-              <i class="fas fa-mountain"></i>
-            </span>
-            <span class="flag" data-tooltip="Land Cover/Land Use Change">
-              <i class="fas fa-tree"></i>
-            </span>
-            <span class="flag" data-tooltip="Water & Energy Cycle">
-              <i class="fas fa-tint"></i>
-            </span>
-          </div>
         </div>
         <p>HLS Low Latency</p>
         <p class="project-description">Reduced latency HLS data products</p>
@@ -552,22 +299,10 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- Ocean Winds -->
       <div class="project-card">
         <div class="project-header">
           <h3>Ocean Winds</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Disaster Response">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-            <span class="flag" data-tooltip="Ocean & Cryosphere">
-              <i class="fas fa-water"></i>
-            </span>
-            <span class="flag" data-tooltip="Weather & Atmospheric Dynamics">
-              <i class="fas fa-cloud"></i>
-            </span>
-          </div>
         </div>
         <p>Ocean Surface Winds</p>
         <p class="project-description">Multi-sensor ocean wind measurements</p>
@@ -575,60 +310,29 @@ permalink: /implementation/filebox/
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
       </div>
-
       <!-- TEMPO Enhanced -->
       <div class="project-card">
         <div class="project-header">
           <h3>TEMPO Enhanced</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Atmospheric Composition">
-              <i class="fas fa-wind"></i>
-            </span>
-            <span class="flag" data-tooltip="Disaster Response">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-          </div>
         </div>
         <p>TEMPO Enhanced Products</p>
         <p class="project-description">Extended TEMPO atmospheric measurements</p>
         <div class="project-links">
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
-      </div>
-
+      </div> <!-- Closing project-card div -->
       <!-- VLM -->
       <div class="project-card">
         <div class="project-header">
           <h3>VLM</h3>
-          <div class="thematic-flags">
-            <span class="flag" data-tooltip="Carbon Cycle & Ecosystems">
-              <i class="fas fa-leaf"></i>
-            </span>
-            <span class="flag" data-tooltip="Disaster Response">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-            <span class="flag" data-tooltip="Earth Surface & Interior">
-              <i class="fas fa-mountain"></i>
-            </span>
-            <span class="flag" data-tooltip="Land Cover/Land Use Change">
-              <i class="fas fa-tree"></i>
-            </span>
-            <span class="flag" data-tooltip="Ocean & Cryosphere">
-              <i class="fas fa-water"></i>
-            </span>
-            <span class="flag" data-tooltip="Water & Energy Cycle">
-              <i class="fas fa-tint"></i>
-            </span>
-          </div>
         </div>
         <p>Vertical Land Motion</p>
         <p class="project-description">Land surface elevation change monitoring</p>
         <div class="project-links">
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
-      </div>
-    </div>
-
+      </div> <!-- Closing project-card div -->
+    </div> <!-- Closing project-grid div -->
     <!-- Cycle 5 Projects -->
     <div class="project-grid">
       <!-- C5 -->
@@ -644,260 +348,197 @@ permalink: /implementation/filebox/
         <div class="project-links">
           <a href="https://github.com/orgs/NASA-IMPACT/projects/140/views/1" target="_blank" class="resource-link">Project Files</a>
         </div>
-      </div>
-    </div>
+      </div> <!-- Closing project-card div -->
+    </div> <!-- Closing project-grid div -->
   </div>
-</div>
+<div>
 
 <style>
-/* Base styles */
-.header-line {
-    height: 3px;
-    background: linear-gradient(to right, #3498db, #2ecc71);
-    margin-top: 0.5rem;
-    border-radius: 2px;
-    width: 100px;
+/* Base styles */  
+.header-line {  
+    height: 3px;  
+    background: linear-gradient(to right, #3498db, #2ecc71);  
+    margin-top: 0.5rem;  
+    border-radius: 2px;  
+    width: 100px;  
 }
 
-.intro-section {
-    max-width: 800px;
-    margin: 2rem auto;
-    text-align: center;
+.intro-section {  
+    max-width: 800px;  
+    margin: 2rem auto;  
+    text-align: center;  
 }
 
-.lead-text {
-    font-size: 1.2rem;
-    color: #2c3e50;
-    line-height: 1.6;
+.lead-text {  
+    font-size: 1.2rem;  
+    color: #2c3e50;  
+    line-height: 1.6;  
 }
 
-/* Tabs */
-.cycle-tabs {
-    margin: 2rem 0;
+/* Tabs */  
+.cycle-tabs {  
+    margin: 2rem 0;  
 }
 
-.cycle-tabs input[type="radio"] {
-    display: none;
+.cycle-tabs input[type="radio"] {  
+    display: none;  
 }
 
-.tab-labels {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    border-bottom: 2px solid #e5e7eb;
-    padding-bottom: 0.5rem;
+.tab-labels {  
+    display: flex;  
+    gap: 1rem;  
+    margin-bottom: 2rem;  
+    border-bottom: 2px solid #e5e7eb;  
+    padding-bottom: 0.5rem;  
 }
 
-.tab-labels label {
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    color: #64748b;
-    transition: all 0.3s ease;
-    font-weight: 500;
+.tab-labels label {  
+    padding: 0.5rem 1rem;  
+    cursor: pointer;  
+    color: #64748b;  
+    transition: all 0.3s ease;  
+    font-weight: 500;  
 }
 
-.tab-labels label:hover {
-    color: #3498db;
+.tab-labels label:hover {  
+    color: #3498db;  
 }
 
-#cycle1:checked ~ .tab-labels label[for="cycle1"],
-#cycle2:checked ~ .tab-labels label[for="cycle2"],
-#cycle3:checked ~ .tab-labels label[for="cycle3"],
-#cycle4:checked ~ .tab-labels label[for="cycle4"],
-#cycle5:checked ~ .tab-labels label[for="cycle5"] {
-    color: #3498db;
-    border-bottom: 2px solid #3498db;
-    margin-bottom: -2px;
+#cycle1:checked ~ .tab-labels label[for="cycle1"],  
+#cycle2:checked ~ .tab-labels label[for="cycle2"],  
+#cycle3:checked ~ .tab-labels label[for="cycle3"],  
+#cycle4:checked ~ .tab-labels label[for="cycle4"],  
+#cycle5:checked ~ .tab-labels label[for="cycle5"] {  
+    color: #3498db;  
+    border-bottom: 2px solid #3498db;  
+    margin-bottom: -2px;  
 }
 
-/* Project Grid */
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
-    display: none;
-    padding: 1rem;
+/* Project Grid */  
+.project-grid {  
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  
+    gap: 1.5rem;  
+    display: none;  
+    padding: 1rem;  
 }
 
-#cycle1:checked ~ .projects-container .project-grid:nth-of-type(1),
-#cycle2:checked ~ .projects-container .project-grid:nth-of-type(2),
-#cycle3:checked ~ .projects-container .project-grid:nth-of-type(3),
-#cycle4:checked ~ .projects-container .project-grid:nth-of-type(4),
-#cycle5:checked ~ .projects-container .project-grid:nth-of-type(5) {
-    display: grid;
+#cycle1:checked ~ .projects-container .project-grid:nth-of-type(1),  
+#cycle2:checked ~ .projects-container .project-grid:nth-of-type(2),  
+#cycle3:checked ~ .projects-container .project-grid:nth-of-type(3),  
+#cycle4:checked ~ .projects-container .project-grid:nth-of-type(4),  
+#cycle5:checked ~ .projects-container .project-grid:nth-of-type(5) {  
+    display: grid;  
 }
 
-/* Project Cards */
-.project-card {
-    background: white;
-    border: 1px solid #e5e7eb;
-    border-radius: 8px;
-    padding: 1.5rem;
-    transition: all 0.3s ease;
+/* Project Cards */  
+.project-card {  
+    background: white;  
+    border: 1px solid #e5e7eb;  
+    border-radius: 8px;  
+    padding: 1.5rem;  
+    transition: all 0.3s ease;  
 }
 
-.project-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.project-card:hover {  
+    transform: translateY(-2px);  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
 }
 
-.project-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 0.5rem;
+.project-header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: flex-start;  
+    margin-bottom: 0.5rem;  
 }
 
-.project-header h3 {
-    margin: 0;
-    color: #2c3e50;
-    font-size: 1.25rem;
-    font-weight: 600;
+.project-header h3 {  
+    margin: 0;  
+    color: #2c3e50;  
+    font-size: 1.25rem;  
+    font-weight: 600;  
 }
 
-/* Thematic Flags */
-.thematic-flags {
-    display: flex;
-    gap: 2px;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    max-width: 60%;
+
+/* Description */  
+.project-description {  
+    color: #64748b;  
+    font-size: 0.875rem;  
+    margin: 0.5rem 0;  
+    flex-grow: 1;  
 }
 
-.flag {
-    position: relative;
-    padding: 4px;
-    color: white;
-    height: 24px;
-    width: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: help;
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
-    margin-left: 2px;
+/* Links */  
+.project-links {  
+    margin-top: 1rem;  
 }
 
-.flag i {
-    font-size: 10px;
+.resource-link {  
+    display: inline-block;  
+    padding: 0.5rem 1rem;  
+    background: #3498db;  
+    color: white;  
+    text-decoration: none;  
+    border-radius: 4px;  
+    font-size: 0.875rem;  
+    transition: background 0.2s ease;  
 }
 
-/* Tooltips */
-.flag[data-tooltip]:before {
-    content: attr(data-tooltip);
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 4px 8px;
-    background: rgba(0, 0, 0, 0.8);
-    color: white;
-    font-size: 12px;
-    white-space: nowrap;
-    border-radius: 4px;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.2s ease;
-    z-index: 10;
+.resource-link:hover {  
+    background: #2980b9;  
 }
 
-.flag[data-tooltip]:hover:before {
-    visibility: visible;
-    opacity: 1;
-}
-
-/* Flag Colors - ROY G BIV order */
-.flag[data-tooltip="Atmospheric Composition"] { background-color: #FF4136; }
-.flag[data-tooltip="Carbon Cycle & Ecosystems"] { background-color: #FF851B; }
-.flag[data-tooltip="Disaster Response"] { background-color: #FFDC00; color: black; }
-.flag[data-tooltip="Earth Surface & Interior"] { background-color: #2ECC40; }
-.flag[data-tooltip="Infrastructure Products"] { background-color: #39CCCC; }
-.flag[data-tooltip="Land Cover/Land Use Change"] { background-color: #0074D9; }
-.flag[data-tooltip="Ocean & Cryosphere"] { background-color: #B10DC9; }
-.flag[data-tooltip="Water & Energy Cycle"] { background-color: #85144b; }
-.flag[data-tooltip="Weather & Atmospheric Dynamics"] { background-color: #7FDBFF; color: black; }
-
-/* Description */
-.project-description {
-    color: #64748b;
-    font-size: 0.875rem;
-    margin: 0.5rem 0;
-    flex-grow: 1;
-}
-
-/* Links */
-.project-links {
-    margin-top: 1rem;
-}
-
-.resource-link {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background: #3498db;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 0.875rem;
-    transition: background 0.2s ease;
-}
-
-.resource-link:hover {
-    background: #2980b9;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .tab-labels {
-        flex-wrap: wrap;
-        gap: 0.5rem;
-    }
-    
-    .tab-labels label {
-        flex: 1;
-        text-align: center;
-        font-size: 0.875rem;
-        padding: 0.5rem;
-    }
-    
-    .project-grid {
-        grid-template-columns: 1fr;
-        padding: 0.5rem;
-    }
-    
-    .project-header h3 {
-        font-size: 1.125rem;
+/* Responsive */  
+@media (max-width: 768px) {  
+    .tab-labels {  
+        flex-wrap: wrap;  
+        gap: 0.5rem;  
+    }  
+     
+    .tab-labels label {  
+        flex: 1;  
+        text-align: center;  
+        font-size: 0.875rem;  
+        padding: 0.5rem;  
+    }  
+     
+    .project-grid {  
+        grid-template-columns: 1fr;  
+        padding: 0.5rem;  
+    }  
+     
+    .project-header h3 {  
+        font-size: 1.125rem;  
     }
 
-    .thematic-flags {
-        max-width: 50%;
+    .thematic-flags {  
+        max-width: 50%;  
     }
 
-    .flag {
-        height: 20px;
-        width: 14px;
+    .flag {  
+        height: 20px;  
+        width: 14px;  
     }
 
-    .flag i {
-        font-size: 9px;
-    }
+    .flag i {  
+        font-size: 9px;  
+    }  
 }
 
-/* Print Styles */
-@media print {
-    .project-card {
-        break-inside: avoid;
-        page-break-inside: avoid;
-    }
-    
-    .resource-link {
-        border: 1px solid #3498db;
-        color: #3498db;
-        background: none;
-    }
+/* Print Styles */  
+@media print {  
+    .project-card {  
+        break-inside: avoid;  
+        page-break-inside: avoid;  
+    }  
+     
+    .resource-link {  
+        border: 1px solid #3498db;  
+        color: #3498db;  
+        background: none;  
+    }  
 }
 </style>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     // Smooth scrolling

@@ -13,6 +13,7 @@ order: 2
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNWG MO Overview</title>
@@ -245,6 +246,29 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+                            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Earth Surface & Interior">
+                                <i class="fas fa-mountain"></i>
+                            </span>
+                            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+                                <i class="fas fa-tint"></i>
+                            </span>
+                            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+                                <i class="fas fa-tree"></i>
+                            </span>
+                            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Weather & Atmospheric Dynamics">
+                                <i class="fas fa-cloud"></i>
+                            </span>
+                            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Ocean & Cryosphere">
+                                <i class="fas fa-water"></i>
+                            </span>
+                            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Atmospheric Composition">
+                                <i class="fas fa-wind"></i>
+                            </span>
+                            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+                                <i class="fas fa-leaf"></i>
+                            </span>
+                        </div>
                     </div>
                     <!-- Card 2: DCD -->
                     <div class="team-section">
@@ -288,6 +312,35 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Earth Surface & Interior">
+              <i class="fas fa-mountain"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Disaster Response">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Infrastructure Products">
+              <i class="fas fa-building"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Weather & Atmospheric Dynamics">
+              <i class="fas fa-cloud"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Ocean & Cryosphere">
+              <i class="fas fa-water"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Atmospheric Composition">
+              <i class="fas fa-wind"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>           
+          </div>
                     </div>
                     <!-- Card 3: HLS -->
                     <div class="team-section">
@@ -325,6 +378,23 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Earth Surface & Interior">
+              <i class="fas fa-mountain"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Disaster Response">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>
+          </div>
                     </div>
                     <!-- Card 4: CSDA -->
                     <div class="team-section">
@@ -374,6 +444,29 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Earth Surface & Interior">
+              <i class="fas fa-mountain"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Weather & Atmospheric Dynamics">
+              <i class="fas fa-cloud"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Ocean & Cryosphere">
+              <i class="fas fa-water"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Atmospheric Composition">
+              <i class="fas fa-wind"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>
+          </div>
                     </div>
                 </div>
             </div>
@@ -415,6 +508,11 @@ order: 2
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                        <div class="thematic-flags">
+                            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Atmospheric Composition">
+                                <i class="fas fa-wind"></i>
+                            </span>
                         </div>
                     </div>
                     <!-- Freeboard & Ice Thickness Card -->
@@ -458,6 +556,20 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Ocean & Cryosphere">
+              <i class="fas fa-water"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>
+          </div>
                     </div>
                     <!-- Internet of Animals Card -->
                     <div class="team-section">
@@ -495,6 +607,17 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">     
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>            
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>
+          </div>
                     </div>
                     <!-- NISAR SM Card -->
                     <div class="team-section">
@@ -535,6 +658,20 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">            
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Earth Surface & Interior">
+              <i class="fas fa-mountain"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>            
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>
+          </div>
                     </div>
                     <!-- Global Surface Water Extent Card -->
                     <div class="team-section">
@@ -566,8 +703,10 @@ order: 2
                                 <i>Operational Products:</i>
                                 <ul>
                                     <li><b>(DSWx-HLS)</b> Optical Dynamic Surface Water Extent</li>
-                                    <li><b>(DSWx-S1)</b> Surface Water Extent data product for ESA Sentinel-1 A/B
-                                    <br> - <b>(RTC-S1)</b> Radiometric Terrain Corrected data product for ESA Sentinel-1 A/B - <i>Intermediate data product used as input for the DSWx-S1 product</i></li>
+                                    <li><b>(DSWx-S1)</b> Surface Water Extent data product for ESA Sentinel-1 A/B </li>
+                                    <ul>
+                                        <li><b>(RTC-S1)</b> Radiometric Terrain Corrected data product for ESA Sentinel-1 A/B <br><i>Intermediate data product used as input for the DSWx-S1 product</i></li>
+                                    </ul>
                                     <li><b>(DSWx-NI)</b> Dynamic Surface Water Extent product from NISAR L-band (Near Global)</li>
                                 </ul>
                             </div>
@@ -584,6 +723,29 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Earth Surface & Interior">
+              <i class="fas fa-mountain"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Disaster Response">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>            
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Ocean & Cryosphere">
+              <i class="fas fa-water"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Infrastructure Products">
+              <i class="fas fa-building"></i>
+            </span>
+          </div>
                     </div>
                     <!-- Global Land Surface Disturbance Card -->
                     <div class="team-section">
@@ -630,6 +792,29 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Earth Surface & Interior">
+              <i class="fas fa-mountain"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Disaster Response">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>            
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Ocean & Cryosphere">
+              <i class="fas fa-water"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Infrastructure Products">
+              <i class="fas fa-building"></i>
+            </span>
+          </div>
                     </div>
                     <!-- Land Surface Deformation Card -->
                     <div class="team-section">
@@ -655,10 +840,14 @@ order: 2
                             <div class="card-section">
                                 <i>Operational Product:</i>
                                 <ul>
-                                    <li><b>(DISP-S1)</b>Geocoded Line-of-Sight Displacement data product for ESA Sentinel-1 A/B C-band SAR 
-                                    <br> - <b>(CSLC-S1)</b> Co-Registered Single Look Complex data product for ESA Sentinel-1 A/B C-band SAR</li>
+                                    <li><b>(DISP-S1)</b>Geocoded Line-of-Sight Displacement data product for ESA Sentinel-1 A/B C-band SAR</li> 
+                                    <ul>
+                                        <li><b>(CSLC-S1)</b> Co-Registered Single Look Complex data product for ESA Sentinel-1 A/B C-band SAR</li>
+                                    </ul>
                                     <li><b>(DISP-NI)</b> Geocoded Line-of-Sight Displacement data product for NISAR L-band SAR</li>
-                                    - <b>(CSLC-NI)</b> Co-Registered Single Look Complex data product for NISAR L-band SAR
+                                    <ul>
+                                        <li><b>(CSLC-NI)</b> Co-Registered Single Look Complex data product for NISAR L-band SAR</li>
+                                    </ul>
                                 </ul>
                             </div>
                             <div class="card-section">
@@ -674,6 +863,29 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Earth Surface & Interior">
+              <i class="fas fa-mountain"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Disaster Response">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>            
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Ocean & Cryosphere">
+              <i class="fas fa-water"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Infrastructure Products">
+              <i class="fas fa-building"></i>
+            </span>
+          </div>
                     </div>
                     <!-- Radiation & Clouds Card -->
                     <div class="team-section">
@@ -720,6 +932,11 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Weather & Atmospheric Dynamics">
+              <i class="fas fa-cloud"></i>
+            </span>
+          </div>
                     </div>
                     <!-- Water Quality Products Card -->
                     <div class="team-section">
@@ -765,6 +982,14 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Ocean & Cryosphere">
+              <i class="fas fa-water"></i>
+            </span>
+          </div>
                     </div>
                 </div>
             </div>
@@ -800,6 +1025,7 @@ order: 2
                                 <i>Operational Product:</i>
                                         <li> (#) Physical sensors installed</li>
                                         <li> Integrated air quality datasets from Pandora sensors and GEOS-CF modeling available online through the existing visualization platform(s).</li>
+                                        <br>
                                 <i>Continuing Operation:</i>
                                 <p>Sensor maintenance, data assimilation, and system enhancements.; annual maintenance of data at the DAAC(?)</p>
                             </div>
@@ -810,6 +1036,11 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Atmospheric Composition">
+              <i class="fas fa-wind"></i>
+            </span>
+          </div>
                     </div>
                     <!-- EarthDEM 2.0 Card -->
                     <div class="team-section">
@@ -855,6 +1086,11 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                                  <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Earth Surface & Interior">
+              <i class="fas fa-mountain"></i>
+            </span>
+          </div>
                     </div>
                     <!-- PBL Card -->
                     <div class="team-section">
@@ -894,6 +1130,11 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                                  <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Weather & Atmospheric Dynamics">
+              <i class="fas fa-cloud"></i>
+            </span>
+          </div>
                     </div>
                     <!-- Sea Ice Card -->
                     <div class="team-section">
@@ -936,6 +1177,11 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                                  <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Ocean & Cryosphere">
+              <i class="fas fa-water"></i>
+            </span>
+          </div>
                     </div>
                     <!-- TEMPO NRT Card -->
                     <div class="team-section">
@@ -978,6 +1224,17 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                                  <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>            
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>
+          </div>
                     </div>
                     <!-- HLS-VI Card -->
                     <div class="team-section">
@@ -1020,6 +1277,23 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Earth Surface & Interior">
+              <i class="fas fa-mountain"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Disaster Response">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>
+          </div>
                     </div>
                 </div>
             </div>
@@ -1064,6 +1338,26 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Earth Surface & Interior">
+              <i class="fas fa-mountain"></i>
+            </span>           
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Disaster Response">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Ocean & Cryosphere">
+              <i class="fas fa-water"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>            
+          </div>
                     </div>
                     <!-- HLS-LL Card -->
                     <div class="team-section">
@@ -1104,6 +1398,23 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Earth Surface & Interior">
+              <i class="fas fa-mountain"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Disaster Response">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Land Cover/Land Use Change">
+              <i class="fas fa-tree"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>
+          </div>
                     </div>
                     <!-- TEMPO Enhanced Card -->
                     <div class="team-section">
@@ -1135,6 +1446,14 @@ order: 2
                                 <p>Regular updates to datasets and maintenance of the HLS production system.</p>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+             <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Disaster Response">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Atmospheric Composition">
+              <i class="fas fa-wind"></i>
+            </span>
+          </div>
                     </div>
                     <!-- Card 4: Ocean Winds -->
                     <div class="team-section">
@@ -1174,6 +1493,17 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Disaster Response">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Ocean & Cryosphere">
+              <i class="fas fa-water"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Weather & Atmospheric Dynamics">
+              <i class="fas fa-cloud"></i>
+            </span>
+          </div>
                     </div>
                     <!-- GABAN Card -->
                     <div class="team-section">
@@ -1213,6 +1543,17 @@ order: 2
                                 </ul>
                             </div>
                         </div>
+                        <div class="thematic-flags">           
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Disaster Response">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Water & Energy Cycle">
+              <i class="fas fa-tint"></i>
+            </span>
+            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Carbon Cycle & Ecosystems">
+              <i class="fas fa-leaf"></i>
+            </span>
+          </div>
                     </div>
                     <!-- ARSET Card -->
                     <div class="team-section">
@@ -1833,4 +2174,165 @@ function showTab(tabName, event) {
         event.target.classList.add('active');
     }
 }
+
+// Tooltip listener: Initialize Bootstrap tooltips
+document.addEventListener('DOMContentLoaded', function () {
+  const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+  tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+    new bootstrap.Tooltip(tooltipTriggerEl);
+  });
+});
+
+
 </script>
+
+<style>
+
+/* Thematic Flags Container */
+.thematic-flags {
+    display: flex;
+    gap: 0.25rem;
+    margin-left: auto;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 100%;
+}
+
+/* Individual Flag */
+.flag {
+    position: relative;
+    width: 20px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: help;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+    margin-left: 2px;
+}
+
+.flag i {
+    color: white;
+    font-size: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.flag[data-bs-original-title] {
+    position: relative;
+    cursor: help;
+}
+
+
+/* Tooltip content */
+.tooltip-inner {
+  background: rgba(0, 0, 0, 0.8) !important; /* Matches your background color */
+  color: #fff !important; /* Matches your text color */
+  font-size: 12px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 6px 12px;
+  white-space: nowrap;
+}
+
+/* Tooltip arrow */
+.bs-tooltip-top .tooltip-arrow {
+  border-top-color: rgba(0, 0, 0, 0.8) !important; /* Matches your arrow color */
+}
+
+/* Flag styles (unchanged from your original code) */
+.flag {
+  position: relative;
+  width: 20px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: help;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+  margin-left: 2px;
+}
+
+.flag i {
+  color: white;
+  font-size: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.flag[data-bs-original-title]::before {
+    content: attr(data-bs-original-title);
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    transform: translateX(-50%);
+    /*min-width: max-content; /* Ensures tooltip width fits content */
+    text-align: center;
+    z-index: 1000;
+}
+
+/* Tooltip arrow */
+.flag[data-bs-original-title]::after {
+    content: '';
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    border: 6px solid transparent;
+    border-top-color: rgba(0, 0, 0, 0.8);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+/* Show tooltip on hover */
+.flag[data-bs-original-title]:hover::before,
+.flag[data-bs-original-title]:hover::after {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* Flag Colors - ROY G BIV order */  
+.flag[data-bs-original-title="Earth Surface & Interior"] { background-color: #e76e50; }  
+.flag[data-bs-original-title="Disaster Response"] { background-color: #f4a462; }  
+.flag[data-bs-original-title="Water & Energy Cycle"] { background-color: #f9c54e; }  
+.flag[data-bs-original-title="Infrastructure Products"] { background-color: #274754; }  
+.flag[data-bs-original-title="Land Cover/Land Use Change"] { background-color: #2a9d90; }  
+.flag[data-bs-original-title="Weather & Atmospheric Dynamics"] { background-color: rgb(56, 114, 126); }  
+.flag[data-bs-original-title="Ocean & Cryosphere"] { background-color: #3498D8; }  
+.flag[data-bs-original-title="Atmospheric Composition"] { background-color: rgb(138, 182, 231); }  
+.flag[data-bs-original-title="Carbon Cycle & Ecosystems"] { background-color: rgb(59, 58, 56); }
+
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .thematic-flags {
+        gap: 0.25rem;
+    }
+    
+    .flag {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .flag i {
+        font-size: 9px;
+    }
+}
+</style>
+
