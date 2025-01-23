@@ -90,7 +90,8 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: [light]
+theme_mode: light
+layouts_dir: _layouts
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
