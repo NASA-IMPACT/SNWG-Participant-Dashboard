@@ -2,7 +2,7 @@
 title: Training Paths
 icon: fas fa-road
 layout: page
-permalink: /training-paths/
+permalink: training-paths/
 order: 12
 date: 2024-12-23 12:00:00 +0600  
 categories: [Guide]  

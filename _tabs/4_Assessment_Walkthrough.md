@@ -6,7 +6,7 @@ date: 2024-12-30 12:00:00 +0600
 categories: [Guide]
 tags: [overview, getting-started]
 order: 4
-permalink: /assessment/walkthrough/
+permalink: assessment/walkthrough/
 ---
 
 <div class="header-line"></div>

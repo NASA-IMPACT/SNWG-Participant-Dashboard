@@ -2,7 +2,7 @@
 title: Management Office
 icon: fas fa-building
 layout: page  
-permalink: /
+permalink: 
 date: 2024-12-23 12:00:00 +0600  
 categories: [Guide]  
 tags: [overview]  
@@ -1497,17 +1497,17 @@ order: 2
                                 </ul>
                             </div>
                         </div>
-                        <div class="thematic-flags">
-            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Disaster Response">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Ocean & Cryosphere">
-              <i class="fas fa-water"></i>
-            </span>
-            <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Weather & Atmospheric Dynamics">
-              <i class="fas fa-cloud"></i>
-            </span>
-          </div>
+                    <div class="thematic-flags">
+                        <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Disaster Response">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </span>
+                        <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Ocean & Cryosphere">
+                            <i class="fas fa-water"></i>
+                        </span>
+                        <span class="flag" data-bs-toggle="tooltip" data-bs-original-title="Weather & Atmospheric Dynamics">
+                            <i class="fas fa-cloud"></i>
+                        </span>
+                    </div>
                     </div>
                     <!-- GABAN Card -->
                     <div class="team-section">
@@ -1611,18 +1611,18 @@ order: 2
         <summary><i class="fas fa-rocket"></i> I'm an Assessment participant</summary>
         <ul>
             <li>
-                <a href="{{ '/assessment/' | relative_url }}">How does the SNWG Assessment work?</a>
+                <a href="{{'/assessment/' | relative_url }}">How does the SNWG Assessment work?</a>
             </li>
             <li>
-                <a href="{{ '/assessment/walkthrough/' | relative_url }}">I'm ready to dive in!</a>
+                <a href="{{'/assessment/walkthrough/' | relative_url }}">I'm ready to dive in!</a>
             </li>
         </ul>
     </details>
     <details>
         <summary><i class="fas fa-users"></i> I'm on a Solution project Implementation team</summary>
         <ul>
-            <li><a href="{{ '/implementation/' | relative_url }}">How does Solution development in the SNWG MO work?</a></li>
-            <li><a href="{{ '/implementation/filebox' | relative_url }}">Where is my Project Dashboard?</a></li>
+            <li><a href="{{'/implementation/' | relative_url }}">How does Solution development in the SNWG MO work?</a></li>
+            <li><a href="{{'/implementation/filebox' | relative_url }}">Where is my Project Dashboard?</a></li>
         </ul>
     </details>
     <details>
