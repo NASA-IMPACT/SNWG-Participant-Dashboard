@@ -666,7 +666,7 @@ document.addEventListener('click', (e) => {
 .timeline-phases {
     display: flex;
     justify-content: space-between;
-    margin: 0 40px;
+    margin: 0 10px;
     position: relative;
 }
 

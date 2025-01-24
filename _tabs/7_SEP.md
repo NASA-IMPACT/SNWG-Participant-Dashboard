@@ -51,7 +51,7 @@ order: 7
         <label for="philosophy-tab">Philosophy</label>
         <label for="stakeholders-tab">Stakeholder Types</label>
         <label for="lifecycle-tab">Solution Lifecycle</label>
-        <label for="Services-tab">Service Menu</label>
+        <label for="Services-tab">Service Me nu!</label>
     </div>
     <div class="tabs-content">
         <!-- Overview Section -->
@@ -267,16 +267,16 @@ order: 7
                         <br><i class="fas fa-check text-blue-600 mr-2"></i>    Facilitation Support
                     </ul>
                 </div> -->
-                <div class="restaurant-menu-container">
-                    <div class="menu-header">
-                        <h1 class="menu-title">Stakeholder Engagement à la Carte</h1>
+                <div class="restaurant-platter-container">
+                    <div class="platter-header">
+                        <h1 class="platter-title">Stakeholder Engagement à la Carte</h1>
                         <div class="header-line"></div>
                         <p class="tagline">"Serving Excellence in Earth Science Solutions"</p>
                     </div>
-                    <div class="menu-section appetizers">
+                    <div class="platter-section appetizers">
                         <h2>First Course: Getting Started</h2>
-                        <div class="menu-items">
-                            <div class="menu-item">
+                        <div class="platter-selection">
+                            <div class="platter-item">
                                 <div class="item-header">
                                     <h3>The Starter Package</h3>
                                     <div class="price-tag">Basic</div>
@@ -296,10 +296,10 @@ order: 7
                             </div>
                         </div>
                     </div>
-                    <div class="menu-section main-course">
+                    <div class="platter-section main-course">
                         <h2>Main Course: Full Service Solutions</h2>
-                        <div class="menu-items">
-                            <div class="menu-item house-special">
+                        <div class="platter-selection">
+                            <div class="platter-item house-special">
                                 <div class="special-banner">Chef's Recommendation</div>
                                 <div class="item-header">
                                     <h3>The Complete Experience</h3>
@@ -322,10 +322,10 @@ order: 7
                             </div>
                         </div>
                     </div>
-                    <div class="menu-section sides">
+                    <div class="platter-section sides">
                         <h2>À La Carte Additions</h2>
-                        <div class="menu-items">
-                            <div class="menu-item">
+                        <div class="platter-selection">
+                            <div class="platter-item">
                                 <div class="item-header">
                                     <h3>Workshop Package</h3>
                                     <div class="price-tag">Add-on</div>
@@ -333,7 +333,7 @@ order: 7
                                 <p class="description">Custom stakeholder workshops and training sessions.</p>
                                 <div class="portion-size">Serves: Multiple stakeholder groups</div>
                             </div>
-                            <div class="menu-item">
+                            <div class="platter-item">
                                 <div class="item-header">
                                     <h3>Documentation Suite</h3>
                                     <div class="price-tag">Add-on</div>
@@ -343,10 +343,10 @@ order: 7
                             </div>
                         </div>
                     </div>
-                    <div class="menu-section specials">
+                    <div class="platter-section specials">
                         <h2>Daily Specials</h2>
-                        <div class="menu-items">
-                            <div class="menu-item seasonal">
+                        <div class="platter-selection">
+                            <div class="platter-item seasonal">
                                 <div class="seasonal-banner">Limited Time</div>
                                 <div class="item-header">
                                     <h3>Early Adopter Program</h3>
@@ -364,7 +364,7 @@ order: 7
                             </div>
                         </div>
                     </div>
-                    <div class="menu-footer">
+                    <div class="platter-footer">
                         <p class="note">* All services can be customized to meet your specific needs</p>
                         <button class="reserve-button">Schedule a Consultation</button>
                     </div>
@@ -427,7 +427,7 @@ order: 7
 
 <style>
 /* Base styles */
-.restaurant-menu-container {
+.restaurant-platter-container {
     max-width: 1000px;
     margin: 2rem auto;
     padding: 3rem;
@@ -439,14 +439,14 @@ order: 7
 }
 
 /* Menu Header */
-.menu-header {
+.platter-header {
     text-align: center;
     margin-bottom: 3rem;
     padding-bottom: 2rem;
     border-bottom: 2px solid #e5e7eb;
 }
 
-.menu-title {
+.platter-title {
     font-size: 2.5rem;
     color: #2c3e50;
     margin-bottom: 1rem;
@@ -460,7 +460,7 @@ order: 7
 }
 
 /* Menu Sections */
-.menu-section {
+.platter-section {
     margin-bottom: 3rem;
     padding: 2rem;
     background: #f8fafc;
@@ -468,7 +468,7 @@ order: 7
     position: relative;
 }
 
-.menu-section h2 {
+.platter-section h2 {
     color: #2c3e50;
     font-size: 1.8rem;
     margin-bottom: 2rem;
@@ -478,13 +478,13 @@ order: 7
 }
 
 /* Menu Items */
-.menu-items {
+.platter-selection {
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.menu-item {
+.platter-item {
     background: white;
     padding: 2rem;
     border-radius: 8px;
@@ -493,7 +493,7 @@ order: 7
     position: relative;
 }
 
-.menu-item:hover {
+.platter-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
@@ -578,7 +578,7 @@ order: 7
 }
 
 /* Footer */
-.menu-footer {
+.platter-footer {
     text-align: center;
     margin-top: 3rem;
     padding-top: 2rem;
@@ -626,20 +626,20 @@ order: 7
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .restaurant-menu-container {
+    .restaurant-platter-container {
         padding: 1.5rem;
         margin: 1rem;
     }
 
-    .menu-title {
+    .platter-title {
         font-size: 2rem;
     }
 
-    .menu-section {
+    .platter-section {
         padding: 1.5rem;
     }
 
-    .menu-items {
+    .platter-selection {
         grid-template-columns: 1fr;
     }
 }
@@ -932,11 +932,11 @@ body {
 /* Flow diagram specific styles */
 .flow-diagram {
     display: flex;
-    flex-wrap: nowrap;
-    padding: 1rem 0;
-    margin: 1rem 0;
+    /*flex-wrap: wrap-reverse;*/
+    padding: .5rem 0;
+    margin: .5rem 0;
     gap: 1rem;
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .flow-step {
@@ -1010,9 +1010,9 @@ h2, h3, h4 {
 
 /* Responsive design */
 @media (max-width: 750px) {
-    .flow-diagram {
+    /*.flow-diagram {
         flex-direction: column;
-    }
+    }*/
     
     .flow-step::after {
         display: none;
