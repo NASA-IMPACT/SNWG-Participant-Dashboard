@@ -2,7 +2,7 @@
 title: Stakeholder Engagement   
 icon: fas fa-bullhorn
 layout: page
-permalink: sep/
+permalink: /sep/
 order: 7
 date: 2024-12-23 12:00:00 +0600  
 categories: [Guide]  
