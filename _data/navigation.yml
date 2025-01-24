@@ -4,30 +4,25 @@
     - title: "Demo Home"
       url: "/demo/"
       icon: "fas fa-laptop"
-      link: "<a href=\"/SNWG-Participant-Dashboard/demo/\">Home</a>"
 
     - title: "Training Paths"
       url: "/training-paths/"
       icon: "fas fa-graduation-cap"
-      link: "<a href=\"/SNWG-Participant-Dashboard/training-paths/\">Training Paths</a>"
 
 
 - title: "Management Office"
   url: "/"
   icon: "fas fa-building"
-  link: "<a href=\"/SNWG-Participant-Dashboard/\">Management Office</a>"
 
 - title: "Assessment"
-  icon: "fas fa-bullseye"
+  icon: fas fa-calendar-alt
   children:
     - title: "Assessment Overview"
       url: "/assessment/"
       icon: "fas fa-search"
-      link: "<a href=\"/SNWG-Participant-Dashboard/assessment/\">Assessment Overviews</a>"
     - title: "Your Assessment Journey"
       url: "/assessment/walkthrough/"
       icon: "fas fa-route"
-      link: "<a href=\"/SNWG-Participant-Dashboard/assessment/walkthrough/\">Your Assessment Journey</a>"
 
 - title: "Implementation"
   icon: "fas fa-play-circle"
@@ -35,11 +30,9 @@
     - title: "Implementation Overview"
       url: "/implementation/"
       icon: "fas fa-search"
-      link: "<a href=\"/SNWG-Participant-Dashboard/implementation/\">Implementation Overview</a>"
-    - title: "Your Project Filebox"
-      url: "/implementation/filebox/"
+    - title: "Your Project Toolkit"
+      url: "/implementation/toolkit/"
       icon: "fas fa-file"
-      link: "<a href=\"/SNWG-Participant-Dashboard/implementation/filebox/\">Your Project Filebox</a>"
 
 
 - title: "Stakeholder Engagement"
@@ -48,15 +41,12 @@
     - title: "SEP Overview"
       url: "/sep/"
       icon: "fas fa-search"
-      link: "<a href=\"/SNWG-Participant-Dashboard/sep/\">SEP Overview</a>"
     - title: "Your SEP Journey"
       url: "/sep/walkthrough/"
       icon: "fas fa-route"
-      link: "<a href=\"/SNWG-Participant-Dashboard/sep/walkthrough/\">Your SEP Journey</a>"
     - title: "Stakeholder Worksheet"
       url: "/sep/worksheet/"
-      icon: "fas fa-search"
-      link: "<a href=\"/SNWG-Participant-Dashboard/sep/worksheet/\">Stakeholder Worksheet</a>"
+      icon: "fas fa-pencil"
 
 - title: "Updates"
   icon: "fa-solid fa-envelopes-bulk"
@@ -64,13 +54,10 @@
     - title: "Newsletter"
       url: "/posts/"
       icon: "fas fa-bullhorn"
-      link: "<a href=\"/SNWG-Participant-Dashboard/posts/\">Newsletter</a>"
     - title: "Impact Stories"
       url: "/impact/"
       icon: "fas fa-leaf"
-      link: "<a href=\"/SNWG-Participant-Dashboard/impact/\">Impact Stories</a>"
 
 - title: "FAQ"
   url: "/faq/"
   icon: fa-solid fa-clipboard-question
-  link: "<a href=\"/SNWG-Participant-Dashboard/faq/\">FAQ</a>"

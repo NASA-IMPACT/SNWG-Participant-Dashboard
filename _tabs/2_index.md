@@ -1,11 +1,7 @@
 ---
 title: Management Office
-icon: fas fa-building
 layout: page  
-permalink: /
-date: 2024-12-23 12:00:00 +0600  
-categories: [Guide]  
-tags: [overview]  
+permalink: / 
 order: 2
 ---
 
@@ -1611,25 +1607,25 @@ order: 2
         <summary><i class="fas fa-rocket"></i> I'm an Assessment participant</summary>
         <ul>
             <li>
-                <a href="{{'/assessment/' | relative_url }}">How does the SNWG Assessment work?</a>
+                <a href="{/assessment/' | relative_url}">How does the SNWG Assessment work?</a>
             </li>
             <li>
-                <a href="{{'/assessment/walkthrough/' | relative_url }}">I'm ready to dive in!</a>
+                <a href="{/assessment/walkthrough/' | relative_url}">I'm ready to dive in!</a>
             </li>
         </ul>
     </details>
     <details>
         <summary><i class="fas fa-users"></i> I'm on a Solution project Implementation team</summary>
         <ul>
-            <li><a href="{{'/implementation/' | relative_url }}">How does Solution development in the SNWG MO work?</a></li>
-            <li><a href="{{'/implementation/filebox' | relative_url }}">Where is my Project Dashboard?</a></li>
+            <li><a href="{'/implementation/' | relative_url }">How does Solution development in the SNWG MO work?</a></li>
+            <li><a href="{'/implementation/toolkit' | relative_url }">Where is my Project Dashboard?</a></li>
         </ul>
     </details>
     <details>
         <summary><i class="fas fa-cogs"></i> I want to engage my Stakeholders</summary>
         <ul>
             <li>
-                <a href="{{ '/sep/' | relative_url }}">How does SEP in the SNWG MO work?</a>
+                <a href="{'/sep/' | relative_url}">How does SEP in the SNWG MO work?</a>
             </li>
             <li>I want to engage my Federal Agency end user stakeholders.</li>
             <li>I want to engage my funding agency stakeholders</li>

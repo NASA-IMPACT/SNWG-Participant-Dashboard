@@ -1,12 +1,12 @@
 ---
-title: SNWG Participant Dashboard Demo
-layout: page
-icon: fas fa-briefcase
-permalink: /demo/
-order: 1
-date: 2024-12-23 12:00:00 +0600  
-categories: [Guide]  
-tags: [overview]  
+title: SNWG Participant Dashboard Demo # Identity/purpose
+layout: page   # Core structure
+icon: fas fa-briefcase # Visual element if not included in navigation.yml
+permalink: /demo/    # URL structure
+order: 1 # Navigation order
+date: 2024-12-23 12:00:00 +0600   # Temporal info
+categories: [Guide]  # classification
+tags: [overview]  # Additional classification
 ---
 
 <div class="header-line"></div>

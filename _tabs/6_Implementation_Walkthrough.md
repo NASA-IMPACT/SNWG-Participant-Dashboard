@@ -1,13 +1,8 @@
 ---
 title: Your Implementation Toolbox
 layout: page
+permalink: /implementation/toolkit/
 order: 6
-icon: fas fa-play
-layout: page
-permalink: /implementation/filebox/
-date: 2024-12-23 12:00:00 +0600  
-categories: [Guide]  
-tags: [overview]  
 ---
 
 <div class="header-line"></div>
