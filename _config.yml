@@ -175,7 +175,7 @@ collections:
     output: true
     sort_by: order
 
-permalink: :year/:month/:title/ # No leading slash since baseurl has trailing slash
+permalink: /:year/:month/:title/ # leading slash since baseurl has no trailing slash
 
 defaults:
   - scope:
@@ -192,13 +192,13 @@ defaults:
       path: ""
       type: tags
     values:
-      permalink: tags/:name/
+      permalink: /tags/:name/
 
   - scope:
       path: ""
       type: categories  
     values:
-      permalink: categories/:name/
+      permalink: /categories/:name/
 
   - scope:
       path: _drafts
@@ -211,7 +211,7 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-      path: assets/js/dist
+      path: /assets/js/dist
     values:
       swcache: true
 
