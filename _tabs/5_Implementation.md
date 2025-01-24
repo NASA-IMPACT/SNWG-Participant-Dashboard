@@ -2,7 +2,7 @@
 title: Implementation
 icon: fas fa-play
 layout: page
-permalink: implementation/
+permalink: /implementation/
 order: 5
 date: 2024-12-23 12:00:00 +0600  
 categories: [Guide]  
