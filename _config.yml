@@ -258,4 +258,4 @@ sidebar:
   data_source: navigation.yml # Points to the file in _data
 
 #enable relative urls
-relative_urls: true
+relative_url: true
