@@ -153,8 +153,8 @@ pwa:
 # paginate: 0
 # paginate_path: /page:num/
 
-# The base URL of your site
-baseurl: "/SNWG-Participant-Dashboard/"
+# The base URL of your site not including a trailing slash.
+baseurl: "/SNWG-Participant-Dashboard"
 
 # ------------ The following options are not recommended to be modified ------------------
 
