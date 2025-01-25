@@ -148,8 +148,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site not including a trailing slash.
-baseurl: "/SNWG-Participant-Dashboard"
-
+baseurl: "/SNWG-Participant-Dashboard" # change to your site's base URL
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -257,3 +256,6 @@ layouts_dir: _layouts
 sidebar:
   enabled: true
   data_source: navigation.yml # Points to the file in _data
+
+#enable relative urls
+relative_urls: true
