@@ -11,6 +11,23 @@ tags: [overview]  # Additional classification
 
 <div class="header-line"></div>
 
+<!-- Disclaimer Section -->
+## What this demo IS:
+<ul>
+    <li> A <b>demonstration</b> of how training materials and documentation <b>could</b> be consolidated and organized for the SNWG community</li>
+    <li>An <b>example framework</b> showing one <b>potential</b> approach to structuring content across Assessment, Implementation, and Stakeholder Engagement functions</li>
+    <li>A <b>prototype exploring</b> ways to make SNWG resources more accessible and user-friendly</li>
+</ul>
+
+## What this demo is NOT:
+<ul>
+    <li>A final or approved design for SNWG's digital presence</li>
+    <li>A comprehensive repository of all SNWG documentation and processes</li>
+    <li>An official proposal for specific technologies, hosting solutions, or implementation approaches.</li>
+</ul>
+
+<div class="header-line"></div>
+<br> 
 <!-- Intro Section -->
 <div class="presentation-section intro">
     <div class="intro-stats">
