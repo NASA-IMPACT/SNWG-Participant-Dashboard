@@ -1,7 +1,7 @@
 ---
 title: Management Office
-layout: page  
-permalink: / 
+layout: home  
+permalink: 
 order: 2
 ---
 
