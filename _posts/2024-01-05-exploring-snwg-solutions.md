@@ -53,7 +53,7 @@ Before diving into specific solutions, it's important to understand that each SN
 - **Coverage**: Global to regional scales
 - **Integration**: Multiple satellite data sources
 
-### Atmospheric and Climate Solutions
+### Atmospheric and Weather Pattern Solutions
 
 #### AC-GEOS (Atmospheric Composition using GEOS)
 - **Product**: High-quality air quality model output
@@ -64,7 +64,7 @@ Before diving into specific solutions, it's important to understand that each SN
 #### Radiation & Clouds (SatCorps)
 - **Resolution**: 3km spatial, hourly temporal
 - **Measurements**: Ice & liquid water path, cloud properties
-- **Application**: Climate model improvement
+- **Application**: Weather Pattern model improvement
 - [View SatCorps Fact Sheet](https://drive.google.com/file/d/1IctheCKzDG3YfBtmwwOYncPPzcBk3JX0/view?usp=drive_link){:target="_blank"}
 
 ### Water Resources
@@ -86,7 +86,7 @@ Before diving into specific solutions, it's important to understand that each SN
 ## Impact and Evolution
 
 These solutions demonstrate our commitment to:
-- Addressing diverse agency needs
+- Addressing variegated agency needs
 - Leveraging multiple data sources
 - Providing practical, operational tools
 - Supporting scientific research

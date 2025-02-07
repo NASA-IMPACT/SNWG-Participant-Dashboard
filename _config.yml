@@ -14,9 +14,9 @@ timezone: America/Chicago
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: The SNWG Participant Dashboard # the main title
+title: The NSITE Participant Dashboard # the main title
 
-tagline: Assisting SNWG Solution teams through throughout the SNWG lifecycle  # it will display as the sub-title
+tagline: Assisting SNWG Solution Implementation teams hroughout the Solution Project lifecycle  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive website explaining the base need-to-know information for project selected and funded by the Satellite Needs Working Group.
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: SNWG Management Office
+  name: SNASA's SNWG Implementation Team
   email: cherrelle.j.tucker@nasa.gov # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -169,7 +169,7 @@ collections:
     output: true
     sort_by: order
 
-permalink: :year/:month/:title/ # no leading slash since baseurl has trailing slash
+permalink: /:year/:month/:title/ # leading slash since baseurl has trailing slash
 
 defaults:
   - scope:
@@ -239,7 +239,7 @@ jekyll-archives:
     category: category
     tag: tag
   permalinks:
-    tag: tags/:name/
+    tag: /tags/:name/
     category: /categories/:name/
 
 # added to customize the theme
