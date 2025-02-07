@@ -169,7 +169,7 @@ collections:
     output: true
     sort_by: order
 
-permalink: /:year/:month/:title/ # leading slash since baseurl has trailing slash
+permalink: /:year/:month/:title/ # leading slash since baseurl has no trailing slash
 
 defaults:
   - scope:
@@ -239,7 +239,7 @@ jekyll-archives:
     category: category
     tag: tag
   permalinks:
-    tag: /tags/:name/
+    tags: /tags/:name/
     category: /categories/:name/
 
 # added to customize the theme

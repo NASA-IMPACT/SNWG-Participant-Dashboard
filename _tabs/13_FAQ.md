@@ -10,9 +10,9 @@ order: 13
 
 <div class="faq-section">
     <details>
-        <summary>Who is this site for?</summary>
+        <summary>Who is this Dashboard for?</summary>
         <div class="faq-content">
-            <p>This site serves three main audiences:</p>
+            <p>This Dashboard serves three main audiences:</p>
             <ul>
                 <li><strong>Assessment Participants:</strong> Scientists and subject matter experts evaluating agency needs and developing solutions</li>
                 <li><strong>Implementation Teams:</strong> Groups working on developing and deploying SNWG solutions</li>
@@ -215,11 +215,11 @@ order: 13
     </details>
 </div>
 
-## Site Usage
+## Dashboard Usage
 
 <div class="faq-section">
     <details>
-        <summary>How do I report technical issues with the site?</summary>
+        <summary>How do I report technical issues with the Dashboard?</summary>
         <div class="faq-content">
             <p>Report any technical issues to:</p>
             <ul>

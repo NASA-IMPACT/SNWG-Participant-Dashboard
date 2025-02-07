@@ -1,7 +1,7 @@
 ---
-title: Management Office
-layout: page  
-permalink: "/"
+title: NSITE
+layout: page 
+permalink: /
 order: 2
 ---
 
