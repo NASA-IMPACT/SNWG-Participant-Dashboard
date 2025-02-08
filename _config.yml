@@ -298,5 +298,5 @@ jekyll-archives:
     category: /categories/:name/
 
 # Pagination
-paginate: 10
-paginate_path: /page:num/
+# paginate: 10
+# paginate_path: /page:num/
