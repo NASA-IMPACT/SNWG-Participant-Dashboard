@@ -67,7 +67,7 @@ tags: [overview]  # Additional classification
                 </div>
                 <div class="scattered-item">
                     <i class="fas fa-folder"></i>
-                    <span>Shared Drives</span>
+                    <span>Multiple shared Drives</span>
                 </div>
                 <div class="scattered-item">
                     <i class="fas fa-desktop"></i>
@@ -79,11 +79,11 @@ tags: [overview]  # Additional classification
                 </div>
                 <div class="scattered-item">
                     <i class="fas fa-book"></i>
-                    <span>Physical Documents</span>
+                    <span>Multiple document versions</span>
                 </div>
                 <div class="scattered-item">
                     <i class="fas fa-comments"></i>
-                    <span>Verbal Knowledge</span>
+                    <span>Verbal/Tribal Knowledge</span>
                 </div>
             </div>
             <div class="pain-points">

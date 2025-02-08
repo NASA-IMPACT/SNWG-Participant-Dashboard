@@ -18,7 +18,7 @@ order: 2
 
 <!-- Main page header -->
 <div class="page-header">
-    <h1>Welcome to <b>N</b>ASA's <span data-bs-toggle="tooltip" title="Satellite Needs Working Group"><b>S</b>NWG</span> <b>I</b>mplementation <b>T</b>eam (NSITE)</h1>
+    <h1>Welcome to n/ <b>N</b>ASA's <span data-bs-toggle="tooltip" title="Satellite Needs Working Group"><b>S</b>NWG</span> <b>I</b>mplementation <b>T</b>eam (NSITE)</h1>
     <h4><i>From Solution Assessment to Product Promotion, this is your dashboard for every step as a participant of the NSITE process.</i></h4>
 </div>
 
@@ -27,7 +27,7 @@ order: 2
     <div class="section-header">
         <h2>Who are we?</h2>
         <div class="header-line"></div>
-        <p> The Satellite Needs Working Group designs and administers the bi-annual survey. NSITE facilitates, analyzes, presents, and develops the data and Solutions that result from that survey, focusing on three core areas: Stakeholder Engagement, Solution Assessment, and Solution Project Implementation.</p>
+        <p> NASA's Satellite Needs Working Group designs and administers the bi-annual survey. NSITE assesses, anylizes, presents, and develops the data and Solutions that result from that survey, focusing on three core areas: Stakeholder Engagement, Solution Assessment, and Solution Project Implementation.</p>
     </div>
     <!-- Tab Container 1: Personnel tabs wrapper container -->
     <div class="tabs-wrapper">
@@ -41,7 +41,7 @@ order: 2
             <label for="team-tab1">Implementation</label>
             <label for="team-tab2">Assessment</label>
             <label for="team-tab3">Stakeholder Engagement Program</label>
-            <label for="team-tab4">SNWG & the MO</label>         
+            <label for="team-tab4">SNWG & NSITE</label>         
         </div>            
         <!-- Container for all Office tabs -->
         <div class="tabs-content">
@@ -152,14 +152,14 @@ order: 2
                     <h4>Oversees the <i>Implementation</i> and Operations of SNWG Solutions</h4>
                     <div class="header-line"></div>
                     <br>
-                    <p>At the heart of the SNWG process is the implementation and delivery of solutions that address the needs of federal agencies. NSITE coordinates the status of all SNWG-funded projects at NASA, manages the implementation of solutions from each cycle, and oversees the lifecycle of each science project through operational product release.NSITE also engages end-users through the SNWG SEP. The ESDS open-source science policy is an important part of the development and implementation effort for all projects managed by NSITE. This process will continue for all solutions arising from needs expressed in future SNWG cycles and will follow NASA’s open-source science policies permitting broad access to information on NASA-developed SNWG solutions”</p>
+                    <p>At the heart of the NSITE process is the implementation and delivery of solutions that address the needs of federal agencies. NSITE coordinates the status of all SNWG-funded projects at NASA, manages the implementation of solutions from each cycle, and oversees the lifecycle of each science project through operational product release. NSITE also engages end-users through the NSITE Stakeholder Engagement Program. The ESDS open-source science policy is an important part of the development and implementation effort for all projects managed by NSITE. This process will continue for all solutions arising from needs expressed in future SNWG cycles and will follow NASA’s open-source science policies permitting broad access to information on NASA-developed SNWG solutions”</p>
                     <br>
                 </div>
                 <div class="team-section">
                     <h4>Provides Training and Community <i>Engagement</i> Around SNWG Solutions</h4>
                     <div class="header-line"></div>
                     <br>
-                    <p>“The SNWG SEP is the key to providing training, outreach, and community engagement around NASA SNWG data products and systems through collaboration across NASA’s Earth Science Division. The program includes polling stakeholders about their training and data needs, connecting with capacity-building efforts within NASA, funding and organizing training activities such as workshops, and bringing together communities of federal and other users around funded solutions. Collaborations among federal users, the scientific community, academia, industry, and NASA’s Earth Science Division empowers these communities to integrate SNWG solutions into their research and decision-making processes.” - The NSITE on EarthData (ESDS-IMPACT)</p>
+                    <p>“NSITE SEP is the key to providing training, outreach, and community engagement around NASA SNWG data products and systems through collaboration across NASA’s Earth Science Division. The program includes polling stakeholders about their training and data needs, connecting with capacity-building efforts within NASA, funding and organizing training activities such as workshops, and bringing together communities of federal and other users around funded solutions. Collaborations among federal users, the scientific community, academia, industry, and NASA’s Earth Science Division empowers these communities to integrate SNWG solutions into their research and decision-making processes.” - NSITE on EarthData (ESDS-IMPACT)</p>
                 </div>
             </div>
         </div>
@@ -173,7 +173,7 @@ order: 2
         <div class="header-line"></div>
     </div>
     <div class="content-card">
-        <p>The NSITE helps various agencies produce <b>EOSDIS Standard Products</b>[^1]<br>
+        <p>NSITE helps various agencies produce <b>EOSDIS Standard Products</b>[^1]<br>
         "EOS Standard Products are internally consistent, well-calibrated records of observations of the Earth's geophysical properties. They are identified and defined by EOS investigators who have been selected through a competitive peer review process to develop algorithms and software for generating products from EOS observations.</p>  
         <ul>
             <li><i>Products</i> contain geophysical parameters and can be used for science research and application.</li>
@@ -1607,25 +1607,25 @@ order: 2
         <summary><i class="fas fa-rocket"></i> I'm an Assessment participant</summary>
         <ul>
             <li>
-                <a href="{/assessment/' | relative_url}">How does the SNWG Assessment work?</a>
+                <a href="{{ site.baseurl }}/assessment/" >How does the SNWG Assessment work?</a>
             </li>
             <li>
-                <a href="{/assessment/walkthrough/' | relative_url}">I'm ready to dive in!</a>
+                <a href="{{ site.baseurl }}/assessment/walkthrough/" >I'm ready to dive in!</a>
             </li>
         </ul>
     </details>
     <details>
         <summary><i class="fas fa-users"></i> I'm on a Solution project Implementation team</summary>
         <ul>
-            <li><a href="{'/implementation/' | relative_url }">How does Solution development in the NSITE work?</a></li>
-            <li><a href="{'/implementation/toolkit' | relative_url }">Where is my Project Dashboard?</a></li>
+            <li><a href="{{ site.baseurl }}/implementation/">How does Solution development in the NSITE work?</a></li>
+            <li><a href="{{ site.baseurl }}/implementation/toolkit/">Where is my Project Dashboard?</a></li>
         </ul>
     </details>
     <details>
         <summary><i class="fas fa-cogs"></i> I want to engage my Stakeholders</summary>
         <ul>
             <li>
-                <a href="{'/sep/' | relative_url}">How does SEP in the NSITE work?</a>
+                <a href="{{ site.baseurl }}/sep/">How does SEP in the NSITE work?</a>
             </li>
             <li>I want to engage my Federal Agency end user stakeholders.</li>
             <li>I want to engage my funding agency stakeholders</li>

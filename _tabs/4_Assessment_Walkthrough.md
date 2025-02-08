@@ -489,6 +489,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
   <input type="radio" id="video-tab2" name="video-tabs" class="tab-inputs">
   <input type="radio" id="video-tab3" name="video-tabs" class="tab-inputs">
   <input type="radio" id="video-tab4" name="video-tabs" class="tab-inputs">
+  <input type="radio" id="video-tab5" name="video-tabs" class="tab-inputs">
   
   <!-- Tab labels -->
   <div class="tab-labels">
@@ -496,6 +497,7 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
     <label for="video-tab2" class="tab-label">Interviews & Brainstorming</label>
     <label for="video-tab3" class="tab-label">Evaluating Information</label>
     <label for="video-tab4" class="tab-label">Using Asana</label>
+    <label for="video-tab5" class="tab-label">Writing Reports</label>
   </div>
   <!-- Tab panels -->
     <div class="tab-panels">
@@ -713,6 +715,38 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
                     <div class="video-info">
                         <h3>Editing Your submission</h3>
                         <p>Hold up, I forgot something!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Report-Writing Tab -->
+        <div id="video-panel5" class="tab-panel">
+            <div class="video-grid">
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Accessing data</h3>
+                        <p>Gathering assessment information</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Generating Report</h3>
+                        <p>Evaluating collected data</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/1C6-Xj1a9s2RkHs7ZEaMtU2jbxQD38Y64/preview" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Placeholder</h3>
+                        <p>Synthesizing findings</p>
                     </div>
                 </div>
             </div>
@@ -960,7 +994,8 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
 #video-tab1:checked ~ .tab-labels .tab-label[for="video-tab1"],
 #video-tab2:checked ~ .tab-labels .tab-label[for="video-tab2"],
 #video-tab3:checked ~ .tab-labels .tab-label[for="video-tab3"],
-#video-tab4:checked ~ .tab-labels .tab-label[for="video-tab4"] {
+#video-tab4:checked ~ .tab-labels .tab-label[for="video-tab4"],
+#video-tab5:checked ~ .tab-labels .tab-label[for="video-tab5"] {
     background: #4682B4;
     color: white;
 }
@@ -968,7 +1003,8 @@ Always consult the SNWG MO if you're unsure about sharing specific information.
 #video-tab1:checked ~ .tab-panels #video-panel1,
 #video-tab2:checked ~ .tab-panels #video-panel2,
 #video-tab3:checked ~ .tab-panels #video-panel3,
-#video-tab4:checked ~ .tab-panels #video-panel4 {
+#video-tab4:checked ~ .tab-panels #video-panel4,
+#video-tab5:checked ~ .tab-panels #video-panel5 {
     display: block;
 }
 </style>

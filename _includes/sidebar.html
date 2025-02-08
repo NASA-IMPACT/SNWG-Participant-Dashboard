@@ -1,142 +1,199 @@
-<!-- The Sidebar -->
+<!-- 
+  sidebar.html - Main sidebar navigation template
+  Purpose: Provides the main navigation structure for the site
+  Features:
+  - Responsive sidebar layout
+  - Collapsible navigation menu with submenu support
+  - Dynamic navigation from _data/navigation.yml
+  - Theme mode toggle
+  - Social contact links
+-->
+
+<!-- Main Sidebar Container -->
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
-    <header class="profile-wrapper">
-      <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
-        {%- if site.avatar != empty and site.avatar -%}
-          {%- capture avatar_url -%}
-            {% include media-url.html src=site.avatar %}
-          {%- endcapture -%}
-          <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
-        {%- endif -%}
-      </a>
-  
-      <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
-    </header>
-    <!-- .profile-wrapper -->
-  
-    <nav class="flex-column flex-grow-1 w-100 ps-0">
-      <ul class="nav">
-        <!-- home -->
-        <li class="nav-item {% if page.layout == 'home' %} {{ "active" }}{% endif %}">
-          <a href="{{ '/' | relative_url }}" class="nav-link">
-            <i class="fa-fw fas fa-home"></i>
-            <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
+  <!-- Profile/Header Section -->
+  <header class="profile-wrapper">
+    <!-- Site Avatar/Logo -->
+    <a href="{{ site.baseurl }}/" id="avatar" class="rounded-circle">
+      {%- if site.avatar != empty and site.avatar -%}
+        {%- capture avatar_url -%}
+          {% include media-url.html src=site.avatar %}
+        {%- endcapture -%}
+        <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+      {%- endif -%}
+    </a>
+
+    <!-- Site Title and Tagline -->
+    <a href="{{ site.baseurl }}/" class="site-title d-block">{{ site.title }}</a>
+    <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
+  </header>
+  <!-- End Profile/Header Section -->
+
+  <!-- Main Navigation -->
+  <nav class="flex-column flex-grow-1 w-100 ps-0">
+    <ul class="nav">
+      <!-- Home Link -->
+      <li class="nav-item {% if page.layout == 'home' %}active{% endif %}">
+        <a href="{{ site.baseurl }}/" class="nav-link">
+          <i class="fa-fw fas fa-home"></i>
+          <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
+        </a>
+      </li>
+
+      <!-- Dynamic Navigation Items -->
+      {% for item in site.data.navigation %}
+        <li class="nav-item menu-item">
+          <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link">
+            <i class="fa-fw {{ item.icon }}"></i>
+            <span>{{ item.title }}</span>
           </a>
+          
+          <!-- Submenu Items -->
+          {% if item.children %}
+          <ul class="submenu">
+            {% for child in item.children %}
+            <li class="submenu-item">
+              <a href="{{ site.baseurl }}{{ child.url }}">
+                <i class="fa-fw {{ child.icon }}"></i>
+                {{ child.title }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
         </li>
-        <!-- Render navigation dynamically -->
-        {% for item in site.data.navigation %}
-          <li class="nav-item menu-item">
-            <a href="{{ item.url | relative_url }}" class="nav-link">
-              <i class="fa-fw {{ item.icon }}"></i>
-              <span>{{ item.title }}</span>
-            </a>
-            {% if item.children %}
-            <ul class="submenu">
-              {% for child in item.children %}
-              <li class="submenu-item">
-                <a href="{{ child.url | relative_url }}">
-                  <i class="fa-fw {{ child.icon }}"></i>
-                  {{ child.title }}
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
-  
-    <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
-      {% unless site.theme_mode %}
-        <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
-          <i class="fas fa-adjust"></i>
-        </button>
-  
-        {% if site.data.contact.size > 0 %}
-          <span class="icon-border"></span>
-        {% endif %}
-      {% endunless %} 
-      {% for entry in site.data.contact %}
-        {% case entry.type %}
-          {% when 'github', 'twitter' %}
-            {%- capture url -%}
-              https://{{ entry.type }}.com/{{ site[entry.type].username }}
-            {%- endcapture -%}
-          {% when 'email' %}
-            {% assign email = site.social.email | split: '@' %}
-            {%- capture url -%}
-              javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
-            {%- endcapture -%}
-          {% when 'rss' %}
-            {% assign url = '/feed.xml' | relative_url %}
-          {% else %}
-            {% assign url = entry.url %}
-        {% endcase %}
-        {% if url %}
-          <a
-            href="{{ url }}"
-            aria-label="{{ entry.type }}"
-            {% assign link_types = '' %}
-  
-            {% unless entry.noblank %}
-              target="_blank"
-              {% assign link_types = 'noopener noreferrer' %}
-            {% endunless %}
-  
-            {% if entry.type == 'mastodon' %}
-              {% assign link_types = link_types | append: ' me' | strip %}
-            {% endif %}
-  
-            {% unless link_types == empty %}
-              rel="{{ link_types }}"
-            {% endunless %}
-          >
-            <i class="{{ entry.icon }}"></i>
-          </a>
-        {% endif %}
       {% endfor %}
-    </div>
-    <!-- .sidebar-bottom -->
-  </aside>
-  <!-- #sidebar -->
-  
-<!-- Collapsible Menu CSS -->
+    </ul>
+  </nav>
+
+  <!-- Sidebar Footer Section -->
+  <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
+    <!-- Theme Toggle Button -->
+    {% unless site.theme_mode %}
+      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+        <i class="fas fa-adjust"></i>
+      </button>
+
+      {% if site.data.contact.size > 0 %}
+        <span class="icon-border"></span>
+      {% endif %}
+    {% endunless %}
+
+    <!-- Social/Contact Links -->
+    {% for entry in site.data.contact %}
+      {% case entry.type %}
+        <!-- GitHub and Twitter Links -->
+        {% when 'github', 'twitter' %}
+          {%- capture url -%}
+            https://{{ entry.type }}.com/{{ site[entry.type].username }}
+          {%- endcapture -%}
+        
+        <!-- Email Link -->
+        {% when 'email' %}
+          {% assign email = site.social.email | split: '@' %}
+          {%- capture url -%}
+            javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
+          {%- endcapture -%}
+        
+        <!-- RSS Feed Link -->
+        {% when 'rss' %}
+          {% assign url = site.baseurl | append: '/feed.xml' %}
+        
+        <!-- Default/Custom Links -->
+        {% else %}
+          {% assign url = entry.url %}
+      {% endcase %}
+
+      <!-- Render Contact Link -->
+      {% if url %}
+        <a
+          href="{{ url }}"
+          aria-label="{{ entry.type }}"
+          {% assign link_types = '' %}
+
+          {% unless entry.noblank %}
+            target="_blank"
+            {% assign link_types = 'noopener noreferrer' %}
+          {% endunless %}
+
+          {% if entry.type == 'mastodon' %}
+            {% assign link_types = link_types | append: ' me' | strip %}
+          {% endif %}
+
+          {% unless link_types == empty %}
+            rel="{{ link_types }}"
+          {% endunless %}
+        >
+          <i class="{{ entry.icon }}"></i>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <!-- End Sidebar Footer Section -->
+</aside>
+
+<!-- Sidebar Styles -->
 <style>
-/* Hide submenus by default */
+/* Base Submenu Styles */
 #sidebar .submenu {
   display: none;
   list-style: none;
   margin: 0;
   padding-left: 15px;
+  transition: all 0.3s ease;
 }
 
+/* Open Submenu State */
 #sidebar .menu-item.open > .submenu {
   display: block;
 }
 
+/* Submenu Item Styles */
 #sidebar .submenu-item a {
   font-size: 0.9rem;
   color: #555;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+/* Active Submenu Item */
+#sidebar .submenu-item a.active {
+  color: #2a9d90;
+  font-weight: bold;
+}
+
+/* Hover States */
+#sidebar .submenu-item a:hover {
+  color: #2a9d90;
 }
 </style>
-  
-<!-- Collapsible Menu JavaScript -->
+
+<!-- Sidebar Functionality -->
 <script>
+// Reset event listeners to prevent duplicates
 document.querySelectorAll('#sidebar .menu-item > a').forEach(link => {
   link.replaceWith(link.cloneNode(true));
 });
 
+// Add click handlers for menu items
 document.querySelectorAll('#sidebar .menu-item > a').forEach(link => {
-  link.addEventListener('click', function (e) {
+  link.addEventListener('click', function(e) {
     const parent = this.closest('.menu-item');
     const submenu = parent.querySelector('.submenu');
+    
+    // Toggle submenu if it exists
     if (submenu) {
       e.preventDefault();
       parent.classList.toggle('open');
     }
   });
 });
+
+// Handle active states for submenu items
+document.querySelectorAll('#sidebar .submenu-item a').forEach(link => {
+  if (link.getAttribute('href') === window.location.pathname) {
+    link.classList.add('active');
+    link.closest('.menu-item').classList.add('open');
+  }
+});
 </script>
-  
