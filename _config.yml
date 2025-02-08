@@ -169,8 +169,6 @@ collections:
     output: true
     sort_by: order
 
-permalink: /:year/:month/:title/ # leading slash since baseurl has no trailing slash
-
 # Default Settings for Jekyll Site
 # These settings determine the default behavior for different types of content
 
@@ -308,5 +306,6 @@ sidebar:
   enabled: true
   data_source: navigation.yml # Points to the file in _data
 
-#enable relative urls
-relative_url: true
+# URL settings
+relative_url: true # enable relative urls
+permalink: /:title/ # leading slash since baseurl has no trailing slash
