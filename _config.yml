@@ -295,7 +295,10 @@ jekyll-archives:
 
 plugins:
   - jekyll-data # Ensure Jekyll processes _data files
-
+  - jekyll-paginate # Ensure Jekyll processes pagination
+  - jekyll-archives # Ensure Jekyll processes archives
+  - jekyll-tags # Ensure Jekyll processes tags
+  
 # The directory to store the layouts.
 layouts_dir: _layouts
 
