@@ -165,7 +165,6 @@ kramdown:
 collections:
   tabs:
     output: true
-    sort_by: order
   posts:
     output: true
   tags:
