@@ -5,13 +5,15 @@ permalink: /tags/
 ---
 
 <div id="tags" class="d-flex flex-wrap mx-xl-2">
-  {% assign tags = site.tags | map: 'first' | sort_natural %}
+  {% assign tag_items = site.tags | sort %}
   
-  {% for t in tags %}
+  {% for tag in tag_items %}
+    {% assign tag_name = tag | first %}
+    {% assign posts = tag | last %}
     <div>
-      <a class="tag" href="{{ t | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
-        {{ t }}
-        <span class="text-muted">{{ site.tags[t].size }}</span>
+      <a class="tag" href="{{ tag_name | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
+        {{ tag_name }}
+        <span class="text-muted">{{ posts.size }}</span>
       </a>
     </div>
   {% endfor %}
