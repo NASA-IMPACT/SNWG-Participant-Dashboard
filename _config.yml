@@ -167,8 +167,7 @@ collections:
     output: true
   posts:
     output: true
-  tags:
-    output: true
+
 
 # Default settings for different types of content
 defaults:
@@ -200,14 +199,6 @@ defaults:
       comments: true
       toc: true
       permalink: /posts/:title/
-
-  # Settings for tag pages
-  - scope:
-      path: ""
-      type: tags
-    values:
-      layout: tag
-      permalink: /tags/:name/
 
   # Settings for category pages
   - scope:
@@ -281,7 +272,6 @@ exclude:
 
 plugins:
   - jekyll-paginate
-  - jekyll-seo-tag
   - jekyll-archives
   - jekyll-sitemap
 
@@ -289,12 +279,9 @@ plugins:
 jekyll-archives:
   enabled:
     - categories
-    - tags
   layouts:
     category: category
-    tag: tag
   permalinks:
-    tag: /tags/:name/
     category: /categories/:name/
 
 # Pagination
