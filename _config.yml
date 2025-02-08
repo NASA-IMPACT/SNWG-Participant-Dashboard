@@ -168,6 +168,7 @@ collections:
   tabs:
     output: true
     sort_by: order
+    permalink: /tags/:title/
 
 # Default Settings for Jekyll Site
 # These settings determine the default behavior for different types of content
@@ -295,7 +296,6 @@ jekyll-archives:
 
 plugins:
   - jekyll-data # Ensure Jekyll processes _data files
-  - jekyll-tags # Ensure Jekyll processes tags
 
 # The directory to store the layouts.
 layouts_dir: _layouts
