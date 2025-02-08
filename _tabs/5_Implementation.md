@@ -2,7 +2,7 @@
 title: Implementation
 layout: page
 permalink: /implementation/
-order: 5 
+# order: 5 # commented out - defined in navigation.yml
 ---
 
 <div class="header-line"></div>

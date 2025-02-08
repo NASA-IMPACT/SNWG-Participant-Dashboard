@@ -2,7 +2,7 @@
 title: Assessment
 layout: page
 permalink: /assessment/
-order: 3
+# order: 3 # commented out - defined in navigation.yml
 ---
 
 <div class="header-line"></div>

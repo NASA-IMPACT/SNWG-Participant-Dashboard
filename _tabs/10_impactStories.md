@@ -2,7 +2,7 @@
 title: Impact Stories
 permalink: /impact/
 layout: page
-order: 10
+# order: 10 # commented out - defined in navigation.yml
 ---
 
 <div class="header-line"></div>

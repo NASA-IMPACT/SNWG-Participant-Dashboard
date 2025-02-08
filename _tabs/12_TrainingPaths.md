@@ -2,7 +2,7 @@
 title: Training Paths
 layout: page
 permalink: /training-paths/
-order: 12
+# order: 12 # commented out - defined in navigation.yml
 ---
 
 <div class="header-line"></div>

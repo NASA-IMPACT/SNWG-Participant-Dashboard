@@ -2,7 +2,7 @@
 title: Stakeholder Worksheet
 layout: page
 permalink: /sep/worksheet/
-order: 9
+# order: 9 # commented out - defined in navigation.yml
 ---
 
 <div class="header-line"></div>

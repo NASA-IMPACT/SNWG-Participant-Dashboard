@@ -2,7 +2,7 @@
 title: Your Implementation Toolkit
 layout: page
 permalink: /implementation/toolkit/
-order: 6
+# order: 6 # commented out - defined in navigation.yml
 ---
 
 <div class="header-line"></div>

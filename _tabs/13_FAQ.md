@@ -2,8 +2,9 @@
 title: FAQ
 layout: page
 permalink: /faq/
-order: 13
+# order: 13 commented out - defined in navigation.yml
 ---
+
 <div class="header-line"></div>
 
 ## General Questions

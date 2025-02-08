@@ -3,7 +3,7 @@ title: SNWG Participant Dashboard Demo # Identity/purpose
 layout: page   # Core structure
 icon: fas fa-briefcase # Visual element if not included in navigation.yml
 permalink: /demo/    # URL structure
-order: 1 # Navigation order
+# order: 1 # Navigation order; commented out - defined in navigation.yml
 date: 2024-12-23 12:00:00 +0600   # Temporal info
 categories: [Guide]  # classification
 tags: [overview]  # Additional classification

@@ -2,7 +2,7 @@
 title: NSITE
 layout: page 
 permalink: /
-order: 2
+# order: 2 # commented out - defined in navigation.yml
 ---
 
 <html lang="en">

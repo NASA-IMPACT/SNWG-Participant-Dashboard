@@ -2,7 +2,7 @@
 title: Your SNWG Assessment Journey
 layout: page
 permalink: /assessment/walkthrough/
-order: 4
+# order: 4 # commented out - defined in navigation.yml
 ---
 
 <div class="header-line"></div>

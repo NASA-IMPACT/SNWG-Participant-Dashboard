@@ -2,7 +2,7 @@
 title: Stakeholder Engagement   
 layout: page
 permalink: /sep/
-order: 7
+# order: 7 # commented out - defined in navigation.yml
 ---
 
 <div class="header-line"></div>

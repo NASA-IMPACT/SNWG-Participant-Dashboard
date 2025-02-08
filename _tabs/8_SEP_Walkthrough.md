@@ -2,7 +2,7 @@
 title: Your Stakeholder Engagement Journey
 layout: page
 permalink: /sep/walkthrough/
-order: 8
+# order: 8 # commented out - defined in navigation.yml
 ---
 
 <!--# Welcome to SNWG Co-Design-->
