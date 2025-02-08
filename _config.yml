@@ -16,7 +16,7 @@ timezone: America/Chicago
 
 title: The NSITE Participant Dashboard # the main title
 
-tagline: Assisting SNWG Solution Implementation teams hroughout the Solution Project lifecycle  # it will display as the sub-title
+tagline: Assisting SNWG Solution Implementation teams throughout the Solution Project lifecycle  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive website explaining the base need-to-know information for project selected and funded by the Satellite Needs Working Group.
@@ -145,10 +145,8 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-#paginate: 10
-
-# The base URL of your site not including a trailing slash.
-baseurl: "/SNWG-Participant-Dashboard" # change to your site's base URL
+# The base URL of your site
+baseurl: "/SNWG-Participant-Dashboard"
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -168,11 +166,12 @@ collections:
   tabs:
     output: true
     sort_by: order
-    permalink: /tags/:title/
+  posts:
+    output: true
+  tags:
+    output: true
 
-# Default Settings for Jekyll Site
-# These settings determine the default behavior for different types of content
-
+# Default settings for different types of content
 defaults:
   # Default settings for all files
   - scope:
@@ -261,7 +260,6 @@ defaults:
 
 sass:
   style: compressed
-#  sass_dir: _sass
 
 compress_html:
   clippings: all
@@ -271,7 +269,6 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
-
 
 exclude:
   - "*.gem"
@@ -283,30 +280,24 @@ exclude:
   - "*.config.js"
   - package*.json
 
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
+
+# Archives
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled:
+    - categories
+    - tags
   layouts:
     category: category
     tag: tag
   permalinks:
-    tags: /tags/:name/
+    tag: /tags/:name/
     category: /categories/:name/
 
-# added to customize the theme
-
-plugins:
-  - jekyll-data # Ensure Jekyll processes _data files
-
-# The directory to store the layouts.
-layouts_dir: _layouts
-
-# paginate_path: /page:num/
-
-# Sidebar Settings
-sidebar:
-  enabled: true
-  data_source: navigation.yml # Points to the file in _data
-
-# URL settings
-relative_url: true # enable relative urls
-permalink: /:title/ # leading slash since baseurl has no trailing slash
+# Pagination
+paginate: 10
+paginate_path: /page:num/
